@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (DSiWare Game Injection)"
+title: "boot9strapin asentaminen (DSiWare-peli-injektio)"
 ---
 
 Huomaa, että jos sinulla on muita käynnistystiedostoja kuin `GodMode9.firm` SD-korttisi `/luma/payloads`-kansiossa, (START)-painikkeen pohjassa pitäminen käynnistyksen aikana avaa "ketjulatausvalikon", jossa sinun on käytettävä ristiohjainta ja (A):ta avataksesi GodMode9:n näitä ohjeita varten. 
@@ -8,14 +8,14 @@ Huomaa, että jos sinulla on muita käynnistystiedostoja kuin `GodMode9.firm` SD
 **Käyttääksesi tällä sivulla olevia [magneetti](https://en.wikipedia.org/wiki/Magnet_URI_scheme)linkkejä tarvitset torrent-ohjelman, kuten [Deluge](http://dev.deluge-torrent.org/wiki/Download)n**
 {: .notice--success}
 
-Before proceeding, ensure you have read all of the notices and warnings on [Installing boot9strap (DSiWare)](installing-boot9strap-(dsiware))
+Varmista ennen jatkamista, että olet lukenut kaikki huomautukset ja varoitukset osiossa [boot9strapin asentaminen (DSiWare)](installing-boot9strap-(dsiware)).
 {: .notice--danger}
 
 #### Tarpeet
 
-* Two 3DS systems
-  + **The source 3DS**: the 3DS running some kind of custom firmware (such as boot9strap or arm9loaderhax) *on the latest version*
-  + **The target 3DS**: the 3DS on stock firmware *on 11.5.0*
+* Kaksi 3DS-konsolia
+  + **Lähde-3DS**: konsoli, jolla on asennettuna jonkin mukautetun laiteohjelmiston (kuten boot9strapin tai arm9loaderhaxin) *viimeisin versio*
+  + **Kohde-3DS**: konsoli, jolla on vakiolaiteohjelmisto *versiolla 11.5.0*
 * Purchase (or already own) a compatible DSiWare game from the eShop on **the source 3DS**
   + A pirated copy of the game will **not** work
   + For a list of compatible games, see the [Installing boot9strap (DSiWare Game Injection List)](installing-boot9strap-(dsiware-game-injection-list)) page
