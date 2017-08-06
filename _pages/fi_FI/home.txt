@@ -37,20 +37,20 @@ In most cases, running homebrew on your device is 100% free using [just the Nint
 
 **Mukautettu laiteohjelmisto** (engl. custom firmware, "CFW") sallii kehittyneempiä hackejä, joihin ei käyttäjätilan homebrew'lla pysty. Esimerkkinä allekirjoitusten paikkaaminen, joka sallii sinun asentaa allekirjoittamattomia sovelluksia, jotka ilmestyvät suoraan HOME-valikkoosi.
 
-CFW can be easily set up on any console that is on 11.5.0 or lower.
+CFW:n voi asentaa mille tahansa konsolille, jonka versio on 11.5.0 tai vanhempi.
 
 ## Mitä tässä oppaassa asennetaan?
 
 Tämän oppaan lopputavoitteena on saada täysin muokkaamaton 3DS vakiolaiteohjelmistosta
-firmware to boot9strap powered Custom Firmware. Joissain oppaan versioissa homebrew'ta hyödynnetään lähtökohtana, mutta mukautettu laiteohjelmisto on silti lopputavoitteena.
+boot9strap-käyttöiseen mukautettuun laiteohjelmistoon. Joissain oppaan versioissa homebrew'ta hyödynnetään lähtökohtana, mutta mukautettu laiteohjelmisto on silti lopputavoitteena.
 
-boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
+boot9strap on uusin sekä paras tapa käynnistää mukautettu laiteohjelmisto, joka antaa lähes täydet oikeudet järjestelmään vain millisekuntien viiveellä käynnistyksessä, samaan tapaan kuin BootMii-ohjelma Wiillä. Se sallii vielä aikaisemman hallinnan kuin arm9loaderhax, ja toisin kuin tavallinen sighax, boot9strap käyttää NDMA-ylikirjoitusmenetelmää saadakseen oikeuden koodin suorittamiseen Boot9:ssä. Tämä tarkoittaa sitä, että millä tahansa boot9strap-asennuksen omaavalla konsolilla pystyy kopioimaan konsolikohtaisen OTP:n (`OTP.bin`), ARM11-bootromin (`boot11.bin`) sekä ARM9-bootromin (`boot9.bin`).
 
-The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
+boot9strapin hyödyt verrattuna muihin käynnistystapoihin ovat lukuisat, minkä takia tämän oppaan käyttöä suositellaan muiden, vanhentuneisiin ratkaisuihin (kuten menuhax + rxTools, arm9loaderhax ja jopa tavallinen sighax) perustuvien oppaiden sijasta.
 
-For information on how boot9strap works, please see [this presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
+Tietoja boot9strapin toiminnasta löydät [SciresM](https://github.com/SciresM/):n [esityksestä](https://sciresm.github.io/33-and-a-half-c3/).
 
-For a list of each of the calculated sighax signatures (the platform boot9strap is built on), see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+Luettelon kaikista lasketuista sighaxin allekirjoituksista (joiden päälle boot9strap on rakennettu) löydät [tästä gististä](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## Mitä voin tehdä mukautetulla laiteohjelmistolla?
 
