@@ -32,7 +32,7 @@ Jos olet jo hakkeroinut konsolisi aikaisemmin, ja sinulla on EmuNAND-pohjainen C
 1. Copy `SafeB9SInstaller.nds` from the SafeB9SInstaller `.zip` to your DS flashcart
 1. Käynnistä konsolisi
 
-##### Section II - Launching SafeB9SInstaller
+##### Vaihe II – SafeB9SInstallerin avaaminen
 
 1. Käynnistä DS-flash-korttisi konsolistasi
 1. Boot `SafeB9SInstaller.nds` using your flashcart
