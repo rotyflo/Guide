@@ -28,7 +28,7 @@ If you have already hacked your device before and have a EmuNAND based CFW setup
     ![]({{ base_path }}/images/screenshots/boot9strap-browser-file-layout.png)
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Reinsert ye SD card into ye device
 1. Power on your device
 
 ##### Section II - Launching SafeB9SInstaller
