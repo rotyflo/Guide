@@ -165,7 +165,7 @@ Käytä FBI:n `Titles`-valikkoa saadaksesi tietoosi ID:n sille sovellukselle, jo
   + Sulje peli
   + Avaa Luma3DS:n ketjulatausvalikko pitämällä (START)-painiketta pohjassa käynnistyksen aikana
   + Avaa GodMode9 painamalla (A):ta
-  + Navigate to `[0:] SDCARD` -> `gm9`
+  + Mene hakemistoon `[0:] SDCARD` → `gm9`
   + Mene hakemistoon, jonka loit tälle pelille
   + Paina (Y):tä `gbavc.sav`-tiedoston kohdalla kopioidaksesi sen
   + Paina (B):tä palataksesi päävalikkoon
@@ -204,7 +204,7 @@ Käytä FBI:n `Titles`-valikkoa saadaksesi tietoosi ID:n sille sovellukselle, jo
 1. Mene hakemistoon `[0:] SDCARD` → `cias`
 1. Paina (A):ta `.cia`-tiedoston kohdalla ja valitse "CIA image options..."
 1. Valitse haluamasi toiminto:
-    + **Encrypt to 0:/gm9/out:** Create an encrypted copy of the selected `.cia` file in the `/gm9/out/` folder on your SD card
+    + **Encrypt to 0:/gm9/out:** Luo salatun kopion valitsemastasi`.cia`-tiedostosta SD-korttisi `/gm9/out/`-kansioon
     + **Decrypt to 0:/gm9/out:** Create a decrypted copy of the selected `.cia` file in the `/gm9/out/` folder on your SD card
     + **Encrypt inplace:** Korvaa valitsemasi `.cia`-tiedoston salatulla versiolla
     + **Decrypt inplace:** Korvaa valitsemasi salatun `.cia`-tiedoston puretulla versiolla
