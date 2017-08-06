@@ -59,7 +59,7 @@ Durin' 'tis process, we also setup programs such as th' followin':
     ![]({{ base_path }}/images/screenshots/finalizing-setup-file-layout.png)
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Reinsert ye SD card into ye device
 1. Power on your device
 
 ##### Section II - Updating the System
@@ -129,7 +129,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
 1. Delete `<serialnumber>_nandmin_###.bin` from th' `/gm9/out/` folder on ye SD card after copyin' it
-1. Reinsert your SD card into your device
+1. Reinsert ye SD card into ye device
 1. Press (Start) to save and reboot
 
 ___
