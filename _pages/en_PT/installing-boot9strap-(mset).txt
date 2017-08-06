@@ -29,7 +29,7 @@ If you have already hacked your device before and have a EmuNAND based CFW setup
     ![]({{ base_path }}/images/screenshots/boot9strap-mset-file-layout.png)
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Reinsert ye SD card into ye device
 1. Copy `SafeB9SInstaller.nds` from the SafeB9SInstaller `.zip` to your DS flashcart
 1. Power on your device
 
