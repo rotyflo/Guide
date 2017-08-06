@@ -8,7 +8,7 @@ header:
   cta_label: "Aloita" #
   cta_url: "/fi_FI/get-started" #
   caption:
-excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "Perusteellinen opas 3DS:n mukautettuun laiteohjelmistoon, <br /> vakio-ohjelmistosta boot9strapiin.<br />"
 ---
 
 {% capture notice-home %}
