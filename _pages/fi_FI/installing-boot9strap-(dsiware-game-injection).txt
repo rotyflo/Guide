@@ -54,38 +54,38 @@ Käytä [tallennuksenhallintaohjelmaa](https://github.com/J-D-K/JKSM/releases/la
 1. Paina (A):ta vahvistaaksesi
   + Tämä proessi kestää jonkin aikaa
 1. Paina (A):ta jatkaaksesi
-1. Hold (R) and press (B) at the same time to eject **the source 3DS**'s SD card
-1. Put **the source 3DS**'s SD card into your computer
-1. Put **the target 3DS**'s SD card into your computer
-1. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
-1. Reinsert each SD card back into their corresponding 3DS
-1. Press (Start) on **the source 3DS** to reboot
+1. Pidä (R):ää pohjassa ja paina samalla (B):tä irrottaaksesi **lähde-3DS**:n SD-kortin
+1. Aseta **lähde-3DS**:n SD-kortti tietokoneeseesi
+1. Aseta **kohde-3DS**:n SD-kortti tietokoneeseesi
+1. **Varmuuskopioi kummankin 3DS:n SD-korttien sisältö eri kansioihin tietokoneellasi (pidä silmällä, kumpi on kumpi)**
+1. Aseta kumpikin SD-kortti takaisin oikeaan konsoliinsa
+1. Paina (START)-painiketta **lähde-3DS:llä** käynnistääksesi sen uudelleen
 
-##### Section II - Injecting the game and save
+##### Vaihe II – Pelin ja tallennuksen injektoiminen
 
 1. Avaa GodMode9 pitämällä **lähde-3DS**:n (START)-painiketta pohjassa käynnistyksen aikana
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
+1. Jos ohjelma pyytää luomaan varmuuskopion tärkeistä tiedostoista (essential files), paina (A):ta tehdäksesi sen, ja kun varmuuskopio on valmis, paina (A):ta uudelleen jatkaaksesi
 1. Mene hakemistoon `[0:] SDCARD`
-1. Press (Y) on the DSiWare injection `.app` to copy it
-1. Press (B) to go back to the main menu
-1. Navigate to `SYSNAND TWLN` -> `title` -> `00030004` -> `(8 Character ID)`
-  + The 8 Character ID will be the one from the [Installing boot9strap (DSiWare Game Injection List)](installing-boot9strap-(dsiware-game-injection-list)) page
+1. Paina (Y):tä DSiWare-injektio-`.app`-tiedoston kohdalla kopioidaksesi sen
+1. Paina (B):tä palataksesi päävalikkoon
+1. Mene hakemistoon `SYSNAND TWLN` → `title` → `00030004` → `(8-merkkinen ID)`
+  + 8-merkkinen ID löytyy osiosta [boot9strapin asentaminen (injektoitavat DSiWare-pelit)](installing-boot9strap-(dsiware-game-injection-list))
 1. Mene hakemistoon `content`
-1. Press (A) on the `.app` file in the folder
-1. Select "Inject data @offset"
-1. Press (A) to select the offset `00000000`
+1. Paina kansiossa (A):ta `.app`-tiedoston kohdalla
+1. Valitse "Inject data @offset"
+1. Paina (A):ta valitaksesi kohdan `00000000`
 1. Paina (A):ta ottaaksesi käyttöön SysNANDiin kirjoittamisen ja syötä annettu painikeyhdistelmä
-1. Press (B) to go back to the main menu
+1. Paina (B):tä palataksesi päävalikkoon
 1. Navigate to `[2:] SYSNAND TWLN` -> `title` -> `00030004` -> `(8 Character ID)`
-  + The 8 Character ID will be the one from the [Installing boot9strap (DSiWare Game Injection List)](installing-boot9strap-(dsiware-game-injection-list)) page
+  + 8-merkkinen ID löytyy osiosta [boot9strapin asentaminen (injektoitavat DSiWare-pelit)](installing-boot9strap-(dsiware-game-injection-list))
 1. Navigate to `data`
 1. Press (A) on `public.sav`
 1. Select "Mount as FAT image"
-1. Press (B) to go back to the main menu
+1. Paina (B):tä palataksesi päävalikkoon
 1. Mene hakemistoon `[0:] SDCARD`
 1. Press (Y) on the file(s) in the `savedata` folder to copy them
   + If there is a `savedata` folder inside of the `savedata` folder, it is not by mistake. You should copy the second `savedata` folder, not the files inside of that.
-1. Press (B) to go back to the main menu
+1. Paina (B):tä palataksesi päävalikkoon
 1. Navigate to `[7:] FAT IMAGE`
 1. Use the (X) button to delete everything inside of `FAT IMAGE`
 1. Press (Y) to paste a copy of **the contents of** the `savedata` folder to `FAT IMAGE`
