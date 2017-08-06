@@ -1,5 +1,5 @@
 ---
-title: "GodMode9 Usage"
+title: "GodMode9:n käyttäminen"
 ---
 
 GodMode9 on täysillä oikeuksilla varustettu tiedostoselain Nintendo 3DS -konsolille. Sen avulla pääset käsiksi SD-korttiisi, SysNANDisi ja EmuNANDisi FAT-osioihin sekä periaatteessa mihin tahansa muuhunkin. Voit muun muassa kopioida, poistaa ja uudelleennimetä tiedostoja ja kansioita.
@@ -24,7 +24,7 @@ Järjestelmän kirjoitusoikeudet on suojattu varoituksilla, ja sinun on syötett
 1. Paina (HOME)-painiketta näyttääksesi toimintovalikon
 1. Valitse "More..."
 1. Valitse "Scripts..."
-1. Select "Backup SysNAND"
+1. Valitse "Backup SysNAND"
 1. Paina (A):ta vahvistaaksesi
   + Tämä proessi kestää jonkin aikaa
 1. Paina (A):ta jatkaaksesi
