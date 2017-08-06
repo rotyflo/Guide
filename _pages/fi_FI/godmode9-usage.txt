@@ -30,10 +30,10 @@ Järjestelmän kirjoitusoikeudet on suojattu varoituksilla, ja sinun on syötett
 1. Paina (A):ta jatkaaksesi
 1. Pidä (R):ää pohjassa ja paina samalla (B):tä irrottaaksesi SD-korttisi
 1. Aseta SD-korttisi tietokoneeseesi
-1. Copy `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+1. Kopioi SD-korttisi `/gm9/out/`-kansiosta `<sarjanumero>_nandmin_###.bin` turvalliseen paikkaan tietokoneellasi
   + Varmuuskopioi useaan eri paikkaan (kuten pilvipalveluihin)
   + Tämä varmuuskopiointi pelastaa sinut konsolin vioittumiselta, jos jokin menee pieleen tulevaisuudessa
-1. Delete `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card after copying it
+1. Poista SD-korttisi `/gm9/out/`-kansiosta `<sarjanumero>_nandmin_###.bin` kopioituasi sen
 1. Aseta SD-korttisi takaisin konsoliisi
 
 ## <a name="nand_restore" /> NAND-varmuuskopion palauttaminen
@@ -44,11 +44,11 @@ Järjestelmän kirjoitusoikeudet on suojattu varoituksilla, ja sinun on syötett
 1. Mene hakemistoon `[0:] SDCARD`
 1. Paina (A):ta NAND-`.bin`-tiedoston kohdalla, valitse "NAND image options..." ja sitten "Restore SysNAND (safe)"
 1. Paina (A):ta ottaaksesi käyttöön SysNANDin ylikirjoittamisen ja syötä annettu painikeyhdistelmä
-  + This will not overwrite your boot9strap installation
+  + Tämä ei ylikirjoita boot9strap-asennustasi
 1. Syötä annettu painikeyhdistelmä ottaaksesi käyttöön SysNANDiin kirjoittamisen (lvl1)
   + Tämä proessi kestää jonkin aikaa
 1. Kun toiminto on suoritettu, paina (A):ta jatkaaksesi
-1. Press (B) to decline relocking write permissions if prompted
+1. Paina (B):tä kieltäytyäksesi lukitsemasta kirjoitusoikeuksia kehotettaessa
 
 ## <a name="injectHS" /> .CIA-sovellusten injektoiminen Health & Safety -sovellukseen
 
@@ -65,7 +65,7 @@ Järjestelmän kirjoitusoikeudet on suojattu varoituksilla, ja sinun on syötett
 1. Paina (A):ta `.app`-tiedoston kohdalla valitaksesi sen, valitse "NCCH image options" ja sitten "Inject to H&S"
 1. Paina (A):ta ottaaksesi käyttöön SysNANDiin kirjoittamisen (lvl1) ja syötä annettu painikeyhdistelmä
 1. Paina (A):ta jatkaaksesi
-1. Press (A) to relock write permissions if prompted
+1. Paina (A):ta lukitaksesi kirjoitusoikeudet kehotettaessa
 
 ## <a name="restore_hs" /> Health & Safetyn palauttaminen .CIA-sovelluksen injektoimisen jälkeen
 
@@ -79,7 +79,7 @@ Tämä toimii vain, jos Health & Safety -injektio tehtiin GodMode9:n avulla (eik
 1. Valitse "More..."
 1. Valitse "Restore H&S"
 1. Paina (A):ta ottaaksesi käyttöön SysNANDiin kirjoittamisen (lvl1) ja syötä annettu painikeyhdistelmä
-1. Press (A) to relock write permissions if prompted
+1. Paina (A):ta lukitaksesi kirjoitusoikeudet kehotettaessa
 
 ## <a name="dump_cart" /> Pelikortin kopioiminen
 
@@ -95,7 +95,7 @@ Tämä toimii vain, jos Health & Safety -injektio tehtiin GodMode9:n avulla (eik
 1. Mene hakemistoon `[C:] GAMECART`
 1. Seuraa korttiasi vastaavaa ohjetta:
   + **3DS-pelikortti:** Paina (A):ta `[sovellus-ID].trim.3ds`-tiedoston kohdalla, valitse "NCSD image options..." ja sitten "Build CIA from file"
-  + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it, then select "Copy to 0:/gm9/out"
+  + **NDS-pelikortti:** Paina (A):ta `[TitleID].trim.nds`-tiedoston kohdalla ja valitse "Copy to 0:/gm9/out"
 1. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
 ## <a name="dump_title" /> Sovelluksen kopioiminen
