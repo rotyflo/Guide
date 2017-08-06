@@ -64,10 +64,10 @@ Käytä [tallennuksenhallintaohjelmaa](https://github.com/J-D-K/JKSM/releases/la
 1. Paina (A):ta jatkaaksesi
 1. Hold (R) and press (B) at the same time to eject **the source 3DS**'s SD card
 1. Put **the source 3DS**'s SD card into your computer
-1. Put **the target 3DS**'s SD card into your computer
-1. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
-1. Reinsert each SD card back into their corresponding 3DS
-1. Press (Start) on **the source 3DS** to reboot
+1. Aseta **kohde-3DS**:n SD-kortti tietokoneeseesi
+1. **Varmuuskopioi kummankin 3DS:n SD-korttien sisältö eri kansioihin tietokoneellasi (pidä silmällä, kumpi on kumpi)**
+1. Aseta kumpikin SD-kortti takaisin oikeaan konsoliinsa
+1. Paina (START)-painiketta **lähde-3DS:llä** käynnistääksesi sen uudelleen
 
 ##### Section II - Installing the Save
 
@@ -106,8 +106,8 @@ Käytä [tallennuksenhallintaohjelmaa](https://github.com/J-D-K/JKSM/releases/la
 
 ##### Section III - System Transfer
 
-1. **Backup every file on both 3DS's SD cards to two separate folders on your computer (keep track of which is which)!**
-1. Reinsert each SD card back into their corresponding 3DS
+1. **Varmuuskopioi kummankin 3DS:n SD-korttien sisältö eri kansioihin tietokoneellasi (pidä silmällä, kumpi on kumpi)**
+1. Aseta kumpikin SD-kortti takaisin oikeaan konsoliinsa
 1. If **the target 3DS** has a Nintendo Network ID on it, you must format the device using System Settings:
   + Go to the last page of "Other Settings" and select "Format System Memory", then follow all instructions
 1. Read the following:
