@@ -54,7 +54,7 @@ title: "Установка boot9strap (2xrsa)"
 
 ___
 
-Обратите внимание, что пользователи *New 3DS*, делавшие CTRTransfer на прошивку 2.1.0 *должны* [восстановить резервную копию NAND](godmode9-usage#nand_restore) в промежутке между выполнением "Части II - Настройка Luma3DS" и "Часть III - Обновление системы" раздела [Завершение установки](finalizing-setup).
+Note that *New 3DS* users who ended up on 2.1.0 after a CTRTransfer *must* [restore their NAND backup](godmode9-usage#nand_restore) before going to the [Finalizing Setup](finalizing-setup) page.
 {: .notice--danger}
 
 Следующий шаг: [Завершение установки](finalizing-setup)
