@@ -41,20 +41,20 @@ title: "boot9strapin asentaminen (2xrsa)"
 
 1. Odota, kunnes kaikki turvatarkistukset on suoritettu
 1. Syötä kehotettaessa annettu painikeyhdistelmä asentaaksesi boot9strapin
-1. Once it has completed, press (A) to reboot your device
+1. Kun toiminto on suoritettu, paina (A):ta käynnistääksesi konsolisi uudelleen
 
-##### Section IV - Configuring Luma3DS
+##### Vaihe IV – Luma3DS:n määrittäminen
 
-1. Your device should have rebooted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
-1. Use the (A) button and the D-Pad to turn on the following:    
+1. Konsolisi pitäisi uudelleenkäynnistyä suoraan Luma3DS:n määritysvalikkoon
+  + Jos saat mustan ruudun, [seuraa tätä vianmääritysohjetta](troubleshooting#ts_sys_b9s)
+1. Käytä (A):ta ja ristiohjainta ottaaksesi seuraavat asetukset käyttöön:    
   + **"Show NAND or user string in System Settings"**
 1. Paina (START)-painiketta tallentaaksesi ja käynnistääksesi uudelleen
-  + If you get an error, just continue the next page
+  + Jos saat virheen, jatka vain seuraavalle sivulle
 
 ___
 
-Note that *New 3DS* users who ended up on 2.1.0 after a CTRTransfer *must* [restore their NAND backup](godmode9-usage#nand_restore) before going to the [Finalizing Setup](finalizing-setup) page.
+Huomioi, että jos olet *New 3DS* -käyttäjä ja päätyit versioon 2.1.0 CTRTransferin jälkeen, sinun *täytyy* [palauttaa NAND-varmuuskopiosi](godmode9-usage#nand_restore) ennen kuin jatkat osioon [Asennuksen viimeistely](finalizing-setup).
 {: .notice--danger}
 
 Jatka osioon [Asennuksen viimeistely](finalizing-setup)
