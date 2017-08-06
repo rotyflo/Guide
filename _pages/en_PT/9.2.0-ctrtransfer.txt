@@ -47,7 +47,7 @@ Never format a New 2DS while on a version <11.4.0 or ye gunna be unable to compl
 1. Copy `ctrtransfer_ticket_copy.gm9` to th' `/gm9/scripts/` folder on ye SD card
 1. Copy th' 9.2.0 CTRTransfer image `.bin` from th' CTRTransfer `.zip` to th' `/gm9/` folder on ye SD card
 1. Copy `FBI.3dsx` to the `/3ds/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Reinsert ye SD card into ye device
 
 ##### Section II - CTRTransfer
 
