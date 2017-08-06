@@ -55,7 +55,7 @@ title: "Instalar boot9strap (2xrsa)"
 
 ___
 
-Note that *New 3DS* users who ended up on 2.1.0 after a CTRTransfer *must* [restore their NAND backup](godmode9-usage#nand_restore) before going to the [Finalizing Setup](finalizing-setup) page.
+Ten en cuenta que los usuarios de *New 3DS* que quedaron en 2.1.0 luego de un CTRTransfer *deben* [restaurar la copia de seguridad de su NAND](godmode9-usage#nand_restore) antes de pasar a la sección [Finalizar instalación](finalizing-setup).
 {: .notice--danger}
 
 Continúa en [Finalizar instalación](finalizing-setup)
