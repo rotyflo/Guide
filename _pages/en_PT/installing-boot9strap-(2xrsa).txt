@@ -25,7 +25,7 @@ title: "Installing boot9strap (2xrsa)"
     ![]({{ base_path }}/images/screenshots/boot9strap-2xrsa-file-layout.png)
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Reinsert ye SD card into ye device
 1. Power on your device
 
 ##### Section II - Launching SafeB9SInstaller
