@@ -59,9 +59,9 @@ Prosegui con l'[Installazione di boot9strap (inject su DSiWare)](installing-boot
 
 ___
 
-#### Installing boot9strap (Seedminer)
+#### Installazione di boot9strap (Seedminer)
 
-This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
+Questo metodo non richiede un 3DS di partenza modificato o un Trasferimento dati. È necessario solamente un gioco compatibile sul 3DS su cui si vuole installare boot9strap.
 
-Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+Prosegui con l'[Installazione di boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
 {: .notice--primary}
