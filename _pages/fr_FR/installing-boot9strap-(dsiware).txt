@@ -6,11 +6,19 @@ title: "Installer boot9strap (DSiWare)"
 
 ### Lecture requise
 
-Il y a deux méthodes différentes pour installer boot9strap à l'aide de DSiWare sur 11.6.0.
+There are three different methods of installing boot9strap using DSiWare on 11.6.0.
 
-Une de ces méthodes ne marche uniquement avec 4 jeux spécifiques qui ne sont plus vendus sur l'eShop, alors que la deuxième marche avec d'autres jeux toujours vendus sur l'eShop.
+The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
 
-Les deux méthodes ont besoin de deux consoles. Une 3DS (ou 2DS) doit posséder boot9strap et sera appelée la *3DS source*, alors que l'autre 3DS (ou 2DS) est en 11.6.0 sur son logiciel stock et sera appelée la *3DS cible*.
+___
+
+The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
+
+The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+The latter two methods require two devices. Une 3DS (ou 2DS) doit posséder boot9strap et sera appelée la *3DS source*, alors que l'autre 3DS (ou 2DS) est en 11.6.0 sur son logiciel stock et sera appelée la *3DS cible*.
 
 Ces deux méthodes supposent que la 3DS possédant un firmware modifié utilise boot9strap, installé suivant ce guide. Bien qu’il soit possible de faire ces méthodes avec un autre type de logiciel modifié, c’est hors de la portée de ce guide et à vos risques et périls.
 
@@ -29,6 +37,15 @@ Dans les deux méthodes, le NNID (=Nintendo ID) de la "3DS source" va être coin
 
 ___
 ### Méthodes
+
+___
+
+#### Installer boot9strap (Seedminer)
+
+Cette méthode ne nécessite pas une 3DS source hackée ou un System Transfer. Vous avez seulement besoin d’un jeu compatible sur la 3DS que vous voulez hacker.
+
+Continuer vers [installation de boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}
 
 ___
 
@@ -58,10 +75,3 @@ Continuer vers [Installer boot9strap (DSiWare Game Injection)](installing-boot9s
 {: .notice--primary}
 
 ___
-
-#### Installer boot9strap (Seedminer)
-
-Cette méthode ne nécessite pas une 3DS source hackée ou un System Transfer. Vous avez seulement besoin d’un jeu compatible sur la 3DS que vous voulez hacker.
-
-Continuer vers [installation de boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
-{: .notice--primary}
