@@ -6,9 +6,9 @@ title: "Установка boot9strap (DSiWare)"
 
 ### Обязательно к прочтению
 
-There are three different methods of installing boot9strap using DSiWare on 11.6.0.
+Существует три различных способа установки boot9strap с помощью DSiWare на 11.6.0.
 
-The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
+Первый метод, Seedminer, требует наличия ПК с мощной видеокартой. Существует онлайн сервис взаимопомощи для Seedminer, если у вас нет доступа к такому ПК. Два других метода требуют выполнения Передачи данных с прошитой 3DS.
 
 ___
 
