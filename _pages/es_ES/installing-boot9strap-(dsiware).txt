@@ -6,19 +6,19 @@ title: "Instalar boot9strap (DSiWare)"
 
 ### Lectura requerida
 
-There are three different methods of installing boot9strap using DSiWare on 11.6.0.
+Existen tres métodos distintos para instalar boot9strap usando DSiWare en 11.6.0.
 
-The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
-
-___
-
-The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
-
-The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+El primer método, Seedminer, requiere un PC que posea una tarjeta gráfica potente. Existe un servicio de ayuda en línea para Seedminer si no posees acceso a una PC potente. Los otros dos métodos requieren una transferencia de sistema desde una 3DS ya hackeada.
 
 ___
 
-The latter two methods require two devices. Una de las 3DS (o 2DS) debe tener ya boot9strap instalado, a la cual llamaremos la *3DS de origen*, mientras que la otra 3DS (o 2DS) se encuentra en firmware 11.6.0 sin modificar y llamaremos la *3DS de destino*.
+El método de Seedminer solamente requiere de un juego barato de DSiWare, disponible en la eShop. Además, es necesario tener acceso a CFW o al Homebrew Launcher para extraer el archivo `movable_part1.sed` de tu 3DS y una PC con una tarjeta gráfica potente para poder desencriptar el archivo `movable_part1.sed` y generar un archivo `movable.sed`. El [servicio de ayuda para Seedminer](https://seedhelper.figgyc.uk/) puede hacer estas operaciones automáticamente por ti si no tienes acceso a los requisitos.
+
+El método utiliza una serie de descuidos en la seguridad de la 3DS detallados [aquí](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+Los dos últimos métodos requieren de dos consolas. Una de las 3DS (o 2DS) debe tener ya boot9strap instalado, a la cual llamaremos la *3DS de origen*, mientras que la otra 3DS (o 2DS) se encuentra en firmware 11.6.0 sin modificar y llamaremos la *3DS de destino*.
 
 Ámbos métodos asumen que la consola 3DS con custom firmware usa boot9strap, producto de haber completado esta guía anteriormente. Es posible completar estos métodos con otros custom firmware, pero eso está fuera del alcance de esta guía.
 
