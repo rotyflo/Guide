@@ -8,7 +8,7 @@ title: "Installazione di boot9strap (DSiWare)"
 
 Con la versione del software 11.6.0, ci sono tre metodi differenti per installare boot9strap tramite DSiWare.
 
-The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
+Il primo metodo, Seedminer, richiede un PC con una scheda grafica di fascia alta. Se non disponi di tale PC, esiste un servizio online parallelo a Seedminer. Gli altri due metodi richiedono un Trasferimento dati da un 3DS già modificato.
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Installazione di boot9strap (Seedminer)
 
-Questo metodo non richiede un 3DS di partenza modificato o un Trasferimento dati. È necessario solamente un gioco compatibile sul 3DS su cui si vuole installare boot9strap.
+Questo metodo non richiede un 3DS di partenza modificato o un Trasferimento dati. È necessario solamente un gioco compatibile sul 3DS da modificare.
 
 Prosegui con l'[Installazione di boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
 {: .notice--primary}
