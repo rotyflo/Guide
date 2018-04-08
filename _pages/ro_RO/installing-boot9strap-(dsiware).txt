@@ -12,7 +12,7 @@ The first method, Seedminer, requires a PC with a powerful graphics card. There 
 
 ___
 
-The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
+The Seedminer method only requires a cheap DSiWare game, available from the eShop. De asemenea, accesul la CFW de pe Homebrew Launcher este necesar pentru a extrage fişierul `movable_part1.sed`, şi un calculator cu o placă video puternică este necesară pentru a  decripta fişierul `movable_part1.sed` şi transforma într-un fişier `movable.sed`. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
 
 The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
 
