@@ -6,19 +6,19 @@ title: "Installer boot9strap (DSiWare)"
 
 ### Lecture requise
 
-There are three different methods of installing boot9strap using DSiWare on 11.6.0.
+Il y a trois méthodes différentes pour installer boot9strap à l'aide de DSiWare sur 11.6.0.
 
-The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
-
-___
-
-The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
-
-The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+La première méthode, Seedminer, nécessite un PC avec une carte graphique puissante. Un service d’aide en ligne pour Seedminer existe si vous n’avez pas accès à un tel PC. Les deux autres méthodes nécessitent un System Transfer depuis une 3DS hackée.
 
 ___
 
-The latter two methods require two devices. Une 3DS (ou 2DS) doit posséder boot9strap et sera appelée la *3DS source*, alors que l'autre 3DS (ou 2DS) est en 11.6.0 sur son logiciel stock et sera appelée la *3DS cible*.
+La méthode Seedminer nécessite seulement un jeu DSiWare bon marché, disponible sur l’eShop. En outre, l'accès au CFW ou à l'Homebrew Launcher est requis pour extraire le fichier `movable_part1.sed` de votre 3DS, et un PC avec une carte graphique puissante est requis pour le bruteforcer en un fichier `movable.sed`. Le [service en ligne d’assistance de Seedminer] (https://seedhelper.figgyc.uk/) peut automatiquement faire ces choses pour vous si vous n’y avez pas accès.
+
+La méthode utilise une série de négligences dans la sécurité de la 3DS, détaillées [ici](https://zoogie.github.io/web/34 ⅕c3).
+
+___
+
+Les deux dernières méthodes nécessitent deux consoles. Une 3DS (ou 2DS) doit posséder boot9strap et sera appelée la *3DS source*, alors que l'autre 3DS (ou 2DS) est en 11.6.0 sur son logiciel stock et sera appelée la *3DS cible*.
 
 Ces deux méthodes supposent que la 3DS possédant un firmware modifié utilise boot9strap, installé suivant ce guide. Bien qu’il soit possible de faire ces méthodes avec un autre type de logiciel modifié, c’est hors de la portée de ce guide et à vos risques et périls.
 
