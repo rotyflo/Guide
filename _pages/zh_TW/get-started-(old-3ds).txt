@@ -21,9 +21,6 @@ title: "新手入門 (舊型 3DS)"
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-如果您的卡帶含有 9.9.0 或以上的系統版本，您的瀏覽器會被刪除，而您將得遵守『無瀏覽器』的那列使用。*(意思就是說，您的版本是 9.9.0 或以上版本，但您的瀏覽器版本是 -25 或更低版的話，像是 10.2.0-24)*
-{: .notice--warning}
-
 ### 版本列表
 
 <table>
