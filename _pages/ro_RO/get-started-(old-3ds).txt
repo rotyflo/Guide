@@ -65,21 +65,8 @@ Dacă ați făcut actualizare cu un card de joc care conține versiunea 9.9.0 sa
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Folosiți o metodă pentru "Toate versiunile"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalând boot9strap (Browser)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Instalând boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalând boot9strap (Browser)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Folosiți o metodă pentru "Toate versiunile"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalând boot9strap (Browser)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
