@@ -18,7 +18,7 @@ Soundhax 相容於 9.0.0 至 11.3.0 的歐、日、韓及美區的系統版本�
 
 請注意，卡帶更新只會更新系統的核心組件，像是系統設定、HOME 主選單等。 卡帶更新不會更新『任天堂 3DS 音樂 (Nintendo 3DS Sound)』程式或是線上下載的功能，如軟體和資料轉移、網頁瀏覽器、擦身通信 Mii 廣場、或是電子商店 (eShop)。
 
-This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](installing-boot9strap-(mset)) of installing boot9strap!
+This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
