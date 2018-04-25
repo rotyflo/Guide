@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (Soundhax)"
+title: "Installazione di boot9strap (Soundhax)"
 ---
 
 {% include toc title="Indice" %}
@@ -8,7 +8,7 @@ title: "Installing boot9strap (Soundhax)"
 
 Se hai già modificato il tuo 3DS in passato e hai installato un CFW basato su EmuNAND, ricorda che questa guida interessa solamente la SysNAND per cui dovresti seguire le istruzioni in tale modalità. Tieni presente che i termini EmuNAND e RedNAND si riferiscono a due implementazioni leggermente diverse [dello stesso concetto](http://3dbrew.org/wiki/NAND_Redirection).
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (combinato a pre9otherapp) è compatibile con le versioni del software comprese tra 5.0.0 e 8.1.0 nelle regioni EUR, JPN, KOR e USA.
 
 Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore di file compressi come [7-Zip](http://www.7-zip.org/) o [The Unarchiver](https://theunarchiver.com/).
 
@@ -27,8 +27,8 @@ Ciò significa che se aggiornate con una scheda di gioco da una versione avente 
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(il file `.7z`)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+* L'ultima versione dell'[Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* L'ultima versione di [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
 
 ### Istruzioni
 
@@ -37,12 +37,12 @@ Ciò significa che se aggiornate con una scheda di gioco da una versione avente 
 1. Spegni il tuo 3DS
 1. Inserisci la scheda SD nel tuo computer
 1. Copia il file `.m4a`di Soundhax nella directory principale della tua scheda SD
-1. Copy `otherapp.bin` to the root of your SD card
+1. Copia il file `otherapp.bin` nella directory principale della tua scheda SD
 1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
 1. Copia il file `boot.3dsx` nella directory principale della tua scheda SD
 1. Crea una cartella chiamata `boot9strap` nella directory principale della tua scheda SD
 1. Copia i file `boot9strap.firm` e `boot9strap.firm.sha` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
-1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Copia il file `arm9.bin` dall'archivio `.zip` di SafeB9SInstaller nella directory principale della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
