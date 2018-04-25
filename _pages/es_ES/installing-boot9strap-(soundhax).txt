@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (Soundhax)"
+title: "Instalar boot9strap (Soundhax)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
@@ -8,7 +8,7 @@ title: "Installing boot9strap (Soundhax)"
 
 Si ya habías hackeado tu consola y tienes un CFW basado en EmuNAND, esta guía es sólo para la SysNAND, por lo que todas las instrucciones deben ser aplicadas en la SysNAND. Nota: los términos EmuNAND y RedNAND son diferentes implementaciones del [mismo concepto](http://3dbrew.org/wiki/NAND_Redirection).
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (en combinación con pre9otherapp) es compatible con las versiones desde la 5.0.0 hasta la 8.1.0 de las regiones EUR, JPN, KOR y USA.
 
 Para extraer los archivos `.7z` enlazados esta página, necesitarás un gestor de archivos como [7-Zip](http://www.7-zip.org/) o [The Unarchiver](https://theunarchiver.com/).
 
@@ -27,8 +27,8 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
 * La última versión de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap normal; no el archivo `devkit` ni el archivo `ntr`)*
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(el archivo`.7z`)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+* La última versión de [The Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* La última versión de [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
 
 ### Instrucciones
 
@@ -37,12 +37,12 @@ Ten en cuenta que las actualizaciones con cartucho sólo actualizarán los eleme
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
 1. Copia el archivo `.m4a` de Soundhax a la raíz de tu tarjeta SD
-1. Copy `otherapp.bin` to the root of your SD card
+1. Copia `otherapp.bin` a la raíz de tu tarjeta SD
 1. Copia el archivo `boot.firm` desde el `.7z` de Luma3DS a la raíz de tu tarjeta SD
 1. Copia `boot.3dsx` a la raíz de tu tarjeta SD
 1. Crea una carpeta llamada `boot9strap` en la raíz de tu tarjeta SD
 1. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en tu tarjeta SD
-1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Copia `arm9.bin` desde el `.zip` de SafeB9SInstaller a la raíz de tu tarjeta SD
 1. Vuelve a insertar tu tarjeta SD en tu consola
 1. Enciende tu consola
 
