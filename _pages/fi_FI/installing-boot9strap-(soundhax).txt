@@ -16,7 +16,7 @@ Purkaaksesi tämän osion `.7z`-tiedostot tarvitset pakkausohjelman, kuten [7-Zi
 
 Huomaa, että korttipäivitykset tuovat päivityksiä vain konsolin ydinominaisuuksiin, kuten järjestelmäasetuksiin, HOME-valikkoon jne. Korttipäivitykset eivät tuo päivityksiä Nintendo 3DS Soundiin eivätkä verkko-ominaisuuksiin, kuten tiedonsiirtosovellukseen, selaimeen, StreetPass Mii Plazaan tai eShopiin.
 
-Tämä tarkoittaa sitä, että [SoundHax](homebrew-launcher-(soundhax))in toiminnallisuus rikkoutuu, jos teet korttipäivityksen vanhemman Nintendo 3DS Soundin *(>3.0.0)* sisältävältä versiolta uudemman Nintendo 3DS Soundin sisältävälle versiolle! Tarvitset [vaihtoehtoisen tavan](homebrew-launcher-(alternatives)) Homebrew Launcherin avaamiseen!
+Tämä tarkoittaa sitä, että [SoundHax](homebrew-launcher-(soundhax))in toiminnallisuus rikkoutuu, jos teet korttipäivityksen vanhemman Nintendo 3DS Soundin *(>3.0.0)* sisältävältä versiolta uudemman Nintendo 3DS Soundin sisältävälle versiolle! You will need an [alternate method](installing-boot9strap-(mset)) of entering the Homebrew Launcher!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
