@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (Soundhax)"
+title: "Установка boot9strap (Soundhax)"
 ---
 
 {% include toc title="Содержание" %}
@@ -8,7 +8,7 @@ title: "Installing boot9strap (Soundhax)"
 
 Если вы взламывали ваше устройство ранее и у вас установлена кастомная прошивка на основе EmuNAND, помните, что данное руководство работает только с SysNAND и вы должны выполнять вся шаги находясь в SysNAND. Помните, что RedNAND и EmuNAND - немного разные реализации [одного и того же](http://3dbrew.org/wiki/NAND_Redirection) (англ.).
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (в сочетании с pre9otherapp) совместим с версиями прошивки от 5.0.0 до 8.1.0 в регионах EUR, JPN, KOR и USA.
 
 Чтобы распаковать архивы `.7z`, присутствующие на этой странице, вам понадобится архиватор [7-Zip](http://www.7-zip.org/) или [The Unarchiver](https://theunarchiver.com/).
 
@@ -27,8 +27,8 @@ Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 thr
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` архив)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+* Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* Свежая версия [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
 
 ### Инструкция
 
@@ -37,12 +37,12 @@ Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 thr
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Скопируйте Soundhax `.m4a` в корень вашей SD-карты
-1. Copy `otherapp.bin` to the root of your SD card
+1. Скопируйте `otherapp.bin` в корень SD-карты
 1. Скопируйте файл `boot.firm` из `.7z-архива` Luma3DS в корень SD-карты
 1. Скопируйте `boot.3dsx` в корень SD-карты
 1. Создайте папку `boot9strap` в корне SD-карты
 1. Скопируйте `boot9strap.firm` и `boot9strap.firm.sha` из `.zip-архива` boot9strap в папку `/boot9strap/` в корне SD-карты
-1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Скопируйте `arm9.bin` из `.zip-ахрива` SafeB9SInstaller в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
