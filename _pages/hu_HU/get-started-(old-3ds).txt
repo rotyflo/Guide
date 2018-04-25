@@ -65,21 +65,8 @@ Ha egy olyan játékkártya segítségével frissítettél, ami 9.9.0-s vagy af�
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Használj egy módszert a "Minden verzió" című sorból</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">boot9strap telepítése (böngésző)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">boot9strap telepítése (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">boot9strap telepítése (böngésző)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Használj egy módszert a "Minden verzió" című sorból</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">boot9strap telepítése (böngésző)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
