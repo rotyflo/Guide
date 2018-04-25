@@ -18,14 +18,14 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 Vedd figyelembe, hogy a kártyafrissítések csak a legfontosabb dolgokat frissítik, mint például a System Settings, Home Menu, stb. a kártyafrissítések nem fogják frissíteni a Nintendo 3DS Sound alkalmazást és a Hálózati funkciókat, mint például a System Transfer, Internet Browser, StreetPass Mii Plaza, vagy az eShop.
 
-Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a [Soundhax](homebrew-launcher-(soundhax))-et! [Más módszerre](homebrew-launcher-(alternatives)) lesz szükséged ahhoz, hogy használhasd a Homebrew Launchert!
+This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](installing-boot9strap-(mset)) of installing boot9strap!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
 ### Amire szükséged lesz
 
-* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases) legújabb kiadása
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * A [Soundhax](http://soundhax.com/) legúabb kiadása *(a készülékednek és régiónak megfelelő változat)*
 * A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"} legújabb kiadása
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
@@ -69,7 +69,7 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. Ekkor a készülékednek be kell töltenie a Homebrew Launchert
+1. If the exploit was successful, your device will have loaded the Homebrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
