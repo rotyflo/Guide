@@ -65,21 +65,8 @@ Si actualizaste con un cartucho que contiene la versión 9.9.0 o superior *(Por 
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Utiliza un método para "Todas las versiones"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalar boot9strap (Navegador)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">Instalar boot9strap (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalar boot9strap (Navegador)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;">Utiliza un método para "Todas las versiones"</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Instalar boot9strap (Navegador)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
