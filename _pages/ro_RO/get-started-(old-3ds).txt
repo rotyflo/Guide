@@ -21,9 +21,6 @@ Versiunea dispozitvului poate fi găsit în colțul din dreapta jos al ecranului
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
-Dacă ați făcut actualizare cu un card de joc care conține versiunea 9.9.0 sau superior *(însemnând că aveți versiunea 9.9.0 sau superior, dar browserul este pe -25 sau inferior, cum ar fi 10.2.0-24)*, browserul dumneavoastră a fost îndepărtat și va trebui să urmați coloana "Fără Browser".
-{: .notice--warning}
-
 ### Tabel de versiuni
 
 <table>
