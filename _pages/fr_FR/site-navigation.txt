@@ -48,7 +48,7 @@ sitemap: false
 + [Installer boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 + [Installer boot9strap (MSET)](installing-boot9strap-(mset))
 + [Installer boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
-+ [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
++ [Installer boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 + [ntrboot](ntrboot)
 + [Déplacer l'EmuNAND](move-emunand)
 + [Changement de Région](region-changing)
