@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (Soundhax)"
+title: "boot9strap telepítése (Soundhax)"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
@@ -8,7 +8,7 @@ title: "Installing boot9strap (Soundhax)"
 
 Ha hackelted már meg a 3DS-edet korábban, és már rendelkezel egy EmuNAND alapú CFW-vel, tudd, hogy ez az útmutató kizárólag a SysNAND-dal foglalkozik, és minden lépést a SysNAND-on kell majd alkalmaznod. Jó, ha tudod, hogy az EmuNAND és a RedNAND fogalmak [ugyanazon koncepció](http://3dbrew.org/wiki/NAND_Redirection) két, kicsiben különböző megvalósítását jelentik.
 
-Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 through 8.1.0 in the EUR, JPN, KOR, and USA regions.
+A Soundhax (amikor pre9otherapp-pal használjuk) kompatibilis az 5.0.0-s verziótól egészen a 8.1.0-esig az EUR, JPN, KOR, és USA régiókban.
 
 Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiváló programra lesz szükséged, mint amilyen a [7-Zip](http://www.7-zip.org/) vagy a [The Unarchiver](https://theunarchiver.com/).
 
@@ -16,7 +16,7 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 Vedd figyelembe, hogy a kártyafrissítések csak a legfontosabb dolgokat frissítik, mint például a System Settings, Home Menu, stb. a kártyafrissítések nem fogják frissíteni a Nintendo 3DS Sound alkalmazást és a Hálózati funkciókat, mint például a System Transfer, Internet Browser, StreetPass Mii Plaza, vagy az eShop.
 
-Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a [Soundhax](homebrew-launcher-(soundhax))-et! You will need an [alternate method](installing-boot9strap-(mset)) of entering the Homebrew Launcher!
+Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a [Soundhax](homebrew-launcher-(soundhax))-et! [Más módszerre](installing-boot9strap-(mset)) lesz szükséged ahhoz, hogy használhasd a Homebrew Launchert!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -27,8 +27,8 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 * A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"} legújabb kiadása
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
 * A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} legújabb kiadása *(a `.7z` fájl)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"}
+* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"} legújabb kiadása
+* A [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest){:target="_blank"} legújabb kiadása
 
 ### Utasítások
 
@@ -37,12 +37,12 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
 1. Másold a Soundhax `.m4a` fájlját az SD kártyád gyökerébe
-1. Copy `otherapp.bin` to the root of your SD card
+1. Másold az `otherapp.bin` fájlt az SD kártyád gyökerébe
 1. Másold át a `boot.firm` fájlt a Luma3DS `.7z`-ből az SD kártya gyökerébe
 1. Másold az `boot.3dsx` fájlt az SD kártyád gyökerébe
 1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
 1. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból az SD kártyád `/boot9strap/` mappájába
-1. Copy `arm9.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Másold át az `arm9.bin` fájlt a SafeB9SInstaller `.zip`-ből az SD kártyád gyökerébe
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 
