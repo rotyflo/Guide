@@ -23,7 +23,7 @@ Soundhax (when combined with pre9otherapp) is compatible with versions 5.0.0 thr
 
 ### 必備項目
 
-* 最新版的 [Soundhax](http://soundhax.com/) *(選擇對應您主機的區域及型號的檔案)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * 最新版的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * 最新版的 [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(正常版的 boot9strap；非 `devkit` 或 `ntr` 檔案)*
 * 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` 檔案)*
