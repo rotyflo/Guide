@@ -26,13 +26,13 @@ This means that using a cartridge update from a version containing an older Nint
 ### 必備項目
 
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* 最新版的 [Soundhax](http://soundhax.com/) *(選擇對應您主機的區域及型號的檔案)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * 最新版的 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * 最新版的 [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(正常版的 boot9strap；非 `devkit` 或 `ntr` 檔案)*
 * 最新版的 [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(`.3dsx` 檔案)*
 * 最新版的 [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` 檔案)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your version and region)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### 操作說明
 
