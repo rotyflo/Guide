@@ -23,7 +23,7 @@ This means that using a cartridge update from a version containing an older Nint
 
 ### What You Need
 
-* Die neueste Version von [Soundhax](http://soundhax.com/) *(für deine Konsole und deine Region)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
 * Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
