@@ -26,13 +26,13 @@ Soundhax совместим с версиями прошивки от 9.0.0 до
 ### Что понадобится
 
 * Свежая версия [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Свежая версия [Soundhax](http://soundhax.com/) *(для вашего устройства и региона)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * Свежая версия [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Свежая версия [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(стандартный boot9strap; не `devkit` файл, не `ntr` файл)*
 * Свежая версия [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(`.3dsx` файл)*
 * Свежая версия [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * Свежая версия [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z` архив)*
-* [Otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(для вашей версии и региона)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### Инструкция
 
