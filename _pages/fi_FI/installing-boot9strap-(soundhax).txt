@@ -23,7 +23,7 @@ Tämä tarkoittaa sitä, että [SoundHax](homebrew-launcher-(soundhax))in toimin
 
 ### Tarpeet
 
-* SoundHaxin [viimeisin julkaisu](http://soundhax.com/) *(konsolisi mallin ja alueen mukainen)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * SafeB9SInstallerin [viimeisin julkaisu](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Boot9strapin [viimeisin julkaisu](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(tavallinen boot9strap-tiedosto; ei `devkit`- eikä `ntr`-tiedosto)*
 * Luma3DS:n [viimeisin julkaisu](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(`.7z`-tiedosto)*
