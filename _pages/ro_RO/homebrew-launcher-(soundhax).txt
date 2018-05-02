@@ -26,13 +26,13 @@ This means that using a cartridge update from a version containing an older Nint
 ### Ce aveți nevoie
 
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* Ultima versiune de [Soundhax](http://soundhax.com/) *(pentru dispozitivul și regiunea dumneavoastră)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * Cea mai recentă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard; nu fișierul `devkit`, nici cel `ntr`)*
 * Cea mai recentă versiune de [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(fișierul `.3dsx`)*
 * Cea mai recentă versiune de [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(fișierul `.7z`)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your version and region)*
+* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
 ### Instrucțiuni
 
