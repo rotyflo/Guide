@@ -23,7 +23,7 @@ Asta înseamnă că folosind o actualizare cu cardulde joc de la o versiune care
 
 ### Ce aveți nevoie
 
-* Ultima versiune de [Soundhax](http://soundhax.com/) *(pentru dispozitivul și regiunea dumneavoastră)*
+* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
 * Cea mai recentă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard; nu fișierul `devkit`, nici cel `ntr`)*
 * Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(fișierul `.7z`)*
