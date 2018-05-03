@@ -26,13 +26,13 @@ Cela signifie que l’utilisation d’une mise à jour via cartouche depuis une 
 ## Ce dont vous avez besoin
 
 * La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
+* La dernière version de [Soundhax](http://soundhax.com/) *(en fonction de votre console, de son modèle, et de sa région)*
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap standard, pas le fichier `devkit` ni le fichier `ntr`)*
 * La dernière version de [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(le fichier`.3dsx`)*
 * La dernière version de [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(le fichier `.7z`)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
+* Le [payload otherapp](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(en fonction du modèle de votre console et de sa région)*
 
 ### Instructions
 
