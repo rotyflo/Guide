@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Der Homebrew Launcher hat viele verschiedene Eintrittspunkte, beziehungsweise Möglichkeiten, um ihn zu starten.
 
-Soundhax ist kompatibel mit den Versionen 9.0.0 bis einschließlich 11.3.0 in den Regionen EUR, JPN, KOR, and USA.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 Stelle sicher, dass die Drahtloskommunikation deiner Konsole eingeschaltet ist, da udsploit (wird auf der nächsten Seite genutzt) ein aktives Drahtlosmodul erfordert und manche Konsolen (New 3DS, New 2DS und Old 2DS) die Drahtloskommunikation im Homebrew Launcher nicht einschalten können. Drahtloskommunikation muss nur eingeschaltet sein. Eine Verbindung zu einem Access Point ist nicht notwendig.
 
