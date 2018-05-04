@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 להומברו לאנצ'ר יש הרבה דרכי הפעלה.
 
-SoundHax תומך בגירסאות 9.0.0 עד 11.3.0 באזורים EUR, JPN, KOR, וUSA.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 תבדקו שהWi-Fi של הקונסולה שלכם דלוק כי udsploit (שנדרש בעמוד הבא) ידרוש את התוכנה של הWi-Fi כדי לעבוד, ומספר מכשירים (הNew 3DS New 2DS, וה Old 2DS) לא יכולים להדליק את הWi-Fi מהHomebrew Launcher. הWi-Fi רק צריך לדלוק; לא צריך לחבר אותו לרשת אלחוטית.
 
