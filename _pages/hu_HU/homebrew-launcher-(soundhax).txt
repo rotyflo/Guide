@@ -26,13 +26,13 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 ### Amire szükséged lesz
 
 * A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"} legújabb kiadása
-* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
+* A [Soundhax](http://soundhax.com/) legújabb kiadása *(a régiódnak, készülékednek és rendszer verziódnak megfelelő változat)*
 * A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"} legújabb kiadása
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
 * A [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} legújabb kiadása *(a `.3dsx` fájl)*
 * A [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"} legújabb kiadása
 * A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} legújabb kiadása *(a `.7z` fájl)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
+* Az [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(a régiódnak és rendszer verziódnak megfelelő változat)*
 
 ### Utasítások
 
