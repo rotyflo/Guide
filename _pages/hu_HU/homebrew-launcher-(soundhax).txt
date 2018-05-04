@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 A Homebrew Launcher több, különböző belépési ponttal rendelkezik, azaz módszerrel arra, hogy elindítsuk.
 
-A Soundhax kompatibilis az EUR, JPN, KOR, és USA régiókkal, a 9.0.0-stól a 11.3.0-s verzióig.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 Bizonyosodj meg róla, hogy az eszközödön engedélyezve van a vezeték nélküli kapcsolat (Wireless Communication), ugyanis az udsploit-nak (amit a következő oldalon használunk) szüksége lesz rá, és néhány készülék (a New 3DS, a New 2DS, és az Old 2DS) esetében az nem állítható a Homebrew Launcher-ből. Elég, ha engedélyezve van a vezeték nélküli kapcsolat; nem kell hozzáférési ponthoz kapcsolódni.
 
