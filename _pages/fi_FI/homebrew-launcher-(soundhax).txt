@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Homebrew Launcherille on useita eri sisäänpääsy- eli käynnistystapoja.
 
-SoundHax on yhteensopiva versiosta 9.0.0 versioon 11.3.0 EUR-, JPN-, KOR- ja USA-konsoleiden kanssa.
+Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
 
 Varmista, että langaton yhteys on päällä, sillä udsploit (käytetään seuraavassa osiossa) tarvitsee sitä toimiakseen, eikä joillakin konsoleilla (New 3DS, New 2DS ja vanha 2DS) voi muuttaa langattoman yhteyden asetusta Homebrew Launcherissa. Langattoman yhteyden tarvitsee vain olla päällä; tukiasemaan yhdistämistä ei vaadita.
 
