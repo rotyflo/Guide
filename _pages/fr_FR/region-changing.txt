@@ -64,7 +64,7 @@ Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 1. Si vous êtes invité à régler la date et l'heure du RTC, appuyez sur (A) pour le faire, puis réglez la date et l'heure, puis appuyez sur (A) pour continuer
   Notez que, si vous avez dû régler la date et l'heure du RTC, vous devrez également régler l'heure dans les Paramètres du système après ce guide
 1. Naviguez vers `[0:] SDCARD` -> `gm9`
-1. Appuyez sur (A) sur le CTRTransfer `.bin` pour le sélectionner
+1. Appuyez sur (A) sur le `.bin` de CTRTransfer pour le sélectionner
 1. Sélectionnez "CTRNAND options..."
 1. Sélectionnez "Transfer image to CTRNAND"
 1. Si vous y êtes invité, sélectionnez "Transfer to SysNAND"
