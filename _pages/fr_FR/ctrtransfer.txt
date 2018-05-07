@@ -98,11 +98,11 @@ Si le script n'a trouvé aucun ticket utilisateur vous pouvez sauter cette secti
 1. Sélectionnez "gm9"
 1. Sélectionnez "out"
 1. Sélectionnez "ctrtransfer_tickets"
-1. Effectuez la manipulation suivante pour le dossier eshop, ou le dossier `unknown`, ou bien les deux si vous avez les deux
+1. Effectuez la manipulation suivante pour le dossier `eshop`, ou le dossier `unknown`, ou bien les deux si vous avez les deux
   + Accédez au dossier
   + Sélectionnez "\<current directory>"
   + Sélectionnez "Install and delete all tickets"
-  + Attendez. Votre console aura l'air d'avoir freeze (ne répond pas), laissez-lui du temps.
+  + Attendez. Si votre console semble ne plus répondre, laissez-lui du temps.
   + Appuyez sur (A) pour confirmer
   + Appuyez sur (B) pour refuser l'installation des tickets depuis le CDN.
 1. Appuyez sur (Home) pour quitter FBI
@@ -111,7 +111,7 @@ Si le script n'a trouvé aucun ticket utilisateur vous pouvez sauter cette secti
 
 1. Ouvrez Godmode9 en maintenant (Start) au démarrage
 1. Naviguez vers `[0:] SDCARD` -> `gm9`
-1. Pressez (X) sur l'image CTRTransfer `.bin` pour la supprimer
+1. Pressez (X) sur le `.bin` de l'image CTRTransfer pour le supprimer
 1. Appuyez sur (A) pour confirmer
 1. Appuyez sur (Start) pour redémarrer votre système
 
