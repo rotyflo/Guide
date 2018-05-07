@@ -109,7 +109,7 @@ Si le script trouvé qu'aucun ticket utilisateur vous pouvez sautez cette sectio
 1. Sélectionnez "gm9"
 1. Sélectionnez "out"
 1. Sélectionnez "ctrtransfer_tickets"
-1. Effectuez la manipulation suivante pour le dossier eshop, ou le dossier `unknown`, ou bien les deux si vous avez les deux
+1. Effectuez la manipulation suivante pour le dossier `eshop`, ou le dossier `unknown`, ou bien les deux si vous avez les deux
   + Accédez au dossier
   + Sélectionnez "\<current directory>"
   + Sélectionnez "Install and delete all tickets"
@@ -130,7 +130,7 @@ Si le script trouvé qu'aucun ticket utilisateur vous pouvez sautez cette sectio
 
 1. Ouvrez Godmode9 en maintenant (Start) au démarrage
 1. Naviguez vers `[0:] SDCARD` -> `gm9`
-1. Pressez (X) sur l'image CTRTransfer `.bin` pour la supprimer
+1. Pressez (X) sur le `.bin` de l'image CTRTransfer pour le supprimer
 1. Appuyez sur (A) pour confirmer
 1. Appuyez sur (Start) pour redémarrer votre système
 
