@@ -117,7 +117,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 1. Lorsque vous êtes invité, appuyez sur (A)
 1. Appuyez sur (A) pour autoriser l'écriture sur votre SysNAND, puis entrez la combinaison de touches demandée
 1. Appuyez sur (A) pour continuer
-1. Appuyez (A) pour reverrouiller autorisations en écriture
+1. Appuyez (A) pour reverrouiller les autorisations en écriture
 
 #### Section VII - Sauvegarder les Fichiers Essentiels
 
@@ -125,7 +125,7 @@ Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vou
 1. Sélectionnez "Scripts"
 1. Sélectionnez "Backup SysNAND"
 1. Appuyez sur (A) pour confirmer
-  + Ce processus pendra du temps
+  + Ce processus prendra un certain temps
   + Si une erreur apparaît, vérifiez que vous avez au moins 1,2 ou 1,3 Go d'espace libre sur votre carte SD
 1. Appuyez sur (A) pour continuer
 1. Maintenez (R) et appuyez sur (B) en même temps pour éjecter votre carte SD
@@ -171,7 +171,7 @@ Vous pouvez maintenant appuyer simultanément sur (L) + (Bas) + (Select) pour d�
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-Pour utilisez [NTR CFW](https://github.com/44670/BootNTR/), installez [BootNTR Selector](https://gbatemp.net/threads/432911/).
+Pour utiliser [NTR CFW](https://github.com/44670/BootNTR/), installez [BootNTR Selector](https://gbatemp.net/threads/432911/).
 {: .notice--info}
 
 Pour plus d'informations sur le changement de la région de votre 3DS, veuillez consulter la page [Changement de région](region-changing).
@@ -180,7 +180,7 @@ Pour plus d'informations sur le changement de la région de votre 3DS, veuillez 
 Pour plus d’informations sur l’utilisation des diverses fonctionnalités de GodMode9, regardez la page [Utilisation de GodMode9](godmode9-usage).
 {: .notice--success}
 
-Pour plus d'informations concernant les diverses fonctionnalités de Luma3DS, veuillez consulter [Le wiki dédié](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
+Pour plus d'informations concernant les diverses fonctionnalités de Luma3DS, veuillez consulter [le wiki dédié](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
 {: .notice--success}
 
 Pour plus d'informations sur l'installation des thèmes personnalisés et des splash screens (image au démarrage de la console), consultez [Theme Plaza](https://themeplaza.eu/).
