@@ -100,7 +100,7 @@ Pour toutes les étapes de cette section, remplacez tous les fichiers existants 
 
 #### Section IV - Mise à jour du système
 
-Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vous souhaitez transférer le contenu de votre précédent EmuNAND sur votre nouvelle SysNAND CFW, il est temps de [Suivre Transférer EmuNAND](move-emunand) avant de suivre cette section.
+Si, avant d'avoir suivi ce guide, vous aviez une installation EmuNAND et que vous souhaitez transférer le contenu de votre précédent EmuNAND sur votre nouvelle SysNAND CFW, il est temps de [Transférer votre EmuNAND](move-emunand) avant de suivre cette section.
 {: .notice--info}
 
 1. Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour du Système"
