@@ -41,8 +41,8 @@ title: "FAQ"
 <a name="faq_NNID" /> **Q :** *Puis-je garder mon NNID ?*    
 **R :** Si vous démarrez avec un NNID et suivez toutes les étapes, vous garderez votre NNID à la fin.
 
-<a name="faq_systransfer" /> **Q :** *Et le Transferts de données ?*    
-**R :** Quand vous avez complété le guide, vous pouvez faire un transfert de système depuis et vers une 3DS ou 2DS en B9S exactement de la même façon que vous le feriez avec une console stock ou avec un EmuNAND (Vous allez perde tout jeu que vous n'avez pas acheté/thème/DLC dans le transfert; Les sauvegardes vont rester même pour les jeux qui sont perdus.).
+<a name="faq_systransfer" /> **Q :** *Et les transferts de système ?*    
+**R :** Quand vous avez terminé le guide, vous pouvez faire un transfert de système depuis et vers une 3DS ou 2DS avec B9S exactement de la même façon que vous le feriez avec une console stock ou avec un EmuNAND (vous perdrez tout jeu/thème/DLC que vous n'avez pas acheté pendant le transfert ; les sauvegardes seront toutes conservées, même pour ces jeux).
 
 <a name="faq_nopc" /> **Q :** *Puis-je faire cela sans ordinateur (ex : un téléphone Android) ?*    
 **R :** Tout ce dont vous avez besoin est la possibilité de mettre des fichiers sur une carte SD !
