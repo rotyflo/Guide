@@ -93,7 +93,7 @@ Vous DEVEZ avoir déjà installé Luma3DS et boot9strap pour utiliser ceci.
 1. Sélectionnez "Switch the hb. title to the current app."
 1. Appuyez sur (B) pour continuer
 1. Appuyez sur (B) pour revenir au menu principal de Rosalina
-1. Appuyez sur (B) pour quitter le menu de Rosalina
+1. Appuyez sur (B) pour quitter le menu Rosalina
 1. Appuyez sur (Home), puis fermez Mode téléchargement
 1. Lancez l’application Mode téléchargement
 1. Votre console devrait maintenant charger le Homebrew Launcher
