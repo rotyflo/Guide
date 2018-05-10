@@ -6,7 +6,7 @@ title: "Flasher ntrboot (3DS Multi System)"
 
 ### Lecture requise
 
-Avant de commencez , assurez vous de connaître les informations sur [Ntrboot](ntrboot)
+Avant de commencer, assurez vous d'avoir lu toutes les informations sur [ntrboot](ntrboot)
 
 Cette méthode nécessite un accès temporaire à un second périphérique de la famille 3DS qui utilise déjà boot9strap. Votre linker n'a pas à supporter la version des linkers (ex: si votre linker supporte <=4.3.0, cette étape fonctionnera avec un 3DS en 12.0. x et l'autre en 9.0. x. Consultez le tableau des linkers sur [ntrboot](ntrboot) pour plus d’informations.
 
