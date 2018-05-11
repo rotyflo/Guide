@@ -18,7 +18,7 @@ Notez que dans de rares circonstances, il est possible que pendant le processus 
 * Votre linker compatible ntrboot 
 * Deux dispositifs de la famille 3DS 
   + **La 3DS source** : La 3DS qui tourne déjà sous boot9strap
-  + **La 3DS cible** : la 3DS en firmware normal
+  + **La 3DS cible** : la 3DS sur un firmware original non modifié
 * La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(`ntr` standard, pas le fichier `devkit`)*
 * La dernière version de [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
 
@@ -47,7 +47,7 @@ Notez que dans de rares circonstances, il est possible que pendant le processus 
 1. Appuyez sur (A) pour continuer
 1. Appuyez sur (A) pour revenir au menu principal
 1. Selectionnez "Inject Ntrboot"
-1. Appuyer sur (A) pour ntrboot retail
+1. Appuyez sur (A) pour ntrboot retail
 1. Attendez que le processus soit terminé
 1. Appuyez sur (A) pour revenir au menu principal
 1. Appuyez sur (B) pour éteindre **la 3DS source**
