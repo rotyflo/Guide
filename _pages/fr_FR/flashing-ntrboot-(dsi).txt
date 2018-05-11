@@ -28,7 +28,7 @@ Notez que dans de rares circonstances, il est possible que pendant le processus 
 1. Éteignez **la DSi source**
 1. Insérez la carte SD de votre linker dans votre ordinateur
 1. Copiez `ds_ntrboot_flasher_dsi.nds` sur la carte SD de votre linker
-1. Réinsérez la carte SD dans votre Linker
+1. Réinsérez la carte SD dans votre linker
 1. Insérez votre cartouche compatible NTRBoot dans ** la DSI source **
 
 #### Section II - Flasher ntrboot
