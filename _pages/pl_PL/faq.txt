@@ -24,7 +24,7 @@ title: "FAQ"
 **Odp.:** Luma3DS ma funkcje usuwające zabezpieczenia regionalne. Dzięki nim możesz zainstalować gry z dowolnego kraju bez żadnych dodatkowych modyfikacji.
 
 <a name="faq_updates" />**Pyt.:** *Czy aktualizowanie SysNAND CFW jest bezpieczne?*    
-**Odp.:** Tak. Tak długo jak posiadasz A9LH, jest to bezpieczne, przestań pytać.
+**Odp.:** Tak. To jest bezpieczne, przestań o to pytać.
 
 <a name="faq_support" />**Pyt.:** *Gdzie uzyskam pomoc?*    
 **A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
