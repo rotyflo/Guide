@@ -67,7 +67,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Włóż kartę SD do komputera
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card, replacing the existing file
 1. Reinsert your SD card into your device
-1. Power on your device
+1. Włącz konsolę
 
 #### Section IV - Configuring Luma3DS
 
