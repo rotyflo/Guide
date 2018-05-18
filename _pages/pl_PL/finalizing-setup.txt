@@ -63,7 +63,7 @@ Podczas tego procesu zainstalujemy również takie programy jak:
     {: .notice--info}
 
 1. Reinsert your SD card into your device
-1. Power on your device
+1. Włącz konsolę
 
 #### Section II - Updating the System
 
