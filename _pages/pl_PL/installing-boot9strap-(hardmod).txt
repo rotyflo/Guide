@@ -80,7 +80,7 @@ This will work on New 3DS, New 2DS, Old 3DS, and Old 2DS on *all* versions that 
 1. Flash your outputted `NAND-patched.bin` to your device with your hardmod
 1. Power off your device
 1. Disconnect your hardmod
-1. Power on your device
+1. Włącz konsolę
 
 #### Section III - Configuring Luma3DS
 
