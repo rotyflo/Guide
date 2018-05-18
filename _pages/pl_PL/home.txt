@@ -43,7 +43,7 @@ In many cases, running homebrew on your device is 100% free using just the Ninte
 
 ## Czym jest Custom Firmware?
 
-**Custom Firmware** ("CFW") pozwala na używanie bardziej zaawansowanych modyfikacji, takich których zwykły dostęp do Homebrew nie może z łatwością zapewnić. Przykładowo, patch podpisów pozwala ci na instalację niepodpisanych tytułów które pojawiają się bezpośrednio w HOME Menu.
+**Custom Firmware** ("CFW") pozwala na używanie bardziej zaawansowanych modyfikacji, takich których zwykły dostęp do Homebrew nie może z łatwością zapewnić. Przykładowo, patch podpisów pozwala na instalację niepodpisanych tytułów które pojawiają się bezpośrednio w HOME Menu.
 
 CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
 
