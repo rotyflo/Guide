@@ -40,7 +40,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
     {: .notice--info}
     
 1. Reinsert your SD card into your device
-1. Power on your device
+1. Włącz konsolę
 1. Use one of the following alternate entrypoints to get into the Homebrew Launcher:
 
     | <sub> | <sub>Requires | <sub>Editions | <sub>Devices | <sub>Regions | <sub>Game Versions | <sub>System Versions |
