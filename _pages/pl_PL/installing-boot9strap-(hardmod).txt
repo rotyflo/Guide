@@ -60,7 +60,7 @@ This will work on New 3DS, New 2DS, Old 3DS, and Old 2DS on *all* versions that 
 
 #### Section I - Prep Work
 
-1. Power off your device
+1. Wyłącz konsolę
 1. Włóż kartę SD do komputera
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
 1. Copy `boot.3dsx` to the root of your SD card
@@ -78,7 +78,7 @@ This will work on New 3DS, New 2DS, Old 3DS, and Old 2DS on *all* versions that 
   + Windows Users: Run `install-b9s.exe`
   + Mac and Linux Users: Run `install-b9s.py`
 1. Flash your outputted `NAND-patched.bin` to your device with your hardmod
-1. Power off your device
+1. Wyłącz konsolę
 1. Disconnect your hardmod
 1. Włącz konsolę
 
