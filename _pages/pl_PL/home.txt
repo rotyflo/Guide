@@ -43,13 +43,13 @@ In many cases, running homebrew on your device is 100% free using just the Ninte
 
 ## Czym jest Custom Firmware?
 
-**Custom Firmware** ("CFW") pozwala ci na używanie bardziej zaawansowanych hacków, czego zwykły dostęp do homebrew nie może łatwo zrobić. Przykładowo, patch podpisów pozwala ci na instalację niepodpisanych tytułów które pojawiają się bezpośrednio w HOME Menu.
+**Custom Firmware** ("CFW") pozwala na używanie bardziej zaawansowanych modyfikacji, takich których zwykły dostęp do Homebrew nie może z łatwością zapewnić. Przykładowo, patch podpisów pozwala ci na instalację niepodpisanych tytułów które pojawiają się bezpośrednio w HOME Menu.
 
 CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
 
-## Co jest celem tej instrukcji?
+## Co jest celem tego poradnika?
 
-Końcowym celem tej instrukcji jest zmiana zupełnie niezmodyfikowanego, fabrycznego firmware konsoli Nintendo 3DS
+Końcowym celem tego poradnika jest przerobienie zupełnie niezmodyfikowanego, fabrycznego firmware konsoli Nintendo 3DS
 firmware to boot9strap powered Custom Firmware. W przypadku niektórych wersji firmware, instrukcja wykorzystuje homebrew jako punkt bazowy, jednak Custom Firmware jest nadal jej celem.
 
 boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
