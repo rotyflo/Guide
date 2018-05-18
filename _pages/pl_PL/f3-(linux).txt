@@ -18,7 +18,7 @@ Ta strona dotyczy tylko użytkowników systemu Linux. Jeśli nie posiadasz Linux
 
 ### Instructions
 
-1. Rozpakuj plik `.zip` z F3
+1. Rozpakuj plik f3 `.zip`
 1. `cd` do katalogu f3
 1. Uruchom `make` aby skompilować F3
 1. Włóż kartę SD do komputera
