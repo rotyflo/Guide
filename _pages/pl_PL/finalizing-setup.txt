@@ -35,7 +35,7 @@ Podczas tego procesu zainstalujemy również takie programy jak:
 
 #### Section I - Prep Work
 
-1. Power off your device
+1. Wyłącz konsolę
 1. Włóż kartę SD do komputera
 1. Create a folder named `3ds` on the root of your SD card if it does not already exist
 1. Stwórz folder o nazwie "cias" w głównym katalogu twojej karty SD, jeśli jeszcze nie istnieje
@@ -106,7 +106,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
 
 #### Section VI - CTRNAND Luma3DS
 
-1. Power off your device
+1. Wyłącz konsolę
 1. Launch GodMode9 by holding (Start) during boot
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
