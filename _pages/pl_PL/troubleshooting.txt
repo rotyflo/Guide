@@ -142,7 +142,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 1. Try booting into recovery mode and updating your system
     1. Power off your device
     1. Hold (L) + (R) + (A) + (Up)
-    1. Power on your device
+    1. Włącz konsolę
     1. If you enter safe mode, update your device
 1. Your device may be bricked. For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
