@@ -139,7 +139,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Włóż kartę SD do komputera
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
-  + Ta kopia uratuje Cie przed brick'iem jeśli cokolwiek pójdzie nie tak w przyszłości
+  + Ta kopia uratuje cię przed brickiem jeśli cokolwiek pójdzie nie tak w przyszłości
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
 1. **Utwórz kopię zapasową wszystkich plików na karcie SD do folderu na swoim komputerze. Wszystkie pliki znajdujące się obecnie na karcie SD zostaną usunięte w następnym kroku**
 
@@ -162,7 +162,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Reinsert your SD card into your device
 1. Naciśnij przycisk (A), aby ponownie zamontować swoją kartę SD
 1. Press (Start) to reboot
-1. Jeżeli uruchamianie konsoli zatrzyma się na czarnym ekranie, [wykonaj instrukcję rozwiązywania problemów](troubleshooting#ts_sys_down)
+1. Jeśli pojawi się pusty, czarny ekran, [przejdź do rozwiązywania problemów](troubleshooting#ts_sys_down)
 
 ___
 
