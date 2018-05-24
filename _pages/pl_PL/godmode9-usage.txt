@@ -157,7 +157,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Select "AGBSAVE options..."
   + Select "Dump GBA VC save"
   + Press (A) to continue
-  + Press (Start) to reboot your device
+  + Wciśnij (Start) aby zrestartować konsolę
 
 ## Restore GBA VC Saves
 
@@ -177,7 +177,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Select "AGBSAVE options..."
   + Select "Inject GBA VC save"
   + Press (A) to continue
-  + Press (Start) to reboot your device
+  + Wciśnij (Start) aby zrestartować konsolę
   + Launch the GBA VC game
   + Exit the GBA VC game
 
