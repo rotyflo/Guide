@@ -30,7 +30,7 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 
 1. Wyłącz konsolę
 1. Włóż kartę SD do komputera
-1. Stwórz folder o nazwie "cias" w głównym katalogu twojej karty SD, jeśli jeszcze nie istnieje
+1. Create a folder named `cias` on the root of your SD card if it does not already exist
 1. Skopiuj plik `TWL Version Data - v0.cia` do folderu `/cias/` na twojej karcie SD
 1. Skopiuj plik `DS Download Play - v1024.cia` do folderu `/cias/` na twojej karcie SD
 1. Skopiuj plik `DS Internet - v2048.cia` do folderu `/cias/` na twojej karcie SD
