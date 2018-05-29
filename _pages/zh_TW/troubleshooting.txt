@@ -146,7 +146,7 @@ title: "疑難排解"
     1. 如果您進入了安全模式，請更新您的主機
 1. 您的主機可能已經變磚。 若需求助，請至 [Discord 的 Nintendo Homebrew](https://discord.gg/MWxPgEp) 伺服器中尋求。
 
-## Clear Home Menu extdata
+## 清除 Home 選單外存
 
 1. 關閉您的主機
 1. 將 SD 卡插入電腦中
