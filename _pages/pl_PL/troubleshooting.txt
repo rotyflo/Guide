@@ -88,11 +88,11 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
   + **New 3DS or New 2DS JPN**: `20020300` -> `content`
   + **New 3DS or New 2DS USA**: `20021300` -> `content`
 1. Zauważ, że znajdują się tu dwa zestawy plików app i tmd, jeden z rozszerzeniami zapisanymi wielkimi literami (`.TMD` i `.APP`), drugi z rozszerzeniami zapisanymi małymi literami (`.tmd` i `.app`)
-1. Przytrzymując (R) trigger, naciśnij (Y) żeby utworzyć nowy katalog
+1. While holding the (R) trigger, press (Y) to create a new directory
 1. Press (A) to confirm the name `newdir` (it does not matter what the folder is called)
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (B) to decline relocking write permissions if prompted
-1. Naciśnij (L) trigger na każdym z plików zawierających rozszerzenia z wielkich liter (`.TMD` i `.APP`) aby je zaznaczyć
+1. Press the (L) trigger on each of the uppercase extension files (`.TMD` and `.APP`) to mark them
 1. Naciśnij (Y) żeby skopiować zaznaczone pliki
 1. Przejdź do stworzonego wcześniej katalogu `newdir`
 1. Naciśnij (Y) żeby wkleić pliki
