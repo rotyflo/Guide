@@ -108,7 +108,7 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 
 1. Launch the browser, then launch the browser settings
 1. Przewiń na dół strony, gdzie znajduje się opcja Initialize Savedata (może też występować pod nazwą Clear All Save Data) i ją wybierz
-1. Ponownie spróbuj exploit
+1. Spróbuj ponownie użyć exploit
 
 ## Black screen on SysNAND boot
 
