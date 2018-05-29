@@ -40,7 +40,7 @@ ___
 
 ___
 
-#### Installing boot9strap (Seedminer)
+#### 安裝 boot9strap (透過 Seedminer)
 
 This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
 
