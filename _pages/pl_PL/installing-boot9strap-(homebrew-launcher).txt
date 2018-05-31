@@ -39,5 +39,5 @@ If you have already hacked your device before and have a EmuNAND based CFW setup
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Kontynuuj do [Finalizowanie Instalacji](finalizing-setup)
 {: .notice--primary}
