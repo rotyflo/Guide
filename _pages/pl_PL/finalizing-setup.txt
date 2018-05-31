@@ -24,16 +24,16 @@ Podczas tego procesu zainstalujemy również takie programy jak:
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(the `.cia` file)*
 * The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} *(the `.cia` file)*
 * The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest){:target="_blank"}
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest){:target="_blank"}
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(the `.cia` and `.3dsx` files)*
 * The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest){:target="_blank"} *(the `.cia` file)*
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
-### Instructions
+### Instrukcje
 
-#### Section I - Prep Work
+#### Sekcja I - Przygotowanie
 
 1. Wyłącz konsolę
 1. Włóż kartę SD do komputera
@@ -41,7 +41,7 @@ Podczas tego procesu zainstalujemy również takie programy jak:
 1. Stwórz folder o nazwie `cias` w katalogu głównym karty SD, jeśli jeszcze nie istnieje
 1. Copy `FBI.3dsx` to the `/3ds/` folder on your SD card
 1. Copy `hblauncher_loader.cia` from the hblauncher_loader `.zip` to the `/cias/` folder on your SD card
-1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
+1. Skopiuj `lumaupdater.cia` do folderu `/cias/` na karcie SD
 1. Copy `FBI.cia` to the `/cias/` folder on your SD card
 1. Copy `DSP1.cia` to the `/cias/` folder on your SD card
 1. Copy `Anemone3DS.cia` to the `/cias/` folder on your SD card
@@ -51,10 +51,10 @@ Podczas tego procesu zainstalujemy również takie programy jak:
     {: .notice--info}
 
 1. Create a folder named `payloads` in the `luma` folder on your SD card if it does not already exist
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
+1. Skopiuj `GodMode9.firm` z GodMode9 `.zip` do folderu `/luma/payloads/` na karcie SD
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
+1. Skopiuj `setup_ctrnand_luma3ds.gm9` do folderu `/gm9/scripts/` na karcie SD
+1. Skopiuj `cleanup_sd_card.gm9` do folderu `/gm9/scripts/` na karcie SD
 
     ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }})
     {: .notice--info}
