@@ -49,7 +49,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 1. Press (A) to unlock SysNAND (lvl3) writing, then input the key combo given
 1. Naciśnij (A), aby kontynuować
 1. Press (A) to relock write permissions
-1. Press (Start) to reboot your device
+1. Wciśnij (Start), aby zrestartować konsolę
 
 ___
 
