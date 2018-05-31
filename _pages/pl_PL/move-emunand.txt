@@ -130,10 +130,10 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 #### Section VII - Backup SysNAND
 
 1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
+1. Wybierz "Scripts..."
 1. Select "Backup SysNAND"
 1. Naciśnij (A) aby potwierdzić
-  + This process will take some time
+  + Ten proces zajmie trochę czasu
 1. Naciśnij (A), aby kontynuować
 1. Przytrzymaj przycisk (R) i jednocześnie naciśnij przycisk (B), aby bezpiecznie wyjąć kartę SD
 1. Włóż kartę SD do komputera
@@ -161,7 +161,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Ensure you replace the `boot.firm` file on your SD card with the one from your backup
 1. Reinsert your SD card into your device
 1. Naciśnij przycisk (A), aby ponownie zamontować swoją kartę SD
-1. Press (Start) to reboot
+1. Naciśnij przycisk (Start) aby uruchomić konsolę ponownie
 1. Jeśli pojawi się pusty, czarny ekran, [przejdź do rozwiązywania problemów](troubleshooting#ts_sys_down)
 
 ___
