@@ -98,7 +98,7 @@ Wykonując wszystkie kroki opisane w tej sekcji, zastąp istniejące pliki na ka
   + **"Show NAND or user string in System Settings"**
 1. Naciśnij (Start) aby zapisać zmiany i uruchomić konsolę ponownie
 
-#### Section IV - Updating the System
+#### Sekcja IV - Aktualizacja Systemu
 
 Jeśli przed rozpoczęciem tego poradnika już miałeś skonfigurowane EmuNAND i chciałbyś przenieść zawartość swojego poprzedniego EmuNAND do twojego nowego SysNAND CFW, teraz powinieneś [przenieść EmuNAND](move-emunand) przed wykonaniem tej sekcji.
 {: .notice--info}
