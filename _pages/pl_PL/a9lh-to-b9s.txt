@@ -167,13 +167,13 @@ Zapamiętaj, że ten skrypt usunie foldery `/boot9strap/` i `/cias/`z twojej kar
 
 ___
 
-This fork of Luma3DS Updater allows for boot9strap compatibility by downloading and extracting the latest Luma3DS `boot.firm` for you.
+Ten Luma3DS Updater jest kompatybilny z boot9strap pobierając i rozpakowując najnowszy Luma3DS `boot.firm`.
 {: .notice--info}
 
 {% capture notice-6 %}   
-You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).    
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).
+Możesz dostać się do menu konfiguracji Luma3DS, przytrzymując (Select) podczas uruchamiania konsoli.    
+Możesz teraz dostać się do Luma3DS chainloader, przytrzymując (Start) podczas uruchamiania konsoli (menu to jest wyświetlane tylko wtedy, gdy zostanie wykryty więcej niż jeden payload).    
+Możesz teraz zrzucić bootrom ARM11 (`boot11.bin`), bootrom ARM9 (`boot9.bin`), i unikalny OTP konsoli (`OTP.bin`) do folderu `/boot9strap/` na karcie SD, przytrzymując (Start) + (Select) + (X) podczas uruchamiania konsoli (nie zostaniesz o tym poinformowany żadnym pytaniem czy wiadomością).
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
