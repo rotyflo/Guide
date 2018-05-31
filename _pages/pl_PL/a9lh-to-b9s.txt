@@ -72,50 +72,50 @@ Wykonując wszystkie kroki opisane w tej sekcji, zastąp istniejące pliki na ka
 1. Skopiuj `setup_ctrnand_luma3ds.gm9` do folderu `/gm9/scripts/` na karcie SD
 1. Skopiuj `cleanup_sd_card.gm9` do folderu `/gm9/scripts/` na karcie SD
 1. Skopiuj `SafeB9SInstaller.bin` z SafeB9SInstaller `.zip` do folderu `/luma/payloads/` na karcie SD
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. **New 3DS Users Only:** Copy `secret_sector.bin` to the `/boot9strap/` folder on your SD card
+1. Stwórz folder o nazwie `boot9strap` w katalogu głównym karty SD
+1. Skopiuj `boot9strap.firm` i `boot9strap.firm.sha` z boot9strap `.zip` do folderu `/boot9strap/` na karcie SD
+1. **Tylko użytkownicy New 3DS:** Skopiuj `secret_sector.bin` do folderu `/boot9strap/` na karcie SD
 
     ![]({{ "/images/screenshots/a9lh-to-b9s-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Włóż ponownie kartę SD do konsoli
 
-#### Section II - Installing boot9strap
+#### Sekcja II - Instalacja boot9strap
 
-1. Boot your device while holding (Start) to launch SafeB9SInstaller
-  + If you see the luma configuration screen instead of SafeB9SInstaller, simply press (Start), then shutdown your 3DS and try again
-  + If this gives you an error, try either using a new SD card, or formatting your current SD card (backup existing files first)
-1. Wait for all safety checks to complete
-  + If you get an "OTP Crypto Fail" error, download <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), then put it in the `/boot9strap/` folder on your SD card and try again
-1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device.
-  + If your device shuts down on boot, ensure that you have copied `boot.firm` from the Luma3DS `.7z` to the root of your SD card
+1. Włącz swoją konsolę trzymając (Start) aby uruchomić SafeB9SInstaller
+  * Jeśli widzisz ekran konfiguracji luma zamiast SafeB9SInstaller, wciśnij (Start), wyłącz 3DS'a i spróbuj ponownie
+  + Jeśli ujrzysz błąd, spróbuj ponownie albo używając nowej karty SD, albo formatując obecną kartę (najpierw zrób kopię zapasową jej plików)
+1. Poczekaj aż weryfikacja instalacji się zakończy
+  + Jeśli pojawi się błąd "OTP Crypto Fail", pobierz <i class="fa fa-magnet" aria-hidden="true" title="To jest magnet link. Użyj klienta torrent aby pobrać plik."></i> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), i umieść go w folderze `/boot9strap/`na twojej Karcie SD i spróbuj ponownie
+1. Kiedy zostaniesz poproszony, wprowadź podaną kombinację klawiszy aby zainstalować boot9strap
+1. Po zakończeniu, naciśnij (A), aby ponownie uruchomić urządzenie.
+  + Jeśli urządzenie wyłącza się podczas startu systemu, upewnij się, że skopiowałeś `boot.firm` z Luma3DS `.7z` do katalogu głównego karty SD
 
-#### Section III - Configuring Luma3DS
+#### Sekcja III - Konfiguracja Luma3DS
 
-1. In the Luma3DS configuration menu, use the (A) button and the D-Pad to turn on the following:    
+1. W menu konfiguracji Luma3DS użyj przycisku (A) i D-Pad'a, aby zaznaczyć:    
   + **"Show NAND or user string in System Settings"**
 1. Naciśnij (Start) aby zapisać zmiany i uruchomić konsolę ponownie
 
 #### Section IV - Updating the System
 
-If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
+Jeśli przed rozpoczęciem tego poradnika już miałeś skonfigurowane EmuNAND i chciałbyś przenieść zawartość swojego poprzedniego EmuNAND do twojego nowego SysNAND CFW, teraz powinieneś [przenieść EmuNAND](move-emunand) przed wykonaniem tej sekcji.
 {: .notice--info}
 
-1. Update your device by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
-  + Updates while using B9S + Luma (what you have) are safe
+1. Zaktualizuj swoją konsolę wchodząc w System Settings i "Other Settings". Następnie przejedź na sam koniec w prawo i użyj "System Update"
+  + Aktualizacje podczas używania B9S + Luma (tego co masz) są bezpieczne
   + Jeśli przy próbie aktualizacji pojawia się błąd, ustaw swoje DNS (w ustawieniach połączenia internetowego 3DS) na "auto"
-  + If this still gives you an error, [follow CTRTransfer](ctrtransfer), then try updating again
+  + Jeśli to dalej daje błąd, [wykonaj CTRTransfer](ctrtransfer), a potem spróbuj znowu zaktualizować
 
-#### Section V - Installing Luma3DS Updater
+#### Sekcja V - Instalacja Aktualizatora Luma3DS
 
-1. Launch System Settings
-1. Navigate to `Data Management` -> `Nintendo 3DS` -> `Software`
-1. Select your existing Luma3DS Updater
-1. Select the "Delete" option, then select "Delete Software and Save Data", then press "Delete" to confirm
-1. Press "Back" 3 times, then press (HOME) to return to the main menu
-1. Launch FBI
+1. Włącz "System Settings"
+1. Wejdz do `Data Management` -> `Nintendo 3DS` -> `Software`
+1. Wybierz istniejący Luma3DS Updater
+1. Wybierz opcję "Delete", następnie "Delete Software and Save Data", następnie "Delete" by potwierdzić
+1. Wciśnij "Back" trzy razy, a potem (HOME) aby wrócić do menu głównego
+1. Uruchom FBI
 1. Navigate to `SD` -> `cias`
 1. Select `lumaupdater.cia`
 1. Select the "Install CIA" option, then press (A) to confirm
