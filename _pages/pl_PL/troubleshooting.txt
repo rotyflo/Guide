@@ -40,7 +40,7 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 
 #### Section II - Installing titles
 
-1. Launch FBI
+1. Uruchom FBI
 1. Navigate to `SD` -> `cias`
 1. Wybierz "\<current directory>"
 1. Wybierz opcję "Install and delete all CIAs"
