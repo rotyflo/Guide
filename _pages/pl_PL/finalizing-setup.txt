@@ -1,5 +1,5 @@
 ---
-title: "Finalizing Setup"
+title: "Finalizowanie Instalacji"
 ---
 
 {% include toc title="Spis Treści" %}
