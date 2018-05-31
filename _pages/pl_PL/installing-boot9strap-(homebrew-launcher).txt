@@ -22,13 +22,13 @@ If you have already hacked your device before and have a EmuNAND based CFW setup
   + If it freezes, just force the console to power off by holding the power button, then try again
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
 
-#### Section II - Installing boot9strap
+#### Sekcja II - Instalacja boot9strap
 
 1. Wait for all safety checks to complete
 1. When prompted, input the key combo given to install boot9strap
 1. Once it has completed, press (A) to reboot your device
 
-#### Section III - Configuring Luma3DS
+#### Sekcja III - Konfiguracja Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
