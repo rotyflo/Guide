@@ -16,7 +16,7 @@ Ta strona dotyczy tylko użytkowników systemu Linux. Jeśli nie posiadasz Linux
 
 * Najnowszej wersji programu [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-### Instructions
+### Instrukcje
 
 1. Rozpakuj plik f3 `.zip`
 1. `cd` do katalogu f3
