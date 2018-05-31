@@ -78,7 +78,7 @@ If, before following this guide, you already had an EmuNAND setup and would like
   + Jeśli przy próbie aktualizacji pojawia się błąd, ustaw swoje DNS (w ustawieniach połączenia internetowego 3DS) na "auto"
   + If this still gives you an error, [follow CTRTransfer](ctrtransfer), then try updating again
 
-#### Section III - Launching FBI
+#### Sekcja III - Uruchamianie FBI
 
 1. Launch the Download Play application
 1. Press (L) + (Down) + (Select) at the same time to open the Rosalina menu
@@ -89,8 +89,8 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Press (B) to exit the Rosalina menu
 1. Press (Home), then close Download Play
 1. Launch the Download Play application
-1. Your device should load the Homebrew Launcher
-1. Launch FBI from the list of homebrew
+1. Twoja konsola powinna załadować Homebrew Launcher
+1. Uruchom FBI z listy Homebrew
 
 #### Section IV - Installing CIAs
 
