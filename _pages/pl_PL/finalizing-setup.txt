@@ -73,8 +73,8 @@ If, while following a previous version of this guide, you CTRTransfered your *Ne
 If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
 {: .notice--info}
 
-1. Update your device by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
-  + Updates while using B9S + Luma (what you have) are safe
+1. Zaktualizuj swoją konsolę wchodząc w System Settings i "Other Settings". Następnie przejedź na sam koniec w prawo i użyj "System Update"
+  + Aktualizacje podczas używania B9S + Luma (tego co masz) są bezpieczne
   + Jeśli przy próbie aktualizacji pojawia się błąd, ustaw swoje DNS (w ustawieniach połączenia internetowego 3DS) na "auto"
   + If this still gives you an error, [follow CTRTransfer](ctrtransfer), then try updating again
 
