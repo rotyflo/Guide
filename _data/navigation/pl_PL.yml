@@ -22,22 +22,22 @@ main:
     title: Rozwiązywanie Problemów
     url: troubleshooting
   - 
-    title: Region Changing
+    title: Zmiana Regionu Konsoli
     url: region-changing
   - 
-    title: GodMode9 Usage
+    title: Używanie GodMode9
     url: godmode9-usage
   - 
-    title: Site Navigation
+    title: Nawigacja Po Stronie
     url: site-navigation
   - 
-    title: Uninstall CFW
+    title: Odinstalowywanie CFW
     url: uninstall-cfw
 bottom:
   - 
     title: Aby uzyskać wsparcie w języku angielskim, wejdź na <a href="https://discord.gg/MWxPgEp">Serwer Nintendo Homebrew na Discordzie</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Jeśli cenisz sobie ten poradnik, akceptuję <a href="donations">Darowizny</a>.
 footer:
   - 
     title: Źródło
@@ -47,61 +47,61 @@ footer:
     title: Dlaczego reklamy?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Ogólny Postęp
 sidebar_pages:
   - 
     title: Strona główna
     url: /
   - 
-    title: Get Started
+    title: Wprowadzenie
     url: get-started
   - 
-    title: Get Started (New 3DS)
+    title: Wprowadzenie (New 3DS)
     url: get-started-(new-3ds)
   - 
-    title: Get Started (Old 3DS)
+    title: Wprowadzenie (Old 3DS)
     url: get-started-(old-3ds)
   - 
-    title: Cart Update
+    title: Aktualizacja z Kartridża
     url: cart-update
   - 
     title: ntrboot
     url: ntrboot
   - 
-    title: Installing boot9strap (DSiWare)
+    title: Instalacja boot9strap (DSiWare)
     url: installing-boot9strap-(dsiware)
   - 
-    title: Multiple Options
+    title: Wiele Opcji
     url: multiple-options
   - 
-    title: Flashing ntrboot (3DS Single System)
+    title: Wgrywanie ntrboot (Pojedynczy System 3DS)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: Flashing ntrboot (3DS Multi System)
+    title: Wgrywanie ntrboot (Kilka Systemów 3DS)
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: Flashing ntrboot (DSi)
+    title: Wgrywanie ntrboot (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: Flashing ntrboot (NDS)
+    title: Wgrywanie ntrboot (NDS)
     url: flashing-ntrboot-(nds)
   - 
-    title: Flashing ntrboot (Powersaves)
+    title: Wgrywanie ntrboot (Powersaves)
     url: flashing-ntrboot-(powersaves)
   - 
     title: Homebrew Launcher (Soundhax)
     url: homebrew-launcher-(soundhax)
   - 
-    title: Homebrew Launcher (Alternatives)
+    title: Homebrew Launcher (Alternatywy)
     url: homebrew-launcher-(alternatives)
   - 
-    title: NTR and Cubic Ninja
+    title: NTR i Cubic Ninja
     url: ntr-and-cubic-ninja
   - 
-    title: Installing boot9strap (2xrsa)
+    title: Instalacja boot9strap (2xrsa)
     url: installing-boot9strap-(2xrsa)
   - 
-    title: Installing boot9strap (Browser)
+    title: Instalacja boot9strap (Przeglądarka)
     url: installing-boot9strap-(browser)
   - 
     title: Installing boot9strap (DSiWare Game Injection)
