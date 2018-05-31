@@ -19,9 +19,9 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 
-### Instructions
+### Instrukcje
 
-#### Section I - Prep Work
+#### Sekcja I - Przygotowanie
 
 1. Wyłącz konsolę
 1. Insert your device's SD card into your computer
