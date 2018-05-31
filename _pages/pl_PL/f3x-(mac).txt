@@ -33,5 +33,5 @@ Jeśli test pokazuje wynik `Success! Your card is ok!` your SD card is good and 
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona i może być konieczna jej wymiana!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Powróć do [Wprowadzenie](get-started)
 {: .notice--primary}
