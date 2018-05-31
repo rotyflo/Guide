@@ -171,17 +171,17 @@ Możesz teraz nacisnąć (L) + (Dół) + (Select) kiedy system jest uruchomiony 
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-To use [NTR CFW](https://github.com/44670/BootNTR/), install [BootNTR Selector](https://gbatemp.net/threads/432911/).
+Aby używać [NTR CFW](https://github.com/44670/BootNTR/), zainstaluj [BootNTR Selector](https://gbatemp.net/threads/432911/).
 {: .notice--info}
 
-Aby uzyskać informacje na ten temat zmiany regionu twojej konsoli, odwiedź stronę [Zmiana regionu](region-changing).
+Aby uzyskać informacje na ten temat zmiany regionu twojej konsoli, odwiedź stronę [Zmiana Regionu Konsoli](region-changing).
 {: .notice--success}
 
-For information on using GodMode9's various features, check out the [GodMode9 Usage](godmode9-usage) page.
+Aby uzyskać informacje na temat korzystania z różnych funkcji GodMode9, sprawdź stronę [Używanie GodMode9](godmode9-usage).
 {: .notice--success}
 
 Aby uzyskać informacje o użytkowaniu różnych funkcji Luma3DS, odwiedź [jej wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
 {: .notice--success}
 
-For information on installing custom themes and splash screens, check out [Theme Plaza](https://themeplaza.eu/).
+Aby uzyskać informacje na temat instalowania niestandardowych motywów i ekranów powitalnych, sprawdź [Theme Plaza](https://themeplaza.eu/).
 {: .notice--success}
