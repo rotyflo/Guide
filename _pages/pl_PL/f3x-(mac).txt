@@ -16,7 +16,7 @@ Ta strona dotyczy tylko użytkowników systemu Mac. Jeśli nie posiadasz kompute
 
 * The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest){:target="_blank"}
 
-### Instructions
+### Instrukcje
 
 1. Rozpakuj plik F3X `.zip`
 1. Włóż kartę SD do komputera
