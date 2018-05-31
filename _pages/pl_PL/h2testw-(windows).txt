@@ -16,7 +16,7 @@ Ta strona dotyczy tylko użytkowników systemu Windows. Jeśli nie korzystasz z 
 
 * Najnowszej wersji programu [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-### Instructions
+### Instrukcje
 
 1. Skopiuj `h2testw.exe` z archiwum h2testw `.zip` np. na Pulpit
 1. Włóż kartę SD do komputera
