@@ -1,25 +1,25 @@
 ---
 main:
   - 
-    title: Home
+    title: Strona główna
     url: /
   - 
     title: Często zadawane pytania (FAQ)
     url: faq
   - 
-    title: Donations
+    title: Darowizny
     url: donations
   - 
-    title: Credits
+    title: Współautorzy
     url: credits
   - 
-    title: Updating B9S
+    title: Aktualizowanie B9S
     url: updating-b9s
   - 
-    title: A9LH to B9S
+    title: A9LH do B9S
     url: a9lh-to-b9s
   - 
-    title: Troubleshooting
+    title: Rozwiązywanie Problemów
     url: troubleshooting
   - 
     title: Region Changing
@@ -35,7 +35,7 @@ main:
     url: uninstall-cfw
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Aby uzyskać wsparcie w języku angielskim, wejdź na <a href="https://discord.gg/MWxPgEp">Serwer Nintendo Homebrew na Discordzie</a>.
   - 
     title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
 footer:
@@ -50,7 +50,7 @@ sidebar_title:
     title: Overall Progress
 sidebar_pages:
   - 
-    title: Home
+    title: Strona główna
     url: /
   - 
     title: Get Started
