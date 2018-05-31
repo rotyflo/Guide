@@ -10,7 +10,7 @@ This is an add-on section for moving the contents of a previous EmuNAND to your 
 
 Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions.
 
-You MUST have already installed Luma3DS and boot9strap to use this.
+MUSISZ mieć już zainstalowany Luma3DS i boot9strap żeby to wykonać.
 {: .notice--danger}
 
 ### What You Need
