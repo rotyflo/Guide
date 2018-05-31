@@ -52,7 +52,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
 1. Reinsert your SD card into your device
 
-#### Section II - Installing boot9strap
+#### Sekcja II - Instalacja boot9strap
 
 1. Launch Luma3DS chainloader menu by holding (Start) during boot
 1. Launch SafeB9SInstaller by pressing (A)
