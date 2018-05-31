@@ -58,11 +58,11 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
   + **The Legend of Zelda: Four Swords USA Region**: `4b513945`  
 1. Reinsert **the source 3DS**'s SD card
 1. Boot **the source 3DS** while holding (Start) to launch GodMode9
-1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
+1. Wciśnij (Home), aby przywołać menu akcji
+1. Wybierz "Scripts..."
 1. Select "Backup SysNAND"
 1. Naciśnij (A) aby potwierdzić
-  + This process will take some time
+  + Ten proces zajmie trochę czasu
 1. Naciśnij (A), aby kontynuować
 1. Hold (R) and press (B) at the same time to eject **the source 3DS**'s SD card
 1. Put **the source 3DS**'s SD card into your computer
@@ -140,7 +140,7 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Press (A) to unlock SysNAND overwriting, then input the key combo given
   + This will not overwrite your boot9strap installation
 1. Input the key combo given to unlock SysNAND (lvl1) writing
-  + This process will take some time
+  + Ten proces zajmie trochę czasu
 1. Once it has completed, press (A) to continue
 1. Press (A) to relock write permissions if prompted
 1. Press (Start) to reboot **the source 3DS**
