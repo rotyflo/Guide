@@ -234,4 +234,4 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
 1. Naciśnij (A), aby kontynuować
 1. Press (A) to relock write permissions
-1. Press (Start) to reboot your device
+1. Wciśnij (Start), aby zrestartować konsolę
