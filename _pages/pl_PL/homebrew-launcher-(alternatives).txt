@@ -39,7 +39,7 @@ Aby wyodrębnić pliki `.7z` załączone na tej stronie, będziesz potrzebować 
     ![]({{ "/images/screenshots/boot9strap-hb-file-layout.png" | absolute_url }})
     {: .notice--info}
     
-1. Reinsert your SD card into your device
+1. Włóż kartę SD do konsoli
 1. Włącz konsolę
 1. Use one of the following alternate entrypoints to get into the Homebrew Launcher:
 
