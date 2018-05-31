@@ -69,7 +69,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
 1. Naciśnij (A), aby kontynuować
 1. Press (A) to relock write permissions
-1. Press (Start) to reboot your device
+1. Wciśnij (Start), aby zrestartować konsolę
 
 ## Cannot inject H&S on Gateway downgraded device
 
@@ -98,7 +98,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 1. Naciśnij (Y) żeby wkleić pliki
 1. Wybierz "Move path(s)"
 1. Pliki z rozszerzeniami napisanymi wielkimi literami (`.TMD` i `.APP`), zostaną przeniesione do katalogu `newdir`
-1. Press (Start) to reboot your device
+1. Wciśnij (Start), aby zrestartować konsolę
 1. Retry the H&S injection
 1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then retry the H&S injection
 
@@ -136,7 +136,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
         1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
         1. Naciśnij (A), aby kontynuować
         1. Press (A) to relock write permissions
-        1. Press (Start) to reboot your device
+        1. Wciśnij (Start), aby zrestartować konsolę
 1. Spróbuj uruchomić konsolę bez żadnego kartridżu (dotyczy to również flashcartów)
 1. If you have a hardmod and a NAND backup, flash the backup back to SysNAND
 1. Try booting into recovery mode and updating your system
@@ -185,7 +185,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
     1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
     1. Naciśnij (A), aby kontynuować
     1. Press (A) to relock write permissions
-    1. Press (Start) to reboot your device
+    1. Wciśnij (Start), aby zrestartować konsolę
 1. Spróbuj uruchomić konsolę bez żadnego kartridżu (dotyczy to również flashcartów)
 1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version
 1. Try following [CTRTransfer](ctrtransfer)
