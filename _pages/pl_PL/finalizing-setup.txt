@@ -141,7 +141,7 @@ Jeśli przed rozpoczęciem tego poradnika już miałeś skonfigurowane EmuNAND i
 1. Wciśnij (Home), aby przywołać menu akcji
 1. Wybierz "Scripts..."
 1. Wybierz "cleanup_sd_card"
-1. When prompted, press (A) to proceed
+1. Kiedy zostaniesz poproszony, naciśnij (A) aby kontynuować
 1. Naciśnij (A), aby kontynuować
 1. Naciśnij przycisk (Start) aby uruchomić konsolę ponownie
 
@@ -152,21 +152,21 @@ Teraz możesz używać Luma3DS Updater aby aktualizować Luma3DS do najnowszej w
 
 To nie jest to samo co System Update; Luma3DS Updater pobiera i wypakowuje wyłącznie najnowsze pliki Luma3DS.
 
-This will only update the Luma3DS files on your SD card. If you boot your device without an SD card, it will use the version you placed in CTRNAND.    
+To zaktualizuje wyłącznie pliki Luma3DS na twojej karcie SD. Jeśli włączysz konsole bez karty SD, użyje ostatniej wersji którą umieściłeś w CTRNAND.    
 {% endcapture %}
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
 
 {% capture notice-6 %}   
-You will now boot Luma3DS CFW SysNAND by default.    
+Teraz Luma3DS CFW SysNAND będzie uruchamiany domyślnie.    
 
-Zawsze możesz dostać się do menu konfiguracji Luma3DS, przytrzymując (Select) podczas uruchamiania konsoli.    
+Możesz dostać się do menu konfiguracji Luma3DS, przytrzymując (Select) podczas uruchamiania konsoli.    
 
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).    
+Możesz teraz dostać się do menu Luma3DS chainloader, przytrzymując (Start) podczas uruchamiania konsoli (menu to jest wyświetlane tylko wtedy, gdy zostanie wykryty więcej niż jeden payload).    
 
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).    
+Możesz teraz zrzucić bootrom ARM11 (`boot11.bin`), bootrom ARM9 (`boot9.bin`), i unikalny OTP konsoli (`OTP.bin`) do folderu `/boot9strap/` na twojej karcie SD, przytrzymując (Start) + (Select) + (X) podczas uruchamiania konsoli (nie zostaniesz o tym poinformowany żadnym pytaniem czy wiadomością).    
 
-You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+Możesz teraz nacisnąć (L) + (Dół) + (Select) kiedy system jest uruchomiony aby otworzyć menu Rosalina zintegrowane z Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
