@@ -72,7 +72,7 @@ This will work on New 3DS, New 2DS, Old 3DS, and Old 2DS on *all* versions that 
 1. Use your hardmod to create a NAND backup 
 1. Move your NAND backup to the hardmod-b9s-installer folder on your computer and rename it to `NAND.bin`
 
-#### Section II - Installing boot9strap
+#### Sekcja II - Instalacja boot9strap
 
 1. Run hardmod-b9s-installer
   + Windows Users: Run `install-b9s.exe`
@@ -82,7 +82,7 @@ This will work on New 3DS, New 2DS, Old 3DS, and Old 2DS on *all* versions that 
 1. Disconnect your hardmod
 1. Włącz konsolę
 
-#### Section III - Configuring Luma3DS
+#### Sekcja III - Konfiguracja Luma3DS
 
 1. Your device should have booted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
