@@ -33,7 +33,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
     ![]({{ "/images/screenshots/boot9strap-mset-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Włóż kartę SD do konsoli
 1. Copy `SafeB9SInstaller.nds` from the SafeB9SInstaller `.zip` to your DS flashcart
 1. Włącz konsolę
 
