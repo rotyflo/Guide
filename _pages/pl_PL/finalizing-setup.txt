@@ -62,7 +62,7 @@ Podczas tego procesu zainstalujemy również takie programy jak:
     Note that, depending on the method used to install boot9strap, your device's SD card may not have the `soundhax-usa-n3ds.m4a`, `otherapp.bin`, or `safehaxpayload.bin` files from the above screenshot.
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Włóż kartę SD do konsoli
 1. Włącz konsolę
 
 #### Section II - Updating the System
@@ -104,46 +104,46 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Launch the DSP1 application
 1. Once it has completed, press (B) to self-delete the app and return to the home menu
 
-#### Section VI - CTRNAND Luma3DS
+#### Sekcja VI - CTRNAND Luma3DS
 
 1. Wyłącz konsolę
 1. Launch GodMode9 by holding (Start) during boot
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
-1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
+1. Wciśnij (Home), aby przywołać menu akcji
+1. Wybierz "Scripts..."
+1. Wybierz "setup_ctrnand_luma3ds"
 1. When prompted, press (A) to proceed
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. Wciśnij (A), aby odblokować zapis do SysNAND (lvl1), a następnie wprowadź przedstawioną kombinację przycisków
 1. Naciśnij (A), aby kontynuować
 1. Press (A) to relock write permissions
 
-#### Section VII - Backup Essential Files
+#### Sekcja VII - Kopia Zapasowa Niezbędnych Plików
 
-1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
+1. Wciśnij (Home), aby przywołać menu akcji
+1. Wybierz "Scripts..."
 1. Select "Backup SysNAND"
 1. Naciśnij (A) aby potwierdzić
-  + This process will take some time
-  + If you get an error, make sure that you have at least 1.2GB to 1.3GB of free space on your SD card
+  + Ten proces zajmie trochę czasu
+  + Jeśli otrzymasz błąd, upewnij się że masz przynajmniej 1.2GB do 1.3GB wolnego miejsca na karcie SD
 1. Naciśnij (A), aby kontynuować
 1. Przytrzymaj przycisk (R) i jednocześnie naciśnij przycisk (B), aby bezpiecznie wyjąć kartę SD
 1. Włóż kartę SD do komputera
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
-1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
-1. Reinsert your SD card into your device
+1. Usuń `<date>_<serialnumber>_sysnand_###.bin` i `<date>_<serialnumber>_sysnand_###.bin.sha` z folderu `/gm9/out/` na twojej karcie SD po skopiowaniu ich do komputera
+1. Włóż kartę SD do konsoli
 
-#### Section VIII - Cleanup SD Card
+#### Sekcja VIII - Czyszczenie Karty SD
 
-1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "cleanup_sd_card"
+1. Wciśnij (Home), aby przywołać menu akcji
+1. Wybierz "Scripts..."
+1. Wybierz "cleanup_sd_card"
 1. When prompted, press (A) to proceed
 1. Naciśnij (A), aby kontynuować
-1. Press (Start) to reboot
+1. Naciśnij przycisk (Start) aby uruchomić konsolę ponownie
 
 ___
 
