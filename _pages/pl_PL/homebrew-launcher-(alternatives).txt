@@ -74,7 +74,7 @@ Aby wyodrębnić pliki `.7z` załączone na tej stronie, będziesz potrzebować 
     </script>
     <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
 
-1. Your device should load the Homebrew Launcher
+1. Twoja konsola powinna załadować Homebrew Launcher
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
