@@ -74,8 +74,8 @@ You MUST have already installed Luma3DS and boot9strap to use this.
 1. Once the transfer has completed, press (A) to continue
 1. Press (B) to decline relocking write permissions if prompted
 1. Press (B) twice to return to the main menu
-1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
+1. Wciśnij (Home), aby przywołać menu akcji
+1. Wybierz "Scripts..."
 1. Select "ctrtransfer_ticket_copy"
 1. When prompted, press (A) to proceed
 1. Naciśnij (A), aby kontynuować
@@ -116,7 +116,7 @@ If script found no user tickets told you to skip this section, then skip this se
   + Wait. Przez chwilę system może wydawać się zawieszony.
   + Press (A) to confirm
   + Press (B) to decline installing tickets from CDN.
-1. Press (Home) to exit FBI
+1. Wciśnij (Home), aby wyjść z FBI
 
 #### Section V - Region settings
 
