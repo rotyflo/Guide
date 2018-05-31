@@ -50,59 +50,59 @@ Podczas tego procesu zainstalujemy również takie programy jak:
     ![]({{ "/images/screenshots/cias-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Create a folder named `payloads` in the `luma` folder on your SD card if it does not already exist
+1. Stwórz folder o nazwie `payloads` w folderze `luma` na twojej karcie SD jeśli nie istnieje
 1. Skopiuj `GodMode9.firm` z GodMode9 `.zip` do folderu `/luma/payloads/` na karcie SD
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
+1. Skopiuj folder `gm9` z GodMode9 `.zip` do katalogu głównego na karcie SD
 1. Skopiuj `setup_ctrnand_luma3ds.gm9` do folderu `/gm9/scripts/` na karcie SD
 1. Skopiuj `cleanup_sd_card.gm9` do folderu `/gm9/scripts/` na karcie SD
 
     ![]({{ "/images/screenshots/finalizing-setup-file-layout.png" | absolute_url }})
     {: .notice--info}
     
-    Note that, depending on the method used to install boot9strap, your device's SD card may not have the `soundhax-usa-n3ds.m4a`, `otherapp.bin`, or `safehaxpayload.bin` files from the above screenshot.
+    Zauważ, że w zależności od metody użytej do instalacji boot9strap, karta SD twojego urządzenia może nie mieć plików `soundhax-usa-n3ds.m4a`,` otherapp.bin` lub `safehaxpayload.bin` z powyższego zrzutu ekranu.
     {: .notice--info}
 
 1. Włóż kartę SD do konsoli
 1. Włącz konsolę
 
-#### Section II - Updating the System
+#### Sekcja II - Aktualizacja Systemu
 
-If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, now is the time to [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before doing this section.
+Jeśli, wykonując poprzednią wersję tego poradnika, wykonałeś CTRTransfer dla *New 3DS * do wersji 2.1.0, teraz jest czas na [przywrócenie kopii zapasowej NAND](godmode9-usage#restoring-a-nand-backup) przed wykonaniem tej sekcji.
 {: .notice--danger}
 
-If, before following this guide, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
+Jeśli przed rozpoczęciem tego poradnika już miałeś skonfigurowane EmuNAND i chciałbyś przenieść zawartość swojego poprzedniego EmuNAND do twojego nowego SysNAND CFW, teraz powinieneś [przenieść EmuNAND](move-emunand) przed wykonaniem tej sekcji.
 {: .notice--info}
 
 1. Zaktualizuj swoją konsolę wchodząc w System Settings i "Other Settings". Następnie przejedź na sam koniec w prawo i użyj "System Update"
   + Aktualizacje podczas używania B9S + Luma (tego co masz) są bezpieczne
   + Jeśli przy próbie aktualizacji pojawia się błąd, ustaw swoje DNS (w ustawieniach połączenia internetowego 3DS) na "auto"
-  + If this still gives you an error, [follow CTRTransfer](ctrtransfer), then try updating again
+  + Jeśli dalej otrzymujesz błąd, [wykonaj CTRTransfer](ctrtransfer), a potem spróbuj ponownie zaktualizować
 
 #### Sekcja III - Uruchamianie FBI
 
-1. Launch the Download Play application
-1. Press (L) + (Down) + (Select) at the same time to open the Rosalina menu
-1. Select "Miscellaneous options"
-1. Select "Switch the hb. title to the current app."
-1. Press (B) to continue
-1. Press (B) to return to the Rosalina main menu
-1. Press (B) to exit the Rosalina menu
-1. Press (Home), then close Download Play
-1. Launch the Download Play application
+1. Uruchom aplikację Download Play
+1. Naciśnij w tym samym momencie (L) + (Dół) + (Select) aby otworzyć menu Rosalina
+1. Wybierz "Miscellaneous options"
+1. Wybierz "Switch the hb. title to the current app."
+1. Naciśnij (B) aby kontynuować
+1. Naciśnij (B) aby powrócić do głównego menu Rosalina
+1. Naciśnij (B) aby zamknąć menu Rosalina
+1. Naciśnij (Home), a następnie zamknij aplikację Download Play
+1. Uruchom aplikację Download Play ponownie
 1. Twoja konsola powinna załadować Homebrew Launcher
 1. Uruchom FBI z listy Homebrew
 
-#### Section IV - Installing CIAs
+#### Sekcja IV - Instalowanie CIA
 
-1. Navigate to `SD` -> `cias`
+1. Przejdź do `SD` -> `cias`
 1. Wybierz "\<current directory>"
-1. Select the "Install and delete all CIAs" option, then press (A) to confirm
-1. Press (Home), then close Download Play
+1. Wybierz opcję "Install and delete all CIAs", a następnie naciśnij (A) aby potwierdzić
+1. Naciśnij (Home), a następnie zamknij aplikację Download Play
 
-#### Section V - DSP Dump
+#### Sekcja V - DSP Dump
 
-1. Launch the DSP1 application
-1. Once it has completed, press (B) to self-delete the app and return to the home menu
+1. Uruchom aplikację DSP1
+1. Po zakończeniu, naciśnij przycisk (B) aby automatycznie usunąć aplikację i powrócić do głównego menu
 
 #### Sekcja VI - CTRNAND Luma3DS
 
