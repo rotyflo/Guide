@@ -4,22 +4,22 @@ title: "Finalizowanie Instalacji"
 
 {% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
-The file `boot.firm` is what is launched by boot9strap itself after it finishes loading off of NAND, and can be any valid arm9 payload in the FIRM format. This file can be replaced at any time, although Luma3DS allows for the launch of other arm9 payloads in the FIRM format using the Luma3DS chainloader.
+"boot.firm" to plik, który jest uruchamiany przez boot9strap po wczytaniu NANDu, i może być każdym payload'em w formacie FIRM. Plik ten może być podmieniony w każdej chwili, jednak Luma3DS pozwala na uruchomienie innych payload'ów arm9 w formacie FIRM używając Chainloadera Luma3DS.
 
-In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/) to boot a patched SysNAND directly, allowing us to completely bypass the need for any kind of EmuNAND, vastly simplifying the usage of a hacked 3DS in addition to saving SD card space.
+W naszym przypadku, używamy Luma3DS autorstwa [AuroraWright](https://github.com/AuroraWright/) do bezpośredniego uruchomienia zmodyfikowanego SysNAND, co pozwala na zupełną rezygnację z korzystania z EmuNAND i znacznie upraszcza obsługę przerobionego 3DS'a oraz zużywa znacznie mniej miejsca na karcie SD.
 
 Podczas tego procesu zainstalujemy również takie programy jak:    
 
-+ **FBI** *(instaluje gry i programy w formacie CIA)*
-+  **Anemone3DS** *(installs custom themes)*
-+  **Checkpoint** *(backs up and restores save files for 3DS and DS games)*
-+ **Luma3DS Updater** *(narzędzie do łatwej aktualizacji twojego CFW)*
-+  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
-+  **Homebrew Launcher Loader** *(launches the Homebrew Launcher)*
++  **FBI** *(instaluje gry i programy w formacie CIA)*
++  **Anemone3DS** *(instaluje niestandardowe motywy)*
++  **Checkpoint** *(tworzenie kopii zapasowych gier 3DS i DS oraz ich przywracanie)*
++  **Luma3DS Updater** *(narzędzie do łatwej aktualizacji twojego CFW)*
++  **GodMode9** *(wielozadaniowe narzędzie do NAND i kartridżów)*
++  **Homebrew Launcher Loader** *(uruchamia Homebrew Launcher)*
 
-### What You Need
+### Czego Potrzebujesz
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest){:target="_blank"} *(the `.cia` file)*
 * The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"} *(the `.cia` file)*
