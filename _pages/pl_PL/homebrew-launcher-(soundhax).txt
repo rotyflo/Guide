@@ -34,7 +34,7 @@ This means that using a cartridge update from a version containing an older Nint
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
 * The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
 
-### Instructions
+### Instrukcje
 
 1. Power off your device
 1. Włóż kartę SD do komputera
