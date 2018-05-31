@@ -85,7 +85,7 @@ MUSISZ mieć już zainstalowany Luma3DS i boot9strap żeby to wykonać.
   + Aktualizacje podczas używania B9S + Luma (tego co masz) są bezpieczne
   + Jeśli przy próbie aktualizacji pojawia się błąd, ustaw swoje DNS (w ustawieniach połączenia internetowego 3DS) na "auto"
 
-#### Section III - Launching FBI
+#### Sekcja III - Uruchamianie FBI
 
 1. Launch the Download Play application
 1. Press (L) + (Down) + (Select) at the same time to open the Rosalina menu
@@ -96,26 +96,26 @@ MUSISZ mieć już zainstalowany Luma3DS i boot9strap żeby to wykonać.
 1. Press (B) to exit the Rosalina menu
 1. Press (Home), then close Download Play
 1. Launch the Download Play application
-1. Your device should load the Homebrew Launcher
+1. Twoja konsola powinna załadować Homebrew Launcher
 
-#### Section IV - Reinstalling Tickets
+#### Sekcja IV - Ponowna Instalacja Ticketów
 
-If script found no user tickets told you to skip this section, then skip this section
+Jeżeli skrypt nie znalazł `user tickets` oraz powiedział aby pominąć tą sekcję, pomiń tą sekcję
 {: .notice--info}
 
-1. Launch FBI from the list of homebrew
-1. Navigate to `SD` -> `cias`
-1. Return to the SD directory with (B)
-1. Select "gm9"
-1. Select "out"
-1. Select "ctrtransfer_tickets"
+1. Uruchom FBI z listy Homebrew
+1. Przejdź do `SD` -> `cias`
+1. Wróć do katalogu SD naciskając (B)
+1. Wybierz "gm9"
+1. Wybierz "out"
+1. Wybierz "ctrtransfer_tickets"
 1. Do the following process for either the `eshop` folder, `unknown` folder, or both
-  + Navigate to the folder
-  + Select "\<current directory>"
-  + Select "Install and delete all tickets"
-  + Wait. Przez chwilę system może wydawać się zawieszony.
-  + Press (A) to confirm
-  + Press (B) to decline installing tickets from CDN.
+  + Przejdź do folderu
+  + Wybierz "\<current directory>"
+  + Wybierz "Install and delete all tickets"
+  + Czekaj. Przez chwilę system może wydawać się zawieszony.
+  + Wciśnij (A), aby potwierdzić
+  + Wciśnij (B), aby odrzucić instalacje ticketów z CDN.
 1. Wciśnij (Home), aby wyjść z FBI
 
 #### Section V - Region settings
@@ -130,7 +130,7 @@ If script found no user tickets told you to skip this section, then skip this se
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Przejdź do `[0:] SDCARD` -> `gm9`
-1. Press (X) on the CTRTransfer image `.bin` to delete it
+1. Wciśnij (X) na pliku obrazu CTRTransfer `.bin`, aby go usunąć
 1. Naciśnij (A) by potwierdzić
 1. Wciśnij (Start), aby zrestartować konsolę
 
