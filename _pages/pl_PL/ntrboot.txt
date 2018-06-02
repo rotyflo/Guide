@@ -7,7 +7,7 @@ title: "ntrboot"
 If you have already flashed ntrboot to your flashcart or your flashcart comes pre-flashed with ntrboot, you can skip to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) for instructions on how to use it.
 {: .notice--success}
 
-### Required Reading
+### Wymagana Lektura
 
 Installing boot9strap with ntrboot requires a compatible NDS / DSi flashcart to flash ntrboot to. Note that some of these flashcarts are sold pre-flashed with ntrboot.
 
@@ -68,7 +68,7 @@ ___
 
 #### Flashing ntrboot (3DS Multi System)
 
-This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version. See the flashcart table above for more information.
+This method requires temporary access to a second 3DS family device that is already running boot9strap. Dzięki tej metodzie flashcart nie musi obsługiwać wersji systemu żadnego 3DS'a. See the flashcart table above for more information.
 
 Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
 {: .notice--primary}
