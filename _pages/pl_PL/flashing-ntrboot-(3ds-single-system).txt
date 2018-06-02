@@ -30,14 +30,14 @@ Zauważ, że w niektórych rzadkich przypadkach proces wgrywania ntrboot na podr
 
 #### Sekcja II - Wgrywanie ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on your device using your flashcart
+1. Uruchom plik `ds_ntrboot_flasher_dsi.nds` na twoim 3DSie używając flashcarta (tak samo jakbyś uruchamiał grę w formacie `.nds`)
 1. Naciśnij (A), aby kontynuować
-1. Use (Up) and (Down) to select your flashcart
+1. Użyj przycisków (Góra) i (Dół) na D-Padzie aby wybrać model swojego flashcarta
 1. Naciśnij (A), aby kontynuować
-1. Press (A) to "inject ntrboothax"
-1. Press (A) to select "RETAIL"
+1. Wciśnij (A) aby wybrać "inject ntrboothax"
+1. Wciśnij (A) aby wybrać "RETAIL"
 1. Naciśnij (A), aby kontynuować
-1. Select "EXIT"
+1. Wybierz "EXIT"
 
 ___
 
