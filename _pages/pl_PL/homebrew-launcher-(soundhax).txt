@@ -4,7 +4,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 {% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 Homebrew Launcher ma wiele punktów wejścia - sposobów na jego uruchomienie.
 
