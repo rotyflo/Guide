@@ -6,11 +6,11 @@ title: "Flashing ntrboot (DSi)"
 
 ### Wymagana Lektura
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Zanim przejdziesz dalej, upewnij się że przeczytałeś wszystkie informacje o [ntrboot](ntrboot)
 
 This method requires temporary access to a Nintendo DSi that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your NDS. This means that your flashcart must support launching `.nds` files on your NDS's version. Zobacz tabelę flashcart na [ntrboot](ntrboot), aby uzyskać więcej informacji.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Zauważ, że w niektórych rzadkich przypadkach proces wgrywania ntrboot na podrobiony flashcart może go **"zbrickować"** i permanentnie uszkodzić. Jest to mało prawdopodobne, ale jednak tylko wymienione oryginalne flashcart'y są obsługiwane. Aby zmniejszyć prawdopodobieństwo otrzymania podrobionego flashcarta, zaleca się korzystanie z renomowanej strony do ich kupowania (takiej jak [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ### What You Need
