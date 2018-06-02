@@ -4,7 +4,7 @@ title: "Get Started"
 
 {% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 Different device models and versions will require different steps to achieve the end goal of boot9strap Custom Firmware. Ta strona pomoże ci w określeniu, od czego rozpocząć w wypadku twojej konsoli.
 
