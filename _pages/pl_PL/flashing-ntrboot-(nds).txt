@@ -4,7 +4,7 @@ title: "Flashing ntrboot (NDS)"
 
 {% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
 
@@ -15,7 +15,7 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 
 ### What You Need
 
-* Your ntrboot compatible flashcart
+* Twojego kompatybilnego z ntrboot flashcarta DS / DSi
 * Two devices 
   + **The source NDS / NDSL**: the Nintendo DS or Nintendo DS Lite which is compatible with your flashcart
   + **The target 3DS**: the 3DS family device on stock firmware
