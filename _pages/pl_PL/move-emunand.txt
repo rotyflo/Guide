@@ -4,7 +4,7 @@ title: "Move EmuNAND"
 
 {% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
 This is an add-on section for moving the contents of a previous EmuNAND to your new SysNAND CFW, then removing the old EmuNAND partition. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
 
@@ -80,7 +80,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + This process will take some time
 1. Once it has completed, press (A) to continue
 1. Press (B) to decline relocking write permissions if prompted
-1. Press (B) to return to the main menu
+1. Wciśnij (B) aby wrócić do menu głównego
 
 #### Section V - Restore DSiWare Saves
 
