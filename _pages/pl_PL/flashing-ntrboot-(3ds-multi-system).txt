@@ -1,22 +1,22 @@
 ---
-title: "Flashing ntrboot (3DS Multi System)"
+title: "Wgrywanie ntrboot (Kilka Systemów 3DS)"
 ---
 
 {% include toc title="Spis Treści" %}
 
-### Required Reading
+### Wymagana Lektura
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Zanim przejdziesz dalej, upewnij się że przeczytałeś wszystkie informacje o [ntrboot](ntrboot)
 
-This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+Ta metoda wymaga tymczasowego dostępu do drugiego urządzenia rodziny 3DS, na którym zainstalowany jest już boot9strap. Dzięki tej metodzie flashcart nie musi obsługiwać wersji systemu żadnego 3DS'a. Zobacz tabelę flashcart na [ntrboot](ntrboot), aby uzyskać więcej informacji.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Zauważ, że w niektórych rzadkich przypadkach proces wgrywania ntrboot na podrobiony flashcart może go **"zbrickować"** i permanentnie uszkodzić. Jest to mało prawdopodobne, ale jednak tylko wymienione oryginalne flashcart'y są obsługiwane. Aby zmniejszyć prawdopodobieństwo otrzymania podrobionego flashcarta, zaleca się korzystanie z renomowanej strony do ich kupowania (takiej jak [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What You Need
+### Czego Potrzebujesz
 
-* Your ntrboot compatible flashcart
-* Two 3DS family devices 
+* Twojego kompatybilnego z ntrboot flashcarta DS / DSi
+* Dwóch urządzeń z rodziny 3DS 
   + **The source 3DS**: the 3DS family device that is already running boot9strap
   + **The target 3DS**: the device on stock firmware
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(`ntr` boot9strap; not the `devkit` file)*
