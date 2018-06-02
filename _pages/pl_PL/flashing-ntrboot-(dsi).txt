@@ -35,12 +35,12 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 
 1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source DSi** using your flashcart
 1. Naciśnij (A), aby kontynuować
-1. Use (Up) and (Down) to select your flashcart
+1. Użyj przycisków (Góra) i (Dół) na D-Padzie aby wybrać model swojego flashcarta
 1. Naciśnij (A), aby kontynuować
 1. Press (A) to "inject ntrboothax"
 1. Press (A) to select "RETAIL"
 1. Naciśnij (A), aby kontynuować
-1. Select "EXIT"
+1. Wybierz "EXIT"
 
 ___
 
