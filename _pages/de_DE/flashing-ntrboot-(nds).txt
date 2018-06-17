@@ -27,27 +27,27 @@ In manchen seltenen Fällen ist es möglich, das während des Flashens einer gef
 
 1. Schalte den **Quell-NDS / NDSL** aus
 1. Stecke die SD-Karte deiner Flashcart in deinen Computer
-1. Copy `ds_ntrboot_flasher.nds` to your flashcart's SD card
-1. Reinsert your flashcart's SD card back into your flashcart
-1. Insert your ntrboot compatible DS / DSi flashcart into **the source NDS / NDSL**
+1. Kopiere `ds_ntrboot_flasher.nds` auf die SD-Karte deiner Flashkarte
+1. Steck deine SD-Karte in deine Flashkarte zurück
+1. Lege deine ntrboot-kompatible DS / DSi Flashkarte in den **Quell-NDS / -NDSL**
 
 #### Schritt II - ntrboot flashen
 
-1. Launch `ds_ntrboot_flasher.nds` on **the source NDS / NDSL** using your flashcart
+1. Starte die 'ds_ntrboot_flasher.nds' auf dem **Quell-DSi** mit der Flashcart
 1. Drücke (A) um fortzufahren
 1. Benutze (Hoch) und (Runter) um deine Flashcart auszuwählen
 1. Drücke (A) um fortzufahren
-1. Press (X) to "load flashrom"
+1. Drücke (X) um "load flashrom" zu starten
 1. Drücke (A) um fortzufahren
-1. Eject your flashcart from **the source NDS / NDSL**
-1. Eject the SD card from your flashcart
-1. Reinsert your flashcart into **the source NDS / NDSL** with the SD card removed
+1. Entferne deine Flashkarte aus **dem Quell-NDS / NDSL**
+1. Entferne die SD-Karte aus deiner Flashcart
+1. Setze deine Flashkarte wieder in **die Quell-NDS / -NDSL** ein, während die SD-Karte entfernt ist
 1. Drücke (A) um fortzufahren
-1. Press (A) to "inject ntrboothax"
-1. Press (A) to select "RETAIL"
-1. Eject your flashcart from **the source NDS / NDSL**
+1. Drücke (A), damit "inject ntrboothax" gestartet wird
+1. Drücke (A), um "RETAIL" auszuwählen
+1. Entferne deine Flashkarte aus **dem Quell-NDS / NDSL**
 
 ___
 
-### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Fortfahren mit der [Installation von boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}
