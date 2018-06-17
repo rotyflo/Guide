@@ -43,7 +43,7 @@ Some of the instructions below are only applicable to the latest version of GodM
 1. Press (A) to continue
 1. Hold (R) and press (B) at the same time to eject your SD card
 1. Insert your SD card into your computer
-1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+1. Kopiere `<datum>_<seriennummer>_sysnand_###.bin` vom `/gm9/out/` Ordner deiner SD-Karte in einen sicheren Ort auf deinem Computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
