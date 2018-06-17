@@ -168,15 +168,15 @@ Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Dan
 {: .notice--info}
 
 1. Führe den folgenden Prozess für jedes GBA VC Spiel durch, bei dem du einen Spielstand wiederherstellen möchtest:
-  + Launch the GBA VC game
-  + Exit the GBA VC game
-  + Boot your device while holding (Start) to launch the Luma3DS chainloader menu
+  + Starte das GBA VC Spiel
+  + Verlasse das GBA VC Spiel wieder
+  + Starte dein Gerät während du (Start) gedrückt hältst, um in das Luma3DS Chainloader-Menü zu gelangen
   + Starte GodMode9 indem du (A) drückst
   Navigiere zu `[0:] SDCARD` -> `gm9`
-  + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
-  + Press (B) to return to the main menu
-  + Navigate to `[S:] SYSNAND VIRTUAL`
-  + Press (A) on `agbsave.bin` to select it
+  + Drücke zur Wiederherstellung die Taste (Y) auf der gewünschten Datei (`<TitleID>.gbavc.sav`)
+  + Drücke (B), um zum Hauptmenü zurückzukehren
+  + Navigiere zu `[S:] SYSNAND VIRTUAL`
+  + Drücke (A), um `agbsave.bin` auszuwählen
   + Select "AGBSAVE options..."
   + Select "Inject GBA VC save"
   + Press (A) to continue
