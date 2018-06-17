@@ -69,8 +69,8 @@ Dies funktioniert auf mit New 3DS, New 2DS, Old 3DS und Old 2DS auf *allen* Vers
 1. Benenne die heruntergeladene `.firm` in dem hardmod-b9s-installer-Ordner auf deinem PC zu `current.firm` um
 1. Kopiere `boot9strap.firm` und `boot9strap.firm.sha` aus der boot9strap `.zip` in den hardmod-b9s-installer-Ordner auf deinem PC
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
-1. Use your hardmod to create a NAND backup 
-1. Move your NAND backup to the hardmod-b9s-installer folder on your computer and rename it to `NAND.bin`
+1. Verwende deinen Hardmod, um ein System-Backup zu erstellen 
+1. Kopiere dein NAND-Backup in den Ordner `hardmod-b9s-installer` auf deinem Computer und benenne es um in `NAND.bin`
 
 #### Schritt II - Installation von boot9strap
 
@@ -79,13 +79,13 @@ Dies funktioniert auf mit New 3DS, New 2DS, Old 3DS und Old 2DS auf *allen* Vers
   + Mac und Linux Nutzer: Führe `install-b9s.py` aus
 1. Beschreibe mit dem ausgegebenen `NAND-patched.bin`, den NAND deines Geräts, indem du dein Hardmod verwendet
 1. Schalte deinen 3DS aus
-1. Disconnect your hardmod
+1. Entferne deinen Hardmod
 1. Schalte deine Konsole an
 
 #### Schritt III - Luma3DS konfigurieren
 
 1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  + Wenn du einen schwarzen Bildschirm siehst, [folge diesen Anweisungen](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Benutze den (A) Knopf und das Steuerkreuz, um Folgendes zu aktivieren:    
   + **"Show NAND or user string in System Settings"**
 1. Drücke (Start) zum Speichern und neustarten
