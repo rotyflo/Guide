@@ -145,24 +145,26 @@ Dies wird nur funktionieren, wenn die Injektion in Gesundheit & Sicherheit von G
 Das Spiel wird auf der SD-Karte unter `/gm9/out/` mit dem Dateinamen `<TitleID>.gbavc.sav` gespeichert.
 {: .notice--info}
 
-To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+Um die passend Title ID einer `<TitleID>.gbavc.sav` Datei zu finden, kannst du dir eine Liste aller Spiele und der zugehörigen Titel IDs der auf dem System installierten Spiele anzeigen lassen. 
+Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Danach betätigst du "Search for titles".
 {: .notice--info}
 
-1. Do the following process for each GBA VC game that you want to backup the save for:
+1. Führe die folgenden Schritte für jedes GBA VC Spiel aus, für das du ein Backup erstellen möchtest:
   + Starte das GBA VC spiel
-  + Exit the GBA VC game
+  + Verlasse das GBA VC Spiel wieder
   + Starte dein Gerät während du Start gedrückt hälst um in das Luma3DS Chainloader menü zu kommen
   + Starte GodMode9 indem du (A) drückst
   + Navigiere zu `[1:] SYSNAND -> CTRNAND`
-  + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Dump GBA VC save"
-  + Press (A) to continue
-  + Press (Start) to reboot your device
+  + Drücke (A), um `agbsave.bin` auszuwählen
+  + Wähle "AGBSAVE options..."
+  + Wähle "Dump GBA VC save"
+  + Drücke (A), um fortzufahren
+  + Drücke (Start), um deine Konsole neu zu starten
 
-## Restore GBA VC Saves
+## Wiederherstellung von GBA VC Spielständen
 
-To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+Um die passend Title ID einer `<TitleID>.gbavc.sav` Datei zu finden, kannst du dir eine Liste aller Spiele und der zugehörigen Titel IDs der auf dem System installierten Spiele anzeigen lassen. 
+Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Danach betätigst du "Search for titles".
 {: .notice--info}
 
 1. Führe den folgenden Prozess für jedes GBA VC Spiel durch, bei dem du einen Spielstand wiederherstellen möchtest:
