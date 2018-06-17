@@ -8,7 +8,7 @@ title: "Homebrew Launcher (Soundhax)"
 
 Der Homebrew Launcher hat viele verschiedene Eintrittspunkte, beziehungsweise Möglichkeiten, um ihn zu starten.
 
-Soundhax (when combined with the Homebrew Launcher) is compatible with versions 9.0.0 through 11.3.0 in the EUR, JPN, KOR, and USA regions.
+Soundhax (in Kombination mit dem Homebrew-Launcher) ist kompatibel mit den Versionen 9.0.0 bis 11.3.0 für die Regionen EUR, JPN, KOR und USA.
 
 Stelle sicher, dass die Drahtloskommunikation deiner Konsole eingeschaltet ist, da udsploit (wird auf der nächsten Seite genutzt) ein aktives Drahtlosmodul erfordert und manche Konsolen (New 3DS, New 2DS und Old 2DS) die Drahtloskommunikation im Homebrew Launcher nicht einschalten können. Drahtloskommunikation muss nur eingeschaltet sein. Eine Verbindung zu einem Access Point ist nicht notwendig.
 
@@ -18,7 +18,7 @@ Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu könne
 
 Beachte, dass Karten-Updates nur Updates für Kernfunktionen, wie die Systemeinstellungen, das Home-Menü und ähnlichem liefern. Karten-Updates aktualisieren nicht den Nintendo 3DS Sound und die Netzwerkfunktionen, wie den Internetbrowser, den eShop, die StreetPass Mii Plaza oder der System-Transfer.
 
-This means that using a cartridge update from a version containing an older Nintendo 3DS Sound version *(<3.0.0)* to one that introduced a newer Nintendo 3DS Sound version will break Soundhax! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
+Das bedeutet, dass bei einem Kartenupdate von einer Systemversion, die eine ältere Version von Nintendo 3DS Sound enthält *(<3.0.0)*, auf eine Systemversion mit einer neuen Version von Nintendo 3DS Sound, Soundhax unbrauchbar wird! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -76,5 +76,5 @@ This means that using a cartridge update from a version containing an older Nint
 
 ___
 
-### Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Weiter mit [boot9strap installieren (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}
