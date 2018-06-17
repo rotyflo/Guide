@@ -177,22 +177,22 @@ Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Dan
   + Drücke (B), um zum Hauptmenü zurückzukehren
   + Navigiere zu `[S:] SYSNAND VIRTUAL`
   + Drücke (A), um `agbsave.bin` auszuwählen
-  + Select "AGBSAVE options..."
-  + Select "Inject GBA VC save"
-  + Press (A) to continue
-  + Press (Start) to reboot your device
-  + Launch the GBA VC game
-  + Exit the GBA VC game
+  + Wähle "AGBSAVE options..."
+  + Wähle "Inject GBA VC save"
+  + Drücke (A), um fortzufahren
+  + Drücke (Start), um deine Konsole neu zu starten
+  + Starte das GBA VC Spiel
+  + Verlasse das GBA VC Spiel wieder
 
-## Format an SD card
+## Formatieren einer SD-Karte
 
 **Beachte dies wird alles von deiner SD karte entfernen
 {: .notice--danger}
 
-1. Launch GodMode9 by holding (Start) during boot
-1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "SD format menu"
+1. Starte GodMode9, indem du während dem Starten deiner Konsole (Start) gedrückt hältst
+1. Drücke (HOME), um das Aktionsmenü aufzurufen
+1. Wähle "More..."
+1. Wähle "SD format menu"
 1. Wähle die EmuNand version die du nutzen möchtest
   + Die meisten Nutzer wollen "No EmuNAND" auswählen
 1. Wähle "Auto"
