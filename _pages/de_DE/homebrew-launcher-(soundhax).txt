@@ -18,21 +18,21 @@ Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu könne
 
 Beachte, dass Karten-Updates nur Updates für Kernfunktionen, wie die Systemeinstellungen, das Home-Menü und ähnlichem liefern. Karten-Updates aktualisieren nicht den Nintendo 3DS Sound und die Netzwerkfunktionen, wie den Internetbrowser, den eShop, die StreetPass Mii Plaza oder der System-Transfer.
 
-Das bedeutet, dass bei einem Kartenupdate von einer Systemversion, die eine ältere Version von Nintendo 3DS Sound enthält *(<3.0.0)*, auf eine Systemversion mit einer neuen Version von Nintendo 3DS Sound, Soundhax unbrauchbar wird! You will need an [alternate method](homebrew-launcher-(alternatives)) of installing boot9strap!
+Das bedeutet, dass bei einem Kartenupdate von einer Systemversion, die eine ältere Version von Nintendo 3DS Sound enthält *(<3.0.0)*, auf eine Systemversion mit einer neuen Version von Nintendo 3DS Sound, Soundhax unbrauchbar wird! Du benötigst eine [alternative Methode](homebrew-launcher-(alternatives)), um boot9strap zu installieren!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
 
-### What You Need
+### Was du brauchst
 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
-* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
+* Die neuste Version des [Homebrew Launchers](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
++ Die aktuellste Version von [Soundhax](http://soundhax.com/) *(für deine Konsole und Region)*
 * Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
 * Die neuste Version von [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"} *(die `.3dsx` Datei)*
 * Die neuste Version von [udsploit](https://github.com/smealum/udsploit/releases/latest){:target="_blank"}
 * Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(for your region and version)*
+* Die [otherapp payload](https://smealum.github.io/3ds/#otherapp){:target="_blank"} *(für deine Version und Region)*
 
 ### Anleitung
 
@@ -69,7 +69,7 @@ Das bedeutet, dass bei einem Kartenupdate von einer Systemversion, die eine ält
     ![]({{ "/images/screenshots/soundhax-launch.png" | absolute_url }})
     {: .notice--info}
 
-1. If the exploit was successful, your device will have loaded the Homebrew Launcher
+1. Wenn der Exploit erfolgreich war, wird der Homebrew Launcher gestartet
 
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
