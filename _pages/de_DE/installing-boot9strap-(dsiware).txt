@@ -20,7 +20,7 @@ ___
 
 Die beiden letzteren Methoden benötigen zwei Geräte. Auf einem der beiden 3DS (oder 2DS) muss boot9strap laufen. Dieses Gerät wird im Folgenden als *Quell-3DS* bezeichnet, während der andere 3DS (oder 2DS) mit original 11.6.0 Firmware *Ziel-3DS* genannt wird.
 
-Both of these methods will assume that the 3DS running custom firmware is using boot9strap and has completed this guide. Es ist zwar möglich, diese Methoden mit einer anderen Art von Custom-Firmware zu benutzen, aber das würde den Rahmen dieser Anleitung sprengen.
+Beide Methoden gehen davon aus, dass der 3DS mit CFW mit boot9strap läuft und diese Anleitung abgeschlossen hat. Es ist zwar möglich, diese Methoden mit einer anderen Art von Custom-Firmware zu benutzen, aber das würde den Rahmen dieser Anleitung sprengen.
 
 Beide dieser Methoden benutzen eine Kombination des "bekannten Quelltextes der FIRM-Partitionen"-Exploit, welcher [here](https://www.3dbrew.org/wiki/3DS_System_Flaws) erklärt wird, und eines Fehlers, der es DSiWare-Titeln ermöglicht, im verschlüsselten NAND zu lesen und zu schreiben.
 
@@ -60,18 +60,18 @@ Diese Methode erfordert, dass der Quellen-3DS bereits rechtmäßig eines der fol
     
 Eine Raubkopie des Spiels wird *nicht* funktionieren, und all diese Spiele wurden aus dem eShop entfernt.
 
-Continue to [Installing boot9strap (DSiWare Save Injection)](installing-boot9strap-(dsiware-save-injection))
+Fortsetzen mit [boot9strap Installieren (DSiWare Save Injection)](installing-boot9strap-(dsiware-save-injection))
 {: .notice--primary}
 
 ___
 
-#### Installing boot9strap (DSiWare Game Injection)
+#### Boot9strap installieren (DSiWare Game Injection)
 
 Diese Methode erfordert, dass der Quellen-3DS eines der in [Installation von boot9strap (In DSIWare injizierbare Spiele)](installing-boot9strap-(dsiware-game-injection-list)) aufgeführten Spiele kauft oder bereits rechtmäßig besitzt.
 
 Eine Raubkopie des Spiels wird *nicht* funktionieren.
 
-Continue to [Installing boot9strap (DSiWare Game Injection)](installing-boot9strap-(dsiware-game-injection))
+Fortsetzen mit [boot9strap installieren (DSiWare Game Injection)](installing-boot9strap-(dsiware-game-injection))
 {: .notice--primary}
 
 ___
