@@ -10,7 +10,7 @@ Falls du bereits deinen 3DS zuvor gehackt hast und eine EmuNAND basierte CFW ins
 
 Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu können, benötigst du ein Archivprogramm wie zum Beispiel [7-Zip](http://www.7-zip.org/) oder [The Unarchiver](https://theunarchiver.com/).
 
-### What You Need
+### Was du brauchst
 
 * Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
