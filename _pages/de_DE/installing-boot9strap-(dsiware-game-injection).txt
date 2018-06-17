@@ -172,7 +172,7 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
   + **"Show NAND or user string in System Settings"**
   + In some cases it may already be configured. If so, proceed to the next step
 1. Drücke (Start) zum Speichern und neustarten
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  + Wenn du einen schwarzen Bildschirm siehst, [folge diesen Anweisungen](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 
 ___
 
