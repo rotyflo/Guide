@@ -123,13 +123,13 @@ Betätige dazu zeitgleich die Tasten (R) und (A) im GodMode9 Hauptmenü und wäh
   + Drücke (A), um`agbsave.bin` auszuwählen
   + Wähle "AGBSAVE options..."
   + Wähle "Inject GBA VC save"
-  + Press (A) to continue
+  + Drücke (A), um fortzufahren
   + Drücke (Start) um deinen 3DS neu zu starten
   + Starte das GBA VC spiel
   Verlasse das GBA VC Spiel wieder
 1. Starte GodMode9, indem du während dem Starten deiner Konsole die Taste (Start) gedrückt hältst
 
-#### Section VII - Backup SysNAND
+#### Schritt VII - Backup vom SysNAND erstellen
 
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
 1. Wähle "Scripts"
@@ -139,13 +139,13 @@ Betätige dazu zeitgleich die Tasten (R) und (A) im GodMode9 Hauptmenü und wäh
 1. Drücke (A) um fortzufahren
 1. Drücke (R) und (B) gleichzeitig um die SD-Karte auszuwerfen
 1. Stecke deine SD-Karte in deinen Computer
-1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+1. Kopiere `<datum>_<seriennummer>_sysnand_###.bin` vom `/gm9/out/` Ordner deiner SD-Karte in einen sicheren Ort auf deinem Computer
   + Erstelle Backup Dateien an mehreren Orten (USB-Stick, PC, Externe Festplatte, Online-Speicher, etc.)
   + Diese Sicherheitskopie wird dich vor einem Brick schützen, falls in der Zukunft etwas schief gehen sollte
-1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
+1. Lösche die `<datum>_<seriennummer>_sysnand_###.bin` vom `/gm9/out/` Ordner deiner SD-Karte, wenn der Kopiervorgang abgeschlossen ist
 1. ** Sichere jede Datei von deiner SD-Karte in einem Ordner auf deinem Computer, da in den nächsten Schritten alle Dateien gelöscht werden **
 
-#### Section VIII - Format SD card
+#### Schritt VIII - SD-Karte formatieren
 
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
@@ -163,10 +163,10 @@ Betätige dazu zeitgleich die Tasten (R) und (A) im GodMode9 Hauptmenü und wäh
   Ersetze die Datei `boot.firm` auf deiner SD-Karte durch eine aus deinem Backup
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Drücke (A) um die SD-Karte einzuhängen
-1. Press (Start) to reboot
+1. Drücke (Start), um das System neu zu starten
 1. Falls du einen einen schwarzen Bildschirm bekommen solltest, [folge dieser Anleitung zur Problembehandlung](troubleshooting#ts_sys_down)
 
 ___
 
-### Return to [Finalizing Setup](finalizing-setup).
+### Zurück zu [Setup fertigstellen](finalizing-setup).
 {: .notice--primary}
