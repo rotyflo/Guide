@@ -200,15 +200,15 @@ Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Dan
   + Alternativ kannst du auch einen eigenen Namen für die SD karte aussuchen
 1. Gib die Tastenkombination zur Bestätigung ein, wenn danach verlangt wird
 
-## Encrypting / Decrypting a .CIA file
+## Entschlüsselung / Verschlüsselung von .CIA Dateien
 
 #### Vorbereitung
 
 + Für organisierungs zwecken kopiere jede `.cia` datei die du verschlüsseln / entschlüsseln möchtest in den `/cias/` Ordner auf deiner SD Karte
 {: .notice--info}
 
-1. Launch GodMode9 by holding (Start) during boot
-1. Navigate to `[0:] SDCARD` -> `cias`
+1. Starte GodMode9, indem du während dem Starten deiner Konsole (Start) gedrückt hältst
+1. Navigiere zu `[0:] SDCARD` ->` cias`
 1. Drücke (A) um die `.cia` datei auszuwählen und wähle dann die option "CIA image options..."
 1. Wähle den Vorgang für die gewünschte funktion:
     + **Verschlüsseln in 0:/gm9/out:** Erstellt eine verschlüsselte Kopie der ausgewählten `.cia` Datei im Ordner `/gm9/out/` auf der SD-Karte
@@ -217,24 +217,24 @@ Markiere dazu `[A:] SYSNAND SD` während du (R) und (A) zeitgleich drückst. Dan
     + **Vorhandene entschlüsseln:** Ersetze die ausgewählte `.cia`-Datei mit einer entschlüsselten Version
 1. Deine verschlüsselte / entschlüsselte .cia wird dann an die gewünschte Position ausgegeben
 
-## Removing an NNID without formatting your device
+## Entfernen einer NNID, ohne die Konsole formatieren zu müssen
 
-### What You Need
+### Was du brauchst
 
 * [remove_nnid.gm9]({{ "/gm9_scripts/remove_nnid.gm9" | absolute_url }}){:download}
 
-### Instructions
+### Anleitung
 
-1. Launch GodMode9 by holding (Start) during boot
+1. Starte GodMode9, indem du während dem Starten deiner Konsole (Start) gedrückt hältst
 1. Drücke (R) und (B) gleichzeitig um die SD-Karte auszuwerfen
 1. Stecke deine SD-Karte in deinen Computer
-1. Copy `remove_nnid.gm9` to the `/gm9/scripts/` folder on your SD card
+1. Kopiere `remove_nnid.gm9` in den `/gm9/scripts/` Ordner auf deine SD-Karte
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
-1. Select "Scripts..."
+1. Wähle "Scripts..."
 1. Wähle "remove_nind"
-1. When prompted, press (A) to proceed
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
-1. Press (A) to relock write permissions
-1. Press (Start) to reboot your device
+1. Drücke (A), wenn du dazu aufgefordert wirst, um fortzufahren
+1. Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Dann gebe die angegebene Tastenkombination ein
+1. Drücke (A), um fortzufahren
+1. Drücke (A), um die Schreibrechte zu widerrufen
+1. Drücke (Start), um deine Konsole neu zu starten
