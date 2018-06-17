@@ -23,7 +23,7 @@ Das bedeutet dass bei einem Karten-Update von einer Systemversion, die eine ält
 
 ### Was du brauchst
 
-* The latest release of [Soundhax](http://soundhax.com/) *(for your region, device, and version)*
++ Die aktuellste Version von [Soundhax](http://soundhax.com/) *(für deine Konsole und Region)*
 * Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
 * Die neueste Version von [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(die `.7z`-Datei)*
@@ -46,7 +46,7 @@ Das bedeutet dass bei einem Karten-Update von einer Systemversion, die eine ält
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Schalte deine Konsole an
 
-#### Section II - Launching SafeB9SInstaller
+#### Schritt II - Starten von SafeBS9Installer
 
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Schalte deine Konsole an
@@ -66,7 +66,7 @@ Das bedeutet dass bei einem Karten-Update von einer Systemversion, die eine ält
 
 1. Wenn der Exploit erfolgreich war, wird nun direkt zum SafeBS9Installer gebootet
 
-#### Section III - Installing boot9strap
+#### Schritt III - boot9strap installieren
 
 1. Warte auf alle Sicherheitsüberprüfungen
 1. Gib die Tastenkombination zur Bestätigung ein, wenn danach verlangt wird
@@ -75,7 +75,7 @@ Das bedeutet dass bei einem Karten-Update von einer Systemversion, die eine ält
 #### Schritt IV - Luma3DS konfigurieren
 
 1. Dein Gerät sollte neu starten und die Luma3DS Konfiguration anzeigen
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+  + Wenn du einen schwarzen Bildschirm siehst, [folge diesen Anweisungen](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Benutze den (A) Knopf und das Steuerkreuz, um Folgendes zu aktivieren:    
   + **"Show NAND or user string in System Settings"**
 1. Drücke (Start) zum Speichern und neustarten
