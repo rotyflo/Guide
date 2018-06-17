@@ -56,9 +56,9 @@ boot9strap ist die neueste und beste Methode um Custom-Firmware auszuführen, di
 
 Die Vorteile von boot9strap gegenüber anderen Methoden um Custom Firmware auszuführen sind zahlreich, weshalb es empfohlen ist, diese Anleitung allen anderen, die auf veralteter Software basieren (z. B. Menuhax + rxTools, arm9loaderhax oder sogar normaler sighax), vorzuziehen ist.
 
-For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
+Für weitere Informationen wie boot9strap funktioniert, siehe [dieses paper](https://arxiv.org/abs/1802.00359).
 
-For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+Für eine Liste aller berechneten sighax-Signaturen, siehe in [diesem gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52) nach.
 
 ## Was kann ich mit Custom Firmware anstellen?
 
@@ -82,10 +82,10 @@ For a list of each of the calculated sighax signatures, see [this gist](https://
 + Wenn alles nach Plan verläuft, wirst du keine Daten verlieren und dein System wird die gleichen Daten wie vorher haben (Spiele, NNID, Speicherstände, etc. werden erhalten bleiben).
 + Deine Konsole während des gesamten Prozesses mit dem Ladekabel aufzuladen vermeidet Datenverluste oder Schäden durch unerwartetes Ausschalten!
 + Deine SD-Karte sollte mit [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein. (Die mitgelieferte SD-Karte ist standardmäßig mit MBR formatiert).
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
++ Mit dem Tool [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) kannst du eine SD-Karte passend formatieren. Denke daran, die Größe der Zuordnungseinheiten auf 32K (32768) zu setzen.
 + Der 2DS ist Softwaremäßig im Wesentlichen identisch zum Old 3DS, und alle Schritte für den Old 3DS können auch für den 2DS durchgeführt werden.
 
 ___
 
-### Continue to [Get Started](get-started)
+### Weiter zu [Los geht's](get-started)
 {: .notice--primary}
