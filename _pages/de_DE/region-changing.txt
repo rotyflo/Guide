@@ -27,7 +27,7 @@ Regionswechsel, welche die CTRTransfer-Methode (welche in dieser Anleitung genut
 Du MUSST bereits eine installierte Version von Luma3DS und boot9straps haben, um diese Anleitung benutzen zu können.
 {: .notice--danger}
 
-### What You Need
+### Was du brauchst
 
 * Die neuste Version von [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 * Die neuste Version von [FBI](https://github.com/Steveice10/FBI/releases/latest){:target="_blank"} *(die`.3dsx` Datei)*
