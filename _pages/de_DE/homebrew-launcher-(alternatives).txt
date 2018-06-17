@@ -14,9 +14,9 @@ Stelle sicher, dass die Drahtloskommunikation deiner Konsole eingeschaltet ist, 
 
 Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu können, benötigst du ein Archivprogramm wie zum Beispiel [7-Zip](http://www.7-zip.org/) oder [The Unarchiver](https://theunarchiver.com/).
 
-### What You Need
+### Was du brauchst
 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* Die neuste Version des [Homebrew Launchers](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 * Die neuste Version von [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
 * Die neuste Version von [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; nicht die `devkit` Datei, nicht die`ntr` Datei)*
 * Die neuste Version von [safehax](https://github.com/TiniVi/safehax/releases/latest){:target="_blank"}
@@ -79,5 +79,5 @@ Um die `.7z` Dateien, welche auf dieser Seite verlinkt sind, entpacken zu könne
     ![]({{ "/images/screenshots/homebrew-launcher.png" | absolute_url }})
     {: .notice--info}
 
-### Continue to [Installing boot9strap (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
+### Weiter mit [boot9strap installieren (Homebrew Launcher)](installing-boot9strap-(homebrew-launcher))
 {: .notice--primary}
