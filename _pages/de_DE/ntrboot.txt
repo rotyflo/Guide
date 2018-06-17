@@ -26,8 +26,8 @@ Karten mit 'Time Bomb' sind nicht länger in der Lage '.nds' Dateien zu starten,
 | [**R4iSDHC GOLD Pro 20XX**](http://www.nds-card.com/ProShow.asp?ProID=490) | $9.99 | 3.9b: 3. September, 2019 | <= 11.6.0 | <= 1.4.5 | Alle R4iSDHC 20XX Flashcarts sind identisch. 2013er Modelle sind nicht kompatibel. |
 | [**R4iSDHC RTS LITE 20XX**](http://www.nds-card.com/ProShow.asp?ProID=450) | $13.99 | 3.9b: September 3, 2019 | <= 11.6.0 | <= 1.4.5 | Alle R4iSDHC 20XX Flashcarts sind identisch. 2013er Modelle sind nicht kompatibel. |
 | **Ace3DS X** | | Nein | <= 11.6.0 | <= 1.4.5 | **Kommt schon mit ntrboot** (externer Schalter um zwischen ntrboot ("3DS") und NDS Modus zu wechseln); nicht manuell mit ntrboot flashen. |
-| **Ace3DS Plus** | | No | <= 11.6.0 | <= 1.4.5 | |
-| **Gateway Blue** | | No | 4.1.0 - 4.5.0 | <= 1.4.5 | |
+| **Ace3DS Plus** | | Nein | <= 11.6.0 | <= 1.4.5 | |
+| **Gateway Blue** | | Nein | 4.1.0 - 4.5.0 | <= 1.4.5 | |
 | **Infinity 3 R4i** | | Nein | <= 11.6.0 | <= 1.4.5 | |
 | **R4 3D Revolution** | | Nein | Keine | Keine | |
 | **R4i Gold 3DS Deluxe "Starter"** | | Nein | 4.1.0 - 4.5.0 | <= 1.4.5 | |
@@ -61,7 +61,7 @@ ___
 
 Diese Methode erfordert nichts weiter außer deinem ungehacktem 3DS und einer kompatiblen Flashkarte. Diese Methode verwendet eine Flashkarte zum Ausführen der Ntrboot Flasher ".nds" Datei auf deinem 3DS. Dies bedeutet, dass deine Flashkarte das Ausführen von ".nds" Dateien auf deiner 3DS Version unterstützen muss. Siehe die Flashkarten Tabelle weiter oben für mehr Informationen.
 
-Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
+Fortfahren mit [ntrboot flashen (Einzelnes 3DS-System)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}
 
 ___
@@ -70,7 +70,7 @@ ___
 
 Diese Methode erfordert einen temporären Zugriff auf ein zweites System der 3DS-Familie, das boot9strap schon hat. Dies erfordert nicht, dass deine Flashcart die 3DS-Version unterstützt. Siehe die Flashkarten Tabelle weiter oben für mehr Informationen.
 
-Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
+Fortfahren mit [ntrboot flashen (Mehrere 3DS-Systeme)](flashing-ntrboot-(3ds-multi-system))
 {: .notice--primary}
 
 ___
@@ -79,7 +79,7 @@ ___
 
 Diese Methode erfordert temporären Zugriff auf einen Nintendo DS oder Nintendo DS Lite, welcher mit deiner Flashkarte kompatibel ist. Diese Methode verwendet eine Flashcart zum Ausführen der Ntrboot Flasher ".nds" Datei auf deinem NDS.
 
-Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
+Fortfahren mit [ntrboot flashen (NDS)](flashing-ntrboot-(nds))
 {: .notice--primary}
 
 ___
@@ -88,5 +88,5 @@ ___
 
 Diese Methode erfordert temporären Zugriff auf einen Nintendo DSi, welcher mit deiner Flashcart kompatibel ist. Diese Methode verwendet eine Flashkarte zum Ausführen der Ntrboot Flasher ".nds" Datei auf deinem DSi.
 
-Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
+Fortfahren mit [ntrboot flashen (DSi)](flashing-ntrboot-(dsi))
 {: .notice--primary}
