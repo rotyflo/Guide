@@ -135,6 +135,7 @@ Se prima di seguire questa guida avevi già un'installazione EmuNAND presente e 
   + Questi backup ti salveranno da un brick e/o ti aiuteranno a recuperare i file dalla NAND nel caso dovesse accadere qualcosa in futuro
 1. Dopo la copia, elimina i file `<data>_<numeroseriale>_sysnand_###.bin` e `<data>_<numeroseriale>_sysnand_###.bin.sha` dalla cartella `/gm9/out/` della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### Sezione VIII - Pulizia della scheda SD
 
