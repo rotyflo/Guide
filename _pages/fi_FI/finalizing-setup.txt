@@ -135,6 +135,7 @@ Jos sinulla oli ennen tämän oppaan aloittamista EmuNAND-kokoonpano, ja haluais
   + Nämä varmuuskopiot pelastavat sinut konsolin vioittumiselta ja/tai auttavat palauttamaan tiedostoja NAND-näköistiedostosta, jos jokin menee pieleen tulevaisuudessa
 1. Kun olet varmuuskopioinut NANDin, poista `<päivämäärä>_<sarjanumero>_sysnand_###.bin` ja `<päivämäärä>_<sarjanumero>_sysnand_###.bin.sha` SD-korttisi `/gm9/out/`-kansiosta
 1. Aseta SD-korttisi takaisin konsoliisi
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### Vaihe VIII – SD-kortin siivoaminen
 
