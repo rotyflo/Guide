@@ -135,6 +135,7 @@ title: "完成安裝"
   + 這些備份檔案可於未來您磚機時用來修復系統檔案
 1. 在複製完畢後，從 SD 卡的 `/gm9/out/` 資料夾中刪除 `<date>_<serialnumber>_sysnand_###.bin` 及 `<date>_<serialnumber>_sysnand_###.bin.sha`
 1. 將 SD 卡插回主機中
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### 第八節 — 清理 SD 卡
 
