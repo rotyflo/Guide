@@ -11,7 +11,7 @@ Dies wird die CFW, einschließlich Boot9Strap und Luma3DS, vollständig von dein
 Die CFW zu deinstallieren ist fast nie die Lösung der Probleme, welche bei der CFW-Installation auftreten. Wir empfehlen dir, auf der [Hilfeseite](troubleshooting) nachzuschlagen oder im [Nintendo Homebrew Discord-Server](https://discord.gg/MWxPgEp) nachzufragen.
 {: .notice--danger}
 
-Alle unsignierten (nicht-legitimen) Spiele werden unbrauchbar und können manuell mit der Datenverwaltung in den Systemeinstellungen entfernt werden. Benutze einen [Speicherstandmanager](https://github.com/BernardoGiordano/Checkpoint/releases/latest){:target="_blank"}, um alle Speicherstände von unsignierten (nicht-legitimen) Spielen zu sichern, die du behalten möchtest.
+Alle unsignierten (nicht-legitimen) Spiele werden unbrauchbar und können manuell mit der Datenverwaltung in den Systemeinstellungen entfernt werden. Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
 
 Dies wird deine NNID, alle legitim gekauften Spielen und deren Speicherstände nicht beeinträchtigen.
 
@@ -19,7 +19,7 @@ Beachte: Sollten noch weitere Dateien als nur die`GodMode9.firm` Datei im `/luma
 
 ### Was du brauchst
 
-* Die neuste Version von [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Das Deinstallationsskript passend zu deinem Gerät:
   + [uninstall_hax_retail_NEW.gm9]({{ "/gm9_scripts/uninstall_hax_retail_NEW.gm9" | absolute_url }}){:download}
   + [uninstall_hax_retail_OLD.gm9]({{ "/gm9_scripts/uninstall_hax_retail_OLD.gm9" | absolute_url }}){:download}
