@@ -25,14 +25,14 @@ To oznacza że użycie aktualizacji z kartridża posiadając starszą wersje Nin
 
 ### Czego Potrzebujesz
 
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* Najnowszej wersji [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * Najnowszej wersji [Soundhax](http://soundhax.com/) *(dla twojego regionu, urządzenia i wersji systemu)*
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [safehax](https://github.com/TiniVi/safehax/releases/latest) *(the `.3dsx` file)*
-* The latest release of [udsploit](https://github.com/smealum/udsploit/releases/latest)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(for your region and version)*
+* Najnowszej wersji [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* Najnowszej wersji [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standardowa instalacja; nie `devkit` czy plik `ntr`)*
+* Najnowszej wersji [safehax](https://github.com/TiniVi/safehax/releases/latest) *(pliku `.3dsx`)*
+* Najnowszej wersji [udsploit](https://github.com/smealum/udsploit/releases/latest)
+* Najnowszej wersji [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(pliku`.7z`)*
+* [payloadu otherapp](https://smealum.github.io/3ds/#otherapp) *(dla twojej konsoli i regionu)*
 
 ### Instrukcje
 
