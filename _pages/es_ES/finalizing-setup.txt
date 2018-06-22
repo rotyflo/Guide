@@ -135,6 +135,7 @@ Si, antes de seguir esta guía, ya tenías una configuración EmuNAND y deseas m
   + Estos respaldos podrán prevenir que se inutilice la consola y/o ayudarte a recuperar archivos de la memoria de tu consola si algo sale mal en el futuro
 1. Elimina `<date>_<serialnumber>_sysnand_###.bin` y `<date>_<serialnumber>_sysnand_###.bin.sha` de la carpeta `/gm9/out/` de tu tarjeta SD después de copiarla
 1. Vuelve a insertar tu tarjeta SD en tu consola
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### Sección VIII - Limpiar tarjeta SD
 
