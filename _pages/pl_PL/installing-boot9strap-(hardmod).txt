@@ -19,11 +19,11 @@ To zadziała na New 3DS, New 2DS, Old 3DS, i Old 2DS na *każdej* wersji oprogra
 ### Czego Potrzebujesz
 
 * Obrazu NAND wykonanego przy użyciu [hardmod](https://gbatemp.net/threads/414498/)
-* Najnowszej wersji [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standardowa instalacja; nie `devkit` czy plik `ntr`)*
-* Najnowszej wersji [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest){:target="_blank"}
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest version of [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
   + Użytkownicy Windowsa mogą użyć skompilowanego pliku `.exe`, podczas gdy użytkownicy Mac'a i Linuxa muszą posiadać zainstalowany [Python 3](https://www.python.org/downloads/) aby uruchomić plik `.py`
-* Najnowszej wersji [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(plik`.7z`)*
-* Najnowszej wersji [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 * Plik `.firm` odpowiedni dla twojego urządzenia i wersji oprogramowania:
 
 | Wersje | Kernel | Old 3DS lub Old 2DS | New 3DS lub New 2DS |
