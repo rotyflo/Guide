@@ -19,7 +19,7 @@ In manchen seltenen Fällen ist es möglich, das während des Flashens einer gef
 * Zwei Geräte 
   + **Der Quell-NDS / -NDSL**: Der Nintendo DS oder Nintendo DS Lite, welcher mit deiner Flashkarte kompatibel ist
   + **Der Ziel-3DS**: das Gerät der 3DS-Familie mit regulärer Firmware
-* Die neueste Version des [ds_ntrboot_flasher] (https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(Standard-Flasher, nicht der `dsi` Flasher) *
+* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(standard flasher; not the `dsi` flasher)*
 
 ### Anleitung
 
