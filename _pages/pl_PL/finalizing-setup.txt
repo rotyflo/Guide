@@ -22,12 +22,12 @@ Podczas tego procesu zainstalujemy również takie programy jak:
 ### Czego Potrzebujesz
 
 * Najnowszej wersji [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(pliku `.cia`)*
-* The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(the `.cia` file)*
-* The latest release of [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
+* Najnowszej wersji [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(pliku `.cia`)*
+* Najnowszej wersji [hblauncher_loader](https://github.com/yellows8/hblauncher_loader/releases/latest)
 * Najnowszej wersji [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
-* The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
+* Najnowszej wersji [DSP1](https://github.com/zoogie/DSP1/releases/latest)
+* Najnowszej wersji [FBI](https://github.com/Steveice10/FBI/releases/latest) *(pliki `.cia` oraz `.3dsx`)*
+* Najnowszej wersji [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(pliku `.cia`)*
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
@@ -135,7 +135,7 @@ Jeśli przed rozpoczęciem tego poradnika już miałeś skonfigurowane EmuNAND i
   + Te kopie zapasowe uratują cię przed "brickiem" i/lub pomogą ci odzyskać pliki z NAND jeśli coś pójdzie nie tak w przyszłości
 1. Usuń `<date>_<serialnumber>_sysnand_###.bin` i `<date>_<serialnumber>_sysnand_###.bin.sha` z folderu `/gm9/out/` na twojej karcie SD po skopiowaniu ich do komputera
 1. Włóż ponownie kartę SD do konsoli
-  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
+  + Jeśli twoja karta SD nie została automatycznie wykryta, przytrzymaj (R) i wciśnij (B) w tym samym czasie aby ją zamontować
 
 #### Sekcja VIII - Czyszczenie Karty SD
 
