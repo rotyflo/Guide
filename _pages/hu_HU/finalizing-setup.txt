@@ -135,6 +135,7 @@ Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és 
   + Ezek a biztonsági mentések fognak megmenteni, ha a későbbiekben brickelődne a konzolod, vagy bármi félresikerülne a jövőben
 1. Töröld a `<dátum>_<sorozatszám>_sysnand_###.bin` és a `<dátum>_<sorozatszám>_sysnand_###.bin.sha` fájlokat az SD kártyád `/gm9/out/` mappájából, miután lemásoltad azokat
 1. Tedd vissza az SD kártyád a készülékedbe
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### Nyolcadik rész - Takarítás az SD kártyán
 
