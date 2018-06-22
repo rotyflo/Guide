@@ -135,6 +135,7 @@ Jeśli przed rozpoczęciem tego poradnika już miałeś skonfigurowane EmuNAND i
   + Te kopie zapasowe uratują cię przed "brickiem" i/lub pomogą ci odzyskać pliki z NAND jeśli coś pójdzie nie tak w przyszłości
 1. Usuń `<date>_<serialnumber>_sysnand_###.bin` i `<date>_<serialnumber>_sysnand_###.bin.sha` z folderu `/gm9/out/` na twojej karcie SD po skopiowaniu ich do komputera
 1. Włóż ponownie kartę SD do konsoli
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
 #### Sekcja VIII - Czyszczenie Karty SD
 
