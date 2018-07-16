@@ -72,58 +72,58 @@ sidebar_pages:
     url: installera-boot9strap-(dsiware)
   - 
     title: Flera Alternativ
-    url: multiple-options
+    url: olika-alternativ
   - 
     title: Flasha ntrboot (3DS enskilt System)
-    url: flashing-ntrboot-(3ds-single-system)
+    url: flasha-ntrboot-(3ds enskilt System)
   - 
     title: Flasha ntrboot (3DS Multi System)
-    url: flashing-ntrboot-(3ds-multi-system)
+    url: flasha ntrboot-(3ds-multi-system)
   - 
     title: Flasha ntrboot (DSi)
-    url: flashing-ntrboot-(dsi)
+    url: flasha ntrboot (Dsi)
   - 
     title: Flasha ntrboot (NDS)
-    url: flashing-ntrboot-(nds)
+    url: flashing-ntrboot-(Nds)
   - 
     title: Flasha ntrboot (Powersaves)
-    url: flashing-ntrboot-(powersaves)
-  - 
-    title: Homebrew Launcher (Soundhax)
-    url: homebrew-launcher-(soundhax)
-  - 
-    title: Homebrew Launcher (Alternativ)
-    url: homebrew-launcher-(alternatives)
-  - 
-    title: NTR och Cubic Ninja
     url: ntr-and-cubic-ninja
   - 
+    title: Homebrew Launcher (Soundhax)
+    url: homebrew-Launcher-(soundhax)
+  - 
+    title: Homebrew Launcher (Alternativ)
+    url: homebrew Launcher (Alternativ)
+  - 
+    title: NTR och Cubic Ninja
+    url: ntr-och-cubic-ninja
+  - 
     title: Installera boot9strap (2xrsa)
-    url: installing-boot9strap-(2xrsa)
+    url: installera-boot9strap-(2xrsa)
   - 
     title: Installera boot9strap (Webbläsare)
-    url: installing-boot9strap-(browser)
+    url: installera boot9strap (Webbläsare)
   - 
     title: Installera boot9strap (DSiWare spel injektion)
-    url: installing-boot9strap-(dsiware-game-injection)
+    url: installera boot9strap (DsiWare Spel injektion)
   - 
     title: Installera boot9strap (DSiWare Save injektion)
-    url: installing-boot9strap-(dsiware-save-injection)
+    url: installing-boot9strap-(homebrew-launcher)
   - 
     title: Installera boot9strap (Hårdvarumod)
-    url: installing-boot9strap-(hardmod)
+    url: installera boot9strap (Hårdvarumod)
   - 
     title: Installera boot9strap (Homebrew Launcher)
-    url: installing-boot9strap-(homebrew-launcher)
+    url: installera boot9strap (Homebrew Launcher)
   - 
     title: Installera boot9strap (MSET)
     url: installing-boot9strap-(mset)
   - 
     title: Installera boot9strap (ntrboot)
-    url: installing-boot9strap-(ntrboot)
+    url: installera boot9strap (ntrboot)
   - 
     title: NAND Återställning
     url: godmode9-usage
   - 
-    title: Finalizing Setup
+    title: Slutför installationen
     url: finalizing-setup
