@@ -108,7 +108,7 @@ Esto sólo funcionará si la inyección sobre Salud y Seguridad fue realizada co
 ## Volcar un cartucho de juego
 
 {% capture notice %}
-Insert the game cartridge you intend to dump into your device
+Inserta el cartucho de juego que vas a volcar en tu consola
   + Los cartuchos de juegos de 3DS serán volcados en un formato `.cia` instalable
   + Los cartuchos de juegos de NDS serán volcados en el formato `.nds` no instalable, compatible con flashcarts y emuladores
 {% endcapture %}
@@ -208,7 +208,7 @@ Para identificar el ID de título de un archivo `<TitleID>.gbavc.sav`, puedes ob
 
 ## Cifrar / descifrar un archivo .CIA
 
-For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
+Para mantener orden, copia cada `.cia` que quieras cifrar / descifrar a la carpeta `/cias/` en tu tarjeta SD
 {: .notice--info}
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
