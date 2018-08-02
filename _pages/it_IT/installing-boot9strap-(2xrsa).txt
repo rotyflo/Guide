@@ -60,8 +60,5 @@ Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore
 
 ___
 
-Se hai un *New 3DS* con versione del software 2.1.0 *devi* [ripristinare il backup della NAND](godmode9-usage#nand_restore) prima di passare alla pagina [Completamento dell'installazione](finalizing-setup).
-{: .notice--danger}
-
 ### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}
