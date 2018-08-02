@@ -60,8 +60,5 @@ title: "Установка boot9strap (2xrsa)"
 
 ___
 
-Пользователи New 3DS с прошивкой 2.1.0 *должны* [восстановить бэкап NAND](godmode9-usage#восстановление-бэкапа-nand) перед тем, как переходить к разделу [Завершение установки](finalizing-setup).
-{: .notice--danger}
-
 ### Следующий шаг: [Завершение установки](finalizing-setup)
 {: .notice--primary}
