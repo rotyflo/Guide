@@ -161,7 +161,7 @@ title: "С A9LH до B9S"
 
 ___
 
-Эта версия Luma3DS Updater позволяет работать с boot9strap, путем загрузки и распаковки последнего Luma3DS `boot.firm`.
+Эта версия Luma3DS Updater обеспечивает совместимость с boot9strap путем загрузки и распаковки свежей версии файла `boot.firm` Luma3DS.
 {: .notice--info}
 
 {% capture notice-6 %}   
