@@ -228,6 +228,7 @@ For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt
 1. Válaszd a "Scripts..." opciót
 1. Select "GM9Megascript"
 1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
