@@ -107,10 +107,8 @@ Questo metodo funzionerà solo se l'inject di "Informazioni per la salute e la s
 
 ## Creare un backup di una scheda di gioco
 
-#### Preparazione
-
 {% capture notice %}
-+ Inserisci nella console la scheda di gioco del quale vuoi creare un backup
+Insert the game cartridge you intend to dump into your device
   + Le schede di gioco 3DS verranno salvate nel formato installabile `.cia`
   + Le schede di gioco NDS verranno salvate in un formato non installabile `.nds` compatibile con flashcart ed emulatori
 {% endcapture %}
@@ -210,9 +208,7 @@ Per identificare il Title ID di un file `<TitleID>.gbavc.sav`, puoi controllare 
 
 ## Criptare / Decriptare un file .CIA
 
-#### Preparazione
-
-+ Per motivi pratici, copia i file `.cia` che desideri criptare/decriptare dentro la cartella `/cias/` della tua scheda SD
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
 
 1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
