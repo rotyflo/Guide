@@ -228,6 +228,7 @@ For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt
 1. 選擇『Scripts...』
 1. 選擇『GM9Megascript』
 1. 選擇『Scripts from Plailect's Guide』
+1. Select "Remove NNID"
 1. 按『A』 繼續
 1. 按『A』解鎖 SysNAND(lvl1)的寫入保護，然後按下提示的按鍵組合
 1. 按『A』 繼續
