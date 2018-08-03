@@ -108,7 +108,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 ## 拷貝遊戲卡帶
 
 {% capture notice %}
-Insert the game cartridge you intend to dump into your device
+將所想要拷貝的遊戲卡帶插入至主機中
   + 3DS 遊戲卡帶將被存為可安裝的 `.cia` 格式
   + NDS 遊戲卡帶將被存為不可直接安裝但可用於燒錄卡及模擬器的 `.nds` 格式
 {% endcapture %}
@@ -208,7 +208,7 @@ Insert the game cartridge you intend to dump into your device
 
 ## 替 .CIA 檔案加密／解密
 
-For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
+為了整潔，將您所想要加密／解密的各個 `.cia` 檔案複製至 SD 卡的 `/cias/` 資料夾中
 {: .notice--info}
 
 1. 開機時按住『Start』鍵啟動 GodMode9
@@ -228,7 +228,7 @@ For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt
 1. 選擇『Scripts...』
 1. 選擇『GM9Megascript』
 1. 選擇『Scripts from Plailect's Guide』
-1. Select "Remove NNID"
+1. 選擇『Remove NNID』
 1. 按『A』 繼續
 1. 按『A』解鎖 SysNAND(lvl1)的寫入保護，然後按下提示的按鍵組合
 1. 按『A』 繼續
