@@ -41,8 +41,8 @@ Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella carte
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
 1. Seleziona "GM9Megascript"
-1. Select "Hax Options"
-1. Select "Un-install Hax"
+1. Seleziona "Hax Options"
+1. Seleziona "Un-install Hax"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per sbloccare i permessi di scrittura di terzo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
 1. Premi il pulsante (A) per continuare
