@@ -98,7 +98,7 @@ Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crasha
         1. Seleziona "Scripts..."
         1. Seleziona "GM9Megascript"
         1. Seleziona "Scripts from Plailect's Guide"
-        1. Select "Remove extdata"
+        1. Seleziona "Remove extdata"
         1. Premi il pulsante (A) per continuare
         1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
         1. Premi il pulsante (A) per continuare
@@ -138,14 +138,14 @@ Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crasha
     1. Configura Luma all'avvio
 1. Prova ad avviare GodMode9
     1. Con Luma3DS installato, tieni premuto (Start) all'avvio
-1. Try deleting home menu's extdata by following these instructions:
+1. Prova ad eliminare gli extdata del menu HOME seguendo queste istruzioni:
     1. Spegni il tuo 3DS
     1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
     1. Premi il pulsante HOME per far apparire il menu delle azioni
     1. Seleziona "Scripts..."
     1. Seleziona "GM9Megascript"
     1. Seleziona "Scripts from Plailect's Guide"
-    1. Select "Remove extdata"
+    1. Seleziona "Remove extdata"
     1. Premi il pulsante (A) per continuare
     1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
     1. Premi il pulsante (A) per continuare
