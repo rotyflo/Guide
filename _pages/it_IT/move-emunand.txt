@@ -131,9 +131,9 @@ Per identificare il Title ID di un file `<TitleID>.gbavc.sav`, puoi controllare 
 
 1. Premi il pulsante HOME per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
-1. Select "GM9Megascript"
-1. Select "Backup Options"
-1. Select "SysNAND Backup"
+1. Seleziona "GM9Megascript"
+1. Seleziona "Backup Options"
+1. Seleziona "SysNAND Backup"
 1. Premi il pulsante (A) per confermare
   + Questo processo durerà un po'
   + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
