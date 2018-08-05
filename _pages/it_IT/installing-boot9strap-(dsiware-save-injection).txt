@@ -27,7 +27,7 @@ Se non usi il file `.firm` corrispondente al 3DS di destinazione, BRICKERAI la c
   + **Legends of Exidia**
   + **Guitar Rock Tour**  
   + **The Legend of Zelda: Four Swords**  
-* The latest release of [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
+* L'ultima versione di [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
 * L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * L'ultima versione di [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
