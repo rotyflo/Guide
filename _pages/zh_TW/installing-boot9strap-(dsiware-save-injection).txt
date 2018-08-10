@@ -27,7 +27,7 @@ title: "安裝 boot9strap (透過 DSiWare 植入存檔)"
   + **《Legends of Exidia》**
   + **《吉他搖滾巡演(Guitar Rock Tour)》**  
   + **《薩爾達傳說：四人之劍(The Legend of Zelda: Four Swords)》**  
-* The latest release of [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
+* 最新版的 [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
 * 最新版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * 最新版的 [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * 最新版的 [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(`.7z` 檔案)*
