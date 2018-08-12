@@ -21,14 +21,14 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 
 ### Amire szükséged lesz
 
-* The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
-* The latest release of [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) *(the `.cia` file)*
-* The latest release of [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest)
+* Az [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) legújabb kiadása *(a `.cia` fájl)*
+* A [Checkpoint](https://github.com/BernardoGiordano/Checkpoint/releases/latest) legújabb kiadása *(a `.cia` fájl)*
+* A [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) legújabb kiadása
 * A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
-* The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
-* The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
-* The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
+* A [DSP1](https://github.com/zoogie/DSP1/releases/latest) legújabb kiadása
+* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása *(a `.cia` és a `.3dsx` fájl is)*
+* A [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) legújabb kiadása
+* A [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) legfrissebb változata *(a `.cia` fájl)*
 
 ### Utasítások
 
@@ -38,9 +38,9 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 1. Helyezd az SD kártyád a számítógépbe
 1. Hozz létre egy mappát `3ds` néven az SD kártyád gyökerében, ha még nem létezik ilyen
 1. Hozz létre egy mappát `cias` néven az SD kártyád gyökerében, ha még nem létezik ilyen
-1. Copy `ctr-no-timeoffset.3dsx` to the `/3ds/` folder on your SD card
+1. Másold a `ctr-no-timeoffset.3dsx`-et az SD kártyád `/3ds/` mappájába
 1. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
-1. Copy `Homebrew_Launcher.cia` to the `/cias/` folder on your SD card
+1. Másold a `Homebrew_Launcher.cia` fájlt az SD kártyán található `/cias/` mappába
 1. Másold a `lumaupdater.cia` fájlt az SD kártyán található `/cias/` mappába
 1. Másold az `FBI.cia` fájlt az SD kártyád `/cias/` mappájába
 1. Másold a `DSP1.cia` fájlt az SD kártyád `/cias/` mappájába
@@ -61,7 +61,7 @@ Ezen folyamat közben további programokat is telepítünk, melyek az alábbiak:
 
 #### Második rész - A rendszer frissítése
 
-If, while following a previous version of this guide, you CTRTransfered your *New 3DS* to 2.1.0, you should now [restore your NAND backup](godmode9-usage#restoring-a-nand-backup) before doing this section.
+Amennyiben egyszer már végigcsináltad a jelenlegi leírás egy korábbi változatát, és 2.1.0-s verzióra CTRTransfer-elted a *New 3DS* konzolodat, itt az idő, hogy [visszaállítsd a NAND-od biztonsági mentését](godmode9-usage#restoring-a-nand-backup), mielőtt ezt a részt folytatnád.
 {: .notice--danger}
 
 Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és át szeretnéd hozni a tartalmakat az EmuNAND-ról az új SysNAND CFW-re, akkor itt az idő, hogy kövesd az [EmuNAND költöztetése](move-emunand) című útmutatót, mielőtt belekezdenél ebbe a részbe.
@@ -72,7 +72,7 @@ Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és 
   + Ha ez hibát ad, akkor állítsd a DNS beállításodat "auto"-ra
   + Ha még így is hibát kapsz, kövesd a [CTRTransfer](ctrtransfer) című útmutatót, majd próbáld újra
 
-#### Section III - Homebrew Launcher
+#### Harmadik rész - Homebrew Launcher
 
 1. Indítsd el a Download Play alkalmazást
 1. Nyomd meg az (L) + (Le) + (Select) gombokat egyszerre, hogy a Rosalina menü megnyitásához
