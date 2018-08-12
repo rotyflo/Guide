@@ -35,12 +35,12 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 #### Második rész - A SafeB9SInstaller indítása
 
-1. Launch the browser and go to the following URL on your device
+1. Indítsd el a webböngészőt a készülékeden, majd nyisd meg az alábbi URL-t:
   + `http://2xrsa.hacks.guide`
-  + If you are on a New 3DS, New 2DS, or Old 2DS and Wireless Communication is off, you can re-enable the wireless by removing the battery and unplugging the charger for several seconds then booting back up
-  + If you get the error "This service is not available in your region", use the System Settings to set your device's country to match the NAND region you installed with 2.1.0 CTRTransfer
-  + If you forgot to disable parental controls before CTRTransfering or otherwise cannot access wireless settings, note that the device will autoconnect to any network named `attwifi` with no password
-  + If you get another error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
+  + Ha készüléked New 3DS, New 2DS, vagy Old 2DS és a vezeték nélküli kapcsolat (Wireless Communication) tiltva van, engedélyezheted ismét úgy, hogy kiveszed az akkumulátort, kihúzod a töltőt néhány másodpercre, majd ismét elindítod a konzolt
+  + Ha a "This service is not available in your region" hibaüzenetet kapod, lépj a System Settings-be, és állítsd a készülékedet arra az országra, ami egyezik a korábban 2.1.0-s CTRTransferrel telepített NAND régiójával
+  + Ha elfelejtetted volna letiltani a szülői felügyeletet (parental controls) a CTRTransfer használata előtt, vagy egyéb okból nem éred el a vezeték nélküli beállításokat (wireless settings), jó ha tudod, hogy a készüléked automatikusan kapcsolódni fog bármilyen olyan hálózathoz, aminek `attwifi` a neve és nincs jelszava
+  + Ha egyéb hibát kapsz, [nézd át a hibaelhárítási útmutatót](troubleshooting#a-browser-based-exploit-is-not-working)
 1. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
 
 #### Harmadik rész - boot9strap telepítése
