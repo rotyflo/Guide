@@ -47,7 +47,7 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl3) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Select "Exit"
+1. Válaszd az "Exit" opciót
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Nyomd meg a (Start) gombot az eszköz újraindításához
 
