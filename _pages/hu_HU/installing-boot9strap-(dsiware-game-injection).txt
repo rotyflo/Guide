@@ -38,7 +38,7 @@ Ha nem a cél 3DS-ednek megfelelő `.firm`-et használod, BRICKELNI fogod a kés
 
 #### Első rész - Előkészületek
 
-Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/latest) to backup any saves you care about on *the target 3DS* (it will be formatted!)
+Használj [mentéskezelőt](https://github.com/BernardoGiordano/Checkpoint/releases/latest) a *cél 3DS-en*, hogy biztonsági másolatot készíts azon játékok mentéséről, amik fontosak a számodra (az ugyanis formázva lesz!)
 {: .notice--warning}
 
 1. Kapcsold ki a **forrás 3DS**-t
@@ -129,7 +129,7 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Hajtsd végre az alábbiak egyikét
     + Kövesd a hátra lévő részeket, majd a teljes útmutatót a **cél 3DS**-en, majd várj egy hetet *(ne állítsd vissza a NAND mentésedet a System Transfer előtt)*, aztán végezz System Transfert a **cél 3DS**-ről a **forrás 3DS**-re *(de ne feledd, hogy a System Transfer nem működik New 3DS-ről vagy New 2DS-ről Old 3DS vagy Old 2DS irányába)*
     + Hívd fel a Nintendót, és mondd el nekik, hogy már nem férsz hozzá ahhoz a készülékhez, amihez az NNID-d rendelve van (ami a **cél 3DS** ebben az esetben), és szeretnéd egy másik eszközhöz hozzárendelni (ami a **forrás 3DS** ebben az esetben)
-    + You can also just [remove the NNID](godmode9-usage#removing-an-nnid-without-formatting-your-device) from **the source 3DS** if you'd prefer it remain on **the target 3DS**
+    + Lehetőséged van egyszerűen csak [törölni az NNID-t](godmode9-usage#removing-an-nnid-without-formatting-your-device) a **forrás 3DS**-ről, ha szeretnéd, hogy az a **cél 3DS**-en maradjon
 1. Indítsd újra a **forrás 3DS**-t, és indítás közben tartsd lenyomva a (Start) gombot, hogy elinduljon a GodMode9
 1. Menj ide: `[0:] SDCARD` -> `gm9` -> `out`
 1. Nyomd meg az (A) gombot a `<dátum>_<sorozatszám>_sysnand_###.bin` fájlon, hogy kijelöld, majd válaszd a "NAND image options...", aztán a "Restore SysNAND (safe)" opciót
@@ -141,7 +141,7 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
 1. Nyomd meg a (Start)-ot a **forrás 3DS** újraindításához
 
-#### Section V - Flashing the target 3DS's FIRM
+#### Ötödik rész - A cél 3DS FIRM-jének flashelése
 
 1. Másold át a `boot.firm` fájlt a Luma3DS `.7z`-ből az SD kártya gyökerébe
 1. Másold a `boot.nds` (B9STool) fájlt a **cél 3DS** SD kártyájának gyökerébe
@@ -152,13 +152,13 @@ Use a [save manager](https://github.com/BernardoGiordano/Checkpoint/releases/lat
 1. Válaszd az "Install boot9strap" opciót, majd erősítsd meg
 1. Lépj ki a b9sTool-ból, majd kapcsold ki a készülékedet
   + Elképzelhető, hogy kényszerítened kell a leállást a bekapcsológomb lenyomva tartásával
-1. Put your SD card in your computer, then copy `BACKUP.bin` from the `boot9strap` folder to a safe location on your computer
+1. Helyezd az SD kártyát a számítógépedbe, majd másold a `BACKUP.bin` fájlt a `boot9strap` mappából egy biztonságos helyre
   + Tarts belőle biztonsági másolatokat több különböző helyen is (például online tárhelyen)
   + Ez a biztonsági másolat menthet meg egy esetleges brickeléstől, ha valami balul ütne ki a jövőben
 1. Tedd vissza az SD kártyád a **cél 3DS**-be
 1. Kapcsold be a **cél 3DS**-t
 
-#### Section VI - Configuring Luma3DS
+#### Hatodik rész - A Luma3DS konfigurálása
 
 1. Indítsd el a készülékedet a (Select) lenyomva tartásával, hogy megjelenjen a Luma konfigurációs menüje
 1. Használd az (A) gombot és D-Pad-et a következő engedélyezéséhez:    
