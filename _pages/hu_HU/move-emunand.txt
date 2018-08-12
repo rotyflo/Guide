@@ -17,7 +17,7 @@ Az alábbiak használatához már telepítened kellett a következőket: Luma3DS
 
 * Egy létező EmuNAND
 * A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest)
+* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása
 
 ### Utasítások
 
