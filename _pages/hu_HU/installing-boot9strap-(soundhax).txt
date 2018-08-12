@@ -14,9 +14,9 @@ Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiv
 
 {% capture notice-1 %}
 
-Vedd figyelembe, hogy a kártyafrissítések csak a legfontosabb dolgokat frissítik, mint például a System Settings, Home Menu, stb. A kártyafrissítések nem fogják frissíteni a Nintendo 3DS Sound alkalmazást és a Hálózati funkciókat, mint például a System Transfer, Internet Browser, StreetPass Mii Plaza, vagy az eShop.
+Vedd figyelembe, hogy a kártyafrissítések csak a legfontosabb dolgokat frissítik, mint például a System Settings, Home Menu, stb. A kártyafrissítések nem fogják frissíteni a Nintendo 3DS Sound alkalmazást és az olyan hálózati funkciókat, mint például a System Transfer, Internet Browser, StreetPass Mii Plaza, vagy az eShop.
 
-Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a Soundhax-ot! You will need an alternate method of entering the Homebrew Launcher such as [Installing boot9strap (Browser)](installing-boot9strap-(browser)) or [Installing boot9strap (MSET)](installing-boot9strap-(mset))!
+Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi verziójú Nintendo 3DS Sound alkalmazás tartozott *(<3.0.0)* egy olyan verzióra, amihez újabb Nintendo 3DS Sound tartozik, működésképtelenné teszi a Soundhax-ot! Így alternatív módszerre lesz szükséged a Homebrew Launcher telepítéséhez, mint a [boot9strap telepítése (böngésző)](installing-boot9strap-(browser)) vagy a [boot9strap telepítése (MSET)](installing-boot9strap-(mset))!
 {% endcapture %}
 
 <div class="notice--warning">{{ notice-1 | markdownify }}</div>
@@ -28,7 +28,7 @@ Ez azt jelenti, hogy kártyafrissítés egy olyan verzióról, amelyhez régebbi
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
 * A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
 * A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) legújabb kiadása
-* The latest release of [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) *(the `.bin` file corresponding to your firmware version)*
+* A [pre9otherapp](https://github.com/Pirater12/otherapp/releases/latest) legújabb verziója *(a firmware verziódnak megfelelő `.bin` fájl)*
 
 ### Utasítások
 
