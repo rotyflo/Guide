@@ -61,13 +61,13 @@ A lentebbi utasítások egy része csak a legfrissebb GodMode9-on érhető el, e
 1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
 1. Az SD kártya leválasztásához az (R) gomb lenyomva tartása mellett nyomd meg a (B) gombot
 1. Helyezd az SD kártyád a számítógépbe
-1. Copy `<date>_<serialnumber>_sysnand_###.bin` from your computer to the `/gm9/out/` folder on your SD card
+1. Másold a `<date>_<serialnumber>_sysnand_###.bin` fájlt a számítógépedről az SD kártyád `/gm9/out/` mappájába
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
 1. Válaszd ezt: "GM9Megascript"
-1. Select "Restore Options"
-1. Select "SysNAND Restore (safe)"
+1. Válaszd a "Restore Options" opciót
+1. Válaszd a "SysNAND Restore (safe)" opciót
 1. Válaszd ki a NAND-odról készült biztonsági másolatot
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl3) írást, majd sorban nyomd meg a kijelzett gombokat
   + Ez nem fogja felülírni a boot9strap installációdat
@@ -108,7 +108,7 @@ Ez csak akkor fog működni, ha az injektálást GodMode9 végezte (nem pedig De
 ## Játékkártya tartalmának kimentése
 
 {% capture notice %}
-Insert the game cartridge you intend to dump into your device
+Helyezd be a készülékedbe a menteni kívánt játékkártyát
   + A 3DS játékkártyák telepíthető `.cia` formátumba lesznek mentve
   + Az NDS játékkártyák nem telepíthető `.nds` formátumba lesznek mentve, amely flashkártyákkal és emulátorokkal lesz kompatibilis
 {% endcapture %}
@@ -208,7 +208,7 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
 
 ## .CIA fájl titkosítása / visszafejtése
 
-For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
+A rend kedvéért, másold a titkosítani vagy visszafejteni kívánt `.cia` fájljaidat az SD kártyád `/cias/` mappájába
 {: .notice--info}
 
 1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
@@ -228,7 +228,7 @@ For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt
 1. Válaszd a "Scripts..." opciót
 1. Válaszd ezt: "GM9Megascript"
 1. Válaszd ezt: "Scripts from Plailect's Guide"
-1. Select "Remove NNID"
+1. Válaszd a "Remove NNID" opciót
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg az (A) gombot a folytatáshoz
