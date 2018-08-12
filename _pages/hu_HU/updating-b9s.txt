@@ -28,8 +28,8 @@ Kaptunk visszajelzéseket kitiltási hullámokról, melyeket a Nintendo a CFW-t 
 
 ### Amire szükséged lesz
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
 * A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
 * A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
 
