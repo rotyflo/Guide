@@ -19,7 +19,7 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 
 ### Amire szükséged lesz
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
 
 ### Utasítások
 
@@ -40,7 +40,7 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
   + Ne feledd, hogy amennyiben ezen a ponton szükséges volt a helyes dátum és idő beállítása, a System Settingsben is be kell majd állítanod a helyes időt az útmutató végén
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
-1. Select "GM9Megascript"
+1. Válaszd ezt: "GM9Megascript"
 1. Select "Hax Options"
 1. Select "Un-install Hax"
 1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
