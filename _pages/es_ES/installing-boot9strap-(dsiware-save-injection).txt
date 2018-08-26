@@ -40,7 +40,7 @@ Usa un [gestor de datos de guardado](https://github.com/FlagBrew/Checkpoint/rele
 
 1. Copia el archivo `GodMode9.firm` desde el `.zip` de GodMode9 a la carpeta `/luma/payloads/` en la tarjeta SD de **la 3DS de origen**
 1. Copia la carpeta `gm9`contenida en el `.zip`de GodMode9 al directorio raíz de la tarjeta SD de **la 3DS de origen**
-1. Copy the relevant `public.sav` from the `/dsiware/<8-character-id>/` folder in the 3ds_dsiwarehax_installer `.zip` to the root of **the source 3DS**'s SD card
+1. Copia el `public.sav` relevante de la carpeta `/dsiware/<ID-de-8-caracteres>/`en el `.zip` de 3ds_dsiwarehax_installer a la raíz de la tarjeta SD de **la 3DS de origen**
   + **Fieldrunners Región USA**: `4b464445`
   + **Fieldrunners Región EUR**: `4b464456`
   + **Legends of Exidia Región USA**: `4b4c4545`
