@@ -841,7 +841,7 @@ Dado que la lista es muy larga, puedes utilizar la barra al costado para desplaz
 | Rhythm Core Alpha 2™ | £8.99/9,99 € | 4B593456 | EUR | [![qrcode]({{ "/images/qrcodes/50010000015473.png" | absolute_url }})]({{ "/images/qrcodes/50010000015473.png" | absolute_url }})
 | Shantae: Risky's Revenge™ | £10.79/11,99 € | 4B533350 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006181.png" | absolute_url }})]({{ "/images/qrcodes/50010000006181.png" | absolute_url }})
 
-#### Section III - JPN
+#### Sección III - JPN
 
 | | Precio | ID de 8 carácteres | Region(es) | código QR |
 |:-:|:-:|:-:|:-:|:-:|
