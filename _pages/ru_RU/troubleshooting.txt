@@ -113,7 +113,7 @@ title: "Проблемы и их решения"
     1. Зажмите (L) + (R) + (A) + (Вверх)
     1. Включите консоль
     1. Если вы зашли в режим восстановления, обновите консоль
-1. Ваша консоль, скорее всего, превратилась в брик. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+1. Ваша консоль, скорее всего, превратилась в брик. Для поддержки (на английском языке), обратитесь за помощью на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp)
 
 ## Очистка данных меню HOME
 
@@ -156,7 +156,7 @@ title: "Проблемы и их решения"
 1. Попробуйте включить устройство без каких-либо картриджей (включая флеш-картриджи)
 1. Если ранее вы понижали прошивку через Gateway, то убедитесь, что у вас установлена последняя версия Luma3DS
 1. Попробуйте выполнить [CTRTransfer](ctrtransfer)
-1. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+1. Для поддержки (на английском языке), обратитесь за помощью на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp)
 
 ## Синий экран при загрузке (bootrom error)
 
