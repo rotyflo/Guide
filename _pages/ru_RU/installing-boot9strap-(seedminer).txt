@@ -69,25 +69,25 @@ title: "Установка boot9strap (DSiWare)"
   + Если появляется ошибка и вас не пускают в меню, значит вам нужно либо создать новый Mii, либо консоль не может подключиться к серверам Nintendo (по причине бана или проблем с соединением)
 1. Найдите свой профиль Mii, затем найдите поле "Код друга" на верхнем экране
 
-#### Section II - Seedminer
+#### Часть II - Seedminer
 
-1. Open [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
-  + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
-  + If you already have access to a 3DS capable of launching the Homebrew Launcher, you can manually retrieve your `movable_part1.sed` using that device by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) instructions
-  + If you already have access to a PC with a powerful graphics card, you can manually calculate your `movable.sed` using it by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instructions
-  + If the automated service is nonfunctional and you cannot do one or both of those manually, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
-1. Enter your device's Friend Code (with no spaces or dashes) into the "Your friend code" field
-1. Paste your device's  32 character long folder name into the "Your ID0" field
-1. Complete the "I'm not a robot" captcha
-1. Select "Go"
-1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
-1. Wait for the site to update
-  + If it does not, refresh the page
-1. Select "Continue"
-1. Wait for the process to complete
-  + This can take a while (up to an hour in some cases)
-  + If you are still waiting after an hour, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
-1. When the process has completed, download your `movable.sed` file from the site
+1. Перейдите по ссылке [Bruteforce Movable](https://bruteforcemovable.com/) на компьютере
+  + Этот сайт может автоматизировать процесс получения `movable_part1.sed` (при помощи консоли-бота 3DS) и процесс взлома шифрования DSiWare вашей консоли (используя компьютер волонтера для запуска Seedminer)
+  + Если у вас уже есть доступ к консоли 3DS, способной запускать Homebrew Launcher, вы можете вручную получить свой `movable_part1.sed`, используя эту консоль и следуя [этим](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) инструкциям (англ.)
+  + Если у вас уже есть доступ к ПК с мощной видеокартой, вы можете вручную вычислить свой `movable.sed`, используя этот компьютер и следуя [этим](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) инструкциям (англ.)
+  + Если автоматизированный сервис не функционирует, и вы не можете выполнить одно или оба этих действия вручную, обратитесь на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) и попросите (на английском языке) кого-нибудь вам помочь 
+1. Введите Код друга вашей консоли (без пробелов или тире) в поле "Your friend code"
+1. Вставьте имя папки из 32 символов в поле "Your ID0"
+1. Заполните captcha "Я не робот"
+1. Выберите "Go"
+1. При появлении запроса, используйте кнопку "Регистрация друга" на консоли, чтобы добавить код друга консоли-бота 3DS
+1. Дождитесь обновления страницы
+  + Если этого не происходит, обновите страницу самостоятельно
+1. Выберите "Continue"
+1. Дождитесь окончания процесса
+  + Это может занять некоторое время (вплоть до часа в некоторых случаях)
+  + Если вы все еще в ожидании по прошествии часа, обратитесь на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) и попросите (на английском языке) кого-нибудь вам помочь 
+1. После окончания процесса скачайте с сайта свой файл `movable.sed`
 
 #### Section III - DSiWare Injection
 
@@ -100,7 +100,7 @@ title: "Установка boot9strap (DSiWare)"
 1. Select the extracted `game_<your-region>.app` file for the "game_XXX.app" field
 1. Select the extracted `public_<your-region>.sav` file for the "public_XXX.sav" field
 1. Select "Start!"
-1. Wait for the process to complete
+1. Дождитесь окончания процесса
 1. Rename the created `<8-character-id>.bin.patched` file to `<8-character-id>.bin`
   + Do not confuse this file with the `<8-character-id>.bin` file from earlier
 1. Выключите консоль
