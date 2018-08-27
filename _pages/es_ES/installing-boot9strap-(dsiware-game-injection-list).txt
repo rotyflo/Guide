@@ -673,7 +673,7 @@ Dado que la lista es muy larga, puedes utilizar la barra al costado para desplaz
 | Digger Dan & Kaboom | £4.49/4,99 € | 4B424850 | EUR | [![qrcode]({{ "/images/qrcodes/50010000002361.png" | absolute_url }})]({{ "/images/qrcodes/50010000002361.png" | absolute_url }})
 | Gold Fever | £4.49/4,99 € | 4B473756 | EUR | [![qrcode]({{ "/images/qrcodes/50010000003173.png" | absolute_url }})]({{ "/images/qrcodes/50010000003173.png" | absolute_url }})
 | Ancient Tribe | £4.49/4,99 € | 4B414550 | EUR | [![qrcode]({{ "/images/qrcodes/50010000001801.png" | absolute_url }})]({{ "/images/qrcodes/50010000001801.png" | absolute_url }})
-| Puzzle to Go Baby Animals | £4.49/4,99 € | 4B425950 | EUR | [![qrcode]({{ "/images/qrcodes/50010000002005.png" | absolute_url }})]({{ "/images/qrcodes/50010000002005.png" | absolute_url }})
+| Puzzle to Go Baby Animals (Puzzle to Go Animales bebé) | £4.49/4,99 € | 4B425950 | EUR | [![qrcode]({{ "/images/qrcodes/50010000002005.png" | absolute_url }})]({{ "/images/qrcodes/50010000002005.png" | absolute_url }})
 | Rhythm Core Alpha™ | £4.49/4,99 € | 4B354156 | EUR | [![qrcode]({{ "/images/qrcodes/50010000000585.png" | absolute_url }})]({{ "/images/qrcodes/50010000000585.png" | absolute_url }})
 | 101 Shark Pets | £4.49/4,99 € | 4B345950 | EUR | [![qrcode]({{ "/images/qrcodes/50010000001705.png" | absolute_url }})]({{ "/images/qrcodes/50010000001705.png" | absolute_url }})
 | Oscar in Toyland 2 | £4.49/4,99 € | 4B4F5950 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004601.png" | absolute_url }})]({{ "/images/qrcodes/50010000004601.png" | absolute_url }})
