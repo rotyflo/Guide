@@ -71,7 +71,7 @@ Ten en cuenta que esta herramienta requiere de un PC con una tarjeta gráfica mu
 
 #### Sección II - Seedminer
 
-1. Open [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
+1. Entra a [Bruteforce Movable](https://bruteforcemovable.com/) en tu computadora
   + Este sitio puede automatizar la obtención del `movable_part1.sed` (utilizando un bot que simula una consola 3DS) y la ruptura de la encriptación DSiWare de tu consola (utilizando la computadora de un voluntario para ejecutar Seedminer)
   + Si posees acceso a una 3DS capaz de ejecutar el Homebrew Launcher, puedes obtener manualmente tu `movable_part1.sed` utilizando dicha consola, siguiendo [estas](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) instrucciones
   + Si posees acceso a un PC con una tarjeta gráfica poderosa, puedes usarla para calcular manualmente el `movable.sed` siguiendo [estas](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instrucciones
@@ -91,7 +91,7 @@ Ten en cuenta que esta herramienta requiere de un PC con una tarjeta gráfica mu
 
 #### Sección III - Inyección de DSiWare
 
-1. Open [TADpole Online](https://jisagi.github.io/TADpole-Online/) on your computer
+1. Entra a [TADpole Online](https://jisagi.github.io/TADpole-Online/) en tu computadora
   + Si este sitio no está operando, intenta con [Project DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)
 1. Extrae el contenido del archivo `.zip` de inyección de exploit de DSiWare dentro de una carpeta en tu computadora
 1. Selecciona tu archivo `<ID-de-8-caracteres>`.bin dentro del campo "DSiWare.bin"
