@@ -112,10 +112,10 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Accendi la console
 1. Avvia "Impostazioni della console"
 1. Entra in `Gestione dati` -> `DSiWare`
-1. Under the "SD Card" (or "microSD Card") section, select your compatible DSiWare game
+1. Nella sezione "Scheda SD" (o "Scheda microSD"), seleziona il gioco DSiWare compatibile
 1. Seleziona "Copia", quindi "OK"
-  + This may have caused your game to appear as "Sudoku" or "4Swords" depending on region; this is normal
-1. Exit System Settings
+  + Il gioco potrebbe apparire come "Sudoku" o "4Swords" a seconda della regione; è normale
+1. Esci da Impostazioni della console
 
 #### Sezione IV - Flash di NFIRM
 
