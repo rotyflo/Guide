@@ -80,16 +80,16 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Incolla i 32 caratteri della cartella nel campo "Your ID0"
 1. Supera il captcha "I'm not a robot"
 1. Seleziona "Go"
-1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
-1. Wait for the site to update
-  + If it does not, refresh the page
-1. Select "Continue"
-1. Wait for the process to complete
-  + This can take a while (up to an hour in some cases)
-  + If you are still waiting after an hour, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
-1. When the process has completed, download your `movable.sed` file from the site
+1. Quando richiesto, usa il pulsante "Registra Amico" sulla tua console per aggiungere il codice amico della console 3DS fittizia
+1. Attendi l'aggiornamento del sito
+  + Se dopo un po' di tempo non accade nulla, aggiorna manualmente la pagina
+1. Selaziona "Continue"
+1. Attendi il termine del processo
+  + Potrebbe volerci un po' di tempo (anche un'ora)
+  + Se dopo un'ora non è successo, nulla, entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) (in Inglese) per richiedere assistenza 
+1. Al termine del processo, scarica il tuo file `movable.sed` dal sito
 
-#### Section III - DSiWare Injection
+#### Sezione III - Iniezione nel DSiWare
 
 1. Open [TADpole Online](https://jisagi.github.io/TADpole-Online/) on your computer
   + If this site is nonfunctional, try [Project DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)
@@ -100,7 +100,7 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Select the extracted `game_<your-region>.app` file for the "game_XXX.app" field
 1. Select the extracted `public_<your-region>.sav` file for the "public_XXX.sav" field
 1. Select "Start!"
-1. Wait for the process to complete
+1. Attendi il termine del processo
 1. Rename the created `<8-character-id>.bin.patched` file to `<8-character-id>.bin`
   + Do not confuse this file with the `<8-character-id>.bin` file from earlier
 1. Spegni il tuo 3DS
@@ -125,7 +125,7 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Esci da b9sTool, quindi spegni la tua console
   + Potresti dover forzare lo spegnimento tenendo premuto il pulsante di accensione
 
-#### Section V - Configuring Luma3DS
+#### Sezione V - Configurare Luma3DS
 
 1. Avvia la tua console tenendo premuto (Select) per avviare il menu delle opzioni di Luma
   + If you encounter issues launching the Luma configuration menu, [follow this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
