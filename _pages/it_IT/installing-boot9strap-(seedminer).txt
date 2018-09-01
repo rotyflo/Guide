@@ -76,10 +76,10 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
   + Se hai già accesso a un 3DS in grado di avviare l'Homebrew Launcher, puoi recuperare manualmente il tuo `movable_part1.sed` utilizzando quella console seguendo [queste](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) istruzioni
   + Se hai accesso a un PC con una scheda grafica potente, puoi calcolare manualmente il tuo file `movable.sed` seguendo [queste](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) istruzioni
   + Se il servizio automatizzato non è attivo e non puoi eseguire alcuna delle procedure manuali, entra nel [canale Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in Inglese) per chiedere supporto 
-1. Enter your device's Friend Code (with no spaces or dashes) into the "Your friend code" field
-1. Paste your device's  32 character long folder name into the "Your ID0" field
-1. Complete the "I'm not a robot" captcha
-1. Select "Go"
+1. Inserisci il Codice Amico della tua console (senza spazi o trattini) nel campo "Your friend code"
+1. Incolla i 32 caratteri della cartella nel campo "Your ID0"
+1. Supera il captcha "I'm not a robot"
+1. Seleziona "Go"
 1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
 1. Wait for the site to update
   + If it does not, refresh the page
