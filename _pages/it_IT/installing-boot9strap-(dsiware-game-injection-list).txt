@@ -6,9 +6,9 @@ title: "Installazione di boot9strap (lista dei giochi per inject su DSiWare)"
 
 ### Lettura necessaria
 
-This is an automatically generated list of all DSiWare Injection compatible games currently available on the eShop.
+Questa è una lista di giochi DSiWare compatibili disponibili sull'eShop generata automaticamente.
 
-Additionally, the following eShop games (which have since been pulled from the eShop) are also compatible:
+Sono compatibili anche i seguenti giochi (rimossi dall'eShop):
   + Fieldrunners (4B4644XX)
   + Legends of Exidia (4B4C45XX)
   + Guitar Rock Tour (4B4752XX)
@@ -22,17 +22,17 @@ Vi sono dei requisiti sulle dimensioni in quanto sia il DSiWare iniettato che il
 
 {% capture notice-list %}
 
-    Compatible DSiWare games must meet specific size requirements:
+    I giochi DSiWare compatibili devoro soddisfare i requisiti di dimensione specificati:
 
     + USA DSiWare
       + Usa sudokuhax
       + Dimensione del file `.app` >= 3,457,024 byte
-      + `public.sav` size of >= 16,384 bytes
+      + Dimensione del file `public.sav` >= 16,384 byte
 
     + EUR DSiWare
       + Usa sudokuhax
       + Dimensione del file `.app` >= 3,563,520 byte
-      + `public.sav` size of >= 16,384 bytes
+      + Dimensione del file `public.sav` >= 16,384 byte
 
     + JPN DSiWare
       + Usa 4swordshax
@@ -46,9 +46,9 @@ Vi sono dei requisiti sulle dimensioni in quanto sia il DSiWare iniettato che il
 
 ### Lista
 
-Due to the length of this list, you may wish to use the sidebar to skip to the section relevant to your region.
+Data la lunghezza della lista, ti conviene usare la sidebar per saltare direttamente alla sezione riguardante la tua regione.
 
-#### Section I - USA
+#### Sezione I - USA
 
 | | Prezzo | ID a 8 caratteri | Regione(I) | Codice QR |
 |:-:|:-:|:-:|:-:|:-:|
@@ -470,7 +470,7 @@ Due to the length of this list, you may wish to use the sidebar to skip to the s
 | Thorium Wars™ | $9.99 | 4B545745 | USA | [![qrcode]({{ "/images/qrcodes/50010000003571.png" | absolute_url }})]({{ "/images/qrcodes/50010000003571.png" | absolute_url }})
 | Shantae: Risky's Revenge | $11.99 | 4B533345 | USA | [![qrcode]({{ "/images/qrcodes/50010000003644.png" | absolute_url }})]({{ "/images/qrcodes/50010000003644.png" | absolute_url }})
 
-#### Section II - EUR
+#### Sezione II - EUR
 
 | | Prezzo | ID a 8 caratteri | Regione(I) | Codice QR |
 |:-:|:-:|:-:|:-:|:-:|
