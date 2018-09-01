@@ -48,28 +48,28 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Copia il file `boot.nds` (B9STool) nella directory principale della tua scheda SD
 1. Copia il file `boot.3dsx` nella directory principale della tua scheda SD
 1. Entra nella cartella `Nintendo 3DS` della tua scheda SD
-1. Copy the 32 character long name of the folder you see
-  + If you see multiple folders like this, perform the following:
-  + Rename the `Nintendo 3DS` folder to `BACKUP_Nintendo 3DS`
-  + Reinsert your SD card into your device and power on your device
-  + Wait for the device to generate the SD card data
-  + Power off your device and reinsert your SD card into your computer
-  + Navigate to the `Nintendo 3DS` folder on your SD card
-  + Copy the 32 character long name of the folder you see
-  + Delete the `Nintendo 3DS` folder
-  + Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
-1. Paste your 32 character long folder name into a document you can reference later
-  + This folder name is also known as your "ID0"
-1. Navigate to `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-1. Copy `<8-character-id>.bin` to a folder on your computer
+1. Copia la stringa di 32 caratteri del nome della cartella qui presente
+  + Se vedi più cartelle dal nome lungo, segui i seguenti passaggi:
+  + Rinomina la cartella `Nintendo 3DS` in `BACKUP_Nintendo 3DS`
+  + Reinserisci la tua scheda SD nella console, e accendila
+  + Attendi che la console generi i dati nella scheda SD
+  + Spegni la console e reinserisci la scheda SD nel tuo computer
+  + Entra nella cartella `Nintendo 3DS` della tua scheda SD
+  + Copia la stringa di 32 caratteri del nome della cartella qui presente
+  + Elimina la cartella `Nintendo 3DS`
+  + Rinomina la cartella `BACKUP_Nintendo 3DS` in `Nintendo 3DS`
+1. Incolla la stringa di 32 caratteri in un documento che potrai consultare più avanti
+  + Il nome di questa cartella è il tuo "ID0"
+1. Nella tua scheda SD, entra in `<ID0>` -> `<ID a 32 caratteri>` -> `Nintendo DSiWare`
+1. Copia il file `<ID di 8 caratteri>.bin` in una cartella sul tuo computer
   L'ID a 8 caratteri si può trovare alla pagina [Installazione di boot9strap (lista dei giochi per inject su DSiWare)](installing-boot9strap-(dsiware-game-injection-list))
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 1. Accedi alla lista di amici (l'[icona con un viso arancione]({{ "/images/friend-list-icon.png" | absolute_url }}) nella riga superiore del menu HOME)
-  + If you receive an error and are kicked out of the menu, you either must create a new Mii or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Find your Mii profile, then find the "Friend Code" field on the top screen
+  + Se riscontri un errore e vieni rimandato al menu principale, o devi creare un nuovo Mii o la console non può connettersi ai server Nintendo (a causa di un ban o per problemi di connettività)
+1. Sul tuo profilo Mii cerca il "Codice Amico" sullo schermo superiore
 
-#### Section II - Seedminer
+#### Sezione II - Seedminer
 
 1. Open [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
   + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
