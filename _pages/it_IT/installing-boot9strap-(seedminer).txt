@@ -71,7 +71,7 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 
 #### Sezione II - Seedminer
 
-1. Open [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
+1. Avvia [Bruteforce Movable](https://bruteforcemovable.com/) sul tuo computer
   + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
   + If you already have access to a 3DS capable of launching the Homebrew Launcher, you can manually retrieve your `movable_part1.sed` using that device by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) instructions
   + If you already have access to a PC with a powerful graphics card, you can manually calculate your `movable.sed` using it by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instructions
