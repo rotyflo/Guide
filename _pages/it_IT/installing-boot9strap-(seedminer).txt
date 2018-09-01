@@ -74,7 +74,7 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Avvia [Bruteforce Movable](https://bruteforcemovable.com/) sul tuo computer
   + Questo sito permette il recupero automatico del file `movable_part1.sed` (utilizzando una console 3DS fittizia) e la decriptazione della chiave DSiWare della tua console (utilizzando Seedminer tramite il computer di un volontario)
   + Se hai già accesso a un 3DS in grado di avviare l'Homebrew Launcher, puoi recuperare manualmente il tuo `movable_part1.sed` utilizzando quella console seguendo [queste](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) istruzioni
-  + If you already have access to a PC with a powerful graphics card, you can manually calculate your `movable.sed` using it by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instructions
+  + Se hai accesso a un PC con una scheda grafica potente, puoi calcolare manualmente il tuo file `movable.sed` seguendo [queste](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) istruzioni
   + If the automated service is nonfunctional and you cannot do one or both of those manually, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
 1. Enter your device's Friend Code (with no spaces or dashes) into the "Your friend code" field
 1. Paste your device's  32 character long folder name into the "Your ID0" field
