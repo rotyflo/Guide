@@ -19,7 +19,7 @@ Note that this tool requires a PC with a powerful graphics card to break your de
 This process will overwrite your DSiWare game's save file!
 {: .notice--warning}
 
-### Was du brauchst
+### What You Need
 
 * Purchase from the eShop (or already own) a compatible DSiWare game
   + Für eine Liste der kompatiblen Spiele, siehe [Installation von boot9strap (DSiWare Spiel-Injektionsliste)](installing-boot9strap-(dsiware-game-injection-list))
