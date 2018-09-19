@@ -6,6 +6,8 @@ title: "Installazione di boot9strap (Seedminer)"
 
 ### Lettura necessaria
 
+
+
 Per installare boot9strap sulla tua console con versione del software 11.8.0 dovremo approfittare di un errore nelle restrizioni di sicurezza relative alle applicazioni "DSiWare".
 
 Utilizzeremo perciò un'applicazione chiamata Seedminer per calcolare la chiave di criptazione (`movable.sed`) dei DSiWare della tua console. 
@@ -30,12 +32,14 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
   + Ricorda che devi avere l'ultima versione del software (attualmente 11.8.0) per comprare un gioco dall'eShop
 * <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [ctcert.bin](magnet:?xt=urn:btih:ec445a7aae6fd62432c9ccee091919bda41c8283&dn=ctcert.bin&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
 * L'archivio `.zip` dell'exploit per il DSiWare corrispondente alla tua regione:
+  + JPN region users who wish to use the free DSiWare game ほぼ日の健康手帳™ should download `USA.zip` instead of `JPN.zip`
   + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [USA.zip](magnet:?xt=urn:btih:ead76f1e382cad15efaf1ba87c702f7b4c16d6e0&dn=USA.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
   + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [EUR.zip](magnet:?xt=urn:btih:fe5be30f2a2c33e5e350e099804840560cbb6626&dn=EUR.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
   + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Per scaricare il file devi utilizzare un client torrent."></i> - [JPN.zip](magnet:?xt=urn:btih:b10e9c3289c16c6de8aefcaf3892e2efe267acb8&dn=JPN.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
 * L'ultima versione di [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
 * L'ultima versione di [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* **JPN ほぼ日の健康手帳™ Users Only:** The latest release of [squirrelboot](https://github.com/zoogie/squirrelboot/releases)
 
 ### Istruzioni
 
@@ -51,6 +55,9 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
 1. Copia il file `boot.nds` (B9STool) nella directory principale della tua scheda SD
 1. Copia il file `boot.3dsx` nella directory principale della tua scheda SD
+1. **JPN ほぼ日の健康手帳™ Users Only**: 
+  + Create a folder named `3ds` on the root of your SD card
+  + Copy `squirrelboot.3dsx` to the `/3ds/` folder on your SD card
 1. Entra nella cartella `Nintendo 3DS` della tua scheda SD
 1. Copia la stringa di 32 caratteri del nome della cartella qui presente
   + Se vedi più cartelle dal nome lungo, segui i seguenti passaggi:
@@ -75,13 +82,16 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 
 #### Sezione II - Seedminer
 
+JPN ほぼ日の健康手帳™ users should follow [these instructions](http://steelminer.jisagi.net/) instead of this section. Once those instructions have been completed, resume this guide at "Section III - DSiWare Injection".
+{: .notice--info}
+
 1. Avvia [Bruteforce Movable](https://bruteforcemovable.com/) sul tuo computer
   + Questo sito permette il recupero automatico del file `movable_part1.sed` (utilizzando una console 3DS fittizia) e la decriptazione della chiave DSiWare della tua console (utilizzando Seedminer tramite il computer di un volontario)
   + Se hai già accesso a un 3DS in grado di avviare l'Homebrew Launcher, puoi recuperare manualmente il tuo `movable_part1.sed` utilizzando quella console seguendo [queste](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) istruzioni
   + Se hai accesso a un PC con una scheda grafica potente, puoi calcolare manualmente il tuo file `movable.sed` seguendo [queste](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) istruzioni
   + Se il servizio automatizzato non è attivo e non puoi eseguire alcuna delle procedure manuali, entra nel [canale Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in Inglese) per chiedere supporto 
 1. Inserisci il Codice Amico della tua console (senza spazi o trattini) nel campo "Your friend code"
-1. Incolla i 32 caratteri della cartella nel campo "Your ID0"
+1. Paste your device's 32 character long folder name into the "Your ID0" field
 1. Supera il captcha "I'm not a robot"
 1. Seleziona "Go"
 1. Quando richiesto, usa il pulsante "Registra Amico" sulla tua console per aggiungere il codice amico della console 3DS fittizia
@@ -102,6 +112,7 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Seleziona il tuo file `movable.sed` per il campo "movable.sed"
 1. Seleziona il file `ctcert.bin` scaricato per il campo "ctcert.bin"
 1. Seleziona il file estratto `game_<tua regione>.app` per il campo "game_XXX.app"
+  + JPN ほぼ日の健康手帳™ users should be using the files from `USA.zip` instead of `JPN.zip`
 1. Seleziona il file estratto `public_<tua regione>.sav` per il campo "public_XXX.sav"
 1. Seleziona "Start!"
 1. Attendi il termine del processo
@@ -119,12 +130,14 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Nella sezione "Scheda SD" (o "Scheda microSD"), seleziona il gioco DSiWare compatibile
 1. Seleziona "Copia", quindi "OK"
   + Il gioco potrebbe apparire come "Sudoku" o "4Swords" a seconda della regione; è normale
+  + JPN ほぼ日の健康手帳™ users will be missing ほぼ日の健康手帳™ on the home menu; this is normal
 1. Esci da Impostazioni della console
 
 #### Sezione IV - Flash di NFIRM
 
 1. Avvia b9sTool avviando il gioco DSiWare dalla tua console
   + Potrebbe venir richiesto di toccare lo schermo per avviare l'exploit
+  + JPN ほぼ日の健康手帳™ users should instead run Steeldiver to launch the Homebrew Launcher, then run squirrelboot to launch the patched version of ほぼ日の健康手帳™
 1. Seleziona "Install boot9strap" e conferma
 1. Esci da b9sTool, quindi spegni la tua console
   + Potresti dover forzare lo spegnimento tenendo premuto il pulsante di accensione
