@@ -137,7 +137,7 @@ title: "Установка boot9strap (Seedminer)"
 
 1. Откройте b9sTool, запустив DSiWare игру на консоли
   + Если появится запрос, коснитесь экрана чтобы активировать эксплойт
-  + JPN ほぼ日の健康手帳™ users should instead run Steeldiver to launch the Homebrew Launcher, then run squirrelboot to launch the patched version of ほぼ日の健康手帳™
+  + Пользователям JPN ほぼ日の健康手帳™ вместо этого необходимо запустить Steeldiver, чтобы открыть Homebrew Launcher, затем затем выбрать squirrelboot для запуска пропатченной версии ほぼ日の健康手帳™
 1. Выберите "Install boot9strap" и подтвердите выбор
 1. Закройте b9sTool, затем выключите консоль
   + При необходимости выключите консоль принудительно, удерживая кнопку питания
