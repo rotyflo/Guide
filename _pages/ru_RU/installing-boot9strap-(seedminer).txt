@@ -82,7 +82,7 @@ title: "Установка boot9strap (Seedminer)"
 
 #### Часть II - Seedminer
 
-JPN ほぼ日の健康手帳™ users should follow [these instructions](http://steelminer.jisagi.net/) instead of this section. Once those instructions have been completed, resume this guide at "Section III - DSiWare Injection".
+Пользователям JPN ほぼ日の健康手帳™ необходимо следовать [этим инструкциям](http://steelminer.jisagi.net/) (англ.) вместо этой части. После завершения тех инструкций вернитесь к данному руководству, начиная с "Часть III - Инъекция DSiWare".
 {: .notice--info}
 
 1. Перейдите по ссылке [Bruteforce Movable](https://bruteforcemovable.com/) на компьютере
@@ -91,7 +91,7 @@ JPN ほぼ日の健康手帳™ users should follow [these instructions](http://
   + Если у вас уже есть доступ к ПК с мощной видеокартой, вы можете вручную вычислить свой `movable.sed`, используя этот компьютер и следуя [этим](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) инструкциям (англ.)
   + Если автоматизированный сервис не функционирует, и вы не можете выполнить одно или оба этих действия вручную, обратитесь на сервер [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) и попросите (на английском языке) кого-нибудь вам помочь 
 1. Введите Код друга вашей консоли (без пробелов или тире) в поле "Your friend code"
-1. Paste your device's 32 character long folder name into the "Your ID0" field
+1. Вставьте имя папки из 32 символов в поле "Your ID0"
 1. Заполните captcha "Я не робот"
 1. Выберите "Go"
 1. При появлении запроса, используйте кнопку "Регистрация друга" на консоли, чтобы добавить код друга консоли-бота 3DS
@@ -112,7 +112,7 @@ JPN ほぼ日の健康手帳™ users should follow [these instructions](http://
 1. Выберите свой файл `movable.sed` в поле "movable.sed"
 1. Выберите скачанный файл `ctcert.bin` в поле "ctcert.bin"
 1. Выберите извлеченный файл `game_<ваш-регион>.app` в поле "game_XXX.app"
-  + JPN ほぼ日の健康手帳™ users should be using the files from `USA.zip` instead of `JPN.zip`
+  + Пользователям JPN ほぼ日の健康手帳™ необходимо использовать файлы из `USA.zip` вместо `JPN.zip`
 1. Выберите извлеченный файл `public_<ваш-регион>.sav` в поле "public_XXX.sav"
 1. Выберите "Start!"
 1. Дождитесь окончания процесса
@@ -130,7 +130,7 @@ JPN ほぼ日の健康手帳™ users should follow [these instructions](http://
 1. На вкладке "Карта SD" (или "Карта microSD") выберите вашу совместимую DSiWare игру
 1. Выберите "Копировать", затем "OK"
   + Это действие может заставить вашу игру отображаться как "Sudoku" или "4Swords" в зависимости от региона; это нормально
-  + JPN ほぼ日の健康手帳™ users will be missing ほぼ日の健康手帳™ on the home menu; this is normal
+  + Пользователи JPN ほぼ日の健康手帳™ перестанут видеть игру ほぼ日の健康手帳™ в меню HOME; это нормально
 1. Закройте Системные настройки
 
 #### Часть IV - Прошивка FIRM
