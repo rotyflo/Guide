@@ -56,8 +56,8 @@ title: "Установка boot9strap (Seedminer)"
 1. Скопируйте `boot.nds` (B9STool) в корень SD-карты
 1. Скопируйте `boot.3dsx` в корень SD-карты
 1. **Только для пользователей JPN ほぼ日の健康手帳™**: 
-  + Create a folder named `3ds` on the root of your SD card
-  + Copy `squirrelboot.3dsx` to the `/3ds/` folder on your SD card
+  + Создайте папку `3ds` в корне SD-карты
+  + Скопируйте `squirrelboot.3dsx` в папку `/3ds/` на SD-карте
 1. Перейдите в папку `Nintendo 3DS` на SD-карте
 1. Скопируйте имя папки из 32 символов, которую вы видите
   + Если вы видите несколько таких папок, выполните следующие действия:
