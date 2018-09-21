@@ -91,7 +91,7 @@ Los usuarios de JPN ほぼ日の健康手帳™ deberían seguir [estas instrucc
   + Si posees acceso a un PC con una tarjeta gráfica poderosa, puedes usarla para calcular manualmente el `movable.sed` siguiendo [estas](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instrucciones
   + Si el sistema automático no está operacional y no puedes hacer uno o los dos pasos manualmente, únete al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) (en inglés) y pide ayuda a alguien de allí 
 1. Ingresa el código de amigo de tu consola (sin espacios ni guiones) en donde dice "Your friend code"
-1. Paste your device's 32 character long folder name into the "Your ID0" field
+1. Copia y pega el nombre de 32 caracteres donde dice "Your ID0"
 1. Completa el captcha que dice "I'm not a robot"
 1. Selecciona "Go"
 1. Cuando te lo pida, utiliza el botón de "Añadir amigo" en tu consola para añadir el código de amigo del bot que simula una consola 3DS
@@ -112,7 +112,7 @@ Los usuarios de JPN ほぼ日の健康手帳™ deberían seguir [estas instrucc
 1. Selecciona tu archivo `movable.sed` en el campo "movable.sed"
 1. Selecciona el archivo `ctcert.bin` que descargaste, en el campo "ctcert.bin"
 1. Selecciona el archivo `game_<tu-región>.app` extraído, en el campo "game_XXX.app"
-  + JPN ほぼ日の健康手帳™ users should be using the files from `USA.zip` instead of `JPN.zip`
+  + Los usuarios de JPN ほぼ日の健康手帳™ deberían usar los archivos de `USA.zip` en vez de `JPN.zip`
 1. Selecciona el archivo `public_<tu-región>.sav` extraído, en el campo "public_XXX.sav"
 1. Selecciona "Start!"
 1. Espera a que el procesos se complete
@@ -130,14 +130,14 @@ Los usuarios de JPN ほぼ日の健康手帳™ deberían seguir [estas instrucc
 1. Ve a la sección "Tarjeta SD" (o "Tarjeta microSD") y selecciona tu juego de DSiWare compatible
 1. Selecciona "Copiar", luego "OK"
   + Es posible que el proceso haya causado que tu juego aparezca como "Sudoku" o "4Swords" dependiendo de tu región; es algo normal
-  + JPN ほぼ日の健康手帳™ users will be missing ほぼ日の健康手帳™ on the home menu; this is normal
+  + Los usuarios de JPN ほぼ日の健康手帳™ no verán ほぼ日の健康手帳™ en el menú HOME; esto es normal
 1. Sal de la Configuración de la consola
 
 #### Sección IV - Flashear FIRM
 
 1. Ejecuta b9sTool inicando tu juego de DSiWare en tu consola
   + Si se te pide, es posible que tengas que tocar la pantalla para activar el exploit
-  + JPN ほぼ日の健康手帳™ users should instead run Steeldiver to launch the Homebrew Launcher, then run squirrelboot to launch the patched version of ほぼ日の健康手帳™
+  + Los usuarios de JPN ほぼ日の健康手帳™ deben en su lugar ejecutar Steeldiver para ejecutar el Homebrew Launcher, y luego ejecutar squirrelboot para iniciar la versión parcheada de ほぼ日の健康手帳™
 1. Selecciona "Install boot9strap" y confirma
 1. Sal de b9sTool, luego apaga tu consola
   + Puede que tengas que forzar el apagado manteniendo pulsado el botón de encendido
