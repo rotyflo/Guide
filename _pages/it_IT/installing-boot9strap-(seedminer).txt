@@ -56,8 +56,8 @@ Questo processo sovrascriverà il file di salvataggio del tuo gioco DSiWare!
 1. Copia il file `boot.nds` (B9STool) nella directory principale della tua scheda SD
 1. Copia il file `boot.3dsx` nella directory principale della tua scheda SD
 1. **JPN ほぼ日の健康手帳™ Users Only**: 
-  + Create a folder named `3ds` on the root of your SD card
-  + Copy `squirrelboot.3dsx` to the `/3ds/` folder on your SD card
+  + Crea una cartella chiamata `3ds` nella directory principale della tua scheda SD
+  + Copia il file `squirrelboot.3dsx` nella cartella `/3ds/` nella tua scheda SD
 1. Entra nella cartella `Nintendo 3DS` della tua scheda SD
 1. Copia la stringa di 32 caratteri del nome della cartella qui presente
   + Se vedi più cartelle dal nome lungo, segui i seguenti passaggi:
