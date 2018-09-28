@@ -46,7 +46,7 @@ Para extraer los archivos `.7z` enlazados esta página, necesitarás un gestor d
 #### Sección I - Preparativos
 
 1. Entra a Configuración de la consola
-1. Ve a `Data Management` -> `DSiWare`
+1. Navigate to `Data Management` -> `DSiWare`
 1. Ve a la sección "Memoria de la Consola" y selecciona tu juego de DSiWare compatible
 1. Selecciona "Copiar", luego "OK"
   + Si se te pide, sobreescribe la copia en caso de existir
@@ -126,7 +126,7 @@ Los usuarios de JPN ほぼ日の健康手帳™ deberían seguir [estas instrucc
 1. Vuelve a insertar tu tarjeta SD en tu consola
 1. Enciende tu consola
 1. Entra a Configuración de la consola
-1. Ve a `Data Management` -> `DSiWare`
+1. Navigate to `Data Management` -> `DSiWare`
 1. Ve a la sección "Tarjeta SD" (o "Tarjeta microSD") y selecciona tu juego de DSiWare compatible
 1. Selecciona "Copiar", luego "OK"
   + Es posible que el proceso haya causado que tu juego aparezca como "Sudoku" o "4Swords" dependiendo de tu región; es algo normal
