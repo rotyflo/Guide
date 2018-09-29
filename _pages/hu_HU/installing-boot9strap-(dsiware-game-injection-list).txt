@@ -16,7 +16,7 @@ Additionally, the following eShop games (which have since been pulled from the e
 
 A lista régió szerint van szétbontva, USA, EUR, JPN sorrendben. Mindegyik rész ár szerint növekvő sorrendben van rendezve.
 
-A QR kódokat úgy lehet beszkennelni, hogy a home menu-ben lenyomod az (L + R) kombinációt, majd megérinted a QR ikont az alsó képernyőn.
+QR Codes can be scanned by using the "Scan QR Code" option in the "Settings / Other" section of the eShop menu.
 
 Az alábbi méretbeli követelmények azért léteznek, mert az injektált DSiWare és a hozzá tartozó hackelt mentés fájlméretét meg kell őrizni annak érdekében, hogy a System Transfert helyesen el lehessen végezni, tehát a donor DSiWare-nek megfelelően nagynak kell lennie ahhoz, hogy beleférjen a hackelt DSiWare.
 
