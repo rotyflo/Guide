@@ -45,47 +45,47 @@ Ennek a folyamatnak a során a DSiWare játékod mentése felülírásra kerül!
 
 #### Első rész - Előkészületek
 
-1. Launch System Settings on your device
-1. Navigate to `Data Management` -> `DSiWare`
-1. Under the "System Memory" section, select your compatible DSiWare game
-1. Select "Copy", then select "OK"
-  + If prompted, overwrite any existing copy
+1. Lépj be a System Settings-be a készülékeden
+1. Navigálj ide: `Data Management` -> `DSiWare`
+1. A "System Memory" szekció alatt válaszd ki a kompatibilis DSiWare játékodat
+1. Válaszd a "Copy"-t, majd az "OK"-t
+  + Ha kéri, írd felül a már létező másolatot
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
 1. Másold át a `boot.firm` fájlt a Luma3DS `.7z`-ből az SD kártya gyökerébe
-1. Copy `boot.nds` (B9STool) to the root of your SD card
+1. Másold a `boot.nds` (B9STool) fájlt az SD kártyád gyökerébe
 1. Másold az `boot.3dsx` fájlt az SD kártyád gyökerébe
-1. **JPN ほぼ日の健康手帳™ Users Only**: 
-  + Create a folder named `3ds` on the root of your SD card
-  + Copy `squirrelboot.3dsx` to the `/3ds/` folder on your SD card
-1. Navigate to the `Nintendo 3DS` folder on your SD card
-1. Copy the 32 character long name of the folder you see
-  + If you see multiple folders like this, perform the following:
-  + Rename the `Nintendo 3DS` folder to `BACKUP_Nintendo 3DS`
-  + Reinsert your SD card into your device and power on your device
-  + Wait for the device to generate the SD card data
-  + Power off your device and reinsert your SD card into your computer
-  + Navigate to the `Nintendo 3DS` folder on your SD card
-  + Copy the 32 character long name of the folder you see
-  + Delete the `Nintendo 3DS` folder
-  + Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
-1. Paste your 32 character long folder name into a document you can reference later
-  + This folder name is also known as your "ID0"
-1. Navigálj az `<ID0>` -> `<32 hosszú azonosító>` -> `Nintendo DSiWare` mappába az SD kártyádon
+1. **Kizárólag a JPN ほぼ日の健康手帳™ használóinak**: 
+  + Hozz létre egy mappát `3ds` néven az SD kártyád gyökerében
+  + Másold a `squirrelboot.3dsx`-et az SD kártyád `/3ds/` mappájába
+1. Lépj be az SD kártyád `Nintendo 3DS` könyvtárába
+1. Másold le a 32 karakter hosszú nevét annak a mappának, amit látsz
+  + Ha több ilyen mappát is látsz, csináld a következőt:
+  + Nevezd át a `Nintendo 3DS` mappát `BACKUP_Nintendo 3DS` névre
+  + Tedd vissza az SD kártyát a készülékedbe, és kapcsold be
+  + Várd meg, amíg a készüléked legenerálja az SD kártyára az adatokat
+  + Kapcsold ki a készülékedet, és helyezd vissza az SD kártyádat a számítógépedbe
+  + Lépj be az SD kártyád `Nintendo 3DS` könyvtárába
+  + Másold le a 32 karakter hosszú nevét annak a mappának, amit látsz
+  + Töröld a `Nintendo 3DS` mappát
+  + Nevezd át a `BACKUP_Nintendo 3DS` mappát `Nintendo 3DS` névre
+1. Illeszd be a 32 karakter hosszú mappanevet egy tetszőleges fájlba, amit később elérsz
+  + A mappa nevére "ID0" néven hivatkozunk
+1. Navigálj az `<ID0>` -> `<32 karakter hosszú azonosító>` -> `Nintendo DSiWare` mappába az SD kártyádon
 1. Másold át a `<8 karakter hosszú azonosító>.bin` fájlt egy tetszőleges mappába a számítógépeden
   + A "8 hosszú azonosító"-t megtalálod minden játékhoz a [boot9strap telepítése (DSiWare játék-injektálás - támogatott játékok)](installing-boot9strap-(dsiware-game-injection-list)) oldalon lévő táblázatban
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 1. Válaszd a Friend List opciót (a [narancsszínű fej ikon]({{ "/images/friend-list-icon.png" | absolute_url }}) a Home Menu felső sávján)
-  + If you receive an error and are kicked out of the menu, you either must create a new Mii or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Find your Mii profile, then find the "Friend Code" field on the top screen
+  + Ha hibaüzenetet kapsz, és visszadob a menübe, vagy új Mii-t kell csinálnod, vagy a konzolod nem tud csatlakozni a Nintendo szervereihez (kitiltás, vagy kapcsolódási hiba miatt)
+1. Keresd meg a Mii profilodat, ott találod a "Friend Code" mezőt a felső képernyőn
 
-#### Section II - Seedminer
+#### Második rész - Seedminer
 
-JPN ほぼ日の健康手帳™ users should follow [these instructions](http://steelminer.jisagi.net/) instead of this section. Once those instructions have been completed, resume this guide at "Section III - DSiWare Injection".
+A JPN ほぼ日の健康手帳™ használóinak [ezeket az utasításokat](http://steelminer.jisagi.net/) kell követniük ehelyett a rész helyett. Ha végigértek azokon az utasításokon, ezt az útmutatót a "Harmadik rész - DSiWare injektálás" résznél kell folytatni.
 {: .notice--info}
 
-1. Open [Bruteforce Movable](https://bruteforcemovable.com/) on your computer
+1. Nyisd meg a [Bruteforce Movable](https://bruteforcemovable.com/) oldalt a számítógépeden
   + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
   + If you already have access to a 3DS capable of launching the Homebrew Launcher, you can manually retrieve your `movable_part1.sed` using that device by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) instructions
   + If you already have access to a PC with a powerful graphics card, you can manually calculate your `movable.sed` using it by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instructions
@@ -125,10 +125,10 @@ JPN ほぼ日の健康手帳™ users should follow [these instructions](http://
   + Overwrite the old `<8-character-id>.bin` file when prompted
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
-1. Launch System Settings on your device
-1. Navigate to `Data Management` -> `DSiWare`
+1. Lépj be a System Settings-be a készülékeden
+1. Navigálj ide: `Data Management` -> `DSiWare`
 1. Under the "SD Card" (or "microSD Card") section, select your compatible DSiWare game
-1. Select "Copy", then select "OK"
+1. Válaszd a "Copy"-t, majd az "OK"-t
   + This may have caused your game to appear as "Sudoku" or "4Swords" depending on region; this is normal
   + JPN ほぼ日の健康手帳™ users will be missing ほぼ日の健康手帳™ on the home menu; this is normal
 1. Exit System Settings
