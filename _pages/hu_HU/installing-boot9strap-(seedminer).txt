@@ -8,15 +8,15 @@ title: "boot9strap telepítése (Seedminer)"
 
 
 
-To install boot9strap on your 11.8.0 device, we exploit an oversight in the security restrictions applied to "DSiWare" applications.
+Ahhoz, hogy telepítsük a boot9strap-et a 11.8.0-s készülékedre, egy, a "DSiWare" alkalmazásokra vonatkozó biztonsági megkötés hibáját fogjuk kihasználni.
 
-To accomplish this, we use a tool called Seedminer to calculate the DSiWare encryption key (`movable.sed`) for your device. 
+Ennek eléréséhez egy Seedminer nevű eszközt fogunk használni, hogy kiszámítsuk a készüléked DSiWare titkosítási kulcsát (`movable.sed`). 
 
-We then use this DSiWare encryption key to decrypt a compatible DSiWare application and inject an exploit into it to run our own code.
+Ezt követően ezt a DSiWare titkosítási kulcsot arra fogjuk használni, hogy visszafejtsünk egy DSiWare alkalmazást, majd injektáljunk bele egy exploitot, hogy futtatni tudjuk a saját kódunkat.
 
-If this key were completely random, the encryption key would be impossible to break on current computing hardware. Fortunately, the first half of the key (`movable_part1.sed`) is actually mathematically related to your device's Friend Code, allowing us to break the encryption. For information on how Seedminer works, please see [this presentation](https://zoogie.github.io/web/34⅕c3).
+Ha ez a kulcs teljesen véletlenszerű lenne, a titkosítási kulcsot lehetetlen lenne feltörni a jelenleg elérhető hardverekkel. Szerencsére a kulcs első fele (`movable_part1.sed`) matematikailag összefüggésben van a készüléked Friend Code-jával, ami lehetővé teszi a titkosítás feltörését. További információért arról, hogyan működik a Seedminer, nézd meg [ezt a prezentációt](https://zoogie.github.io/web/34⅕c3).
 
-Note that this tool requires a PC with a powerful graphics card to break your device's DSiWare encryption. If you do not have access to one of these, there exists several online helper services where a volunteer running automated software will do this for you.
+Fontos megjegyezni, hogy ennek az eszköznek egy erős grafikus kártyával rendelkező PC-re van szüksége ahhoz, hogy a készüléked DSiWare titkosítását fel tudja törni. If you do not have access to one of these, there exists several online helper services where a volunteer running automated software will do this for you.
 
 Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
