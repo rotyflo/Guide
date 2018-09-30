@@ -19,7 +19,8 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 * Két készülék 
   + **A forrás NDS / NDSL**: egy Nintendo DS vagy Nintendo DS Lite, ami támogatja a flashkártyádat
   + **A cél 3DS**: egy eszköz a 3DS családból, ami gyári állapotban van
-* A [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) legújabb verziója *(a sima flasher; nem a `dsi` flasher)*
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb verziója *(az `ntr` boot9strap; nem a `devkit` fájl)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### Utasítások
 
@@ -27,24 +28,27 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 
 1. Kapcsold ki a **forrás NDS-t / NDSL-t**
 1. Helyezd a flashkártyád SD kártyáját a számítógépbe
-1. Másold a `ds_ntrboot_flasher.nds` fájlt a flashkártyád SD kártyájára
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Másold a `ds_ntrboot_flasher_dsi.nds` fájlt a flashkártyád SD kártyájára
 1. Helyezd vissza a flashkártyád SD kártyáját a flashkártyádba
 1. Helyezd be az ntrboot kompatibilis DS / DSi flashkártyádat a **forrás NDS-be / NDSL-be**
 
 #### Második rész - ntrboot flashelése
 
-1. Indítsd el a `ds_ntrboot_flasher.nds` fájlt a **forrás NDS-en / NDSL-en** a flashkártyád segítségével
+1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source NDS / NDSL** using your flashcart
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Használd a (Fel) és (Le) gombokat a flashkártyád kiválasztásához
 1. Nyomd meg az (A) gombot a folytatáshoz
-1. Nyomd meg az (X) gombot, hogy elvégezd ezt: "load flashrom"
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
 1. Nyomd meg az (A) gombot a folytatáshoz
-1. Vedd ki a flashkártyádat a **forrás NDS / NDSL** eszközből
-1. Vedd ki az SD kártyát a flashkártyádból
-1. Helyezd vissza a flashkártyát a **forrás NDS / NDSL** eszközbe úgy, hogy az SD kártya nincsen benne
+1. Használd a (Fel) és (Le) gombokat a flashkártyád kiválasztásához
 1. Nyomd meg az (A) gombot a folytatáshoz
-1. Nyomd meg az (A) gombot, hogy elvégezd az "inject ntrboothax" folyamatot
-1. Nyomd meg az (A) gombot, hogy kiválaszd a "RETAIL" opciót
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Nyomd meg az (A) gombot a folytatáshoz
+1. Kapcsold ki a **forrás NDS-t / NDSL-t**
 1. Vedd ki a flashkártyádat a **forrás NDS / NDSL** eszközből
 
 ___
