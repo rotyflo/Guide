@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (Seedminer)"
+title: "boot9strap telepítése (Seedminer)"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
