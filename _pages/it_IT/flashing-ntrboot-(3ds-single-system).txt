@@ -16,7 +16,8 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 ### Cosa serve
 
 * La flashcart compatibile con ntrboot
-* L'ultima versione di [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(il flasher `dsi`; non il flasher standard)*
+* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap, non i file `devkit`)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
 
 ### Istruzioni
 
@@ -24,6 +25,8 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 
 1. Spegni il tuo 3DS
 1. Inserisci la scheda SD della flashcart nel tuo computer
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
 1. Copia il file `ds_ntrboot_flasher_dsi.nds` nella scheda SD della tua flashcart
 1. Reinserisci la scheda SD nella flashcart
 1. Inserisci la flashcart DS / DSi compatibile con ntrboot nella tua console
@@ -34,10 +37,15 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 1. Premi il pulsante (A) per continuare
 1. Usa i pulsanti (Su) e (Giù) per selezionare la tua flashcart
 1. Premi il pulsante (A) per continuare
-1. Premi (A) a "inject ntrboothax"
-1. Premi (A) per selezionare "RETAIL"
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
 1. Premi il pulsante (A) per continuare
-1. Seleziona "EXIT"
+1. Usa i pulsanti (Su) e (Giù) per selezionare la tua flashcart
+1. Premi il pulsante (A) per continuare
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Premi il pulsante (A) per continuare
+1. Spegni il tuo 3DS
 
 ___
 
