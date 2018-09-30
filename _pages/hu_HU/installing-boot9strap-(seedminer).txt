@@ -71,8 +71,8 @@ Ennek a folyamatnak a során a DSiWare játékod mentése felülírásra kerül!
   + Rename the `BACKUP_Nintendo 3DS` folder to `Nintendo 3DS`
 1. Paste your 32 character long folder name into a document you can reference later
   + This folder name is also known as your "ID0"
-1. Navigate to `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-1. Copy `<8-character-id>.bin` to a folder on your computer
+1. Navigálj az `<ID0>` -> `<32 hosszú azonosító>` -> `Nintendo DSiWare` mappába az SD kártyádon
+1. Másold át a `<8 karakter hosszú azonosító>.bin` fájlt egy tetszőleges mappába a számítógépeden
   + A "8 hosszú azonosító"-t megtalálod minden játékhoz a [boot9strap telepítése (DSiWare játék-injektálás - támogatott játékok)](installing-boot9strap-(dsiware-game-injection-list)) oldalon lévő táblázatban
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
