@@ -35,7 +35,7 @@ Ha nem a cél 3DS-ednek megfelelő `.firm`-et használod, BRICKELNI fogod a kés
 
 #### Első rész - Előkészületek
 
-Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to backup any saves you care about on *the target 3DS* (it will be formatted!)
+Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/latest) a *cél 3DS-en*, hogy biztonsági másolatot készíts azon játékok mentéséről, amik fontosak a számodra (az ugyanis formázva lesz!)
 {: .notice--warning}
 
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből a **cél 3DS** SD kártyájának `/luma/payloads/` mappájába
