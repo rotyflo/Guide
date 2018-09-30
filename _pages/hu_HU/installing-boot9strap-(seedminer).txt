@@ -103,39 +103,39 @@ A JPN ほぼ日の健康手帳™ használóinak [ezeket az utasításokat](http
   + Ha egy óra után is még mindig várakozol, csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatornához, és kérj segítséget (angol nyelven) valakitől 
 1. Amikor a folyamat befejeződött, töltsd le a `movable.sed` fájlodat az oldalról
 
-#### Section III - DSiWare Injection
+#### Harmadik rész - DSiWare injektálás
 
-1. Open [TADpole Online](https://jisagi.github.io/TADpole-Online/) on your computer
-  + If this site is nonfunctional, try [Project DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)
-1. Extract the contents of the DSiWare exploit injection `.zip` to a folder on your computer
-1. Select your `<8-character-id>.bin` for the "DSiWare.bin" field
-1. Select your `movable.sed` file for the "movable.sed" field
-1. Select the downloaded `ctcert.bin` file for the "ctcert.bin" field
-1. Select the extracted `game_<your-region>.app` file for the "game_XXX.app" field
-  + JPN ほぼ日の健康手帳™ users should be using the files from `USA.zip` instead of `JPN.zip`
-1. Select the extracted `public_<your-region>.sav` file for the "public_XXX.sav" field
-1. Select "Start!"
+1. Nyisd meg a [TADpole Online](https://jisagi.github.io/TADpole-Online/) oldalt a számítógépeden
+  + Ha az oldal nem elérhető, próbáld helyette a [Project DSIHaxInjector](https://jenkins.nelthorya.net/job/DSIHaxInjector/build)-t
+1. Tömörítsd ki a DSiWare exploit injektálás `.zip` fájlt egy mappába a számítógépeden
+1. Válaszd ki a `<8 karakter hosszú azonosító>.bin` fájlodat a "DSiWare.bin" mezőben
+1. Válaszd ki a `movable.sed` fájlodat a "movable.sed" mezőben
+1. Válaszd ki a letöltött `ctcert.bin` fájlt a "ctcert.bin" mezőben
+1. Válaszd ki a kitömörített `game_<a te régiód>.app` fájlt a "game_XXX.app" mezőben
+  + A JPN ほぼ日の健康手帳™ használóinak itt az `USA.zip` fájljait kell használniuk a `JPN.zip` helyett
+1. Válaszd ki a kitömörített `public_<a te régiód>.sav` fájlt a "public_XXX.sav" mezőben
+1. Nyomd meg a "Start!" gombot
 1. Várd meg, amíg a folyamat befejeződik
-1. Rename the created `<8-character-id>.bin.patched` file to `<8-character-id>.bin`
-  + Do not confuse this file with the `<8-character-id>.bin` file from earlier
+1. Nevezd át az elkészült `<8 karakter hosszú azonosító>.bin.patched` fájlt `<8 karakter hosszú azonosító>.bin` névre
+  + Ne keverd ezt a fájlt össze a korábbi `<8 karakter hosszú azonosító>.bin` fájllal
 1. Kapcsold ki a készüléked
 1. Helyezd az SD kártyád a számítógépbe
-1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<32-character-id>` -> `Nintendo DSiWare` on your SD card
-1. Copy the new `<8-character-id>.bin` file to the `Nintendo DSiWare` folder on your SD card
-  + Overwrite the old `<8-character-id>.bin` file when prompted
+1. Navigálj a `Nintendo 3DS` -> `<ID0>` -> `<32 karakter hosszú azonosító>` -> `Nintendo DSiWare` mappába az SD kártyádon
+1. Másold az új `<8 karakter hosszú azonosító>.bin` fájlt az SD kártyád `Nintendo DSiWare` mappájába
+  + Írd felül a régi `<8 karakter hosszú azonosító>.bin` fájlt, amikor kérdezi
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Kapcsold be a készülékedet
 1. Lépj be a System Settings-be a készülékeden
 1. Navigálj ide: `Data Management` -> `DSiWare`
-1. Under the "SD Card" (or "microSD Card") section, select your compatible DSiWare game
+1. Az "SD Card" (vagy "microSD Card") szekcióban válaszd ki a kompatibilis DSiWare játékodat
 1. Válaszd a "Copy"-t, majd az "OK"-t
-  + This may have caused your game to appear as "Sudoku" or "4Swords" depending on region; this is normal
-  + JPN ほぼ日の健康手帳™ users will be missing ほぼ日の健康手帳™ on the home menu; this is normal
-1. Exit System Settings
+  + Előfordulhat, hogy ettől a játékod "Sudoku" vagy "4Swords" néven jelenik meg a régiótól függően; ez normális
+  + A JPN ほぼ日の健康手帳™ használói nem fogják megtalálni a ほぼ日の健康手帳™-t a Home Menu-ben; ez normális
+1. Lépj ki a System Settings-ből
 
-#### Section IV - Flashing FIRM
+#### Negyedik rész - FIRM flashelése
 
-1. Launch b9sTool by starting your DSiWare game on your device
+1. Indítsd el a b9sTool-t a megfelelő DSiWare játék elindításával
   + Ekkor lehet, hogy meg kell érintened a képernyőt az exploit előidézéséhez
   + JPN ほぼ日の健康手帳™ users should instead run Steeldiver to launch the Homebrew Launcher, then run squirrelboot to launch the patched version of ほぼ日の健康手帳™
 1. Válaszd az "Install boot9strap" opciót, majd erősítsd meg
