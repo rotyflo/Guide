@@ -147,7 +147,7 @@ Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/late
 
 #### Ötödik rész - A cél 3DS FIRM-jének flashelése
 
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of **the target 3DS**'s SD card
+1. Másold át a `boot.firm` fájlt a Luma3DS `.7z`-ből a **cél 3DS** SD kártyájának gyökerébe
 1. Másold a `boot.nds` (B9STool) fájlt a **cél 3DS** SD kártyájának gyökerébe
 1. Másold a `boot.3dsx` fájlt a **cél 3DS** SD kártyájának gyökerébe
 1. Indítsd el a DSiWare játékot a **cél 3DS**-en
@@ -161,7 +161,7 @@ Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/late
 
 #### Hatodik rész - A Luma3DS konfigurálása
 
-1. Boot **the target 3DS** while holding (Select) to launch the Luma configuration menu
+1. Indítsd el a **cél 3DS**-edet, miközben lenyomva tartod a (Select) gombot, hogy megjelenjen a Luma konfigurációs menüje
   + Ha fekete képernyőt kapsz, [nézd át a hibaelhárítási útmutatót](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Használd az (A) gombot és D-Pad-et a következő engedélyezéséhez:    
   + **"Show NAND or user string in System Settings"**
