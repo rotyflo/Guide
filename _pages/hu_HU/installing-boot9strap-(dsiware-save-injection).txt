@@ -40,7 +40,7 @@ Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/late
 
 1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből a **cél 3DS** SD kártyájának `/luma/payloads/` mappájába
 1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből a **forrás 3DS** SD kártyájának gyökerébe
-1. Copy the relevant `public.sav` from the `/dsiware/<8-character-id>/` folder in the 3ds_dsiwarehax_installer `.zip` to the root of **the source 3DS**'s SD card
+1. Másold a megfelelő `public.sav` fájlt a 3ds_dsiwarehax_installer `.zip`-ben található `/dsiware/<8 hosszú azonosító>/` mappából a **forrás 3DS**-ed SD kártyájára
   + **Fieldrunners, USA régió**: `4b464445`
   + **Fieldrunners, EUR régió**: `4b464456`
   + **Legends of Exidia, USA régió**: `4b4c4545`
