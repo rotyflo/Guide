@@ -137,15 +137,15 @@ A JPN ほぼ日の健康手帳™ használóinak [ezeket az utasításokat](http
 
 1. Indítsd el a b9sTool-t a megfelelő DSiWare játék elindításával
   + Ekkor lehet, hogy meg kell érintened a képernyőt az exploit előidézéséhez
-  + JPN ほぼ日の健康手帳™ users should instead run Steeldiver to launch the Homebrew Launcher, then run squirrelboot to launch the patched version of ほぼ日の健康手帳™
+  + A JPN ほぼ日の健康手帳™ használóinak ehelyett a Steeldiver-t kell elindítaniuk, hogy belépjenek a Homebrew Launcher-be, majd futtatniuk kell a squirrelboot-ot, hogy elinduljon a ほぼ日の健康手帳™ patchelt verziója
 1. Válaszd az "Install boot9strap" opciót, majd erősítsd meg
 1. Lépj ki a b9sTool-ból, majd kapcsold ki a készülékedet
   + Elképzelhető, hogy kényszerítened kell a leállást a bekapcsológomb lenyomva tartásával
 
-#### Section V - Configuring Luma3DS
+#### Ötödik rész - A Luma3DS konfigurálása
 
 1. Indítsd el a készülékedet a (Select) lenyomva tartásával, hogy megjelenjen a Luma konfigurációs menüje
-  + If you encounter issues launching the Luma configuration menu, [follow this troubleshooting guide](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
+  + Ha problémába ütközöl a Luma konfigurációs menü elindításakor, [kövesd ezt a hibaelhárítási útmutatót](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
 1. Használd az (A) gombot és D-Pad-et a következő engedélyezéséhez:    
   + **"Show NAND or user string in System Settings"**
 1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
