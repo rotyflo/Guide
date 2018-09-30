@@ -17,7 +17,7 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 
 * Olyan flashkártya, ami támogatja az ntrboot-ot
 * A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb verziója *(az `ntr` boot9strap; nem a `devkit` fájl)*
-* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
+* A [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest) legújabb kiadása
 
 ### Utasítások
 
@@ -25,8 +25,8 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 
 1. Kapcsold ki a készüléked
 1. Helyezd a flashkártyád SD kártyáját a számítógépbe
-1. Create a folder named `ntrboot` on the root of your flashcart's SD card
-1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Hozz létre egy mappát `ntrboot` néven a flashkártyád SD kártyájának gyökerében
+1. Másold át a `boot9strap_ntr.firm` fájlt a boot9strap ntr `.zip` fájlból a flash kártyád SD kártyájának `/ntrboot/` mappájába
 1. Másold a `ds_ntrboot_flasher_dsi.nds` fájlt a flashkártyád SD kártyájára
 1. Helyezd vissza a flashkártyád SD kártyáját a flashkártyádba
 1. Helyezd be az ntrboot kompatibilis DS / DSi flashkártyádat az eszközödbe
@@ -37,13 +37,13 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Használd a (Fel) és (Le) gombokat a flashkártyád kiválasztásához
 1. Nyomd meg az (A) gombot a folytatáshoz
-1. Select "Dump flash" to make a backup of your flashcart's memory
-1. Input the key combo given to confirm
+1. Válaszd a "Dump flash" opciót, hogy biztonsági másolatot készíts a flashkártyád memóriájáról
+1. Írd be a kombinációt a megerősítéshez
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Használd a (Fel) és (Le) gombokat a flashkártyád kiválasztásához
 1. Nyomd meg az (A) gombot a folytatáshoz
-1. Select "Inject FIRM" to install boot9strap to your flashcart
-1. Input the key combo given to confirm
+1. Válaszd az "Inject FIRM" opciót, hogy a flashkártyádra telepítsd a boot9strap-et
+1. Írd be a kombinációt a megerősítéshez
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Kapcsold ki a készüléked
 
