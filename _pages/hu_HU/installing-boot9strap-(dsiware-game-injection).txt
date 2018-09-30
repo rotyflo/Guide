@@ -82,7 +82,7 @@ Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/late
 1. Nyomd meg az (A) gombot, hogy kiválaszd a `00000000` offsetet
 1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND írást, majd sorban nyomd meg a kijelzett gombokat
 1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
-1. Navigate to `[2:] SYSNAND TWLN` -> `title` -> `00030004` -> `<8-character-id>`
+1. Navigálj a következőhöz: `[2:] SYSNAND TWLN` -> `title` -> `00030004` -> `<8 hosszú azonosító>`
   + A "8 hosszú azonosító"-t megtalálod minden játékhoz a [boot9strap telepítése (DSiWare játék-injektálás - támogatott játékok)](installing-boot9strap-(dsiware-game-injection-list)) oldalon lévő táblázatban
 1. Válaszd a `data` mappát
 1. Nyomd meg az (A)-t a `public.sav` fájlon
@@ -141,7 +141,7 @@ Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/late
 
 #### Ötödik rész - A cél 3DS FIRM-jének flashelése
 
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of **the target 3DS**'s SD card
+1. Másold át a `boot.firm` fájlt a Luma3DS `.7z`-ből a **cél 3DS** SD kártyájának gyökerébe
 1. Másold a `boot.nds` (B9STool) fájlt a **cél 3DS** SD kártyájának gyökerébe
 1. Másold a `boot.3dsx` fájlt a **cél 3DS** SD kártyájának gyökerébe
 1. Indítsd el a b9sTool-t a megfelelő DSiWare játék elindításával a **cél 3DS**-en
@@ -151,7 +151,7 @@ Használj [mentéskezelőt](https://github.com/FlagBrew/Checkpoint/releases/late
 
 #### Hatodik rész - A Luma3DS konfigurálása
 
-1. Boot **the target 3DS** while holding (Select) to launch the Luma configuration menu
+1. Indítsd el a **cél 3DS**-edet, miközben lenyomva tartod a (Select) gombot, hogy megjelenjen a Luma konfigurációs menüje
 1. Használd az (A) gombot és D-Pad-et a következő engedélyezéséhez:    
   + **"Show NAND or user string in System Settings"**
 1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
