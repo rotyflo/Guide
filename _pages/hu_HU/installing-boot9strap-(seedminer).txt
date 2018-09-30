@@ -86,22 +86,22 @@ A JPN ほぼ日の健康手帳™ használóinak [ezeket az utasításokat](http
 {: .notice--info}
 
 1. Nyisd meg a [Bruteforce Movable](https://bruteforcemovable.com/) oldalt a számítógépeden
-  + This site can automate the retrieval of `movable_part1.sed` (using a bot 3DS console) and the breaking of your device's DSiWare encryption (using a volunteer's computer to run Seedminer)
-  + If you already have access to a 3DS capable of launching the Homebrew Launcher, you can manually retrieve your `movable_part1.sed` using that device by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) instructions
-  + If you already have access to a PC with a powerful graphics card, you can manually calculate your `movable.sed` using it by following [these](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) instructions
-  + If the automated service is nonfunctional and you cannot do one or both of those manually, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
-1. Enter your device's Friend Code (with no spaces or dashes) into the "Your friend code" field
-1. Paste your device's 32 character long folder name into the "Your ID0" field
-1. Complete the "I'm not a robot" captcha
-1. Select "Go"
-1. When prompted, use the "Register Friend" button on your device to add the friend code of the bot 3DS console
-1. Wait for the site to update
-  + If it does not, refresh the page
-1. Select "Continue"
-1. Wait for the process to complete
-  + This can take a while (up to an hour in some cases)
-  + If you are still waiting after an hour, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you 
-1. When the process has completed, download your `movable.sed` file from the site
+  + Ez az oldal képes automatizálni a `movable_part1.sed` előállítását (egy bot 3DS konzol segítségével), illetve a készüléked DSiWare titkosításának feltörését (egy önkéntes számítógépén futtatva a Seedminer-t)
+  + Ha rendelkezésedre áll egy 3DS, amelyen már futtatható a Homebrew Launcher, manuálisan is előállíthatod a `movable_part1.sed` fájlodat annak a készüléknek a segítségével, ha [ezeket](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section1) az utasításokat követed
+  + Ha rendelkezel olyan PC-vel, amelynek a grafikus kártyája erős, manuálisan is kiszámíthatod a `movable.sed` fájlodat, ha [ezeket](https://jisagi.github.io/SeedminerGuide/seedminerSelf/#section2) az utasításokat követed
+  + Ha az automatikus szolgáltatás nem elérhető, és a manuális módszerek közül sem áll rendelkezésedre egyik sem, csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatornához, és kérj segítséget (angol nyelven) valakitől 
+1. Írd be a készüléked Friend Code-ját (szóközök és kötőjelek nélkül) a "Your friend code" mezőbe
+1. Illeszd be a készüléked 32 karakter hosszú mappanevét a "Your ID0" mezőbe
+1. Teljesítsd a "Nem vagyok robot" captchát
+1. Nyomd meg a "Go" gombot
+1. Ha kéri, használd a "Register Friend" gombot a készülékeden és add hozzá a bot 3DS konzol Friend Code-ját
+1. Várj, amíg az oldal frissül
+  + Ha ez nem történik meg, frissítsd magad az oldalt
+1. Nyomd meg a "Continue" gombot
+1. Várd meg, amíg a folyamat befejeződik
+  + Ez beletelhet egy kis időbe (akár egy órába is bizonyos esetekben)
+  + Ha egy óra után is még mindig várakozol, csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatornához, és kérj segítséget (angol nyelven) valakitől 
+1. Amikor a folyamat befejeződött, töltsd le a `movable.sed` fájlodat az oldalról
 
 #### Section III - DSiWare Injection
 
@@ -115,7 +115,7 @@ A JPN ほぼ日の健康手帳™ használóinak [ezeket az utasításokat](http
   + JPN ほぼ日の健康手帳™ users should be using the files from `USA.zip` instead of `JPN.zip`
 1. Select the extracted `public_<your-region>.sav` file for the "public_XXX.sav" field
 1. Select "Start!"
-1. Wait for the process to complete
+1. Várd meg, amíg a folyamat befejeződik
 1. Rename the created `<8-character-id>.bin.patched` file to `<8-character-id>.bin`
   + Do not confuse this file with the `<8-character-id>.bin` file from earlier
 1. Kapcsold ki a készüléked
