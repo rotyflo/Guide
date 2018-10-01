@@ -836,7 +836,7 @@ Data la lunghezza della lista, ti conviene usare la sidebar per saltare direttam
 | Oscar in Toyland | £7.19/7,99 € | 4B4F5450 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004582.png" | absolute_url }})]({{ "/images/qrcodes/50010000004582.png" | absolute_url }})
 | Mario vs. Donkey Kong™: Minimario alla riscossa! | £7.19/7,99 € | 4B444D56 | EUR | [![qrcode]({{ "/images/qrcodes/50010000000723.png" | absolute_url }})]({{ "/images/qrcodes/50010000000723.png" | absolute_url }})
 | Brain Challenge® | £7.19/7,99 € | 4B424356 | EUR | [![qrcode]({{ "/images/qrcodes/50010000002321.png" | absolute_url }})]({{ "/images/qrcodes/50010000002321.png" | absolute_url }})
-| A Little Bit of... Una pausa con... Brain Training del Dr. Kawashima: Numeri e calcoli | £7.19/7,99 € | 4B4E5256 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004524.png" | absolute_url }})]({{ "/images/qrcodes/50010000004524.png" | absolute_url }})
+| Una pausa con... Brain Training del Dr. Kawashima: Numeri e calcoli | £7.19/7,99 € | 4B4E5256 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004524.png" | absolute_url }})]({{ "/images/qrcodes/50010000004524.png" | absolute_url }})
 | Pop Superstar Diventa una Stella | £7.19/7,99 € | 4B504F56 | EUR | [![qrcode]({{ "/images/qrcodes/50010000004721.png" | absolute_url }})]({{ "/images/qrcodes/50010000004721.png" | absolute_url }})
 | Rhythm Core Alpha 2™ | £8.99/9,99 € | 4B593456 | EUR | [![qrcode]({{ "/images/qrcodes/50010000015473.png" | absolute_url }})]({{ "/images/qrcodes/50010000015473.png" | absolute_url }})
 | Shantae: Risky's Revenge™ | £10.79/11,99 € | 4B533350 | EUR | [![qrcode]({{ "/images/qrcodes/50010000006181.png" | absolute_url }})]({{ "/images/qrcodes/50010000006181.png" | absolute_url }})
