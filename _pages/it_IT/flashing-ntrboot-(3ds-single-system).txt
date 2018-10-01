@@ -37,13 +37,13 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 1. Premi il pulsante (A) per continuare
 1. Usa i pulsanti (Su) e (Giù) per selezionare la tua flashcart
 1. Premi il pulsante (A) per continuare
-1. Select "Dump flash" to make a backup of your flashcart's memory
-1. Input the key combo given to confirm
+1. Seleziona "Dump flash" per creare un backup della memoria interna della tua flashcart
+1. Inserisci la combinazione di tasti richiesta a schermo per confermare l'operazione
 1. Premi il pulsante (A) per continuare
 1. Usa i pulsanti (Su) e (Giù) per selezionare la tua flashcart
 1. Premi il pulsante (A) per continuare
 1. Seleziona "Inject FIRM" per installare boot9strap sulla tua flashcart
-1. Input the key combo given to confirm
+1. Inserisci la combinazione di tasti richiesta a schermo per confermare l'operazione
 1. Premi il pulsante (A) per continuare
 1. Spegni il tuo 3DS
 
