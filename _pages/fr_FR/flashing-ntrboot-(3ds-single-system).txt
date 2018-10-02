@@ -27,7 +27,7 @@ Notez que dans de rares circonstances, il est possible que pendant le processus 
 1. Insérez votre carte SD du Linker dans votre ordinateur
 1. Create a folder named `ntrboot` on the root of your flashcart's SD card
 1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
-1. Copiez `ds_ntrboot_flasher_dsi.nds` sur la carte SD de votre linker
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Réinsérez la carte SD dans votre linker
 1. Insérez votre linker DS dans votre console
 
