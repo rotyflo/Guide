@@ -36,7 +36,7 @@ title: "צריבת ntrboot (NDS)"
 
 #### חלק II - צריבת ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source NDS / NDSL** using your flashcart
+1. Launch `ntrboot_flasher_nds.nds` on **the source NDS / NDSL** using your flashcart
 1. תלחצו (A) כדי להמשיך
 1. תשתמשו ב (Up) וב(Down) כדי לבחור את הכרטיס פריצה שלכם
 1. תלחצו (A) כדי להמשיך
