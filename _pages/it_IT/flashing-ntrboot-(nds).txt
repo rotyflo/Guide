@@ -30,7 +30,7 @@ Tieni presente che in rare circostanze è possibile **brickare** una flashcart c
 1. Inserisci la scheda SD della flashcart nel tuo computer
 1. Crea una cartella chiamata `ntrboot` nella directory principale della scheda SD della tua flashcart
 1. Copia il file `bootstrap_ntr.firm` dall'archivio `.zip` di boot9strap ntr nella cartella `/ntrboot/` della scheda SD della tua flashcart
-1. Copia il file `ds_ntrboot_flasher_dsi.nds` nella scheda SD della tua flashcart
+1. Copy `ds_ntrboot_flasher_dsi.nds` to your flashcart's SD card
 1. Reinserisci la scheda SD nella flashcart
 1. Inserisci la flashcart DS / DSi compatibile con ntrboot nel **NDS / NDSL di partenza**
 
