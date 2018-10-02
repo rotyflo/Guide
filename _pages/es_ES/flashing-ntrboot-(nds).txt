@@ -30,7 +30,7 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 1. Inserta la tarjeta SD de tu flashcart en tu computadora
 1. Crea una carpeta llamada`ntrboot` en la raíz de la tarjeta SD de tu flashcart
 1. Copia el archivo `boot9strap_ntr.firm` desde el `.zip` de boot9strap ntr a la carpeta `/ntrboot/` en la tarjeta SD de tu flashcart
-1. Copia `ds_ntrboot_flasher_dsi.nds` a la tarjeta SD de tu flashcart
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Reinserta la tarjeta SD de tu flashcart de regreso a ella
 1. Inserta tu flashcart de DS / DSi compatible con ntrboot en la **NDS / NDSL de origen**
 
