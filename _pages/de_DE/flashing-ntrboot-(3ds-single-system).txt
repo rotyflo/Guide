@@ -33,7 +33,7 @@ In seltenen Fällen ist kann es sein, dass während des Flashens einer gefälsch
 
 #### Schritt II - ntrboot flashen
 
-1. Starte `ds_ntrboot_flasher_dsi.nds` mithilfe deiner Flashkarte auf deiner Konsole aus
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Drücke (A) um fortzufahren
 1. Benutze (Hoch) und (Runter) um deine Flashcart auszuwählen
 1. Drücke (A) um fortzufahren
