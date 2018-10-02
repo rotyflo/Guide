@@ -30,7 +30,7 @@ Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne **i
 1. Insérez la carte SD de votre linker dans votre ordinateur
 1. Create a folder named `ntrboot` on the root of your flashcart's SD card
 1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
-1. Copiez `ds_ntrboot_flasher_dsi.nds` sur la carte SD de votre linker
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Réinsérez la carte SD dans votre Linker
 1. Insérez votre cartouche compatible ntrboot dans **la NDS / NDSL source**
 
