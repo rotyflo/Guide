@@ -33,7 +33,7 @@ Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flas
 
 #### Secțiunea II - Instalând ntrboot
 
-1. Lansați `ds_ntrboot_flasher_dsi.nds` pe dispozitiv folosind flashcart-ul
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Apăsați (A) pentru a continua
 1. Folosiți (Sus) și (Jos) pentru a selecta flashcart-ul dumneavostră
 1. Apăsați (A) pentru a continua
