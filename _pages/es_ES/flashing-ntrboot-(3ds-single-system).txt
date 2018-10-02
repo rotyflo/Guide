@@ -33,7 +33,7 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 #### Sección II - Flashear ntrboot
 
-1. Ejecuta `ds_ntrboot_flasher_dsi.nds` en tu consola usando tu flashcart
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Presiona (A) para continuar
 1. Usa (Arriba) y (Abajo) en el D-Pad para seleccionar tu flashcart
 1. Presiona (A) para continuar
