@@ -36,7 +36,7 @@ Notez qu'il est possible que pendant le flash sur un clone celui-ci devienne **i
 
 #### Section II - Flasher ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source NDS / NDSL** using your flashcart
+1. Launch `ntrboot_flasher_nds.nds` on **the source NDS / NDSL** using your flashcart
 1. Appuyez sur (A) pour continuer
 1. Utilisez (Haut) et (Bas) pour sélectionner votre linker
 1. Appuyez sur (A) pour continuer
