@@ -30,7 +30,7 @@ title: "צריבת ntrboot (NDS)"
 1. תכניסו את כרטיס ה- SD של כרטיס הפריצה שלכם אל המחשב
 1. Create a folder named `ntrboot` on the root of your flashcart's SD card
 1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
-1. תעתיקו את `ds_ntrboot_flasher_dsi.nds` אל כרטיס הSD של כרטיס הפריצה שלכם
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. תכניסו בחזרה את כרטיס ה- SD של כרטיס הפריצה שלכם אל כרטיס הפריצה
 1. תכניסו את כרטיס הפריצה של DS \ DSi שתואם ntrboot אל **NDS / NDSL המקור**
 
