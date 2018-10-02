@@ -33,7 +33,7 @@ Vedd figyelembe, hogy néhány ritka esetben lehetséges, hogy a flashelési fol
 
 #### Második rész - ntrboot flashelése
 
-1. Indítsd el a `ds_ntrboot_flasher_dsi.nds` fájlt az eszközödön a flashkártyád segítségével
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Nyomd meg az (A) gombot a folytatáshoz
 1. Használd a (Fel) és (Le) gombokat a flashkártyád kiválasztásához
 1. Nyomd meg az (A) gombot a folytatáshoz
