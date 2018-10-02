@@ -36,7 +36,7 @@ In manchen seltenen Fällen ist es möglich, das während des Flashens einer gef
 
 #### Schritt II - ntrboot flashen
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source NDS / NDSL** using your flashcart
+1. Launch `ntrboot_flasher_nds.nds` on **the source NDS / NDSL** using your flashcart
 1. Drücke (A) um fortzufahren
 1. Benutze (Hoch) und (Runter) um deine Flashcart auszuwählen
 1. Drücke (A) um fortzufahren
