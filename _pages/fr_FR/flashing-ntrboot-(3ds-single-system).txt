@@ -33,7 +33,7 @@ Notez que dans de rares circonstances, il est possible que pendant le processus 
 
 #### Section II - Flasher ntrboot
 
-1. Lancez `ds_ntrboot_flasher_dsi.nds` sur votre console en utilisant votre linker
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Appuyez sur (A) pour continuer
 1. Utilisez (Haut) et (Bas) pour sélectionner votre linker
 1. Appuyez sur (A) pour continuer
