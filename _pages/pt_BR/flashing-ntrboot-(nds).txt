@@ -36,7 +36,7 @@ Note que em algumas raras circunstâncias, pode ser possível que o processo de 
 
 #### Section II - Flashing ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source NDS / NDSL** using your flashcart
+1. Launch `ntrboot_flasher_nds.nds` on **the source NDS / NDSL** using your flashcart
 1. Aperte (A) para continuar
 1. Use (Up) and (Down) to select your flashcart
 1. Aperte (A) para continuar
