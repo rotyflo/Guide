@@ -30,7 +30,7 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 1. Aseta flash-korttisi SD-kortti tietokoneeseesi
 1. Create a folder named `ntrboot` on the root of your flashcart's SD card
 1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
-1. Kopioi `ds_ntrboot_flasher_dsi.nds` flash-korttisi SD-kortille
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Aseta SD-kortti takaisin flash-korttiisi
 1. Aseta ntrboot-yhteensopiva DS-/DSi-flash-korttisi **lähde-NDS/-NDSL**-konsoliin
 
