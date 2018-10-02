@@ -33,7 +33,7 @@ Huomaa, että joissain harvinaisissa yhteensattumissa asennusprosessi saattaa **
 
 #### Vaihe II – Ntrbootin asentaminen
 
-1. Avaa `ds_ntrboot_flasher_dsi.nds` konsolillasi flash-korttisi avulla
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Paina (A):ta jatkaaksesi
 1. Käytä ristiohjainta valitaksesi flash-korttisi
 1. Paina (A):ta jatkaaksesi
