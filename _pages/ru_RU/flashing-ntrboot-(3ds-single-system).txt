@@ -33,7 +33,7 @@ title: "Прошивка ntrboot (Одна консоль 3DS)"
 
 #### Часть II - Прошивка ntrboot
 
-1. Запустите `ds_ntrboot_flasher_dsi.nd` на консоли, используя флешкартридж
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. Нажмите (A), чтобы продолжить
 1. Используйте (Вверх) и (Вниз) чтобы выбрать ваш флешкартридж
 1. Нажмите (A), чтобы продолжить
