@@ -27,7 +27,7 @@ title: "Прошивка ntrboot (Одна консоль 3DS)"
 1. Вставьте SD-карту флешкартриджа в компьютер
 1. Создайте папку `ntrboot` в корне SD-карты флешкартриджа
 1. Скопируйте `boot9strap_ntr.firm` из `.zip-архива` boot9strap в папку `/ntrboot/` в корне SD-карты флешкартриджа
-1. Скопируйте `ds_ntrboot_flasher_dsi.nd` на SD-карту флешкартриджа
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
 1. Вставьте SD-карту флешкартриджа обратно во флешкартридж
 1. Вставьте в консоль ваш DS / DSi флешкартридж, совместимый с ntrboot
 
