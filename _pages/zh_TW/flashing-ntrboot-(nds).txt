@@ -36,7 +36,7 @@ title: "寫入 ntrboot 漏洞 (透過 NDS)"
 
 #### 第二節 — 寫入 ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source NDS / NDSL** using your flashcart
+1. Launch `ntrboot_flasher_nds.nds` on **the source NDS / NDSL** using your flashcart
 1. 按『A』 繼續
 1. 透過『上』『下』鍵選擇您的燒錄卡
 1. 按『A』 繼續
