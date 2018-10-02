@@ -33,7 +33,7 @@ title: "寫入 ntrboot 漏洞 (透過單台 3DS 系統)"
 
 #### 第二節 — 寫入 ntrboot
 
-1. 透過您的燒錄卡在您的主機啟動 `ds_ntrboot_flasher_dsi.nds`
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
 1. 按『A』 繼續
 1. 透過『上』『下』鍵選擇您的燒錄卡
 1. 按『A』 繼續
