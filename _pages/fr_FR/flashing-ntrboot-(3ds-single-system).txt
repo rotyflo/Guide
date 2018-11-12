@@ -1,0 +1,53 @@
+---
+title: "Flasher ntrboot (3DS Single System)"
+---
+
+{% include toc title="Table des matières" %}
+
+### Lecture requise
+
+Avant de commencer, assurez vous d'avoir lu toutes les informations sur [ntrboot](ntrboot)
+
+Cette méthode n’exige rien de plus que votre 3DS original stock et un linker compatible. Cette méthode utilise le linker pour lancer le fichier `.nds` du flasheur ntrboot sur votre 3DS. Cela signifie que votre linker doit pouvoir lancer des fichiers `.nds` sur votre 3DS. Consultez le tableau des linkers sur [ntrboot](ntrboot) pour plus d’informations.
+
+Notez que dans de rares circonstances, il est possible que pendant le processus de flash sur un linker contrefait (ou un clone) celui-ci **brique** et devienne inutilisable de manière permanente. C'est peu probable, mais notez que seuls les originaux fonctionnent avec ntrboot. Pour réduire les chances de recevoir un linker contrefait, il est recommandé d'utiliser un site réputé pour acheter votre linker (comme [NDS Card](http://www.nds-card.com/))
+{: .notice--danger}
+
+## Ce dont vous avez besoin
+
+* Votre linker compatible ntrboot
+* La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` standard, pas le fichier `devkit`)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
+
+### Instructions
+
+#### Section I - Préparatifs
+
+1. Éteignez votre 3DS
+1. Insérez votre carte SD du Linker dans votre ordinateur
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
+1. Réinsérez la carte SD dans votre linker
+1. Insérez votre linker DS dans votre console
+
+#### Section II - Flasher ntrboot
+
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
+1. Appuyez sur (A) pour continuer
+1. Utilisez (Haut) et (Bas) pour sélectionner votre linker
+1. Appuyez sur (A) pour continuer
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
+1. Appuyez sur (A) pour continuer
+1. Utilisez (Haut) et (Bas) pour sélectionner votre linker
+1. Appuyez sur (A) pour continuer
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Appuyez sur (A) pour continuer
+1. Éteignez votre 3DS
+
+___
+
+### Continuez vers [installation de boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+{: .notice--primary}

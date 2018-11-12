@@ -2,23 +2,29 @@
 title: "צעדים ראשונים"
 ---
 
+{% include toc title="תוכן העניינים" %}
+
+### קריאה דרושה
+
+תבחרו את הדף המתאים עבור הגירסה שלכם מהתרשים שלמטה. שימו לב שכאשר נכתב "עד" מדובר בעד ועד בכלל. זה אומר, לדוגמה, שהשורה "מ 9.0.0 עד 9.2.0" כוללת את 9.0.0, 9.1.0 ואת 9.2.0.
+
+בנוסף, שימו לב ששתי העמודות האחרונות של התרשים מתייחסות לספרה האחרונה במספר הגירסה שלכם (שתואמת לגירסת הדפדפן שמותקן על המערכת). אם הגירסה היא 0 אז אין לכם דפדפן, בעוד שכל מספר אחר אומר שיש דפדפן מותקן.
+
+במקרה של "5.0.0-0U" למשל, אתם צריכים לעקוב אחרי העמודה "ללא דפדפן" והשורה מ 5.0.0 עד 5.1.0 כי הקונסולה היא על גרסה בטווח הזה ואין לה דפדפן מותקן.
+
+ניתן למצוא את גירסת המכשיר ואיזורו בפינה הימנית התחתונה של המסך העליון בהגדרות.
+
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
+{: .notice--info}
+
+**If you are unable to follow the instructions corresponding to your specific version due to missing prerequisites, then you should either update to the latest version or use the "All Versions" row for methods that work regardless of system version.**
+
+For all versions you can also [Cartridge Update](cart-update) (or use a standard system update) to get to a higher version in the same column to follow its instructions.
+
+אם ה3DS שלכם פרוץ כבר עם EmuNAND, פשוט תעשו את הוראות בזמן שאתם בSysNAND. תחליפו כל קובץ שכבר קיים. Your data will be transferred from EmuNAND to your new B9S install at the end. If you use menuhax, you should [clear Home Menu's extdata](troubleshooting#clear-home-menu-extdata) to remove it before beginning.
+
 עמוד זה הוא בשביל הוראות על איך להתקין את boot9strap אל 3DS או 2DS *לא פרוץ*. אם יש לכם כבר את arm9loaderhax מותקן ואתם רוצים לעדכן לboot9strap, תעקבו אחרי [A9LH אל B9S](a9lh-to-b9s).
 {: .notice--primary}
-
-הצבעים של המכשיר בתמונה יכולים להיות שונים, אבל שימו לב למיקום הכפתורים והמאפיינים של כל מכשיר בקפידה כדי להבטיח שבחירתכם תהיה נכונה.
-{: .notice}
-
-לחצו על התמונה של המכשיר שלכם כדי ללכת לעמוד המתאים.
-{: .notice--primary}
-
-דגמים, גירסאות ואזורים שונים של המכשיר ידרשו צעדים שונים כדי לפרוץ עם boot9strap. הדף הזה יעזור לכם למצוא איפה להתחיל בשביל המכשיר שלכם.
-{: .notice--info}
-
-אם ה3DS שלכם פרוץ כבר עם EmuNAND, פשוט תעשו את הוראות בזמן שאתם בSysNAND. המידע שלכם יועבר מהEmuNAND לפריצת B9S לקראת הסוף.
-{: .notice--info}
-
-שימו לב שאפשר להגדיל את התמונות במדריך על ידי לחיצה עליהם.
-{: .notice--info}
 
 לפני שמתחילים, משתמשי Windows צריכים להפעיל את האפשרות להצגת סיומות קבצים באמצעות [סיומות קבצים (Windows)](file-extensions-(windows))!
 {: .notice--info}
@@ -26,17 +32,14 @@ title: "צעדים ראשונים"
 לפני שאתם מתחילים, כדאי לבדוק את כרטיס הזכרון עבור שגיאות באמצעות [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), או [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-שימו לב שהדרכים של [ntrboothax](installing-boot9strap-(ntrboothax)) ושל [hardmod](installing-boot9strap-(hardmod)) עובדות על *כל הקונסולות, אזורים, וגרסאות*! זה כולל מכשירים מאזורים CHN וTWN שמקודם לא היו ניתנים לפריצה!
-{: .notice--success}
-
 {% capture notice-1 %}
 היו דיווחים על גל של באנים שנינטנדו נתנו למי שפרץ. כדי להגן על עצמכם, תעשו את השלבים הבאים לפני שאתם מתחילים את המדריך:
 
 1. לכו להגדרות, שם אל "Internet Settings", שם "SpotPass", ולבסוף אל "Sending of System Information"
 1. תבטלו את הגדרת "Sending of System Information"
 1. תצאו מהגדרות המערכת
-1. לכו לרשימת החברים שלכם (הפרצוף בחלק העליון של תפריט הבית)
-  + אם אתם מקבלים שגיאה וזה מוציא אתכם מהתפריט, ההגדרה כבר מבוטלת
+1. לכו לרשימת החברים שלכם(ה[פרצוף הכתום]({{ "/images/friend-list-icon.png" | absolute_url }})בשורה העליונה של מסך הבית)
+  +אם אתם מקבלים שגיאה ונבעטים מהתפריט, הגדרת רשימת החברים או מבוטלת או שהקונסולה לא יכולה להתחבר לשרתים של נינטנדו (בגלל באן או בעיות בחיבור)
 1. לכו להגדרות רשימת החברים, שם אל "Friend Notification Settings", ולבסוף אל "Show friends what you're playing"
 1. תבטלו את האפשרות "Show friends what you're playing"
 1. תצאו מרשימת החברים
@@ -45,21 +48,61 @@ title: "צעדים ראשונים"
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
+### טבלת גרסאות
+
 <table>
   <colgroup>
-    <col span="1" style="width: 50%;">
-    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 40%;">
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS או New 2DS</th>
-      <th style="text-align: center">Old 3DS או Old 2DS</th>
+      <th style="text-align: center">מ</th>
+      <th style="text-align: center"> עד</th>
+      <th style="text-align: center"> ללא דפדפן</th>
+      <th style="text-align: center"> עם דפדפן</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;"></a></td>
-      <td style="text-align: center"><a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;"></a></td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">תשתמשו בשיטת "כל הגרסאות"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">תשתמשו בשיטת "כל הגרסאות"</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installing boot9strap (2xrsa)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">תשתמשו בשיטת "כל הגרסאות"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
+    </tr><tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.7.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">תשתמשו בשיטת "כל הגרסאות"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(seedminer)">Installing boot9strap (Seedminer)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">כל הגרסאות<br></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(דורש כרטיס פריצה תואם)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">or</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">התקנת boot9strap (Hardmod)</a><br><sub>(דורש הלחמה)</sub></p></td>
     </tr>
   </tbody>
 </table>

@@ -1,0 +1,123 @@
+---
+title: "CTRTransfer"
+---
+
+{% include toc title="Tartalomjegyzék" %}
+
+### Fontos tudnivalók
+
+Ez egy kiegészítő rész, amelyben a 11.5.0-s CTRTransfer képfájlt fogjuk az eszközödre telepíteni.
+
+Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+
+Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlon kívül a `/luma/payloads/`mappában, indításkor a (Start) gombot lenyomva tartva a "chainloader menu" menü fog megjelenni. Itt a D-Pad és az (A) gomb segítségével válaszd a "GodMode9" opciót, hogy az alábbi utasításokat követhesd. 
+
+Az alábbiak használatához már telepítened kellett a következőket: Luma3DS és boot9strap.
+{: .notice--danger}
+
+### Amire szükséged lesz
+
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
+* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása *(a`.3dsx` fájl)*
+* Az eszközödhöz és régiódhoz tartozó 11.5.0-s CTRTransfer képfájl     
+*(ha az eszközöd a felsoroltak közül egyik régióba sem tartozik, akkor válassz egyet, ami passzol az eszközöd típusához)*:    
+  +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [New 3DS vagy 2DS - 11.5.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:465f1048f81e8e5c651ce2a4d9df48fec88d1099&dn=11.5.0-38E_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)    
+  +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [New 3DS vagy 2DS - 11.5.0 - JPN - CTRTransfer](magnet:?xt=urn:btih:70f641c9f2a4933a07fac49eb7ad19451c7c8c96&dn=11.5.0-38J_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)    
+  +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [New 3DS vagy 2DS - 11.5.0 - KOR - CTRTransfer](magnet:?xt=urn:btih:c9e4de20d30b80032a5dd6f675fecb6d748f71b1&dn=11.5.0-34K_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)    
+  +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [New 3DS vagy 2DS - 11.5.0 - USA - CTRTransfer](magnet:?xt=urn:btih:2b0a71a2523328e447938fea7b4c02ebe0b72705&dn=11.5.0-38U_ctrtransfer_n3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)    
+~
+  +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [Old 3DS vagy 2DS - 11.5.0 - EUR - CTRTransfer](magnet:?xt=urn:btih:df0836a731778ab6ffe9a8c658400c782f0225cd&dn=11.5.0-38E_ctrtransfer_o3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)     
+  +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [Old 3DS vagy 2DS - 11.5.0 - JPN - CTRTransfer](magnet:?xt=urn:btih:d8913b4c0da224e8852fa2f685c41ddbce5310bc&dn=11.5.0-38J_ctrtransfer_o3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)     
+  +    <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [Old 3DS vagy 2DS - 11.5.0 - USA - CTRTransfer](magnet:?xt=urn:btih:2708089605ca47387fa64e996a699eedd18031e8&dn=11.5.0-38U_ctrtransfer_o3ds.zip&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)    
+
+### Utasítások
+
+#### Első rész - Előkészületek
+
+1. Kapcsold ki a készüléked
+1. Helyezd az SD kártyád a számítógépbe
+1. Hozz létre egy mappát `3ds` néven az SD kártyád gyökerében, ha még nem létezik ilyen
+1. Hozz létre egy `cias` nevű mappát az SD kártyád gyökerében, ha még nem létezik ilyen
+1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyádon található `/luma/payloads/` mappába
+1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
+1. Másold át a 11.5.0-s CTRTransfer `.bin` képfájlt a CTRTransfer `.zip`-ből az SD kártyádon található `/gm9/` mappába
+1. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
+1. Tedd vissza az SD kártyád a készülékedbe
+
+#### Második rész - CTRTransfer
+
+1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
+1. Ha rákérdez arra, hogy csináljon-e egy biztonsági másolatot (essential files backup), akkor nyomd meg az (A) gombot, hogy csináljon, majd amikor végzett, nyomd meg ismét az (A) gombot a folytatáshoz
+1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
+  + Ne feledd, hogy amennyiben ezen a ponton szükséges volt a helyes dátum és idő beállítása, a System Settingsben is be kell majd állítanod a helyes időt az útmutató végén
+1. Menj ide: `[0:] SDCARD` -> `gm9`
+1. Nyomd meg az (A) gombot, miközben a CTRTransfer `.bin` van kijelölve, hogy kiválaszd
+1. Válaszd a "CTRNAND options..." opciót
+1. Válaszd a "Transfer image to CTRNAND" opciót
+1. Ha kéri, akkor válaszd a "Transfer to SysNAND" opciót
+  + Ez csak akkor jelenik meg, ha van EmuNAND-od
+1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl1) írást, majd sorban nyomd meg a kijelzett gombokat
+  + Ez a folyamat igénybe vesz majd némi időt
+1. Miután az átvitel befejeződött, nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy elutasítsd az írási engedélyek visszavonását, ha kérdezi
+1. Nyomd meg a (B) gombot kétszer, hogy visszamenj a főmenübe
+1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
+1. Válaszd a "Scripts..." opciót
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Scripts from Plailect's Guide"
+1. Válaszd ezt: "CTRTransfer Ticket Copy"
+1. Amikor kérdezi, nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Válaszd az "Exit" opciót
+1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
+1. Nyomd meg a (Start) gombot az eszköz újraindításához
+1. Frissítsd az eszközödet a következőképp. Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót.
+  + B9S és Luma használatakor (mint esetedben) biztonságosak a rendszerfrissítések
+  + Ha ez hibát ad, akkor állítsd a DNS beállításodat "auto"-ra
+
+#### Harmadik rész - FBI elindítása
+
+1. Indítsd el a Download Play alkalmazást (ez az [ikon]({{ "/images/download-play-icon.png" | absolute_url }})
+1. Nyomd meg az (L) + (Le) + (Select) gombokat egyszerre, hogy a Rosalina menü megnyitásához
+1. Válaszd ki a "Miscellaneous options"-t
+1. Válaszd a "Switch the hb. title to the current app." opciót
+1. Nyomd meg a (B) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszakerülj a Rosalina főmenüjébe
+1. Nyomd meg a (B) gombot, hogy kilépj a Rosalina menüből
+1. Nyomd meg a (Home) gombot, majd zárd be a Download Play-t
+1. Indítsd el a Download Play alkalmazást
+1. Ekkor a készülékednek be kell töltenie a Homebrew Launchert
+
+#### Negyedik rész - Ticketek újratelepítése
+
+Ha a szkript nem talált egy ticketet sem, és azt írta, hogy hagyd ki ezt a rész, akkor hagyd is ki
+{: .notice--info}
+
+1. Indítsd el az FBI-t a homebrew listából
+1. Menj ide: `SD` -> `cias`
+1. Lépj vissza az SD könyvtárba a (B) gomb megnyomásával
+1. Válaszd ki ezt: "gm9"
+1. Majd válaszd ezt: "out"
+1. Ott pedig válaszd ezt: "ctrtransfer_tickets"
+1. Végezd el a következő folyamatot vagy az `eshop` mappára, vagy az `unknown` mappára, vagy mindkettőre
+  + Menj a mappába
+  + Válaszd ezt: "\<current directory>"
+  + Válaszd az "Install and delete all tickets" opciót
+  + Várj. Itt úgy tűnhet, hogy a rendszer lefagyott, de csak időre van szüksége.
+  + Nyomd meg az (A) gombot a megerősítéshez
+  + Nyomd meg a (B) gombot, hogy elutasítsd a ticketek CDN-ről történő telepítését.
+1. Nyomd meg a (Home) gombot az FBI-ból való kilépéshez
+
+#### Ötödik rész - CTRTransfer képfájl eltávolítása
+
+1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
+1. Menj ide: `[0:] SDCARD` -> `gm9`
+1. Nyomd meg az (X) gombot, miközben a CTRTransfer `.bin` van kijelölve, hogy kitöröld
+1. Nyomd meg az (A) gombot a megerősítéshez
+1. Nyomd meg a (Start) gombot az eszköz újraindításához
+
+___
+
+### Tovább a [telepítés véglegesítésére](finalizing-setup)
+{: .notice--primary}

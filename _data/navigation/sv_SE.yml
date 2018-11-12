@@ -1,36 +1,129 @@
 ---
 main:
   - 
-    title: Guide
+    title: Hem
+    url: /
   - 
-    title: FAQ
+    title: Vanliga frågor
+    url: faq
   - 
-    title: Troubleshooting
+    title: Donationer
+    url: donations
   - 
-    title: Donations
+    title: Tack till
+    url: credits
   - 
-    title: Credits
+    title: Uppdatera B9S
+    url: updating-b9s
   - 
-    title: A9LH to B9S
+    title: A9LH till B9S
+    url: a9lh-to-b9s
   - 
-    title: Region Changing
+    title: Felsökning
+    url: troubleshooting
   - 
-    title: GodMode9 Usage
+    title: Ändra region
+    url: region-changing
   - 
-    title: Site Navigation
+    title: Användning av GodMode9
+    url: godmode9-usage
   - 
-    title: Updating B9S
+    title: Navigering på webbplatsen
+    url: site-navigation
   - 
-    title: Uninstall CFW
+    title: Avinstallera CFW
+    url: uninstall-cfw
 bottom:
   - 
-    title: 'For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
+    title: För support på engelska, be om hjälp av <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew på Discord</a>.
   - 
-    title: 'If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="https://www.paypal.me/plailectguides/15">PayPal</a> or <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
+    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
 footer:
   - 
-    title: Source
+    title: Källa
   - 
-    title: Site Navigation
+    title: Navigering på webbplatsen
   - 
-    title: Why Ads?
+    title: Varför annonser?
+sidebar_title:
+  - 
+    title: Övergripande framsteg
+sidebar_pages:
+  - 
+    title: Hem
+    url: /
+  - 
+    title: Kom Igång
+    url: get-started
+  - 
+    title: Kom igång (Nya 3DS)
+    url: get-started-(new-3ds)
+  - 
+    title: Kom igång (Äldre 3DS)
+    url: get-started-(old-3ds)
+  - 
+    title: Cartridge uppdatering
+    url: cart-update
+  - 
+    title: ntrboot
+    url: ntrboot
+  - 
+    title: Installing boot9strap (Seedminer)
+    url: installing-boot9strap-(seedminer)
+  - 
+    title: Multiple Options
+    url: multiple-options
+  - 
+    title: Flashing ntrboot (3DS Single System)
+    url: flashing-ntrboot-(3ds-single-system)
+  - 
+    title: Flashing ntrboot (3DS Multi System)
+    url: flashing-ntrboot-(3ds-multi-system)
+  - 
+    title: Flashing ntrboot (DSi)
+    url: flashing-ntrboot-(dsi)
+  - 
+    title: Flashing ntrboot (NDS)
+    url: flashing-ntrboot-(nds)
+  - 
+    title: Flashing ntrboot (Powersaves)
+    url: flashing-ntrboot-(powersaves)
+  - 
+    title: Homebrew Launcher (Soundhax)
+    url: homebrew-launcher-(soundhax)
+  - 
+    title: Homebrew Launcher (Alternatives)
+    url: homebrew-launcher-(alternatives)
+  - 
+    title: NTR and Cubic Ninja
+    url: ntr-and-cubic-ninja
+  - 
+    title: Installing boot9strap (2xrsa)
+    url: installing-boot9strap-(2xrsa)
+  - 
+    title: Installing boot9strap (Browser)
+    url: installing-boot9strap-(browser)
+  - 
+    title: Installing boot9strap (DSiWare Game Injection)
+    url: installing-boot9strap-(dsiware-game-injection)
+  - 
+    title: Installing boot9strap (DSiWare Save Injection)
+    url: installing-boot9strap-(dsiware-save-injection)
+  - 
+    title: Installing boot9strap (Hardmod)
+    url: installing-boot9strap-(hardmod)
+  - 
+    title: Installing boot9strap (Homebrew Launcher)
+    url: installing-boot9strap-(homebrew-launcher)
+  - 
+    title: Installing boot9strap (MSET)
+    url: installing-boot9strap-(mset)
+  - 
+    title: Installing boot9strap (ntrboot)
+    url: installing-boot9strap-(ntrboot)
+  - 
+    title: Installing boot9strap (Soundhax)
+    url: installing-boot9strap-(soundhax)
+  - 
+    title: Finalizing Setup
+    url: finalizing-setup

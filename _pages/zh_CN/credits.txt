@@ -5,11 +5,10 @@ title: "Credits"
 **特别感谢所有在[Freenode #Cakey](http://webchat.freenode.net/?channels=%23Cakey)成员的杰出贡献！**
 {: .notice--primary}
 
-**特别感谢所有[翻译人员](https://translate.3ds.guide/)的不懈努力！**
+**Special thanks to all of [the translators](https://crowdin.com/project/3ds-guide) for being awesome!**
 {: .notice--primary}
 
 如果我忘了列出你的名字，请联系我。我会把你加上。
-{: .notice}
 
 {% capture notice-1 %}
 
@@ -19,6 +18,7 @@ title: "Credits"
     + ashinnblunts
     + AuroraWright
     + b1l1s
+    + BernardoGiordano
     + Cartman123
     + Cell9
     + coder65535
@@ -26,6 +26,7 @@ title: "Credits"
     + d0k3
     + dank101
     + Dazzozo
+    + DeadPhoenix
     + Delebile
     + DinohScene
     + dukesrg
@@ -33,6 +34,7 @@ title: "Credits"
     + elSeledonio
     + erman1337
     + felipejfc
+    + figgyc
     + Frozen_Chen
     + Gelex
     + Hamcha
@@ -40,7 +42,9 @@ title: "Credits"
     + ihaveamac
     + IngeniousDefault
     + J-D-K
+    + Jisagi
     + jkcgs
+    + kartik
     + LordBass
     + MassExplosion123
     + mid-kid
@@ -50,6 +54,7 @@ title: "Credits"
     + Normmatt
     + plutooo
     + Psi-Hate
+    + RandallHoffman
     + Raugo
     + Reboot.ms
     + s_99
@@ -76,4 +81,4 @@ title: "Credits"
 
 {% endcapture %}
 
-<div class="notice--info"> {}{ notice-1 | markdownify }</div>
+<div class="notice--info">{{ notice-1 | markdownify }}</div>

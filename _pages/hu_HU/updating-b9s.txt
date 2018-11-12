@@ -1,100 +1,105 @@
 ---
-title: "Updating B9S"
+title: "B9S frissítése"
 ---
 
-This page is for existing boot9strap users to update their installation of boot9strap to the latest version.
-{: .notice--info}
+{% include toc title="Tartalomjegyzék" %}
 
-Note that the recent major release of Luma3DS is *not* compatible with boot9strap version 1.0. It *requires* you to update your boot9strap installation to version 1.2 by following the instructions on this page.
-{: .notice--warning}
+### Fontos tudnivalók
+
+Ez az oldal azoknak a felhasználóknak szól, akik már rendelkeznek telepített boot9strap-pel, és szeretnék frissíteni azt a legfrissebb verzióra.
+
+Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiváló programra lesz szükséged, mint amilyen a [7-Zip](http://www.7-zip.org/) vagy a [The Unarchiver](https://theunarchiver.com/).
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Kaptunk visszajelzéseket kitiltási hullámokról, melyeket a Nintendo a CFW-t használóknak osztogatott. Ahhoz, hogy megvédd magadat, kérjük kövesd az alábbi lépéseket még az útmutató megkezdése előtt:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
-1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. Menj a System Settings-be, ott válaszd ezt: "Internet Settings", majd ezt: "SpotPass", végül ezt: "Sending of System Information"
+1. Kapcsold ki a "Sending of System Information" opciót
+1. Lépj ki a System Settings-ből
+1. Válaszd a Friend List opciót (a [narancsszínű fej ikon]({{ "/images/friend-list-icon.png" | absolute_url }}) a Home Menu felső sávján)
+  + Ha hibaüzenetet kapsz, és visszadob a menübe, a Friend List már vagy korábban letiltásra került, vagy a konzolod nem tud csatlakozni a Nintendo szervereihez (kitiltás, vagy kapcsolódási hiba miatt)
+1. Itt menj a beállításokba (Settings), ott válaszd ezt: "Friend Notification Settings", majd ezt: "Show friends what you're playing"
+1. Kapcsold ki a "Show friends what you're playing" opciót
+1. Lépj ki a Friend List-ből
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### What you need
+### Amire szükséged lesz
 
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
 
-#### Instructions
+### Utasítások
 
-##### Section I - Prep Work
+#### Első rész - Előkészületek
 
-For all steps in this section, overwrite any existing files on your SD card.
+A most következő lépésekben mindig írd felül az SD kártyán található fájlokat, ha már létezne bármelyik.
 {: .notice--info}
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. **Leave the old (v7.1) version of Luma3DS (`boot.firm`) as it is. You will update this later.**
-1. Copy _the contents of_ `starter.zip` to the root of your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `SafeB9SInstaller.firm` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Helyezd az SD kártyád a számítógépbe
+1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
+1. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból az SD kártyád `/boot9strap/` mappájába
+1. Másold át a `SafeB9SInstaller.firm` fájlt a SafeB9SInstaller `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
+1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
+1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
+1. Tedd vissza az SD kártyád a készülékedbe
 
-##### Section II - Installing boot9strap
+#### Második rész - boot9strap telepítése
 
-1. Reboot holding (Start) during boot to launch the Luma3DS chainloader menu
-1. Launch SafeB9SInstaller by pressing (A)
-1. Wait for all safety checks to complete
-1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device.
-1. Power off your device
-  + Note that you will receive the error `Unsupported launcher (argc = 0)` until you follow the rest of the instructions on this page
+1. Indítsd el a Luma3DS chainloader menüt a (Start) gomb lenyomva tartásával boot közben
+1. Indítsd el a SafeB9SInstaller programot az (A) gomb lenyomásával
+1. Várj, amíg az összes biztonsági ellenőrzés be nem fejeződik
+1. Ha kéri, akkor nyomd meg sorban azokat a gombokat, amiket kijelez a képernyőn, hogy telepíthesd a boot9strap-et
+1. Ha ez elkészült, nyomd le a (Start)-ot, és az (A)-t, hogy újraindítsd a készülékedet, és a Luma3DS chainloader-be juss
+  + Ha az `argc = 0` hibával találkozol a készüléked bootolása közben a B9S frissítése után, csak menj tovább, hogy kijavítsd
 
-##### Section III - Updating Luma3DS
+#### Harmadik rész - Luma3DS frissítése
 
-1. Insert your SD card into your computer
-1. Delete the existing `boot.firm` from the root of your SD card
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Reinsert your SD card into your device
+1. Kapcsold ki a készüléked
+1. Helyezd az SD kártyád a számítógépbe
+1. Másold át a `boot.firm` fájlt a Luma3DS `.7z`-ből az SD kártyád gyökerébe, és cseréld le a már meglévő fájlt
+1. Tedd vissza az SD kártyád a készülékedbe
+1. Kapcsold be a készülékedet
 
-##### Section IV - Configuring Luma3DS
+#### Negyedik rész - Luma3DS konfigurálása
 
-1. Your device should have rebooted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
-1. Use the (A) button and the D-Pad to turn on the following:    
+Ez a szakasz csak akkor kell, ha előjön a Luma3DS konfigurációs menü újraindítás után.
+{: .notice--info}
+
+1. A Luma3DS konfigurációs menüben használd az (A) gombot és a D-Pad-et, hogy bekapcsold a következőket:    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
 
-##### Section V - CTRNAND Luma3DS
+#### Hatodik rész - Luma3DS telepítése CTRNAND-ba
 
-1. Launch GodMode9 by holding (Start) during boot
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
-1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
-1. When prompted, press (A) to proceed
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
-1. Press (A) to relock write permissions
-1. Press (Start) to reboot your device
+1. Kapcsold ki a készüléked
+1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
+1. Ha rákérdez arra, hogy csináljon-e egy biztonsági másolatot (essential files backup), akkor nyomd meg az (A) gombot, hogy csináljon, majd amikor végzett, nyomd meg ismét az (A) gombot a folytatáshoz
+1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
+1. Válaszd a "Scripts..." opciót
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Scripts from Plailect's Guide"
+1. Válaszd ezt: "Setup Luma3DS to CTRNAND"
+1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl2) írást, majd sorban nyomd meg a kijelzett gombokat
+1. Nyomd meg az (A) gombot a folytatáshoz
+
+#### Hetedik rész - Takarítás az SD kártyán
+
+1. Válaszd ezt: "Cleanup SD Card"
+1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Válaszd az "Exit" opciót
+1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
+1. Nyomd meg a (Start) gombot az eszköz újraindításához
 
 ___
 
-Note that the `.bak` files in the `/boot9strap/` folder on your SD card are only needed in the event of a failed boot9strap install. Once you have installed successfully, you can delete the entire `boot9strap` folder.
-{: .notice--info}
-
-You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
-{: .notice--info}
+Sikeresen frissítetted a Boot9strap-et.
+{: .notice--success}

@@ -2,20 +2,21 @@
 title: "F3X (Mac)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 This is an add-on section for checking your SD card for errors using F3X.
-{: .notice--info}
 
 Afhankelijk van de grootte van je SD kaart en de snelheid van je computer, kan dit proces tot wel enkele uren duren!
-{: .notice--info}
 
 Deze pagina is alleen voor Mac-gebruikers. Als je geen Mac gebruikt, zie dan de [H2testw (windows)](h2testw-(windows)) of [F3 (Linux)](f3-(linux)) pagina.
-{: .notice--info}
 
-#### Benodigdheden
+### What You Need
 
-* De meest recente versie van [F3X](https://github.com/insidegui/F3X/releases/latest)
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-#### Instructies
+### Instructions
 
 1. Unzip (Decomprimeer) het F3X `.zip` bestand
 1. Plaats je SD kaart in je computer
@@ -32,5 +33,5 @@ Als de test het resultaat `Succes! Your card is ok!`geeft, dan is je SD kaart go
 Als de test iets anders laat zien, kan het zijn dat je SD kaart corrupt of kapot is en moet je hem wellicht vervangen!
 {: .notice--danger}
 
-Ga terug naar [Begin](get-started)
+### Return to [Get Started](get-started)
 {: .notice--primary}

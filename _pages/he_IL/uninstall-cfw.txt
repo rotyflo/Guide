@@ -2,49 +2,56 @@
 title: "הסרת CFW"
 ---
 
+{% include toc title="תוכן העניינים" %}
+
+### קריאה דרושה
+
 זה יסיר לחלוטין CFW מהקונסולה שלכם, כולל את Boot9Strap ואת Luma3DS, בשביל הפעולה של החזרת הקונסולה לאיך שהיא הגיעה.
+
+This is almost never the solution to fix any issues you encounter with your CFW installation. A better idea would be to read the [troubleshooting](troubleshooting) page or ask (in English) for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-כל המשחקים הלא חתומים (פרוצים) יפסיקו לעבוד ותוכלו למחוק אותם ידנים בעזרת Data management בהגדרות. תשתמשו ב [מנהל שמירות](https://github.com/J-D-K/JKSM/releases/latest) כדי לגבות את כל השמירות בשביל משחקים לא חצומים (פרוצים) שאכפת לכם מהם.
-{: .notice--info}
+כל המשחקים הלא חתומים (פרוצים) יפסיקו לעבוד ותוכלו למחוק אותם ידנים בעזרת Data management בהגדרות. Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
 
 זה לא ישפיע על הNNID שלכם, כל המשחקים הקנויים חוקית, או השמירות שלהם.
-{: .notice--info}
+
+If you have modified critical system software (such as editing the home menu, unbanning your console, etc), uninstalling CFW may BRICK your device!
+{: .notice--danger}
 
 שימו לב שאם יש לכם קבצי מטען אחרים מ`GodMode9.firm` בתיקיית `/luma/payloads/` על כרטיס הSD שלכם, החזקת (Start) בהפעלה תציג תפריט שבו תצטרכו להשתמש בחיצים ובכפתור ה(A) כדי לבחור ב"GodMode9" בשביל ההוראות האלה. 
-{: .notice--info}
 
-#### מה שאתם צריכים
+### What You Need
 
-* את הגרסה העדכנית של [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* הסקריפט הסרה המתאים בשביל הקונסולה שלכם:
-  + [`uninstall_hax_retail_NEW.gm9`]({{ base_path }}/gm9_scripts/uninstall_hax_retail_NEW.gm9)
-  + [`uninstall_hax_retail_OLD.gm9`]({{ base_path }}/gm9_scripts/uninstall_hax_retail_OLD.gm9)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
-#### הוראות
+### הנחיות
 
-##### חלק I - הכנות
+#### חלק I - הכנות
 
 1. תכבו את המכשיר
 1. תכניסו את ה-SD שלכם למחשב
 1. העתיקו את `GodMode9.firm` מהזיפ של GodMode9 אל תיקיית /luma/payloads/ ב- SD שלכם
 1. תעתיקו את התיקייה `gm9` מתוך ה`.zip` של GodMode9 ל-SD שלכם
-1. תעתיקו את הסקריפט המתאים לקונסולה שלכם לתיקיית `/gm9/scripts/` על הכרטיס זכרון
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 1. תפעילו את המכשיר
 
-##### חלק II - הפעלת הסקריפט של ההסרה
+#### חלק II - הפעלת הסקריפט של ההסרה
 
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
 1. אם תתבקשו לעשות גיבוי של קבצים חיוניים, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך אחרי שזה סיים
+1. אם אתם מתבקשים לתקן את זמן ותאריך הRTC, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך
+  + שימו לב, אם הייתם צריכים לתקן את תאריך וזמן הRTC, תצטרכו לתקן את הזמן בהגדרות המערכת גם כן אחרי המדריך הזה
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
-1. תבחרו ב"More..."
 1. תבחרו "Scripts..."
-1. תבחרו את הסקריפט של ההסרה
+1. Select "GM9Megascript"
+1. Select "Hax Options"
+1. Select "Un-install Hax"
 1. כשתתבקשו, תלחצו (A) כדי להמשיך
 1. לחצו (A) כדי לפתוח גישת כתיבת (lvl3) לSysNAND, ואז תלחצו על המקשים בסדר הנכון
 1. תלחצו (A) כדי להמשיך
-1. תלחצו (A) כדי לנעול הרשאות כתיבה
+1. תלחצו (B) כדי לחזור לתפריט הראשי
+1. Select "Exit"
+1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
 1. תלחצו על (Start) כדי לאתחל את המכשיר
 
 ___

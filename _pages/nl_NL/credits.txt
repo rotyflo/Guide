@@ -5,11 +5,10 @@ title: "Credits"
 **Speciale dank aan iedereen op [#Cakey Freenode](http://webchat.freenode.net/?channels=%23Cakey) omdat ze awesome zijn**
 {: .notice--primary}
 
-**Erg veel dank gaat uit naar [alle vertalers](https://translate.3ds.guide/), omdat jullie zo fantastisch zijn!**
+**Special thanks to all of [the translators](https://crowdin.com/project/3ds-guide) for being awesome!**
 {: .notice--primary}
 
 Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je toe.
-{: .notice}
 
 {% capture notice-1 %}
 
@@ -19,6 +18,7 @@ Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je to
     + ashinnblunts
     + AuroraWright
     + b1l1s
+    + BernardoGiordano
     + Cartman123
     + Cell9
     + coder65535
@@ -26,6 +26,7 @@ Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je to
     + d0k3
     + dank101
     + Dazzozo
+    + DeadPhoenix
     + Delebile
     + DinohScene
     + dukesrg
@@ -33,6 +34,7 @@ Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je to
     + elSeledonio
     + erman1337
     + felipejfc
+    + figgyc
     + Frozen_Chen
     + Gelex
     + Hamcha
@@ -40,16 +42,19 @@ Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je to
     + ihaveamac
     + IngeniousDefault
     + J-D-K
+    + Jisagi
     + jkcgs
+    + kartik
     + LordBass
     + MassExplosion123
-    + mid-kind
+    + mid-kid
     + MrNbaYoh
     + Mrrraou
     + Night_Fallen_Wolf
     + Normmatt
     + plutooo
     + Psi-Hate
+    + RandallHoffman
     + Raugo
     + Reboot.ms
     + s_99

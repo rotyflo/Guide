@@ -5,16 +5,18 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+minimal_mistakes_skin    : "nord"
+
 # Site Settings
 locale                   : "en-US"
-title                    : "3DS Guide"
+title                    : "3DS Hacks Guide"
 title_separator          : "-"
 name                     : "Plailect"
 description              : "Full sighax CFW Guide"
-url                      : "https://3ds.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "3ds.guide"
+url                      : "https://3ds.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+enforce_ssl              : "3ds.hacks.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Plailect/Guide_3DS" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -49,7 +51,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : IzU3K8_0o_n4KY_o0Azr6DK7M4aRlZMzrWKr4iyXyrs
+google_site_verification : jVXoPK_-qzKJp4SScnZYpOIX3yDXfGnAoTBJYixUOwg
 bing_site_verification   : F3532011519E308583A0A2CAF2DD69E8
 alexa_site_verification  :
 yandex_site_verification :
@@ -148,10 +150,10 @@ exclude: [
   # _pages/en_US,
   _pages/es_EM,
   # _pages/es_ES,
-  _pages/fi_FI,
+  # _pages/fi_FI,
   # _pages/fr_FR,
   # _pages/he_IL,
-  _pages/hu_HU,
+  # _pages/hu_HU,
   _pages/id_ID,
   # _pages/it_IT,
   _pages/ja_JP,
@@ -159,7 +161,7 @@ exclude: [
   _pages/ms_MY,
   _pages/no_NO,
   _pages/nl_NL,
-  _pages/pl_PL,
+  # _pages/pl_PL,
   # _pages/pt_BR,
   _pages/pt_PT,
   # _pages/ro_RO,
@@ -207,7 +209,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -269,6 +271,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar: true
   - scope:
       path: "_pages/af_ZA"
       type: pages

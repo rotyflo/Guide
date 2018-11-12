@@ -1,15 +1,14 @@
 ---
-title: "Credits"
+title: "Tack till"
 ---
 
-**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
+**Särskilt tack till alla från [#Cakey på Freenode](http://webchat.freenode.net/?channels=%23Cakey) för att ni är superstjärnor!**
 {: .notice--primary}
 
-**Special thanks to all of [the translators](https://translate.3ds.guide/) for being awesome!**
+**Special thanks to all of [the translators](https://crowdin.com/project/3ds-guide) for being awesome!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
-{: .notice}
+Kontakta mig om jag glömde dig här så lägger jag till ditt namn.
 
 {% capture notice-1 %}
 
@@ -19,6 +18,7 @@ If I forgot you here, contact me and I'll add your name.
     + ashinnblunts
     + AuroraWright
     + b1l1s
+    + BernardoGiordano
     + Cartman123
     + Cell9
     + coder65535
@@ -26,6 +26,7 @@ If I forgot you here, contact me and I'll add your name.
     + d0k3
     + dank101
     + Dazzozo
+    + DeadPhoenix
     + Delebile
     + DinohScene
     + dukesrg
@@ -33,6 +34,7 @@ If I forgot you here, contact me and I'll add your name.
     + elSeledonio
     + erman1337
     + felipejfc
+    + figgyc
     + Frozen_Chen
     + Gelex
     + Hamcha
@@ -40,7 +42,9 @@ If I forgot you here, contact me and I'll add your name.
     + ihaveamac
     + IngeniousDefault
     + J-D-K
+    + Jisagi
     + jkcgs
+    + kartik
     + LordBass
     + MassExplosion123
     + mid-kid
@@ -50,6 +54,7 @@ If I forgot you here, contact me and I'll add your name.
     + Normmatt
     + plutooo
     + Psi-Hate
+    + RandallHoffman
     + Raugo
     + Reboot.ms
     + s_99

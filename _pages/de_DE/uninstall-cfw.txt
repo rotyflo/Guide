@@ -2,49 +2,56 @@
 title: "CFW deinstallieren"
 ---
 
+{% include toc title="Inhalt" %}
+
+### Lesen erforderlich
+
 Dies wird die CFW, einschließlich Boot9Strap und Luma3DS, vollständig von deinem Gerät entfernen, um dessen originalen Zustand wiederherzustellen.
+
+Die CFW zu deinstallieren ist fast nie die Lösung der Probleme, welche bei der CFW-Installation auftreten. A better idea would be to read the [troubleshooting](troubleshooting) page or ask (in English) for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 {: .notice--danger}
 
-Alle unsignierten (nicht-legitimen) Spiele werden unbrauchbar und können manuell mit der Datenverwaltung in den Systemeinstellungen entfernt werden. Benutze einen [Speicherstandmanager](https://github.com/J-D-K/JKSM/releases/latest), um alle Speicherstände von unsignierten (nicht-legitimen) Spielen zu sichern, die du behalten möchtest.
-{: .notice--info}
+Alle unsignierten (nicht-legitimen) Spiele werden unbrauchbar und können manuell mit der Datenverwaltung in den Systemeinstellungen entfernt werden. Use a [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) to backup any saves for these unsigned (illegitimate) games you care about.
 
 Dies wird deine NNID, alle legitim gekauften Spielen und deren Speicherstände nicht beeinträchtigen.
-{: .notice--info}
+
+If you have modified critical system software (such as editing the home menu, unbanning your console, etc), uninstalling CFW may BRICK your device!
+{: .notice--danger}
 
 Beachte: Sollten noch weitere Dateien als nur die`GodMode9.firm` Datei im `/luma/payloads/` Ordner auf deiner SD-Karte sein, starte das "Chainloader Menu", indem du beim Starten der Konsole die (Start) Taste gedrückt hältst und in welchem du dann das D-Pad und die (A) Taste verwenden musst um "GodMode9", für die Anleitung, auszuwählen. 
-{: .notice--info}
 
-#### Was du brauchst
+### Was du brauchst
 
-* Der neueste Version von [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* Das Deinstallationsskript passend zu deinem Gerät:
-  + [`uninstall_hax_retail_NEW.gm9`]({{ base_path }}/gm9_scripts/uninstall_hax_retail_NEW.gm9)
-  + [`uninstall_hax_retail_OLD.gm9`]({{ base_path }}/gm9_scripts/uninstall_hax_retail_OLD.gm9)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
-#### Anleitung
+### Anleitung
 
-##### Abschnitt I - Vorbereitung
+#### Schritt I - Vorbereitungen
 
 1. Schalte deinen 3DS aus
 1. Stecke deine SD-Karte in deinen Computer
 1. Kopiere `Godmode9.firm`von der `Godmode9.zip`-Datei nach `/luma/payloads/` auf deiner SD Karte
 1. Kopiere den Ordner `gm9` aus der GodMode9 `.zip` in das Stammverzeichnis deiner SD-Karte
-1. Kopiere das Deinstallationsskript passend zu deinem Gerät in den Ordner `/gm9/scripts/` auf deiner SD-Karte
 1. Stecke deine SD-Karte nun wieder in deinen 3DS
 1. Schalte deine Konsole an
 
-##### Abschnitt II - Ausführen des Deinstallations-Scripts
+#### Schritt II - Ausführen des Deinstallations-Scripts
 
 1. Starte GodMode9, indem du während dem Starten deiner Konsole die Taste (Start) gedrückt hältst
 1. Wenn du aufgefordert wirst, ein "essential files backup" durchzuführen, drücke (A). Drücke erneut (A) nachdem es abgeschlossen ist
+1. Wenn du aufgefordert wirst Datum und Uhrzeit der "RTC" (Real Time Clock, Echtzeituhr) zu korrigieren, drücke (A), stelle Datum und Uhrzeit ein und drücke (A) um fortzufahren
+  + Bitte beachte, falls du die RTC korrigieren musstest, dass du nach beenden der Anleitung auch Datum und Uhrzeit in den Systemeinstellungen korrigieren musst
 1. Drücke  (HOME) um das Aktionsmenü aufzurufen
-1. Wähle "More..."
 1. Wähle "Scripts"
-1. Wähle das Deinstallationsskript aus
+1. Select "GM9Megascript"
+1. Select "Hax Options"
+1. Select "Un-install Hax"
 1. Drücke (A), wenn du dazu aufgefordert wirst, um fortzufahren
 1. Drücke (A) um die Schreibrechte für SysNAND (lvl3) zu aktivieren und gibt dann die angezeigte Tastenkombination ein
 1. Drücke (A) um fortzufahren
-1. Drücke (A), um die Schreibrechte zu deaktivieren
+1. Drücke (B), um zum Hauptmenü zurückzukehren
+1. Select "Exit"
+1. Drücke (A), um die Schreibrechte zu deaktivieren, wenn du dazu aufgefordert wirst
 1. Drücke (Start) um deinen 3DS neu zu starten
 
 ___

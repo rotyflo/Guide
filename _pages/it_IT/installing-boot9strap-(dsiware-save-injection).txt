@@ -2,46 +2,43 @@
 title: "Installazione di boot9strap (inject di salvataggio su DSiWare)"
 ---
 
+{% include toc title="Indice" %}
+
+### Lettura necessaria
+
 Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella cartella `/luma/payloads/` della tua scheda SD, per seguire le istruzioni riportate dovrai avviare la console tenendo (Start); apparirà un "menu chainloader" dove dovrai selezionare "GodMode9" tramite il D-Pad e il pulsante (A). 
-{: .notice--info}
 
-**Per usare i link [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) di questa guida avrai bisogno di un client torrent come [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
-{: .notice--success}
+Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di questa guida avrai bisogno di un client torrent come [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
-Prima di procedere, assicurati di aver letto tutte le informazioni e gli avvisi su [Installazione di boot9strap (DSiWare)](installing-boot9strap-(dsiware))
-{: .notice--danger}
+Per estrarre i file `.7z` presenti in questa pagina, avrai bisogno di un gestore di file compressi come [7-Zip](http://www.7-zip.org/) o [The Unarchiver](https://theunarchiver.com/).
 
 Se non usi il file `.firm` corrispondente al 3DS di destinazione, BRICKERAI la console! Assicurati di scaricare ed usare quello corretto!
 {: .notice--danger}
 
-#### Cosa serve
+### Cosa serve
 
 * Due console 3DS
-  + **Il 3DS di partenza**: il 3DS che ha in esecuzione un custom firmware (come ad esempio boot9strap o arm9loaderhax) *aggiornato all'ultima versione*
-  + **Il 3DS di destinazione**: il 3DS con versione del software *11.5.0*
+  + **Il 3DS di partenza**: la console con boot9strap aggiornato *all’ultima versione*
+  + **Il 3DS di destinazione**: la console con versione del software *11.8.0*
 * Possedere uno dei seguenti giochi DSIWare (una copia pirata del gioco **non** funzionerà) sul **3DS di partenza**
   + **Fieldrunners**
   + **Legends of Exidia**
   + **Guitar Rock Tour**  
   + **The Legend of Zelda: Four Swords**  
-* L'ultima versione di [3ds_dsiwarehax_installer](https://github.com/yellows8/3ds_dsiwarehax_installer/releases)
-* L'ultima release di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* L'ultima versione di [b9sTool](https://github.com/Plailect/b9sTool/releases/latest)
-* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(la versione normale di boot9strap; non il file `devkit`, né il file `ntr`)*
+* L'ultima versione di [3ds_dsiwarehax_installer](https://github.com/zoogie/3ds_dsiwarehax_installer/releases/latest)
+* L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* L'ultima versione di [b9sTool](https://github.com/zoogie/b9sTool/releases/latest)
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
-* L'[Homebrew Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* Il file `.firm` per versione del software 11.4.0/11.5.0 (entrambe hanno la stessa versione del file FIRM) corrispondente al **3DS di destinazione**:
-  + [`2.54-0_11.4_OLD.firm`](magnet:?xt=urn:btih:0dd89d42ad711f770da899af05ee162ede0d0070&dn=2.54-0_11.4_OLD.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-  + [`2.54-0_11.4_NEW.firm`](magnet:?xt=urn:btih:3b59dd43eec3edb133555f58d1180bfb196acbb4&dn=2.54-0_11.4_NEW.firm&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* L'ultima versione di [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
-#### Istruzioni
+### Istruzioni
 
-##### Sezione I - Preparazione
+#### Sezione I - Preparazione
 
-Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguire il backup di qualsiasi salvataggio tu voglia mantenere sul *3DS di destinazione* (verrà formattato!)
+Usa un [save manager](https://github.com/FlagBrew/Checkpoint/releases/latest) per eseguire il backup di qualsiasi salvataggio tu voglia mantenere sul *3DS di destinazione* (verrà formattato!)
 {: .notice--warning}
 
-1. Copia il file `GodMode9.firm` (o `GodMode9.bin` se usi arm9loaderhax) dall'archivio `.zip` di GodMode9 nella cartella `/luma/payloads/` della scheda SD del **3DS di partenza**
+1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della scheda SD del **3DS di partenza**
 1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della scheda SD del **3DS di partenza**
 1. Copia il file `public.sav` corretto dalla cartella `/dsiware/(ID di 8 caratteri)/` contenuta nell'archivio `.zip` di 3ds_dsiwarehax_installer nella directory principale della scheda SD del **3DS di partenza**
   + **Fieldrunners (USA)**: `4b464445`
@@ -56,12 +53,17 @@ Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguir
 1. Reinserisci la scheda SD nel **3DS di partenza**
 1. Avvia il **3DS di partenza** tenendo premuto (Start) per avviare GodMode9
 1. Premi il pulsante HOME per far apparire il menu delle azioni
-1. Seleziona "More..."
 1. Seleziona "Scripts..."
-1. Seleziona "Backup SysNAND"
+1. Seleziona "GM9Megascript"
+1. Seleziona "Backup Options"
+1. Seleziona "SysNAND Backup"
 1. Premi (A) per confermare
   + Questo processo durerà un po'
+  + Se si verifica un errore, assicurati di avere nella scheda SD almeno 1.3GB liberi
 1. Premi il pulsante (A) per continuare
+1. Premi (B) per ritornare al menu principale
+1. Seleziona "Exit"
+1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Tenendo premuto (R), premi (B) per rimuovere la scheda SD del **3DS di partenza**
 1. Inserisci la scheda SD del **3DS di partenza** nel tuo computer
 1. Inserisci la scheda SD del **3DS di destinazione** nel tuo computer
@@ -69,7 +71,7 @@ Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguir
 1. Reinserisci ciascuna scheda SD nel rispettivo 3DS
 1. Premi (Start) sul **3DS di partenza** per riavviarlo
 
-##### Sezione II - Installazione del salvataggio
+#### Sezione II - Installazione del salvataggio
 
 1. Avvia il **3DS di partenza** tenendo premuto (Start) per avviare GodMode9
 1. Entra in `[0:] SDCARD`
@@ -102,9 +104,9 @@ Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguir
   + **The Legend of Zelda: Four Swords**: Avvia normalmente il gioco
   + Se il gioco presenta un errore relativo a `boot.nds` o una schermata bianca, **l'exploit ha avuto successo**
   + Se il gioco si comporta normalmente e non presenta alcun errore, dovresti capire quali passi della guida non hai eseguito
-  + Se ottieni una schermata nera, [segui questa guida](troubleshooting#twl_broken)
+  + Se ottieni uno schermo nero, [segui questa guida per risolvere il problema](troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide)
 
-##### Sezione III - Trasferimento dati
+#### Sezione III - Trasferimento dati
 
 1. **Crea un backup di ogni file di entrambe le schede SD dei 3DS in due separate cartelle del tuo computer (tieni traccia di quali esse siano)!**
 1. Reinserisci ciascuna scheda SD nel rispettivo 3DS
@@ -122,17 +124,19 @@ Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguir
     + Metodo più lento: Se non hai la possibilità di spostare i file dalla scheda SD utilizza il "Trasferimento Wireless" **completo** (opzione 1).
 1. Vai a [questo link](https://www.nintendo.it/Servizio-al-consumatore/New-Nintendo-3DS-e-New-Nintendo-3DS-XL/Trasferire-i-dati-tra-le-console/Guida-passo-dopo-passo-per-il-trasferimento-dati/Guida-passo-dopo-passo-per-il-trasferimento-dati-956502.html) e segui le istruzioni ufficiali di Nintendo per il Trasferimento dati da un sistema a altro, tenendo a mente quanto hai appena letto
 
-##### Sezione IV - Ripristinare il 3DS di partenza
+#### Sezione IV - Ripristinare il 3DS di partenza
 
 1. Completa la configurazione iniziale sul **3DS di partenza**
 1. Esegui una delle seguenti operazioni
-    + Segui il resto della guida sul **3DS di destinazione**, aspetta una settimana, infine effettua un Trasferimento dati dal **3DS di destinazione** al **3DS di partenza** *(ricorda che non puoi effettuare un Trasferimento dati da New 3DS o New 2DS ad un Old 3DS o Old 2DS)*
+    + Segui il resto della guida sul **3DS di destinazione**, aspetta una settimana *(non ripristinare il backup della tua NAND prima del Trasferimento dati)*, infine effettua un Trasferimento dati dal **3DS di destinazione** al **3DS di partenza** *(ricorda che non puoi effettuare un Trasferimento dati da New 3DS o New 2DS ad un Old 3DS o Old 2DS)*
     + Chiama Nintendo e dì che non hai più accesso alla console al quale è abbinato il NNID (che è il **3DS di destinazione**), e vorresti abbinarlo ad un dispositivo diverso (il **3DS di partenza**)
-    + Puoi anche semplicemente [rimuovere il NNID](https://3ds.guide/troubleshooting#rm_nnid) dal **3DS di partenza** se vuoi che rimanga sul **3DS di destinazione**
+    + Puoi anche [rimuovere l'NNID](godmode9-usage#removing-an-nnid-without-formatting-your-device) dal **3DS di partenza** se preferisci che rimanga sul **3DS di destinazione**
 1. Riavvia il **3DS di partenza** tenendo premuto (Start) per avviare GodMode9
 1. Se ti viene richiesto di creare un backup dei file essenziali, premi (A) per accettare, e al termine di nuovo (A) per proseguire
+1. Se ti viene chiesto di reimpostare la data e l'ora dell'RTC, premi (A) per farlo, poi imposta la data e l'ora, infine premi (A) per continuare
+  + Tieni presente che in tal caso dovrai anche reimpostare data ed ora anche nelle Impostazioni della Console al termine della guida
 1. Entra nella cartella `[0:] SDCARD` -> `gm9` -> `out`
-1. Premi (A) su `<codiceseriale>_nandmin_###.bin` per selezionarlo, quindi seleziona "NAND image options...", ed infine seleziona "Restore SysNAND (safe)"
+1. Premi (A) su `<date>_<serialnumber>_sysnand_###.bin` per selezionarlo, quindi seleziona "NAND image options...", ed infine seleziona "Restore SysNAND (safe)"
 1. Premi il pulsante (A) per sbloccare la sovrascrittura su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
   + Questo processo non eliminerà boot9strap
 1. Inserisci la combinazione di tasti richiesta a schermo per sbloccare i permessi di scrittura di primo livello su SysNAND
@@ -141,31 +145,11 @@ Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguir
 1. Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura
 1. Premi (Start) per riavviare **il 3DS di partenza**
 
-##### Sezione V - Creare un backup del FIRM del 3DS di destinazione
+#### Sezione V - Flash del FIRM sul 3DS di destinazione
 
-1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
-1. Copia il file `boot.nds` nella directory principale della scheda SD del **3DS di destinazione**
-1. Copia il _contenuto_ dell'archivio `starter.zip` nella directory principale della scheda SD del **3DS di destinazione**
-1. Crea una cartella chiamata `boot9strap` nella directory principale della scheda SD del **3DS di destinazione**
-1. Copia il file `.firm` della versione del software 11.5.0 corrispondente al **3DS di destinazione** nella cartella `boot9strap` nella directory principale della scheda SD del **3DS di destinazione**
-1. Copia il file `boot9strap.firm` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
-1. Avvia il gioco DSiWare sul **3DS di destinazione**
-1. Avvia b9sTool tramite il gioco DSiWare
-  + **Fieldrunners**: Tocca il pulsante 'Scores' nel menu princiaple
-  + **Legends of Exidia**: Dopo aver premuto (A) o (Start) nelle due schermate del titolo, seleziona il primo salvataggio e premi "continue"
-  + **Guitar Rock Tour**: Scorri verso il basso e vai su High-Scores -> Drums -> Easy
-  + **The Legend of Zelda: Four Swords**: Avvia normalmente il gioco
-1. Seleziona "Dump F0F1" per salvare un backup del FIRM del **3DS di destinazione**
-1. Esci da b9sTool
-  + Potresti dover forzare lo spegnimento tenendo premuto il pulsante di accensione
-1. Inserisci la tua scheda SD nel computer, quindi copia il file `F0F1_N3DS.bin` o `F0F1_O3DS.bin` (a seconda della tua console) dalla cartella `boot9strap` in una posizione sicura; crea dei backup in più posti; questi backup ti salveranno da un brick nel caso qualcosa dovesse andare storto
-1. Reinserisci la tua scheda SD nel **3DS di destinazione**
-
-##### Sezione VI - Flash del FIRM sul 3DS di destinazione
-
-**NON usare mai b9sTool su una console che ha già arm9loaderhax installato o la BRICKERAI!**
-{: .notice--danger}
-
+1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della scheda SD del **3DS di destinazione**
+1. Copia il file `boot.nds` (B9STool) nella directory principale della scheda SD del **3DS di destinazione**
+1. Copia il file `boot.3dsx` nella directory principale della scheda SD del **3DS di destinazione**
 1. Avvia il gioco DSiWare sul **3DS di destinazione**
 1. Avvia b9sTool tramite il gioco DSiWare
   + **Fieldrunners**: Tocca il pulsante 'Scores' nel menu princiaple
@@ -174,13 +158,11 @@ Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguir
   + **The Legend of Zelda: Four Swords**: Avvia normalmente il gioco
 1. Seleziona "Install boot9strap" e conferma
 1. Esci da b9sTool, quindi spegni la tua console
-  + Potresti dover forzare lo spegnimento tenendo premuto il pulsante di accensione
-1. Accendi il **3DS di destinazione**
 
-##### Sezione VII - Configurare Luma3DS
+#### Sezione VI - Configurare Luma3DS
 
-1. La tua console dovrebbe avviarsi all'interno del menu di configurazione di Luma3DS
-  + Se ottieni una schermata nera, [segui questa guida per risolvere il problema](troubleshooting#ts_sys_b9s)
+1. Avvia il **3DS di destinazione** console tenendo premuto (Select) per avviare il menu delle opzioni di Luma
+  + Se ottieni uno schermo nero, [segui questa guida per risolvere il problema](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Usa il pulsante (A) e il D-Pad per abilitare le seguenti opzioni:    
   + **"Show NAND or user string in System Settings"**
 1. Premi (Start) per salvare e riavviare il 3DS
@@ -188,5 +170,5 @@ Usa un [save manager](https://github.com/J-D-K/JKSM/releases/latest) per eseguir
 
 ___
 
-Prosegui con il [Completamento dell'installazione](finalizing-setup)
+### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}

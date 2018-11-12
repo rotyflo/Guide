@@ -2,62 +2,88 @@
 title: "Utilização do GodMode9"
 ---
 
-GodMode9 é um gerenciador de arquivos completo para o console Nintendo 3DS, lhe dando acesso ao seu cartão SD, às partições FAT dentro da sua SysNAND e EmuNAND, e a basicamente todo o resto. Dentre outras funcionalidades, você pode copiar, excluir, renomear e criar pastas.
+{% include toc title="Table of Contents" %}
+
+For support (in English) with GodMode9, as well as help with scripting and to get updates and info, join [GodMode9 on Discord](https://discord.gg/EGu6Qxw).
 {: .notice--primary}
 
+### Leitura Obrigatória
+
+GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, the FAT partitions inside your SysNAND and EmuNAND, and basically anything else. Among other functionality, you can copy, delete, rename files, and create folders.
+
 Note que se você tem outros arquivos de payload diferentes do `GodMode9.firm` na pasta `/luma/payloads/` do seu cartão SD, segure (Start) durante a inicialização para exibir um "menu de chainloader" onde você terá que utilizar os botões direcionais e o botão (A) para selecionar "GodMode9" para estas instruções. 
+
+GodMode9 is powerful software that has the capability to modify essentially anything on your console. Though many of these modifications are locked behind a permissions system, and it is impossible to accidentally perform dangerous actions without deliberately unlocking permissions, you should still follow instructions carefully and keep backups just in case.
+
+## Updating GodMode9
+
+Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Overwrite any existing files.
 {: .notice--info}
 
-{% capture notice %}
-Esta é uma ferramenta poderosa, que lhe fornece meios para fazer basicamente qualquer modificação imaginável em qualquer dado do sistema disponível no console 3DS. Entretanto, precauções são tomadas para que você não danifique acidentalmente os dados do seu console.
-<br><br>
-O sistema de permissões de escrita lhe protege fornecendo avisos e lhe obrigando a inserir um sequencial de desbloqueio para habilitar permissões de escrita. Não é possível substituir ou modificar qualquer coisa importante sem tais sequências de desbloqueio, e não é possível desbloquear algo acidentalmente. Como sempre, seja esperto. Mantenha seus backups, apenas por segurança.
-{% endcapture %}
+### What You Need
 
-<div class="notice--danger">{{ notice | markdownify }}</div>
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
-## <a name="nand_backup" /> Criando um Backup da NAND
+### Instructions
 
-#### Instruções
+1. Desligue seu dispositivo
+1. Insira o cartão SD no seu computador
+1. Copie o `GodMode9.firm` do `.zip` do GodMode9 para a pasta `/luma/payloads/` no seu cartão SD
+1. Copie a pasta `gm9` do `.zip` do GodMode9 para a raiz do seu cartão SD
+1. Reinsira seu cartão SD no seu dispositivo
+
+## Creating a NAND Backup
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
 1. Aperte (Home) para abrir o menu de ações
-1. Selecione "More..."
 1. Selecione "Scripts..."
-1. Selecione "Backup SysNAND"
+1. Select "GM9Megascript"
+1. Select "Backup Options"
+1. Select "SysNAND Backup"
 1. Aperte (A) para confirmar
   + Este processo levará algum tempo
+  + If you get an error, make sure that you have at least 1.3GB of free space on your SD card
 1. Aperte (A) para continuar
+1. Aperte (B) para retornar para o menu principal
+1. Select "Exit"
+1. Se solicitado, aperte (A) para bloquear as permissões de escrita
 1. Segure (R) e aperte (B) ao mesmo tempo para ejetar o cartão SD
 1. Insira o cartão SD no seu computador
-1. Copie `<serialnumber>_nandmin_###.bin` da pasta `/gm9out/` no seu cartão SD para um local seguro no seu computador
+1. Copy `<date>_<serialnumber>_sysnand_###.bin` and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Faça backups em diversos lugares (tais como armazenamento de arquivos online)
-  + Este backup vai salvá-lo de um brick caso algo dê errado no futuro
-1. Apague `<serialnumber>_nandmin_###.bin` da pasta `/gm9/out/` no seu cartão SD após copiá-lo
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
 1. Reinsira seu cartão SD no seu dispositivo
+  + If your SD card was not detected, hold (R) and press (B) at the same time to remount it
 
-## <a name="nand_restore" /> Restaurando um Backup da NAND
-
-#### Instruções
+## Restoring a NAND Backup
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
-1. Navegue para `[0:] SDCARD`
-1. Aperte (A) no seu `nand.bin` para selecioná-lo, depois selecione "NAND image options...", depois selecione "Restore SysNAND (safe)"
-1. Aperte (A) para destravar as modificações na SysNAND, então aperte a sequência de botões solicitada
+1. Segure (R) e aperte (B) ao mesmo tempo para ejetar o cartão SD
+1. Insira o cartão SD no seu computador
+1. Copy `<date>_<serialnumber>_sysnand_###.bin` from your computer to the `/gm9/out/` folder on your SD card
+1. Reinsira seu cartão SD no seu dispositivo
+1. Aperte (Home) para abrir o menu de ações
+1. Selecione "Scripts..."
+1. Select "GM9Megascript"
+1. Select "Restore Options"
+1. Select "SysNAND Restore (safe)"
+1. Select your NAND backup
+1. Aperte (A) para destravar "SysNAND (lvl3) writing", então aperte a sequência de botões solicitada
   + Isso não irá substituir sua instalação do boot9strap
-1. Aperte a sequência de botões solicitada para desbloquear "SysNAND (lvl1) writing"
   + Este processo levará algum tempo
-1. Quando concluído, aperte (A) para continuar
-1. Se solicitado, aperte (B) para recusar o bloqueio da permissão de escrita
+1. Aperte (A) para continuar
+1. Aperte (B) para retornar para o menu principal
+1. Select "Exit"
+1. Se solicitado, aperte (A) para bloquear as permissões de escrita
 
-## <a name="injectHS" /> Injetando qualquer app .CIA no Informações sobre saúde e segurança
+## Injecting any .CIA app into Health & Safety
 
-#### Preparativos
+For organizational purposes, copy the `.cia` file you wish to inject to the `/cias/` folder on your SD card
+{: .notice--info}
 
-+ Para fins organizacionais, copie o arquivo `.cia` que você deseja injetar para a pasta `/cias/` no seu cartão SD
-    + Note que não é possível injetar arquivos no Informações sobre saúde e segurança que sejam maiores do que ele (incluindo jogos e outras aplicações maiores)
-
-#### Instruções
+Note that it is not possible to inject files into Health & Safety that are larger than it (including games and other large applications)
+{: .notice--info}
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
 1. Navegue para `[0:] SDCARD` -> `cias`
@@ -67,12 +93,10 @@ O sistema de permissões de escrita lhe protege fornecendo avisos e lhe obrigand
 1. Aperte (A) para continuar
 1. Se solicitado, aperte (A) para bloquear as permissões de escrita
 
-## <a name="restore_hs" /> Restaurando o Informações sobre saúde e segurança após injetar um app .CIA
+## Restoring Health & Safety after injecting a .CIA app
 
 Isto só irá funcionar caso a injeção do Informações sobre saúde e segurança foi feita pelo GodMode9 (não Decrypt9 ou Hourglass9).
 {: .notice--info}
-
-#### Instruções
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
 1. Aperte (Home) para abrir o menu de ações
@@ -81,15 +105,15 @@ Isto só irá funcionar caso a injeção do Informações sobre saúde e seguran
 1. Aperte (A) para destravar "SysNAND (lvl1) writing", então aperte a sequência de botões solicitada
 1. Se solicitado, aperte (A) para bloquear as permissões de escrita
 
-## <a name="dump_cart" /> Copiando um Cartucho de Jogo
+## Dumping a Game Cartridge
 
-#### Preparativos
+{% capture notice %}
+Insert the game cartridge you intend to dump into your device
+  + Cartuchos de jogos de 3DS serão copiados para um formato instalável `.cia`
+  + Cartuchos de NDS serão copiados para um formato não-instalável `.nds` compatível com flashcarts e emuladores
+{% endcapture %}
 
-+ Insira o cartucho do jogo que você deseja copiar para o seu dispositivo
-    + Cartuchos de jogos de 3DS serão copiados para um formato instalável `.cia`
-    + Cartuchos de NDS serão copiados para um formato não-instalável `.nds` compatível com flashcarts e emuladores
-
-#### Instruções
+<div class="notice--info">{{ notice | markdownify }}</div>
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
 1. Navegue para `[C:] GAMECART`
@@ -98,88 +122,78 @@ Isto só irá funcionar caso a injeção do Informações sobre saúde e seguran
   + **Cartucho de jogo NDS:** Aperte (A) em `[TitleID].trim.nds` para selecioná-lo, depois selecione "Copy to 0:/gm9/out"
 1. Seu `.cia` instalável ou `.nds` não-instalável formatado será gravado na pasta `/gm9/out/` no seu cartão SD
 
-## <a name="dump_title" /> Copiando um Aplicativo
-
-Utilize o menu `Titles` no FBI para obter o ID do aplicativo instalado que você deseja copiar
-{: .notice--info}
-
-#### Instruções
+## Dumping a Title
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
-1. Navegue para a unidade aplicável ao tipo de aplicativo que você deseja copiar:
-  + **Aplicativo instalado pelo usuário**: Navegue para `[A:] SYSNAND SD`
-  + **Aplicativo do sistema**: Navegue para `[1:] SYSNAND CTRNAND`
-1. Navegue para `title`
-1. Navegue para a pasta correspondente aos primeiros 8 dígitos do ID do aplicativo
-1. Navegue para a pasta correspondente aos últimos 8 dígitos do ID do aplicativo
-1. Navegue para `content`
-1. Aperte (A) no arquivo `.tmd` para selecioná-lo, depois selecione "TMD file options...", e então selecione "Show title info"
-1. Certifique-se de ter encontrado o aplicativo correto
-1. Aperte (B) para sair das informações do aplicativo
+1. Hover over the drive applicable to the type of title you wish to dump:
+  + **User Installed Title**: `[A:] SYSNAND SD`
+  + **System Title**: `[1:] SYSNAND CTRNAND`
+1. Hold (R) and press (A) at the same time to open the drive options
+1. Select "Search for titles"
+1. Aperte (A) para continuar
 1. Aperte (A) no arquivo `.tmd` para selecioná-lo, depois selecione "TMD file options...", e então selecione "Build CIA (standard)"
 1. Seu `.cia` instalável formatado será gravado na pasta `/gm9/out/` no seu cartão SD
 
-## <a name="convert_3ds" /> Convertendo um .3DS para .CIA
+## Converting a .3DS to .CIA
 
-#### Preparativos
-
+{% capture notice %}
 + Para fins organizacionais, copie cada arquivo `.3ds` que você deseja converter para a pasta `/cias/` no seu cartão SD
-    + Note que se você deseja converter um arquivo `.3ds` que já está em um flashcart, você deve seguir [Copiando um Cartucho de Jogo](#dump_cart)
+  + Note that if you wish to convert a `.3ds` file that is already on a flashcart, you should follow [Dumping a Game Cartridge](#dumping-a-game-cartridge)
+{% endcapture %}
 
-#### Instruções
+<div class="notice--info">{{ notice | markdownify }}</div>
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
 1. Navegue para `[0:] SDCARD` -> `cias`
 1. Aperte (A) no seu arquivo `.3ds` para selecioná-lo, depois selecione "NCSD image options...", e então selecione "Build CIA from file"
 1. Seu `.cia` instalável formatado será gravado na pasta `/gm9/out/` no seu cartão SD
 
-## <a name="backup_gba" /> Backup de Saves do VC de GBA
+## Backup GBA VC Saves
 
-#### Instruções
+The game will be outputted to the `/gm9/out/` folder on your SD card with the name `<TitleID>.gbavc.sav`.
+{: .notice--info}
 
-1. Desligue seu dispositivo
-1. Insira o cartão SD no seu computador
-1. Crie uma pasta em `/gm9/` para cada jogo de VC de GBA que você deseja fazer backup do save
-1. Reinsira seu cartão SD no seu dispositivo
-1. Ligue o seu dispositivo
+To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+{: .notice--info}
+
 1. Faça o seguinte processo para cada jogo de VC de GBA que você deseja fazer backup do save:
   + Inicie o jogo de VC de GBA
   + Saia do jogo de VC de GBA
   + Inicie seu dispositivo enquanto segura (Start) para iniciar o menu do chainloader do Luma3DS
   + Inicie o GodMode9 apertando (A)
   + Navegue para `[S:] SYSNAND VIRTUAL`
-  Aperte (Y) em `gbavc.sav` para copiá-lo
-  + Aperte (B) para retornar para o menu principal
-  + Navegue para `[0:] SDCARD` -> `gm9`
-  + Navegue até a pasta que você criou para este jogo de VC de GBA
-  + Aperte (Y) para colar `gbavc.sav`
+  + Press (A) on `agbsave.bin` to select it
+  + Select "AGBSAVE options..."
+  + Select "Dump GBA VC save"
+  + Press (A) to continue
   + Aperte (Start) para reiniciar seu dispositivo
 
-## <a name="restore_gba" /> Restaurar Saves do VC de GBA
+## Restore GBA VC Saves
 
-#### Instruções
+To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+{: .notice--info}
 
-1. Garanta que você tenha uma pasta contendo um save dentro de `/gm9/` para cada jogo de VC de GBA que você deseja restaurar o save
 1. Faça o seguinte processo para cada jogo de VC de GBA que você deseja restaurar o save:
   + Inicie o jogo de VC de GBA
   + Saia do jogo de VC de GBA
   + Inicie seu dispositivo enquanto segura (Start) para iniciar o menu do chainloader do Luma3DS
   + Inicie o GodMode9 apertando (A)
   + Navegue para `[0:] SDCARD` -> `gm9`
-  + Navegue até a pasta que você criou para este jogo de VC de GBA
-  Aperte (Y) em `gbavc.sav` para copiá-lo
+  + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
   + Aperte (B) para retornar para o menu principal
   + Navegue para `[S:] SYSNAND VIRTUAL`
-  + Aperte (Y) para colar `gbavc.sav`
-  + Aperte (A) para confirmar
+  + Press (A) on `agbsave.bin` to select it
+  + Select "AGBSAVE options..."
+  + Select "Inject GBA VC save"
+  + Press (A) to continue
   + Aperte (Start) para reiniciar seu dispositivo
+  + Inicie o jogo de VC de GBA
+  + Saia do jogo de VC de GBA
 
-## <a name="format_sd" /> Formatar um cartão SD
+## Format an SD card
 
 **Note que isto irá apagar o conteúdo do seu cartão SD!**
 {: .notice--danger}
-
-#### Instruções
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
 1. Aperte (Home) para abrir o menu de ações
@@ -192,13 +206,10 @@ Utilize o menu `Titles` no FBI para obter o ID do aplicativo instalado que você
   + Opcionalmente, você pode inserir um nome personalizado para o cartão SD
 1. Quando solicitado, aperte a sequência de botões solicitada para confirmar
 
-## <a name="crypt_cia" /> Criptografar / Descriptografar um arquivo .CIA
+## Encrypting / Decrypting a .CIA file
 
-#### Preparativos
-
-+ Para fins organizacionais, copie cada arquivo `.cia` que você deseja criptografar / descriptografar para a pasta `/cias/` no seu cartão SD
-
-#### Instruções
+For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
+{: .notice--info}
 
 1. Inicie o GodMode9 segurando (Start) durante a inicialização
 1. Navegue para `[0:] SDCARD` -> `cias`
@@ -209,3 +220,19 @@ Utilize o menu `Titles` no FBI para obter o ID do aplicativo instalado que você
     + **Encrypt inplace:** Substitui o arquivo `.cia` selecionado por uma versão criptografada
     + **Decrypt inplace:** Substitui o arquivo `.cia` selecionado por uma versão descriptografada
 1. Seu `.cia` criptografado / descriptografado será gravado no local desejado
+
+## Removing an NNID without formatting your device
+
+1. Inicie o GodMode9 segurando (Start) durante a inicialização
+1. Aperte (Home) para abrir o menu de ações
+1. Selecione "Scripts..."
+1. Select "GM9Megascript"
+1. Select "Scripts from Plailect's Guide"
+1. Select "Remove NNID"
+1. Aperte (A) para continuar
+1. Aperte (A) para destravar "SysNAND (lvl1) writing", então aperte a sequência de botões solicitada
+1. Aperte (A) para continuar
+1. Aperte (B) para retornar para o menu principal
+1. Select "Exit"
+1. Se solicitado, aperte (A) para bloquear as permissões de escrita
+1. Aperte (Start) para reiniciar seu dispositivo

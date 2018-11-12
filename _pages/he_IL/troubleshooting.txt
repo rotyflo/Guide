@@ -2,40 +2,45 @@
 title: "פתרון בעיות"
 ---
 
-אם אתם לא מצליחים להפעיל את המכשיר שלכם, תחפשו את החלק הרלוונטי לכם ותעקבו אחרי ההוראות. אחרי שפתרון עבד לכם, תמשיכו עם המדריך הראשי
-(הדף הזה ארוך למדי, השתמשו ב Ctrl + F כדי לחפש את הבעיה)
-{: .notice--primary}
+{% include toc title="תוכן העניינים" %}
 
-** אם אתם עדיין לא יכולים לפתור את הבעיה ואתם צריכים עזרה, בבקשה תדביקו את התוכן של כל קבצי ה- .log הרלוונטיים מה- SD אל תוך [Gist](https://gist.github.com/), ואז תבואו לעזרה מוכנים עם מידע רחב על הבעיה ומה ניסיתם.**
-{: .notice--info}
+### קריאה דרושה
 
-**כדי להשתמש בקישורי מגנט, תצטרכו כלי טורנט כמו [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
-{: .notice--success}
+אם אתם לא מצליחים להפעיל את המכשיר שלכם, תחפשו את החלק הרלוונטי לכם ותעקבו אחרי ההוראות.
 
-## <a name="twl_broken" />DS / DSi לא מתפקד אחרי סיום המדריך
+אם אתם עדיין לא יכולים לפתור את הבעיה ואתם צריכים עזרה, בבקשה תדביקו את התוכן של כל קבצי ה- .log הרלוונטיים מה- SD אל תוך [Gist](https://gist.github.com/), ואז תבואו לעזרה מוכנים עם מידע רחב על הבעיה ומה ניסיתם.
 
-#### מה צריך
+שימו לב שאם יש לכם קבצי מטען אחרים מ`GodMode9.firm` בתיקיית `/luma/payloads/` על כרטיס הSD שלכם, החזקת (Start) בהפעלה תציג תפריט שבו תצטרכו להשתמש בחיצים ובכפתור ה(A) כדי לבחור ב"GodMode9" בשביל ההוראות האלה. 
+
+To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+
+## תוכנות DS / DSi לא מתפקדות אחרי סיום המדריך
+
+### What You Need
 
 * קובץ ה- `.cia` של TWL_FIRM למכשיר שלך
-    + <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. תשתמשו בתוכנת טורנט להורדת הקובץ."></i> - [`New_3DS TWL_FIRM - v9936.cia`](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-    + <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. תשתמשו בתוכנת טורנט להורדת הקובץ."></i> - [`Old_3DS TWL_FIRM - v8817.cia`](magnet:?xt=urn:btih:17511eadb6e6f3ff22d04f90644e37bd2d96ca43&dn=Old%5F3DS%20TWL%5FFIRM%20-%20v8817.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. תשתמשו בתוכנת טורנט להורדת הקובץ."></i> - [`TWL Version Data - v0.cia`](magnet:?xt=urn:btih:4a106681407fede5de95cc8bda635432481f6b5d&dn=TWL%20Version%20Data%20-%20v0.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. תשתמשו בתוכנת טורנט להורדת הקובץ."></i> - [`DS Internet - v2048.cia`](magnet:?xt=urn:btih:2b9df8496922f2546dfb0b01220068ce53c19d3d&dn=DS%20Internet%20-%20v2048.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. תשתמשו בתוכנת טורנט להורדת הקובץ."></i> - [`DS Download Play - v1024.cia`](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. תשתמשו בתוכנת טורנט להורדת הקובץ."></i> - [`Nintendo DS Cart Whitelist - v11264.cia`](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+    + <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [New_3DS TWL_FIRM - v9936.cia](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+    + <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [Old_3DS TWL_FIRM - v8817.cia](magnet:?xt=urn:btih:17511eadb6e6f3ff22d04f90644e37bd2d96ca43&dn=Old%5F3DS%20TWL%5FFIRM%20-%20v8817.cia&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [TWL Version Data - v0.cia](magnet:?xt=urn:btih:4a106681407fede5de95cc8bda635432481f6b5d&dn=TWL%20Version%20Data%20-%20v0.cia&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [DS Internet - v2048.cia](magnet:?xt=urn:btih:2b9df8496922f2546dfb0b01220068ce53c19d3d&dn=DS%20Internet%20-%20v2048.cia&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [DS Download Play - v1024.cia](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="זה לינק מגנטי. Use a torrent client to download the file."></i> - [Nintendo DS Cart Whitelist - v11264.cia](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
 
-#### הוראות
+### הנחיות
 
-##### חלק I - הכנות
+#### חלק I - הכנות
 
+1. תכבו את המכשיר
+1. תכניסו את ה-SD שלכם למחשב
 1. צרו תיקייה בשם `cias` בתיקיית האם של כרטיס ה- SD שלכם אם לא קיימת תיקייה כזו
 1. העתיקו את `TWL Version Data - v0.cia` אל תיקיית `/cias/` שבכרטיס הזכרון
 1. העתיקו את `DS Download Play - v1024.cia` אל תיקיית `/cias/` שבכרטיס הזכרון
 1. העתיקו את `DS Internet - v2048.cia` אל תיקיית `/cias/` שבכרטיס הזכרון
 1. העתיקו את `Nintendo DS Cart Whitelist - v11264.cia` אל תיקיית `/cias/` שבכרטיס הזכרון
 1. העתיקו את `New_3DS TWL_FIRM - v9936.cia` או את `Old_3DS TWL_FIRM - v8817.cia` אל תיקיית `/cias/` שבכרטיס הזכרון
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 
-##### חלק II - התקנת הקבצים
+#### חלק II - התקנת הקבצים
 
 1. תפעילו את FBI
 1. נווטו אל `SD` ושם אל `cias`
@@ -43,25 +48,9 @@ title: "פתרון בעיות"
 1. לחצו על "Install and delete all CIAs"
 1. תלחצו על (Home) כדי לצאת מFBI
 
-## <a name="rm_nnid" />מחיקת NNID ללא פרמוט המכשיר
+## אי אפשר להזריק את H&S על קונסולה ששונמכה עם Gateway
 
-שימו לב שאם יש לכם קבצי מטען אחרים מ`GodMode9.firm` בתיקיית `/luma/payloads/` על כרטיס הSD שלכם, החזקת (Start) בהפעלה תציג תפריט שבו תצטרכו להשתמש בחיצים ובכפתור ה(A) כדי לבחור ב"GodMode9" בשביל ההוראות האלה. 
-{: .notice--info}
-
-1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
-1. נווטו אל `[1:] SYSNAND CTRNAND`, אז`data`, אז מספר בין 32 ספרות, אז `sysdata` ולבסוף `00010038`
-1. החזיקו את (R), ואז תלחצו (X) על `00000000` כדי לשנות את שם הקובץ
-1. לחצו (חץ למעלה) פעם אחת כדי לשנות את השם ל`10000000`
-1. לחצו (A) כדי לשמור
-1. לחצו (A) כדי לפתוח גישת כתיבה לSysNAND, ואז תלחצו על המקשים בסדר הנכון
-1. נווטו בחזרה לתריט הראשי
-1. תלחצו על (Start) כדי לאתחל את המכשיר
-
-## <a name="gw_fbi" />אי אפשר להזריק את H&S על קונסולה ששונמכה עם Gateway
-זה קורה בגלל שGateway שנמכו בצורה מאוד גרועה, שמשאירה 2 גרסאות של כל תוכנה על הקונסולה. אחת מהם לא בשימוש, אבל זה מבלבל את מערכת הזרקת H&S, וגורם לה להכניס את FBI לקובץ הלא נכון.
-
-שימו לב שאם יש לכם קבצי מטען אחרים מ`GodMode9.firm` בתיקיית `/luma/payloads/` על כרטיס הSD שלכם, החזקת (Start) בהפעלה תציג תפריט שבו תצטרכו להשתמש בחיצים ובכפתור ה(A) כדי לבחור ב"GodMode9" בשביל ההוראות האלה. 
-{: .notice--info}
+זה קורה בגלל שGateway שנמכו בצורה מאוד גרועה שמשאירה 2 גרסאות של כל תוכנה על הקונסולה. אחת מהם לא בשימוש, אבל זה מבלבל את מערכת הזרקת H&S, וגורם לה להכניס את FBI לקובץ הלא נכון.
 
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
 1. לכו ל`[1:] SYSNAND CTRNAND`ואז `title` ולבסוף`00040010`
@@ -84,31 +73,39 @@ title: "פתרון בעיות"
 1. תבחרו "Move path(s)"
 1. הקבצים עם האותיות הגדולות עברו לתיקיית `newdir`
 1. תלחצו על (Start) כדי לאתחל את המכשיר
-1. תחזרו אל [סיום התהליך](finalizing-setup) ותנסו שוב להזריק את FBI
-1. אם זה עדיין לא עובד, החזירו את הקבצים עם האותיות הגדולות לתיקייה `content`, העבירו את הקבצים עם האותיות הקטנות לתיקייה `newdir`, חזרו ל[סיום התהליך](finalizing-setup) ונסו שוב להזריק את FBI
+1. Retry the H&S injection
+1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then retry the H&S injection
 
-## <a name="ts_browser" />פריצה מבוססת דפדפן לא עובדת
-פריצות מבוססות דפדפן (כגון browserhax או 2xrsa) לעיתים קרובות אינן יציבות וקורסות לעתים קרובות, אבל לפעמים ניתן לתקן אותן על-ידי ביצוע השלבים הבאים
+## פריצה מבוססת דפדפן לא עובדת
+
+פריצות מבוססות דפדפן (כגון browserhax או 2xrsa) לעיתים קרובות אינן יציבות וקורסות לעתים קרובות, אבל לפעמים ניתן לתקן אותן על-ידי ביצוע השלבים הבאים.
 
 1. תפתחו את הדפדפן, ואז תפתחו את ההגדרות שלו
 1. רדו למטה ותלחצו על Intiallize Savedate או Clear All Save Data
 1. תנסו שוב
 
-## <a name="ts_sys_down" />מסך שחור בהפעלת SysNAND
+## מסך שחור בהפעלת SysNAND
 
 1. תנסו להפעיל את המכשיר בלי הSD, ואז תחזירו אותו כשהוא עלה
     1. תכבו את המכשיר
     1. תוציאו את כרטיס הSD שלכם מהמכשיר שלכם
     1. תפעילו את המכשיר
     1. כשהתפריט מופיע, תחזירו את הSD אל המכשיר שלכם
-    1. אם זה עבד, כדאי למחוק את הextdata של תפריט הבית על-ידי ניווט אל התיקיה הבאה על כרטיס הSD שלכם, כאשר 32 Character ID זה 32 מספרים:
-'SD: / Nintendo 3DS /(32 Character ID) /(32 Character ID)/extdata/00000000 /'
-        + אזור EUR: למחוק את `00000098`
-        + אזור JPN: למחוק את `00000082`
-        + אזור USA: למחוק את `0000008F`
-        + אזור CHN: למחוק את `000000A1`
-        + אזור KOR: למחוק את `000000A9`
-        + אזור TWN: למחוק את `000000B1`
+    1. If this worked, you should clear Home Menu's extdata by following these instructions:
+        1. תכבו את המכשיר
+        1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+        1. תלחצו על (Home) כדי להראות את תפריט הפעולה
+        1. תבחרו "Scripts..."
+        1. Select "GM9Megascript"
+        1. Select "Scripts from Plailect's Guide"
+        1. Select "Remove extdata"
+        1. תלחצו (A) כדי להמשיך
+        1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
+        1. תלחצו (A) כדי להמשיך
+        1. תלחצו (B) כדי לחזור לתפריט הראשי
+        1. Select "Exit"
+        1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
+        1. תלחצו על (Start) כדי לאתחל את המכשיר
 1. תנסו להפעיל את המכשיר ללא משחק פיזי בפנים
 1. אם יש לכם הלחמה וגיבוי, תחזירו את הגיבוי אל המכשיר שלכם
 1. תנסו להיכנס לריקוברי מוד ולעדכן את המכשיר
@@ -116,39 +113,52 @@ title: "פתרון בעיות"
     1. תחזיקו (L) + (R) + (A) + (Up)
     1. תפעילו את המכשיר
     1. אם אתם מגיעים למצב בטוח, תעדכנו את הקונסולה שלכם
-1. יש סיכוי שחטפתם בריק. לקבלת תמיכה, תבקשו עזרה ב[Nintendo Homebrew על Discord](https://discord.gg/MWxPgEp)
+1. יש סיכוי שחטפתם בריק. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
-## <a name="ts_sys_b9s" />מסך שחור בהפעלת SysNAND אחרי התקנת boot9strap
+## Clear Home Menu extdata
 
-1. תבדקו שיש לכם תוכנה עובדת.
+1. תכבו את המכשיר
+1. תכניסו את ה-SD שלכם למחשב
+1. Navigate to the `/Nintendo 3DS/<32-character-id>/<32-character-id>/extdata/00000000/` folder on your SD card
+1. Delete the extdata file corresponding to your region:
+  + **EUR Region**: `00000098`
+  + **JPN Region**: `00000082`
+  + **USA Region**: `0000008f`
+  + **CHN Region**: `000000A1`
+  + **KOR Region**: `000000A9`
+  + **TWN Region**: `000000B1`
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
+
+## מסך שחור בהפעלת SysNAND אחרי התקנת boot9strap
+
+1. תבדקו שיש לכם תוכנה עובדת
     1. תבדקו שיש לכם `boot.firm` מחוץ לכל תיקייה בSD.
 1. תנסו לאפס את ההגדרות של לומה ולתקן אותן
     1. תמחקו את `/luma/config.bin` מה SD שלכם
     1. תגדירו את האפשרויות כשזה עולה
 1. תנסו להפעיל את GodMode9
     1. עם Luma3DS, תחזיקו (Start) ותפעילו את ה3DS
-1. תנסו למחוק את הextdata של הHome menu
-    1. תמחקו את ה extdata של תפריט הבית על-ידי ניווט אל התיקיה הבאה על הכרטיס SD שלכם, כאשר 32 Character ID זה 32 מספרים:
-'SD: / Nintendo 3DS /(32 Character ID) /(32 Character ID)/extdata/00000000 /'
-        + אזור EUR: למחוק את `00000098`
-        + אזור JPN: למחוק את `00000082`
-        + אזור USA: למחוק את `0000008F`
-        + אזור CHN: למחוק את `000000A1`
-        + אזור KOR: למחוק את `000000A9`
-        + אזור TWN: למחוק את `000000B1`
+1. Try deleting home menu's extdata by following these instructions:
+    1. תכבו את המכשיר
+    1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+    1. תלחצו על (Home) כדי להראות את תפריט הפעולה
+    1. תבחרו "Scripts..."
+    1. Select "GM9Megascript"
+    1. Select "Scripts from Plailect's Guide"
+    1. Select "Remove extdata"
+    1. תלחצו (A) כדי להמשיך
+    1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
+    1. תלחצו (A) כדי להמשיך
+    1. תלחצו (B) כדי לחזור לתפריט הראשי
+    1. Select "Exit"
+    1. תלחצו (A) כדי לנעול הרשאות כתיבה אם תתבקשו
+    1. תלחצו על (Start) כדי לאתחל את המכשיר
 1. תנסו להפעיל את המכשיר ללא משחק פיזי בפנים
-1. אם שנמכתם עם Gateway, תבדקו שאתם משתמשים בגרסה העדכנית של Luma3DS, לפחות 6.2.3
-1. אם הNAND שלכם היה בין הגרסאות 3.0.0 ו4.5.0 תעשו את זה:
-    תבדקו שאתם משתמשים בגרסה העדכנית של Luma3DS, לפחות 6.6
-    תורידו את [הקובץ הזה](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) ושנו לו את השם ל-`native.firm`
-    + תורידו את [הקובץ הזה](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
-    + תעתיקו את `native.firm` ואת `cetk` לתוך התיקייה `/luma/` שב-SD שלכם
-    + אם יש לכם את Luma3DS בגרסה 7.1 או נמוך יותר, תשנו את השם של `native.firm` אל`firmware.bin`
-    + תמחקו את שני הקבצים האלו לאחר שתעדכנו את ה-3DS שלכם
-1. תנסו לעקוב אחרי [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
-1. תבקשו עזרה ב[Nintendo Homebrew על Discord](https://discord.gg/MWxPgEp).
+1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version
+1. תנסו לעקוב אחרי [CTRTransfer](ctrtransfer)
+1. For support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
-## <a name="ts_sys_blue" />מסך כחול בהפעלה (bootrom error)
+## מסך כחול בהפעלה (bootrom error)
 
 1. חטפתם בריק
 1. אתם תצטרכו לעשות [הלחמה](https://gbatemp.net/threads/414498/) או לתקן\להחליף את המכשיר

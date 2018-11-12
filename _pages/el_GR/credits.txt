@@ -5,11 +5,10 @@ title: "Συντελεστές"
 **Ευχαριστώ ιδιαίτερα όλο το [#Cakey στο Freenode](http://webchat.freenode.net/?channels=%23Cakey) που ήταν υπέροχοι!**
 {: .notice--primary}
 
-**Ευχαριστώ ιδιαίτερα όλους τους [μεταφραστές](https://translate.3ds.guide/) που ήταν υπέροχοι!**
+**Special thanks to all of [the translators](https://crowdin.com/project/3ds-guide) for being awesome!**
 {: .notice--primary}
 
 Εάν σας ξέχασα, επικοινωνήστε μαζί μου ώστε να προσθέσω το όνομά σας.
-{: .notice}
 
 {% capture notice-1 %}
 
@@ -19,13 +18,15 @@ title: "Συντελεστές"
     + ashinnblunts
     + AuroraWright
     + b1l1s
+    + BernardoGiordano
     + Cartman123
     + Cell9
     + coder65535
-    + Cruel
+    + Cruel`
     + d0k3
     + dank101
     + Dazzozo
+    + DeadPhoenix
     + Delebile
     + DinohScene
     + dukesrg
@@ -33,6 +34,7 @@ title: "Συντελεστές"
     + elSeledonio
     + erman1337
     + felipejfc
+    + figgyc
     + Frozen_Chen
     + Gelex
     + Hamcha
@@ -40,7 +42,9 @@ title: "Συντελεστές"
     + ihaveamac
     + IngeniousDefault
     + J-D-K
+    + Jisagi
     + jkcgs
+    + kartik
     + LordBass
     + MassExplosion123
     + mid-kid
@@ -50,6 +54,7 @@ title: "Συντελεστές"
     + Normmatt
     + plutooo
     + Psi-Hate
+    + RandallHoffman
     + Raugo
     + Reboot.ms
     + s_99

@@ -1,67 +1,77 @@
 ---
-title: "boot9strapin asentaminen (DSiWare)"
+title: "Boot9strapin asentaminen (DSiWare)"
 ---
 
-On kaksi eri menetelmää asentaa boot9strap käyttäen DSiWarea versiolla 11.5.0.
-{: .notice--info}
+{% include toc title="Sisällysluettelo" %}
 
-Toinen näistä menetelmistä toimii vain neljän tietyn pelin kanssa, joita ei enää saa ostettua eShopista, toinen taas hiukan useamman eShopista vielä saatavan pelin kanssa.
-{: .notice--info}
+### Tärkeää tietoa
 
-Kumpikin menetelmä vaatii kaksi konsolia. Yhdellä 3DS:llä (tai 2DS:llä) on oltava jonkinlainen mukautettu laiteohjelmisto (kuten boot9strap tai arm9loaderhax), ja siihen viitataan nimellä *lähde-3DS*. Toisen 3DS:n (tai 2DS:n) on oltava vakiolaiteohjelmistolla versiolla 11.5.0, ja siihen viitataan nimellä *kohde-3DS*.
-{: .notice--info}
+There are three different methods of installing boot9strap using DSiWare on 11.8.0.
 
-Kummankin laitteen TÄYTYY olla samalta alueelta.
-{: .notice--warning}
-
-Kummassakin menetelmässä oletetaan, että mukautetun laiteohjelmiston omaavalla 3DS:llä on joko boot9strap tai arm9loaderhax asennettuna tämän oppaan ohjeiden mukaan. Vaikka näiden menetelmien hyödyntäminen onkin mahdollista myös joillain muilla mukautetuilla laiteohjelmistoilla, ei niitä käsitellä tässä ohjeessa.
-{: .notice--info}
-
-Kumpikin menetelmä käyttää FIRM-osioiden salaamatonta muotoa (selitetty [täällä](https://www.3dbrew.org/wiki/3DS_System_Flaws)) hyödyntävää haavoittuvuutta sekä virhettä, joka sallii DSiWare-sovellusten lukea ja kirjoittaa mihin tahansa salattussa NANDissa.
-{: .notice--info}
-
-{% capture notice-4 %}
-Kumpikin menetelmä vaatii [siirtosovelluksen (System Transfer)](https://www.nintendo.fi/images/_downloads/_manual/_new_nintendo_3ds/KTR_MAN_SCN_Revision_May_2016_ONLINE_160614.pdf#page=95) käyttämistä, jotta tiedot voidaan siirtää lähde-3DS:ltä kohde-3DS:lle. Tiedonsiirto toimii *vain* seuraavissa järjestyksissä:    
-  + New 3DS tai New 2DS → New 3DS tai New 2DS    
-  + Vanha 3DS tai vanha 2DS → vanha 3DS tai vanha 2DS    
-  + Vanha 3DS tai vanha 2DS → New 3DS tai New 2DS    
-{% endcapture %}
-
-<div class="notice--warning">{{ notice-4 | markdownify }}</div>
-
-Kummassakin menetelmässä lähde-3DS:n NNID jää jumiin kohde-3DS:lle, ellet tee siirtoa takaisin tai soita Nintendolle! (details can be found in the instructions)
-{: .notice--danger}
-
-Tiedonsiirron voi tehdä siirtosovelluksella vain kerran viikossa yhtä NNID:tä kohden.
-{: .notice--danger}
+The first method, Seedminer, requires a PC with a powerful graphics card. There is an online helping service for Seedminer if you do not have access to such a PC. The two other methods require a system transfer from a hacked 3DS.
 
 ___
 
-{% capture notice-1 %}
+The Seedminer method only requires a cheap DSiWare game, available from the eShop. Additionally, access to CFW or the Homebrew Launcher is needed for  extracting your 3DS' `movable_part1.sed` file, and a PC with a powerful graphics card is needed for bruteforcing the `movable_part1.sed` file into a `movable.sed` file. The [online Seedminer helper service](https://seedhelper.figgyc.uk/) can automatically do these things for you if you do not have access to them.
 
-[boot9strapin asentaminen (DSiWare-tallennusinjektio)](installing-boot9strap-(dsiware-save-injection))
-<br><br>
+The method uses a series of oversights in the 3DS' security, detailed [here](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+The latter two methods require two devices. One 3DS (or 2DS) must be running boot9strap and is referred to as the *source 3DS*, while the other 3DS (or 2DS) is on stock 11.7.0 and referred to as the *target 3DS*.
+
+Kummassakin menetelmässä oletetaan, että mukautetun laiteohjelmiston omaavalla 3DS:llä on boot9strap asennettuna tämän oppaan ohjeiden mukaan. Vaikka näiden menetelmien hyödyntäminen onkin mahdollista myös joillain muilla mukautetuilla laiteohjelmistoilla, ei niitä käsitellä tässä ohjeessa.
+
+Kumpikin menetelmä käyttää FIRM-osioiden salaamatonta muotoa (known-plaintext, selitetty [täällä](https://www.3dbrew.org/wiki/3DS_System_Flaws)) hyödyntävää haavoittuvuutta sekä virhettä, joka sallii DSiWare-sovellusten lukea ja kirjoittaa mihin tahansa salattussa NANDissa.
+
+Kumpikin menetelmä vaatii [siirtosovelluksen (System Transfer)](https://www.nintendo.fi/images/_downloads/_manual/_new_nintendo_3ds/KTR_MAN_SCN_Revision_May_2016_ONLINE_160614.pdf#page=95) käyttämistä, jotta tiedot voidaan siirtää lähde-3DS:ltä kohde-3DS:lle. Tiedonsiirto toimii *vain* seuraavissa järjestyksissä:    
+  + New 3DS tai New 2DS → New 3DS tai New 2DS    
+  + Vanha 3DS tai vanha 2DS → vanha 3DS tai vanha 2DS    
+  + Vanha 3DS tai vanha 2DS → New 3DS tai New 2DS   
+
+Kummankin konsolin TÄYTYY olla samalta alueelta.
+{: .notice--warning} 
+
+Kummassakin menetelmässä lähde-3DS:n NNID jää jumiin kohde-3DS:lle, ellet tee siirtoa takaisin tai soita Nintendolle (lisätietoja ohjeissa myöhemmin)! Tiedonsiirron voi tehdä siirtosovelluksella vain kerran viikossa yhtä NNID:tä kohden.
+{: .notice--danger}
+
+___
+### Menetelmät
+
+___
+
+#### Installing boot9strap (Seedminer)
+
+This method does not require a hacked source 3DS or a System Transfer. You only need a compatible game on the 3DS you want to hack.
+
+Continue to [Installing boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}
+
+___
+
+#### Boot9strapin asentaminen (DSiWare-tallennusinjektio)
+
 Tämä menetelmä vaatii, että lähde-3DS:llä on laillisesti hankittuna jokin seuraavista peleistä:
     
-    + "Fieldrunners"
-    + "Legends of Exidia"
-    + "Guitar Rock Tour"
-    + "The Legend of Zelda: Four Swords"
+  + "Fieldrunners"
+  + "Legends of Exidia"
+  + "Guitar Rock Tour"
+  + "The Legend of Zelda: Four Swords"
     
 Piratoidut versiot *eivät* toimi, ja kaikki nämä pelit on poistettu eShopista.
 
-{% endcapture %}
+Jatka osioon [Boot9strapin asentaminen (DSiWare-tallennusinjektio)](installing-boot9strap-(dsiware-save-injection))
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
 
-{% capture notice-1 %}
+#### Boot9strapin asentaminen (DSiWare-peli-injektio)
 
-[boot9strapin asentaminen (DSiWare-peli-injektio)](installing-boot9strap-(dsiware-save-injection))
-<br><br>
-Tämä menetelmä vaatii, että lähde-3DS:llä on laillisesti hankittuna jokin peleistä, jotka ovat listattuna osiossa [boot9strapin asentaminen (injektoitavat DSiWare-pelit)](installing-boot9strap-(dsiware-game-injection-list)).
-<br><br>
+Tämä menetelmä vaatii, että lähde-3DS:llä on laillisesti hankittuna jokin peleistä, jotka ovat listattuna osiossa [Boot9strapin asentaminen (injektoitavat DSiWare-pelit)](installing-boot9strap-(dsiware-game-injection-list)).
+
 Piratoidut versiot *eivät* toimi.
 
-{% endcapture %}
+Jatka osioon [Boot9strapin asentaminen (DSiWare-peli-injektio)](installing-boot9strap-(dsiware-game-injection))
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___

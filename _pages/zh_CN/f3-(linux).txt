@@ -2,20 +2,21 @@
 title: "F3 (Linux)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 This is an add-on section for checking your SD card for errors using F3.
-{: .notice--info}
 
 取决于你的 SD 卡的容量大小和电脑的速度，这个过程可能耗时达几个小时！
-{: .notice--info}
 
 本节教程仅限Linux用户。 如果你不是 Linux 用户，请查阅 [H2testw (windows)](h2testw-(windows)) 或 [F3X (mac)](f3x-(mac)) 页面。
-{: .notice--info}
 
-#### 你需要
+### What You Need
 
-* 最新版的 [F3 应用](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
 
-#### 操作指南
+### Instructions
 
 1. 将 f3.zip 文件解压
 1. cd 到 f3 目录
@@ -25,29 +26,33 @@ This is an add-on section for checking your SD card for errors using F3.
 1. 运行 `./ f3write <your sd card mount point>`
 1. 等待，直到该过程已完成。 有关详情，请参阅下面的示例输出。
 
-		$ ./f3write /media/michel/6135-3363/
-		Free space: 29.71 GB
-		Creating file 1.h2w ... OK!
-		...
-		Creating file 30.h2w ... OK!
-		Free space: 0.00 Byte
-		Average Writing speed: 4.90 MB/s
+~~~ bash
+$ ./f3write /media/michel/6135-3363/
+Free space: 29.71 GB
+Creating file 1.h2w ... OK!
+...
+Creating file 30.h2w ... OK!
+Free space: 0.00 Byte
+Average Writing speed: 4.90 MB/s
+~~~
 
 1. 运行 `./ f3write <your sd card mount point>`
 1. Wait until the process is complete. See below for an example output.
 
-		$ ./f3read /media/michel/6135-3363/
-		                  SECTORS      ok/corrupted/changed/overwritten
-		Validating file 1.h2w ... 2097152/ 0/ 0/ 0
-		...
-		Validating file 30.h2w ... 1491904/ 0/ 0/ 0
+~~~ bash
+$ ./f3read /media/michel/6135-3363/
+									SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+...
+Validating file 30.h2w ... 1491904/        0/      0/      0
 
-		  Data OK: 29.71 GB (62309312 sectors)
-		Data LOST: 0.00 Byte (0 sectors)
-			       Corrupted: 0.00 Byte (0 sectors)
-			Slightly changed: 0.00 Byte (0 sectors)
-			     Overwritten: 0.00 Byte (0 sectors)
-		Average Reading speed: 9.42 MB/s
+	Data OK: 29.71 GB (62309312 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+					Corrupted: 0.00 Byte (0 sectors)
+	Slightly changed: 0.00 Byte (0 sectors)
+				Overwritten: 0.00 Byte (0 sectors)
+Average Reading speed: 9.42 MB/s
+~~~
 
 ___
 
@@ -57,5 +62,5 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 如果测试显示任何其他结果，您的 SD 卡可能已经出错或损坏，您可能需要更换它 ！
 {: .notice--danger}
 
-返回 [开始](get-started)
+### Return to [Get Started](get-started)
 {: .notice--primary}

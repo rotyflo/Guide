@@ -6,11 +6,10 @@ title: "Créditos"
 asombrosos!**
 {: .notice--primary}
 
-**¡Agradecimientos a todos [los traductores](https://translate.3ds.guide/) por ser asombrosos!**
+**¡Agradecimientos especiales a todos [los traductores](https://crowdin.com/project/3ds-guide) por ser asombrosos!**
 {: .notice--primary}
 
 Si te olvidé, puedes contactarme para añadir tu nombre.
-{: .notice}
 
 {% capture notice-1 %}
 
@@ -20,6 +19,7 @@ Si te olvidé, puedes contactarme para añadir tu nombre.
     + ashinnblunts
     + AuroraWright
     + b1l1s
+    + BernardoGiordano
     + Cartman123
     + Cell9
     + coder65535
@@ -27,6 +27,7 @@ Si te olvidé, puedes contactarme para añadir tu nombre.
     + d0k3
     + dank101
     + Dazzozo
+    + DeadPhoenix
     + Delebile
     + DinohScene
     + dukesrg
@@ -34,6 +35,7 @@ Si te olvidé, puedes contactarme para añadir tu nombre.
     + elSeledonio
     + erman1337
     + felipejfc
+    + figgyc
     + Frozen_Chen
     + Gelex
     + Hamcha
@@ -41,7 +43,9 @@ Si te olvidé, puedes contactarme para añadir tu nombre.
     + ihaveamac
     + IngeniousDefault
     + J-D-K
+    + Jisagi
     + jkcgs
+    + kartik
     + LordBass
     + MassExplosion123
     + mid-kid
@@ -51,6 +55,7 @@ Si te olvidé, puedes contactarme para añadir tu nombre.
     + Normmatt
     + plutooo
     + Psi-Hate
+    + RandallHoffman
     + Raugo
     + Reboot.ms
     + s_99

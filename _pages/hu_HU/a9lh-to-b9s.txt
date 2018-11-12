@@ -1,142 +1,245 @@
 ---
-title: "A9LH to B9S"
+title: "A9LH-ről B9S-re"
 ---
 
-This page is for existing arm9loaderhax users to update their devices to boot9strap.
-{: .notice--info}
+{% include toc title="Tartalomjegyzék" %}
 
-All future releases of Luma3DS will only be made in the `.firm` format, which will only be compatible with boot9strap and sighax. This means that to continue receiving the latest updates of Luma3DS, you should use this page to update your installation.
-{: .notice--info}
+### Fontos tudnivalók
 
-If you have a PIN enabled on Luma3DS, SafeB9SInstaller will give you an "OTP Crypto Fail" error unless you temporarily disable your PIN (you can re-enable the PIN after the update).
+Ez az oldal az arm9loaderhax felhasználóknak készült, hogy frissíthessék az eszközüket boot9strap-re.
+
+A Luma3DS a jövőben csak `.firm` formátumban kerül kiadásra, amely csak a boot9strap-pel és a sighax-szel kompatibilis. Ez azt jelenti, hogy amennyiben továbbra is szeretnéd a Luma3DS frissítéseit megkapni, ezt az útmutatót kell követned, hogy eszközödet naprakésszé tedd.
+
+Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) linkeket ezen az oldalon, szükséged lesz egy torrent kliensre, mint például a [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+
+Ahhoz, hogy kicsomagold az oldalon található `.7z` fájlokat, egy fájl archiváló programra lesz szükséged, mint amilyen a [7-Zip](http://www.7-zip.org/) vagy a [The Unarchiver](https://theunarchiver.com/).
+
+Ha a Luma3DS-ben PIN-kód van beállítva, akkor a SafeB9SInstaller "OTP Crypto Fail" hibaüzenetet fog adni, hacsak nem kapcsolod ki átmenetileg a PIN-t (újra bekapcsolhatod a folyamat után).
 {: .notice--warning}
 
-To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--success}
-
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Kaptunk visszajelzéseket kitiltási hullámokról, melyeket a Nintendo a CFW-t használóknak osztogatott. Ahhoz, hogy megvédd magadat, kérjük kövesd az alábbi lépéseket még az útmutató megkezdése előtt:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
-1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. Menj a System Settings-be, ott válaszd ezt: "Internet Settings", majd ezt: "SpotPass", végül ezt: "Sending of System Information"
+1. Kapcsold ki a "Sending of System Information" opciót
+1. Lépj ki a System Settings-ből
+1. Válaszd a Friend List opciót (a [narancsszínű fej ikon]({{ "/images/friend-list-icon.png" | absolute_url }}) a Home Menu felső sávján)
+  + Ha hibaüzenetet kapsz, és visszadob a menübe, a Friend List már vagy korábban letiltásra került, vagy a konzolod nem tud csatlakozni a Nintendo szervereihez (kitiltás, vagy kapcsolódási hiba miatt)
+1. Itt menj a beállításokba (Settings), ott válaszd ezt: "Friend Notification Settings", majd ezt: "Show friends what you're playing"
+1. Kapcsold ki a "Show friends what you're playing" opciót
+1. Lépj ki a Friend List-ből
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### What you need
+### Amire szükséged lesz
 
-Note that the following required file named `secret_sector.bin` is the same one that was found in the various `data_input.zip` file versions. If you already have that file on your disk somewhere, you can use that one instead of downloading the one below.
+Vedd figyelembe, hogy a következő szükséges fájl, aminek a neve `secret_sector.bin` ugyanaz, mint ami a `data_input.zip` fájlokban található volt. Ha létezik már a fájl valahol a lemezeden, szükségtelen letöltened ismét, használhatod azt, ami már megvan.
 {: .notice--info}
 
-Note that, on New 3DS, `secret_sector.bin` is needed to revert the arm9loaderhax exploit, which is why it is not needed for the installation of boot9strap on a stock console. If you do not have a New 3DS, you do not need `secret_sector.bin`.
+Vedd figyelembe, hogy New 3DS esetében a `secret_sector.bin` fájlra az arm9loaderhax exploit eltávolításához van szükség. Ezért nem kell a gyári állapotú konzolokon a boot9strap telepítéséhez. Ha ezt nem egy New 3DS-en csinálod, akkor nem kell a `secret_sector.bin`.
 {: .notice--info}
 
-* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - **New 3DS Users Only:** [`secret_sector.bin`](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest fork of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
-* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
-* [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
+* <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - **Kizárólag New 3DS-hez:** [secret_sector.bin](magnet:?xt=urn:btih:15a3c97acf17d67af98ae8657cc66820cc58f655&dn=secret_sector.bin&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce)
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) legújabb kiadása *(a `.7z` fájl)*
+* A [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.0.5) v7.0.5-ös kiadása *(a `.7z` fájl)*
+* A [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) legújabb kiadása
+* A [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) legújabb kiadása *(a sima boot9strap; nem a `devkit` fájl, nem az `ntr` fájl)*
+* Az [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) legújabb kiadása *(a `.cia` fájl)*
+* A [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases/latest) legújabb kiadása *(a `.cia` fájl)*
+* A [Homebrew Launcher Wrapper](https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/latest) legújabb kiadása
+* A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása
+* A [DSP1](https://github.com/zoogie/DSP1/releases/latest) legújabb kiadása
+* Az [FBI](https://github.com/Steveice10/FBI/releases/latest) legújabb kiadása *(a `.cia` és a `.3dsx` fájl is)*
+* A [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest) legújabb kiadása
+* A [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) legfrissebb változata *(a `.cia` fájl)*
+* A [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest) legújabb kiadása
 
-#### Instructions
+### Utasítások
 
-##### Section I - Prep Work
+#### Első rész - Előkészületek
 
-For all steps in this section, overwrite any existing files on your SD card.
+A most következő lépésekben mindig írd felül az SD kártyán található fájlokat, ha már létezne bármelyik.
 {: .notice--info}
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy _the contents of_ `starter.zip` to the root of your SD card
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Create a folder named `cias` on the root of your SD card if it does not already exist
-1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Delete any existing `.bin` payloads in the `/luma/payloads/` folder on your SD card as they will not be compatible with boot9strap compatible Luma3DS versions
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
-1. Rename `SafeB9SInstaller.bin` in the `/luma/payloads/` folder on your SD card to `start_SafeB9SInstaller.bin`
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. **New 3DS Users Only:** Copy `secret_sector.bin` to the `/boot9strap/` folder on your SD card
+1. Kapcsold ki a készüléked
+1. Helyezd az SD kártyád a számítógépbe
+1. Másold az `boot.3dsx` fájlt az SD kártyád gyökerébe
+1. Hozz létre egy mappát `3ds` néven az SD kártyád gyökerében, ha még nem létezik ilyen
+1. Hozz létre egy mappát `cias` néven az SD kártyád gyökerében, ha még nem létezik ilyen
+1. Másold a `ctr-no-timeoffset.3dsx`-et az SD kártyád `/3ds/` mappájába
+1. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
+1. Másold a `Homebrew_Launcher.cia` fájlt az SD kártyán található `/cias/` mappába
+1. Másold a `lumaupdater.cia` fájlt az SD kártyán található `/cias/` mappába
+1. Másold az `FBI.cia` fájlt az SD kártyád `/cias/` mappájába
+1. Másold a `DSP1.cia` fájlt az SD kártyád `/cias/` mappájába
+1. Másold az `Anemone3DS.cia` fájlt az SD kártyád `/cias/` mappájába
+1. Másold a `Checkpoint.cia` fájlt az SD kártyán található `/cias/` mappába
+1. Másold át a `boot.firm` fájlt a legfrissebb verziójú Luma3DS `.7z`-ből az SD kártya gyökerébe
+1. Másold át az `arm9loaderhax.bin` fájlt a v7.0.5-ös Luma3DS `.7z`-ből az SD kártya gyökerébe
+1. Törölj ki minden létező `.bin` payloadot a `/luma/payloads/` mappából az SD kártyán, mivel ezek nem lesznek kompatibilisek a boot9strap kompatibilis Luma3DS verziókkal
+1. Másold át a `GodMode9.firm` fájlt a GodMode9 `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
+1. Másold át a `gm9` mappát a GodMode9 `.zip`-ből az SD kártyád gyökerébe
+1. Másold át a `SafeB9SInstaller.bin` fájlt a SafeB9SInstaller `.zip`-ből az SD kártyád `/luma/payloads/` mappájába
+1. Hozz létre egy mappát `boot9strap` néven az SD kártya gyökerében
+1. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból az SD kártyád `/boot9strap/` mappájába
+1. **Csak New 3DS felhasználóknak:** Másold át a `secret_sector.bin` fájlt az SD kártyádon található `/boot9strap/` mappába
 
-    ![]({{ base_path }}/images/screenshots/a9lh-to-b9s-file-layout.png)
+    ![]({{ "/images/screenshots/a9lh-to-b9s-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Tedd vissza az SD kártyád a 3DS-be
 
-##### Section II - Installing boot9strap
+#### Második rész - boot9strap telepítése
 
-1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
-  + Some versions of Luma3DS will just directly start whichever payload begins with `start_`
-  + If your version does this, just proceed with the instructions
-1. Launch SafeB9SInstaller by pressing (A) on it
-  + If this gives you an error, try either using a new SD card, or formatting your current SD card (backup existing files first)
-1. Wait for all safety checks to complete
-  + If you get an "OTP Crypto Fail" error, download <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`aeskeydb.bin`](magnet:?xt=urn:btih:621f8af00638cb2b00d5bd0c6816543fa00b5fb1&dn=aeskeydb.bin&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), then put it in the `/boot9strap/` folder on your SD card and try again
-1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device.
-  + If your device shuts down on boot, ensure that you have copied `boot.firm` from the Luma3DS `.7z` to the root of your SD card
+1. Indítsd el a készülékedet a (Start) lenyomva tartásával, hogy megjelenjen a SafeB9SInstaller
+  + Ha a Luma konfigurációját látod a SafeB9SInstaller helyett, egyszerűen nyomd meg a (Start) gombot, majd állítsd le a 3DS-edet, és próbáld újra
+  + Ha ez egy hibát ad, akkor vagy használj egy új SD kártyát, vagy formázd a jelenlegit (mentsd el a már létező fájlokat először)
+1. Várj, amíg az összes biztonsági ellenőrzés be nem fejeződik
+  + Ha egy "OTP Crypto Fail" hibaüzenetet kapsz, akkor töltsd le a következőt: <i class="fa fa-magnet" aria-hidden="true" title="Ez egy mágneslink. A fájl letöltéséhez használj torrent klienst."></i> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.si%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ds.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.mg64.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.port443.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qt.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-2.msm8916.com%3A6969%2Fannounce), majd másold az SD kártyád `/boot9strap/` könyvtárába, és próbáld újra
+1. Ha kéri, akkor nyomd meg sorban azokat a gombokat, amiket kijelez a képernyőn, hogy telepíthesd a boot9strap-et
+1. Ha ez elkészült, akkor nyomd meg az (A) gombot az eszközöd újraindításához.
+  + Ha a készüléked kikapcsol indításkor, bizonyosodj meg róla, hogy átmásoltad-e a `boot.firm` fájlt a Luma3DS `.7z` fájlból az SD kártya gyökerébe
 
-##### Section III - Configuring Luma3DS
+#### Harmadik rész - Luma3DS konfigurálása
 
-This section is only needed if you are prompted with the Luma3DS configuration menu after the reboot.
-{: .notice--info}
-
-1. In the Luma3DS configuration menu, use the (A) button and the D-Pad to turn on the following:    
+1. A Luma3DS konfigurációs menüben használd az (A) gombot és a D-Pad-et, hogy bekapcsold a következőket:    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+1. Mentéshez és újraindításhoz nyomd meg a (Start) gombot
 
-##### Section IV - CTRNAND Luma3DS
+#### Negyedik rész - A rendszer frissítése
 
-If, before updating to boot9strap, you already had an EmuNAND setup and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, now is the time to [follow Move EmuNAND](move-emunand) before doing this section.
+Amennyiben ezen leírás megkezdése előtt már rendelkeztél EmuNAND-dal, és át szeretnéd hozni a tartalmakat az EmuNAND-ról az új SysNAND CFW-re, akkor itt az idő, hogy kövesd az [EmuNAND költöztetése](move-emunand) című útmutatót, mielőtt belekezdenél ebbe a részbe.
 {: .notice--info}
 
-1. Launch GodMode9 by holding (Start) during boot
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
-1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
-1. When prompted, press (A) to proceed
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
-1. Press (A) to relock write permissions
-1. Press (Start) to reboot your device
+1. Frissítsd az eszközödet a következőképp. Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót.
+  + B9S és Luma használatakor (mint esetedben) biztonságosak a rendszerfrissítések
+  + Ha ez hibát ad, akkor állítsd a DNS beállításodat "auto"-ra
+  + Ha még így is hibát kapsz, kövesd a [CTRTransfer](ctrtransfer) című útmutatót, majd próbáld újra
 
-##### Section V - Installing Luma3DS Updater
+#### Ötödik rész - Homebrew Launcher
 
-1. Launch FBI
-1. Navigate to `SD` -> `cias`
-1. Select `lumaupdater.cia`
-1. Select the "Install CIA" option, then press (A) to confirm
-1. Press (Home) to exit FBI
+1. Indítsd el a Download Play alkalmazást (ez az [ikon]({{ "/images/download-play-icon.png" | absolute_url }})
+1. Nyomd meg az (L) + (Le) + (Select) gombokat egyszerre a Rosalina menü megnyitásához
+1. Válaszd ki a "Miscellaneous options"-t
+1. Válaszd a "Switch the hb. title to the current app." opciót
+1. Nyomd meg a (B) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszakerülj a Rosalina főmenüjébe
+1. Nyomd meg a (B) gombot, hogy kilépj a Rosalina menüből
+1. Nyomd meg a (Home) gombot és zárd be a Download Play-t
+1. Indítsd el a Download Play alkalmazást
+1. Ekkor a készülékednek be kell töltenie a Homebrew Launchert
+1. Indítsd el a ctr-no-timeoffset-et a homebrew listából
+1. Állítsd az offsetet 0-ra az (A) gombbal
+  + Ez beállítja, hogy a rendszeridő megegyezzen az RTC dátummal és idővel (amit hamarosan beállítunk)
+1. Nyomd meg a (Start) gombot, hogy visszatérj a Homebrew Launcher-be
+1. Indítsd el az FBI-t a homebrew listából
+
+#### Hatodik rész - CIA fájlok telepítése
+
+1. Menj ide: `SD` -> `cias`
+1. Válaszd ezt: "\<current directory>"
+1. Válaszd az "Install and delete all CIAs" opciót, majd nyomd meg az (A) gombot a megerősítéshez
+1. Nyomd meg a (Home) gombot és zárd be a Download Play-t
+
+#### Hetedik rész - DSP kimentése
+
+1. Indítsd el a DSP1 nevű alkalmazást
+1. Amint végzett, nyomd meg a (B) gombot, hogy az alkalmazás törölje magát és visszatérjen a Home Menu-be
+
+#### Nyolcadik rész - Luma3DS telepítése CTRNAND-ba
+
+1. Kapcsold ki a készüléked
+1. Indítsd el a GodMode9-et a (Start) lenyomva tartásával boot közben
+1. Ha rákérdez arra, hogy csináljon-e egy biztonsági másolatot (essential files backup), akkor nyomd meg az (A) gombot, hogy csináljon, majd amikor végzett, nyomd meg ismét az (A) gombot a folytatáshoz
+1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
+1. Válaszd a "Scripts..." opciót
+1. Válaszd ezt: "GM9Megascript"
+1. Válaszd ezt: "Scripts from Plailect's Guide"
+1. Válaszd ezt: "Setup Luma3DS to CTRNAND"
+1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg az (A) gombot, hogy feloldd a SysNAND (lvl2) írást, majd sorban nyomd meg a kijelzett gombokat
+1. Nyomd meg az (A) gombot a folytatáshoz
+
+#### Kilencedik rész - Takarítás az SD kártyán
+
+1. Válaszd ezt: "Cleanup SD Card"
+1. Amikor kéri, nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+
+#### Tizedik rész - Fontos fájlok biztonsági mentése
+
+1. Válaszd ezt: "Backup Options"
+1. Válaszd ezt: "SysNAND Backup"
+1. Nyomd meg az (A) gombot a megerősítéshez
+  + Ez a folyamat igénybe vesz majd némi időt
+  + Ha hibát kapsz, győződj meg róla, hogy legalább 1.3 GB szabad hely van az SD kártyádon
+1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Válaszd az "Exit" opciót
+1. Nyomd meg az (A) gombot az írási engedélyek visszavonásához
+1. Válaszd a következőt: `[M:] MEMORY VIRTUAL`
+1. Jelöld ki a `boot9.bin` fájlt az (A) gombbal
+1. Válaszd ki ezt: "Copy to 0:/gm9/out"
+1. Nyomd meg az (A) gombot a folytatáshoz
+1. Nyomd meg a (B) gombot, hogy visszamenj a főmenübe
+1. Az SD kártya leválasztásához az (R) gomb lenyomva tartása mellett nyomd meg a (B) gombot
+1. Helyezd az SD kártyád a számítógépbe
+1. Másold a `<dátum>_<sorozatszám>_sysnand_###.bin`, az `essential.exefs` és a `boot9.bin` fájlokat az SD kártyád `/gm9/out/` mappájából valami biztonságos helyre a számítógépeden
+  + Tarts belőle biztonsági másolatokat több különböző helyen is (például online tárhelyen)
+  + Ezek a biztonsági mentések fognak megmenteni, ha a későbbiekben brickelődne a konzolod, vagy bármi félresikerülne a jövőben
+1. Töröld a `<dátum>_<sorozatszám>_sysnand_###.bin` és a `<dátum>_<sorozatszám>_sysnand_###.bin.sha` fájlokat az SD kártyád `/gm9/out/` mappájából, miután lemásoltad azokat
+1. Tedd vissza az SD kártyád a készülékedbe
+1. Nyomd meg a (Start) gombot az eszköz újraindításához
 
 ___
 
-You can now remove any arm9loaderhax related files from your SD card, such as `arm9loaderhax.bin` on the root of your SD card and the `aeskeydb.bin` file in the `files9` folder on your SD card.
-{: .notice--info}
+{% capture notice-10 %}
+Mostantól bármikor frissítheted a Luma3DS-t a Luma3DS frissítő (Luma3DS Updater) segítségével, ha megnyitod, majd megnyomod az (A) gombot.
 
-Note that the `.bak` files in the `/boot9strap/` folder on your SD card are only needed in the event of a failed boot9strap install. Once you have installed successfully, you can delete the entire `boot9strap` folder.
-{: .notice--info}
+Ennek semmi köze a rendszer frissítéséhez (System Update); ez mindössze letölti és kicsomagolja a legfrissebb Luma3DS fájlokat.
 
-This fork of Luma3DS Updater allows for boot9strap compatibility by downloading and extracting the latest Luma3DS `boot.firm` for you.
-{: .notice--info}
+Ez csak az SD kártyádon található Luma3DS fájlokat fogja frissíteni. Ha SD kártya nélkül indítod el a készülékedet, azt a verziót fogja használni, amit a CTRNAND-ba telepítettél.    
+{% endcapture %}
+
+<div class="notice--info">{{ notice-10 | markdownify }}</div>
 
 {% capture notice-6 %}   
-You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).    
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).
+Mostantól alapértelmezetten a Luma3DS CFW SysNAND fog bootolni.    
+
+Mostantól indításkor előhozhatod a Luma3DS konfigurációs menüjét a (Select) gomb lenyomva tartásával.    
+
+Mostantól megjelenítheted a Luma3DS chainloader menüjét indításkor a (Start) gomb lenyomva tartásával. (Vedd figyelembe, hogy a Luma3DS chainloader menü csak akkor jelenik meg, ha egynél több payload található.)    
+
+Mostantól a (Start) + (Select) + (X) kombináció lenyomva tartásával indításkor az SD kártyád `/boot9strap/` mappájába mentheted az ARM11 bootromot (`boot11.bin`), az ARM9 bootromot (`boot9.bin`), és a konzolod egyedi OTP-jét (`OTP.bin`). (Vedd figyelembe, hogy ez nem kér be vagy ír ki semmiféle információt.)    
+
+Mostantól lenyomhatod az (L) + (Le) + (Select) kombinációt a rendszer futása közben, hogy megnyíljon a Luma3DS-be integrált Rosalina menü. Ha a Rosalina összes funkciójára kíváncsi vagy, látogasd meg a következő oldalt: [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
+
+{% capture notice-6 %}   
+Ha szeretnél a későbbiekben nagyobb SD kártyát használni, mindössze annyit kell tenned, hogy az új SD kártyádat FAT32-re formázod, majd átmásolod a régi SD kártyád tartalmát az újra.    
+
+Ha az új SD kártyád nagyobb, mint 32 GB, más eszközre lesz szükséged a formázásához. Ilyen a [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) Windows-on, a [gparted](http://gparted.org/download.php) Linuxon, illetve a [Lemezkezelő](https://support.apple.com/hu-hu/guide/disk-utility/format-a-disk-for-windows-computers-dskutl1010/mac) Mac-en.    
+{% endcapture %}
+
+<div class="notice--info">{{ notice-6 | markdownify }}</div>
+
+Ha [NTR CFW](https://github.com/44670/BootNTR/)-t szeretnél használni, telepítsd a [BootNTR Selector](https://gbatemp.net/threads/432911/)-t.
+{: .notice--info}
+
+Ha szeretnéd az eszközödet másik régióra állítani, látogass el a [Régióváltás](region-changing) oldalra.
+{: .notice--success}
+
+Ha kíváncsi vagy a GodMode9 különféle funkcióira, olvasd el a [GodMode9 használata](godmode9-usage) című leírást.
+{: .notice--success}
+
+Ha a Luma3DS képességeire vagy kíváncsi, keresd fel a hozzá tartozó [wikit](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
+{: .notice--success}
+
+Ha egyedi témákat, nyitóképeket (splash screen-eket) szeretnél telepíteni, látogasd meg a [Theme Plaza](https://themeplaza.eu/) oldalt.
+{: .notice--success}

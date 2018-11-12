@@ -2,24 +2,25 @@
 title: "H2testw (Windows)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 This is an add-on section for checking your SD card for errors using h2testw.
-{: .notice--info}
 
 Ανάλογα με το μέγεθος της κάρτας SD και την ταχύτητα του υπολογιστή σας, αυτή η διαδικασία ενδέχεται να διαρκέσει πολλές ώρες!
-{: .notice--info}
 
 Αυτή η σελίδα είναι μόνο για χρήστες Windows. Εάν δεν είστε σε Windows, ελέγξτε τις σελίδες [F3 (linux)](f3-(linux)) ή [F3X (mac)](f3x-(mac)).
-{: .notice--info}
 
-#### Τι χρειάζεστε
+### What You Need
 
 * Την τελευταία έκδοση του [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Οδηγίες
+### Instructions
 
 1. Αντιγράψτε το αρχείο `h2testw.exe` από το h2testw `.zip` στην επιφάνεια εργασίας
 1. Τοποθετήστε την κάρτα SD στον υπολογιστή σας
-1. Εκκινήστε το `h2tsetw.exe`
+1. Run `h2testw.exe`
 1. Επιλέξτε "English"
 1. Κάντε κλικ στο "Select target"
 1. Επιλέξτε το γράμμα που αντιστοιχεί στην κάρτα SD
@@ -35,5 +36,5 @@ If the test shows the result `Test finished without errors`, your SD card is goo
 Εάν το τεστ δείξει κάποιο άλλο αποτέλεσμα, η κάρτα SD σας μπορεί να είναι κατεστραμμένη και μπορεί να χρειαστεί να την αντικαταστήσετε!
 {: .notice--danger}
 
-Επιστροφή στο [Ας αρχίσουμε](get-started)
+### Return to [Get Started](get-started)
 {: .notice--primary}

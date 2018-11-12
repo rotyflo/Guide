@@ -1,67 +1,77 @@
 ---
-title: "Installing boot9strap (DSiWare)"
+title: "Instalacja boot9strap (DSiWare)"
 ---
 
-There are two different methods of installing boot9strap using DSiWare on 11.5.0.
-{: .notice--info}
+{% include toc title="Spis Treści" %}
 
-One of these methods only works with four specific games that are no longer sold on the eShop, while the other works with quite a few games still sold on the eShop.
-{: .notice--info}
+### Wymagana Lektura
 
-Both of these methods require two devices. One 3DS (or 2DS) must be running some kind of custom firmware (such as boot9strap or arm9loaderhax) and is referred to as the *source 3DS*, while the other 3DS (or 2DS) is on stock 11.5.0 and referred to as the *target 3DS*.
-{: .notice--info}
+There are three different methods of installing boot9strap using DSiWare on 11.8.0.
 
-Both systems MUST be from the same region.
-{: .notice--warning}
-
-Both of these methods will assume that the 3DS running custom firmware is using boot9strap or arm9loaderhax and has completed this guide. While it is possible to do these methods with some other kind of custom firmware, that is out of the scope of this guide.
-{: .notice--info}
-
-Both of these methods use a combination of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws), and an oversight that allows DSiWare titles to read and write to anywhere in encrypted NAND.
-{: .notice--info}
-
-{% capture notice-4 %}
-Both of these methods require you to [System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/) from a CFW 3DS to a stock 3DS as part of the steps. System Transfers will work in the following directions *only*:    
-  + New 3DS or New 2DS -> New 3DS or New 2DS    
-  + Old 3DS or Old 2DS -> Old 3DS or Old 2DS    
-  + Old 3DS or Old 2DS -> New 3DS or New 2DS    
-{% endcapture %}
-
-<div class="notice--warning">{{ notice-4 | markdownify }}</div>
-
-In both of these methods, the source 3DS's NNID will be stuck on the target 3DS unless you either system transfer back or call Nintendo! (details can be found in the instructions)
-{: .notice--danger}
-
-System Transfers can only be performed once a week per NNID.
-{: .notice--danger}
+Pierwsza metoda, Seedminer, wymaga komputera z potężną kartą graficzną. Jeśli nie masz dostępu do takiego komputera, możesz użyć internetowej usługi pomocy dla Seedminer. Dwie pozostałe metody wymagają System Transferu z już przerobionego 3DS'a.
 
 ___
 
-{% capture notice-1 %}
+Metoda Seedminer wymaga jednej z kompatybilnych tanich gier DSiWare dostępnych na eShop'ie. Ponadto, dostęp do CFW lub Homebrew jest potrzebny aby zdobyć plik `movable_part1.sed` twojego 3DS'a, i dostęp do komputera z potężną kartą graficzną aby wykonać atak brute force na pliku `movable_part1.sed` i stworzyć dzięki temu plik `movable.sed`. Jeśli nie masz dostępu do tych rzeczy [usługa internetowej pomocy Seedhelper](https://seedhelper.figgyc.uk/) może zrobić to za ciebie automatycznie.
 
-[Installing boot9strap (DSiWare Save Injection)](installing-boot9strap-(dsiware-save-injection))
-<br><br>
-This method requires that the source 3DS already legitimately owns one of the following games:
+Ta metoda używa kilku niedopatrzeń w zabezpieczeniach 3DS'a, o których możesz poczytać [tutaj](https://zoogie.github.io/web/34⅕c3).
+
+___
+
+Następne dwie metody wymagają użycia dwóch urządzeń. Pierwszy 3DS (lub 2DS) musi mieć już zainstalowany boot9strap i będzie określany jako *źródłowy 3DS*, podczas gdy drugi 3DS (lub 2DS) będzie miał niezmodyfikowany firmware 11.7.0 i będzie określany jako *docelowy 3DS*.
+
+Obie metody zakładają, że 3DS posiadający już Custom Firmware używa boot9strap, a jego instalacja została przeprowadzona z użyciem tego poradnika. Jest możliwe wykonanie obu metod przy użyciu innego rodzaju Custom Firmware, jednak nie jest to poruszone w tym poradniku.
+
+Obie metody używają kombinacji "FIRM partitions known-plaintext" opisanego [tutaj](https://www.3dbrew.org/wiki/3DS_System_Flaws) oraz luki pozwalającej DSiWare na odczyt i zapis w dowolnym miejscu zaszyfrowanego NAND.
+
+Obie metody będą wymagać wykonania [System Transfer](http://en-americas-support.nintendo.com/app/answers/detail/a_id/13996/) ze źródłowego 3DS'a (CFW) do docelowego 3DS'a (niezmodyfikowanego). System Transfer zadziała *wyłącznie* w poniższych kierunkach:    
+  + New 3DS lub New 2DS -> New 3DS lub New 2DS    
+  + Old 3DS lub Old 2DS -> Old 3DS lub Old 2DS    
+  + Old 3DS lub Old 2DS -> New 3DS lub New 2DS   
+
+Oba systemy MUSZĄ być z tych samych regionów.
+{: .notice--warning} 
+
+W obu metodach, NNID źródłowego 3DS'a zostanie przeniesiony do docelowego 3DS'a i utknie tam dopóki nie wykonasz powrotnego System Transferu lub nie skontaktujesz się z Nintendo (szczegóły w dalszej części instrukcji)! System Transfer może być wykonany raz w tygodniu na każde NNID.
+{: .notice--danger}
+
+___
+### Metody
+
+___
+
+#### Instalacja boot9strap (Seedminer)
+
+Ta metoda nie wymaga posiadania przerobionego źródłowego 3DS'a ani System Transferu. Potrzebujesz tylko jednej z kompatybilnych gier na 3DSie którego chcesz przerobić.
+
+Przejdź do [Instalacja boot9strap (Seedminer)](https://jisagi.github.io/SeedminerGuide/)
+{: .notice--primary}
+
+___
+
+#### Instalacja boot9strap (Podmiana Zapisów DSiWare)
+
+Ta metoda wymaga posiadania legalnej kopii jednej z niżej wymienionych gier na źródłowym 3DSie:
     
-    + "Fieldrunners"
-    + "Legends of Exidia"
-    + "Guitar Rock Tour"
-    + "The Legend of Zelda: Four Swords"
+  + "Fieldrunners"
+  + "Legends of Exidia"
+  + "Guitar Rock Tour"
+  + "The Legend of Zelda: Four Swords"
     
-A pirated copy of the game will *not* work, and all of these games have been pulled from the eShop.
+Nielegalne kopie tych gier *nie* będą działać, również wszystkie zostały już wycofane z eShop.
 
-{% endcapture %}
+Przejdź do [Instalacja boot9strap (Podmiana Zapisów DSiWare)](installing-boot9strap-(dsiware-save-injection))
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
 
-{% capture notice-1 %}
+#### Instalacja boot9strap (Podmiana Gier DSiWare)
 
-[Installing boot9strap (DSiWare Game Injection)](installing-boot9strap-(dsiware-game-injection))
-<br><br>
-This method requires that the source 3DS buys or already legitimately owns one of the games listed on the [Installing boot9strap (DSiWare Game Injection List)](installing-boot9strap-(dsiware-game-injection-list)) page.
-<br><br>
-A pirated copy of the game will *not* work.
+Ta metoda wymaga zakupu lub posiadania na źródłowym 3DSie jednej z gier wyszczególnionych na liście [Instalacja boot9strap (Lista Gier Do Podmiany DSiWare)](installing-boot9strap-(dsiware-game-injection-list)).
 
-{% endcapture %}
+Nielegalne kopie tych gier *nie* będą działać.
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+Przejdź do [Instalacja boot9strap (Podmiana Gier DSiWare)](installing-boot9strap-(dsiware-game-injection))
+{: .notice--primary}
+
+___

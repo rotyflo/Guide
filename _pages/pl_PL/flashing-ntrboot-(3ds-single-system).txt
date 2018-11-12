@@ -1,0 +1,53 @@
+---
+title: "Wgrywanie ntrboot (Pojedynczy System 3DS)"
+---
+
+{% include toc title="Spis Treści" %}
+
+### Wymagana Lektura
+
+Zanim przejdziesz dalej, upewnij się że przeczytałeś wszystkie informacje o [ntrboot](ntrboot)
+
+Ta metoda wymaga tylko 3DS'a którego chcesz przerobić oraz kompatybilnego z ntrboot flashcarta. Ta metoda używa flashcarta aby uruchomić plik ntrboot flasher `.nds` na twoim 3DSie. Oznacza to, że twój flashcart musi obsługiwać uruchamianie plików `.nds` na twoim 3DSie. Zobacz tabelę flashcart na [ntrboot](ntrboot), aby uzyskać więcej informacji.
+
+Zauważ, że w niektórych rzadkich przypadkach proces wgrywania ntrboot na podrobiony flashcart może go **"zbrickować"** i permanentnie uszkodzić. Jest to mało prawdopodobne, ale jednak tylko wymienione oryginalne flashcart'y są obsługiwane. Aby zmniejszyć prawdopodobieństwo otrzymania podrobionego flashcarta, zaleca się korzystanie z renomowanej strony do ich kupowania (takiej jak [NDS Card](http://www.nds-card.com/))
+{: .notice--danger}
+
+### Czego Potrzebujesz
+
+* Twojego kompatybilnego z ntrboot flashcarta DS / DSi
+* Najnowszej wersji [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *( plik`ntr` boot9strap; nie `devkit`)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/jason0597/ntrboot_flasher_nds/releases/latest)
+
+### Instrukcje
+
+#### Sekcja I - Przygotowanie
+
+1. Wyłącz konsolę
+1. Włóż kartę SD z twojego flashcarta do komputera
+1. Create a folder named `ntrboot` on the root of your flashcart's SD card
+1. Copy `boot9strap_ntr.firm` from the boot9strap ntr `.zip` to the `/ntrboot/` folder on your flashcart's SD card
+1. Copy `ntrboot_flasher_nds.nds` to your flashcart's SD card
+1. Wyjmij kartę SD z komputera i włóż ją do flashcarta
+1. Włóż flashcarta do 3DS'a
+
+#### Sekcja II - Wgrywanie ntrboot
+
+1. Launch `ntrboot_flasher_nds.nds` on your device using your flashcart
+1. Naciśnij (A), aby kontynuować
+1. Użyj przycisków (Góra) i (Dół) na D-Padzie aby wybrać model swojego flashcarta
+1. Naciśnij (A), aby kontynuować
+1. Select "Dump flash" to make a backup of your flashcart's memory
+1. Input the key combo given to confirm
+1. Naciśnij (A), aby kontynuować
+1. Użyj przycisków (Góra) i (Dół) na D-Padzie aby wybrać model swojego flashcarta
+1. Naciśnij (A), aby kontynuować
+1. Select "Inject FIRM" to install boot9strap to your flashcart
+1. Input the key combo given to confirm
+1. Naciśnij (A), aby kontynuować
+1. Wyłącz konsolę
+
+___
+
+### Przejdź do [Instalacja boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+{: .notice--primary}

@@ -1,65 +1,108 @@
 ---
-title: "Get Started"
+title: "Wprowadzenie"
 ---
 
-This page is for instructions on how to install boot9strap to a *stock* 3DS or 2DS. If you already have arm9loaderhax installed and are looking to update to boot9strap, follow [A9LH to B9S](a9lh-to-b9s).
+{% include toc title="Spis Treści" %}
+
+### Wymagana Lektura
+
+Wybierz odpowiednią podstronę dla swojej wersji firmware z poniższej tabeli. Pola "od" oraz "do" są włączne dla wersji. To oznacza, przykładowo, iż wiersz "od 9.0.0 do 9.2.0" zawiera wersje firmware 9.0.0, 9.1.0 oraz 9.2.0.
+
+Ostatnie dwie kolumny tabeli dotyczą ostatniego numeru twojej wersji softu (która odpowiada wersji wbudowanej przeglądarki internetowej). Jeżeli ta wersja to -0 znaczy to, że nie posiadasz przeglądarki, każda cyfra powyżej -0 oznacza zainstalowaną przeglądarkę internetową.
+
+Na przykładzie wersji "5.0.0-0U": wziąłbyś pod uwagę kolumnę "Brak przeglądarki" oraz wiersz "5.0.0 do 5.1.0" ponieważ konsola ma wersję softu zawierającą się w tym przedziale i nie ma na niej przeglądarki.
+
+Wersja twojej konsoli jest widoczna w prawym dolnym rogu górnego ekranu System Settings.
+
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
+{: .notice--info}
+
+**If you are unable to follow the instructions corresponding to your specific version due to missing prerequisites, then you should either update to the latest version or use the "All Versions" row for methods that work regardless of system version.**
+
+Dla wszystkich wersji możesz wykonać również [Aktualizację z Kartridża](cart-update) (lub użyć standardowej aktualizacji systemu), aby uzyskać wyższą wersję w tej samej kolumnie, zgodnie z instrukcjami.
+
+Jeżeli przerobiłeś już wcześniej swojego 3DSa i masz obecnie konfigurację CFW z EmuNAND, wykonuj następne kroki używając SysNAND. Zastąp wszystkie pliki, które już istnieją. Twoje dane zostaną przeniesione z EmuNAND do twojej nowej instalacji B9S. Jeśli używasz menuhax, powinieneś [wyczyścić dodatkowe dane Home Menu](troubleshooting#clear-home-menu-extdata), aby usunąć je przed rozpoczęciem.
+
+Ta strona jest na instrukcje jak zainstalować boot9strap na 3DS-ie lub 2DS-ie korzystającym z oryginalnego oprogramowania układowego. Jeżeli już masz zainstalowany arm9loaderhax i szukasz aktualizacji do boot9strap, zobacz [A9LH do B9S](a9lh-to-b9s).
 {: .notice--primary}
 
-Kolory konsol na obrazkach mogą być różne, ale zwróć uwagę na położenie przycisków i inne cechy widoczne na obrazkach by upewnić się, że wybrałeś właściwy model.
-{: .notice}
-
-Kliknij na obrazek przedstawiający model twojej konsoli, aby przejść na odpowiednią podstronę.
-{: .notice--primary}
-
-Different device models, versions, and regions will require different steps to achieve the end goal of boot9strap Custom Firmware. Ta strona pomoże ci w określeniu, od czego rozpocząć w wypadku twojej konsoli.
-{: .notice--info}
-
-Jeżeli przerobiłeś już wcześniej swojego 3DSa i masz obecnie konfigurację CFW z EmuNAND, wykonuj następne kroki używając SysNAND. Your data will be transfered from EmuNAND to your new B9S install at the end.
-{: .notice--info}
-
-Note that screenshots in this guide can be enlarged to show more context by clicking on them.
-{: .notice--info}
-
-Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
+Przed rozpoczęciem, użytkownicy Windowsa powinni włączyć opcje pokazywania rozszerzeń plików [Rozszerzenia Plików (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
 Zanim rozpoczniesz, zastanów się nad sprawdzeniem swojej karty SD pod kątem błędów, przy użyciu programu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), lub [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-Note that the new [ntrboothax](installing-boot9strap-(ntrboothax)) and [hardmod](installing-boot9strap-(hardmod)) methods work on *all devices, regions, and versions*! This includes CHN and TWN region devices that were previously unhackable!
-{: .notice--success}
-
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Były zgłaszane raporty fali banów dla użytkowników CFW od Nintendo. Aby siebie ochronić, podążaj za poniższymi krokami przed rozpoczęciem poradnika:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
-1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. Wejdź do System Settings, potem do "Internet Settings", potem "SpotPass", a następnie "Sending of System Information"
+1. Zablokuj opcję "Sending of System Information"
+1. Wyjdź z System Settings
+1. Wejdź do Listy Znajomych [pomarańczowa ikona twarzy]({{ "/images/friend-list-icon.png" | absolute_url }}) w górnej linii głównego menu
+  + Jeśli wyświetli się błąd i zostaniesz wyrzucony z menu, lista znajomych jest albo już wyłączona lub twoja konsola nie może się połączyć z serwerami Nintendo (przez bana lub problemy z połączeniem)
+1. Wejdź do ustawień Listy Znajomych, potem "Friend Notification Settings", a następnie "Show friends what you're playing"
+1. Zablokuj opcję "Show friends what you're playing"
+1. Wyjdź z Listy Znajomych
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
+### Tabela wersji
+
 <table>
   <colgroup>
-    <col span="1" style="width: 50%;">
-    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 40%;">
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center">New 3DS or New 2DS</th>
-      <th style="text-align: center">Old 3DS or Old 2DS</th>
+      <th style="text-align: center">Od</th>
+      <th style="text-align: center">Do</th>
+      <th style="text-align: center">Brak przeglądarki</th>
+      <th style="text-align: center">Przeglądarka</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(new-3ds)"><img src="{{ base_path }}/images/new2dsxl.png" style="padding: 0.5em;"></a></td>
-      <td style="text-align: center"><a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3ds.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/old3dsxl.png" style="padding: 0.5em;"></a> <a href="get-started-(old-3ds)"><img src="{{ base_path }}/images/2ds.png" style="padding: 0.5em;"></a></td>
+      <td style="text-align: center; font-weight: bold;">1.0.0</td>
+      <td style="text-align: center; font-weight: bold;">2.0.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Użyj metody "Wszystkie wersje"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">2.1.0</td>
+      <td style="text-align: center; font-weight: bold;">Użyj metody "Wszystkie wersje"</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installing boot9strap (2xrsa)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Użyj metody "Wszystkie wersje"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
+      <td style="text-align: center; font-weight: bold;">8.1.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Instalacja boot9strap (Soundhax)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.0.0</td>
+      <td style="text-align: center; font-weight: bold;">11.3.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
+    </tr><tr>
+      <td style="text-align: center; font-weight: bold;">11.4.0</td>
+      <td style="text-align: center; font-weight: bold;">11.7.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Użyj metody "Wszystkie wersje"</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(seedminer)">Installing boot9strap (Seedminer)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">WSZYSTKIE WERSJE<br></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Wymagany kompatybilny Flashcart)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">lub</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Instalacja boot9strap (Hardmod)</a><br><sub>(Wymagana umiejętność lutowania)</sub></p></td>
     </tr>
   </tbody>
 </table>

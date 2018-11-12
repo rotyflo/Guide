@@ -1,0 +1,58 @@
+---
+title: "Wgrywanie ntrboot (Kilka Systemów 3DS)"
+---
+
+{% include toc title="Spis Treści" %}
+
+### Wymagana Lektura
+
+Zanim przejdziesz dalej, upewnij się że przeczytałeś wszystkie informacje o [ntrboot](ntrboot)
+
+Ta metoda wymaga tymczasowego dostępu do drugiego urządzenia rodziny 3DS, na którym zainstalowany jest już boot9strap. Dzięki tej metodzie flashcart nie musi obsługiwać wersji systemu żadnego 3DS'a.
+
+Zauważ, że w niektórych rzadkich przypadkach proces wgrywania ntrboot na podrobiony flashcart może go **"zbrickować"** i permanentnie uszkodzić. Jest to mało prawdopodobne, ale jednak tylko wymienione oryginalne flashcart'y są obsługiwane. Aby zmniejszyć prawdopodobieństwo otrzymania podrobionego flashcarta, zaleca się korzystanie z renomowanej strony do ich kupowania (takiej jak [NDS Card](http://www.nds-card.com/))
+{: .notice--danger}
+
+### Czego Potrzebujesz
+
+* Twojego kompatybilnego z ntrboot flashcarta DS / DSi
+* Dwóch urządzeń z rodziny 3DS 
+  + **Źródłowego 3DS'a**: urządzenie z rodziny 3DS na którym jest już zainstalowany boot9strap
+  + **Docelowego 3DS'a**: urządzenie na oryginalnym oprogramowaniu sprzętowym
+* Najnowszej wersji [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *( plik`ntr` boot9strap; nie `devkit`)*
+* Najnowszej wersji [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
+
+### Instrukcje
+
+#### Sekcja I - Przygotowanie
+
+1. Wyłącz **źródłowego 3DS'a**
+1. Włóż kartę SD **źródłowego 3DS'a** do twojego komputera
+1. Utwórz folder o nazwie `ntrboot` w katalogu głównym karty SD
+1. Skopiuj `boot9strap_ntr.firm` i `boot9strap_ntr.firm.sha` z boot9strap ntr `.zip` do folderu `/ntrboot/` na karcie SD
+1. Skopiuj `ntrboot_flasher.firm` z ntrboot_flasher `.zip` do folderu `/luma/payloads` na karcie SD **żródłowego 3DS'a**
+1. Włóż kartę SD ponownie do **źródłowego 3DS'a**
+1. Włóż kompatybilny z ntrboot flashcart DS / DSi do **źródłowego 3DS'a**
+
+#### Sekcja II - Wgrywanie ntrboot
+
+1. Uruchom chainloadera Luma3DS przytrzymując (Start) podczas uruchamiania **źródłowego 3DS'a**
+1. Wybierz "ntrboot_flasher"
+1. Przeczytaj czerwone ostrzeżenie na ekranie
+1. Naciśnij (A), aby kontynuować
+1. Wybierz swój flashcart
+  + Jeśli nie widzisz swojego flashcarta na liście u góry, przeczytaj dolny ekran, aby uzyskać więcej informacji na temat każdej opcji
+1. Wybierz "Dump Flash"
+1. Poczekaj na zakończenie procesu
+1. Naciśnij (A), aby kontynuować
+1. Naciśnij (A), aby powrócić do menu głównego
+1. Wybierz "Inject Ntrboot"
+1. Naciśnij (R) aby wgrać ntrboot dla konsumenckiego modelu konsoli
+1. Poczekaj na zakończenie procesu
+1. Naciśnij (A), aby powrócić do menu głównego
+1. Naciśnij (B), aby wyłączyć **źródłowego 3DS'a**
+
+___
+
+### Przejdź do [Instalacja boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+{: .notice--primary}

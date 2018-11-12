@@ -5,11 +5,10 @@ title: "תודות"
 **תודות מיוחדות לכל [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) על היותכם מדהימים!**
 {: .notice--primary}
 
-**תודה מיוחדת לכל [המתרגמים] (https://translate.3ds.guide/) על זה שהם אדירים!**
+**Special thanks to all of [the translators](https://crowdin.com/project/3ds-guide) for being awesome!**
 {: .notice--primary}
 
 אם שכחתי אתכם כאן, צור איתי קשר ואוסיף את שמכם.
-{: .notice}
 
 {% capture notice-1 %}
 
@@ -19,6 +18,7 @@ title: "תודות"
     + ashinnblunts
     + AuroraWright
     + b1l1s
+    + BernardoGiordano
     + Cartman123
     + Cell9
     + coder65535
@@ -26,6 +26,7 @@ title: "תודות"
     + d0k3
     + dank101
     + Dazzozo
+    + DeadPhoenix
     + Delebile
     + DinohScene
     + dukesrg
@@ -33,6 +34,7 @@ title: "תודות"
     + elSeledonio
     + erman1337
     + felipejfc
+    + figgyc
     + Frozen_Chen
     + Gelex
     + Hamcha
@@ -40,7 +42,9 @@ title: "תודות"
     + ihaveamac
     + IngeniousDefault
     + J-D-K
+    + Jisagi
     + jkcgs
+    + kartik
     + LordBass
     + MassExplosion123
     + mid-kid
@@ -50,6 +54,7 @@ title: "תודות"
     + Normmatt
     + plutooo
     + Psi-Hate
+    + RandallHoffman
     + Raugo
     + Reboot.ms
     + s_99

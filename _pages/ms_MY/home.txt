@@ -1,43 +1,51 @@
 ---
 layout: splash
-title: "Panduan 3DS" #
+title: "3DS Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Bermula" #
-  cta_url: "/ms_MY/get-started" #
   caption:
 excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
-{% capture notice-home %}
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
+
+{% capture notice-1 %}
 This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!    
-If you have a developer ("PANDA" or "SNAKE") console, check out [devGuide](https://dev.3ds.guide).
+If you have a developer ("PANDA") console, check out the [Panda 3DS Hacks Guide](https://panda.hacks.guide).
 {% endcapture %}
 
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
-{: .notice--success}
+{% capture notice-1 %}
+This guide is available in other languages!    
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
+Alternatively, click [here](https://crowdin.com/project/3ds-guide) to help to keep these translations up to date.
+{% endcapture %}
 
-This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
-{: .notice--success}
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-Read all of the introductory pages before proceeding.
-{: .notice--warning}
+This guide needs *your* help to seed [these]({{ "rss.xml" | absolute_url }}) torrents!
+{: .notice--primary}
 
 ## Apa itu Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) biasanya dikenali sebagai perisian yang tidak disahkan oleh Nintendo. Ianya memberi anda kelebihan untuk menjalankan homebrew games, alat-alat seperti mengubah saves dan simpanananya, dan emulator untuk sistem yang dahulu.
+[**Homebrew**](https://wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
 
-In most cases, running homebrew on your device is 100% free using [just the Nintendo 3DS Sound app](homebrew-launcher-(soundhax)). Terdapat juga pelbagai cara exploitasi di dalam game dan browser untuk mendapatkan homebrew.
+In many cases, running homebrew on your device is 100% free using just the Nintendo 3DS Sound app. There are also various other exploits in commercial games and the browser to get homebrew running.
 
 ## Apakah Custom Firmware?
 
 **Custom Firmware** ("CFW") membolehkan anda lebih mengubah suai dimana homebrew tidak boleh lakukan. Sebagai contoh, signature patches membolehkan anda untuk memamasang unsigned titles yang keluar pada kanan Menu HOME anda.
 
-CFW can be easily set up on any console that is on 11.5.0 or lower.
+CFW can be set up on any console on any version (but may require additional tools / accessories for versions >11.3.0).
 
 ## Apa yang panduan ini akan memasang?
 
@@ -48,17 +56,17 @@ boot9strap is the newest and best method of launching Custom Firmware that gives
 
 The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
 
-For information on how boot9strap works, please see [this presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
+For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
 
-For a list of each of the calculated sighax signatures (the platform boot9strap is built on), see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## Apa yang boleh saya lakukan dengan Custom Firmware?
 
 + Main semua kad permainan dan permainan eShop tanpa mengira kawasan peranti
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/), [badges](https://badges.3dsthem.es/), and [splash screens](https://splash.3dsthem.es/)
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + Gunakan "ROM hacks" untuk games yang anda miliki
 + Ambil screenshot games dan aplikasi
-+ [Backup, edit, and restore](https://gbatemp.net/threads/413143/) saves for many games
++ Backup, edit, and restore saves for many games
 + Main permainan untuk sistem terdahulu dengan pelbagai emulators, menggunakan RetroArch atau lain-lain emulator. (Terbaik digunakan untuk New Nintendo 3DS)
 + Pasang homebrew titles kedalam sistem anda, dan membolehkan mereka muncul di HOME Menu
 + Tukarkan kad game anda kepada format yang boleh dipasang, dan anda boleh mainnya tanpa memerlukan kad
@@ -70,9 +78,14 @@ For a list of each of the calculated sighax signatures (the platform boot9strap 
 
 + ** Sebelum memulakan panduan, anda mesti tahu risiko-risiko ubahsuai 3DS: SETIAP kali anda mengubah suai sistem anda, sentiasa ada potensi untuk brick yang tidak dapat DIPULIHKAN. Mereka jarang berlaku, tetapi masih berkemungkinan, jadi pastikan anda ikut SEMUA arahan DENGAN TEPAT.* *
 + If you have already hacked your 3DS before to get an EmuNAND setup, and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, you should follow all instructions and restore your existing EmuNAND when prompted once you reach [Finalizing Setup](finalizing-setup).
-+ This guide will work on New 3DS, Old 3DS, New 2DS, and Old 2DS in all regions on firmware 11.5.0 or below.
++ This guide will work on New 3DS, Old 3DS, New 2DS, and Old 2DS in all regions on firmware 11.8.0 or below.
 + Jika segala-galanya mengikut perancangan, anda tidak akan kehilangan sebarang data dan akhirnya masih yang sama (games, NNID, saves, dan sebagainya akan dikekalkan).
-+ **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
++ Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with your device will be MBR by default).
-+ jika anda ingin format kad SD yang baru, sila gunakan [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) dan set Allocation Unit Size ke 32K.
++ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 + 2DS pada asasnya sama dengan Old 3DS didalam terma perisiannya, dan mana-mana langkah yang mengatakan "Old 3DS" juga boleh digunakan pada 2DS.
+
+___
+
+### Continue to [Get Started](get-started)
+{: .notice--primary}

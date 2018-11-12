@@ -2,39 +2,26 @@
 title: "Aloitus (vanha 3DS)"
 ---
 
-Valitse konsolisi versiota vastaava sivu alta löytyvästä listasta.
-{: .notice--primary}
+{% include toc title="Sisällysluettelo" %}
 
-{% capture notice-1 %}
-Listan kaksi viimeistä saraketta viittaavat konsolisi versionumeron viimeiseen lukuun (joka vastaa järjestelmään asennetun selaimen versiota). Jos versionumero on -0, järjestelmässäsi ei ole selainta. Mikä tahansa suurempi luku kuin -0 taas kertoo, että selain on asennettuna.
-<br><br>
-Versionumerot kentissä "versiosta" ja "versioon" ovat sisältyviä. Tämä tarkoittaa esimerkiksi sitä, että rivi "versiosta 9.0.0 versioon 9.2.0" kattaa versiot 9.0.0, 9.1.0 ja 9.2.0.
-<br><br>
+### Tärkeää tietoa
+
+Valitse konsolisi versiota vastaava sivu alta löytyvästä taulukosta. Huomaa, että versionumerot kentissä "versiosta" ja "versioon" ovat sisältyviä. Tämä tarkoittaa esimerkiksi sitä, että rivi "versiosta 9.0.0 versioon 9.2.0" kattaa versiot 9.0.0, 9.1.0 ja 9.2.0.
+
+Huomaa, että listan kaksi viimeistä saraketta viittaavat konsolisi versionumeron viimeiseen lukuun (joka vastaa järjestelmään asennetun selaimen versiota). Jos versionumero on -0, järjestelmässäsi ei ole selainta. Mikä tahansa suurempi luku kuin -0 taas kertoo, että selain on asennettuna.
+
 Esimerkkinä: jos versionumerosi on "5.0.0-0U", sinun tulee seurata "Ei selainta" -saraketta sekä "versiosta 5.0.0 versioon 5.1.0" -riviä, koska järjestelmäsi versio on kyseisellä välillä, eikä siinä ole selainta asennettuna.
-{% endcapture %}
 
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
+**Jos et voi seurata versiosi mukaisia ohjeita, koska sen edellytykset eivät täyty, tutustu "Kaikki versiot" -rivillä oleviin menetelmiin, jotka toimivat järjestelmäversiosta riippumatta.**
 
-Kaikilla versioilla voit myös [korttipäivittää](cart-update) järjestelmäsi uudempaan versioon ja jatkaa ohjeiden seuraamista saman sarakkeen kohdalta.
-{: .notice--info}
-
-{% capture notice-1 %}
-
-Huomaa, että korttipäivitykset tuovat päivityksiä vain ydinominaisuuksiin, kuten järjestelmäasetuksiin, HOME-valikkoon jne. Korttipäivitykset eivät tuo päivityksiä Nintendo 3DS Soundiin eivätkä verkko-ominaisuuksiin, kuten tiedonsiirtosovellukseen, selaimeen, StreetPass Mii Plazaan tai eShopiin.
-<br><br>
-Tämä tarkoittaa sitä, että korttipäivityksen tekeminen versiolta, jolla on vanha Nintendo 3DS Sound -sovellus *(versiota 7.0.0 vanhemmat versiot EUR-, JPN-, KOR- tai USA-alueen vanhalla 3DS:llä)*, rikkoo [SoundHax](homebrew-launcher-(soundhax))in toiminnallisuuden! Tarvitset [vaihtoehtoisen tavan](homebrew-launcher-(alternatives)) Homebrew Launcherin käynnistämiseen!
-{% endcapture %}
-
-<div class="notice--warning">{{ notice-1 | markdownify }}</div>
-
-Jos päivitit pelikortilla, joka sisältää 9.9.0:n tai sitä uudemman version *(tarkoittaen sitä, että järjestelmän versio on 9.9.0 tai uudempi, mutta selaimesi versio on -25 tai vanhempi, kuten 10.2.0-24)*, selaimesi poistui samalla, ja sinun on käytettävä "Ei selainta" -saraketta.
-{: .notice--warning}
+Voit myös päivittää järjestelmäsi uudempaan versioon joko [kortti-](cart-update) tai tavallisella päivityksellä, ja jatkaa sitten ohjeiden seuraamista saman sarakkeen kohdalta.
 
 Järjestelmäsi versio löytyy yläruudun oikeasta alakulmasta järjestelmäasetuksissa (System Settings).
-{: .notice--success}
 
-![]({{ base_path }}/images/screenshots/system-version.png)
+![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
+
+### Versiotaulukko
 
 <table>
   <colgroup>
@@ -54,42 +41,23 @@ Järjestelmäsi versio löytyy yläruudun oikeasta alakulmasta järjestelmäaset
     <tr>
       <td style="text-align: center; font-weight: bold;">1.0.0</td>
       <td style="text-align: center; font-weight: bold;">2.0.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Käytä kaikille versioille soveltuvaa menetelmää</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.1.0</td>
       <td style="text-align: center; font-weight: bold;">2.1.0</td>
-      <td style="text-align: center; font-weight: bold;"></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">boot9strapin asentaminen (2xrsa)</a></td>
+      <td style="text-align: center; font-weight: bold;">Käytä kaikille versioille soveltuvaa menetelmää</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(2xrsa)">Installing boot9strap (2xrsa)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">2.2.0</td>
-      <td style="text-align: center; font-weight: bold;">3.1.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"></td>
+      <td style="text-align: center; font-weight: bold;">2.2.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Käytä kaikille versioille soveltuvaa menetelmää</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">4.0.0</td>
-      <td style="text-align: center; font-weight: bold;">4.5.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">boot9strapin asentaminen (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">boot9strapin asentaminen (selain)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">5.0.0</td>
-      <td style="text-align: center; font-weight: bold;">5.1.0</td>
-      <td style="text-align: center; font-weight: bold;"></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">boot9strapin asentaminen (selain)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">6.0.0</td>
-      <td style="text-align: center; font-weight: bold;">6.3.0</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(mset)">boot9strapin asentaminen (MSET)</a></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">boot9strapin asentaminen (selain)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">7.0.0</td>
+      <td style="text-align: center; font-weight: bold;">3.0.0</td>
       <td style="text-align: center; font-weight: bold;">8.1.0</td>
-      <td style="text-align: center; font-weight: bold;"></td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">boot9strapin asentaminen (selain)</a></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(soundhax)">Installing boot9strap (Soundhax)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">9.0.0</td>
@@ -97,17 +65,17 @@ Järjestelmäsi versio löytyy yläruudun oikeasta alakulmasta järjestelmäaset
       <td style="text-align: center; font-weight: bold;" colspan="2"><a href="homebrew-launcher-(soundhax)">Homebrew Launcher (Soundhax)</a></td>
     </tr><tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;">11.4.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"></td>
+      <td style="text-align: center; font-weight: bold;">11.7.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">Käytä kaikille versioille soveltuvaa menetelmää</td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">11.5.0</td>
-      <td style="text-align: center; font-weight: bold;">11.5.0</td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(dsiware)">boot9strapin asentaminen (DSiWare)</a></td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;">11.8.0</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><a href="installing-boot9strap-(dsiware)">Boot9strapin asentaminen (DSiWare)</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">Kaikki versiot<br></td>
-      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(ntrboothax)">boot9strapin asentaminen (ntrboothax)</a><br><sub>(vaatii yhteensopivan flash-kortin)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">tai</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">boot9strapin asentaminen (laitteistomodaus)</a><br><sub>(vaatii juottamista)</sub></p></td>
+      <td style="text-align: center; font-weight: bold;" colspan="2"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">Ntrboot</a><br><sub>(vaatii yhteensopivan flash-kortin)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">tai</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Boot9strapin asentaminen (laitteistomodaus)</a><br><sub>(vaatii juottamista)</sub></p></td>
     </tr>
   </tbody>
 </table>
